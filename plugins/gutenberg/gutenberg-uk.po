@@ -1,0 +1,398 @@
+# Translation of Plugins - Gutenberg - Development (trunk) in Ukrainian
+# This file is distributed under the same license as the Plugins - Gutenberg - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-11-17 15:29:33+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: uk_UA\n"
+"Project-Id-Version: Plugins - Gutenberg - Development (trunk)\n"
+
+#: lib/full-site-editing/templates.php:36 build/edit-site/index.js:30
+msgid "Templates"
+msgstr "Шаблони"
+
+#: lib/class-wp-theme-json-resolver.php:230 build/block-editor/index.js:1
+msgid "Vivid purple"
+msgstr "Яскравий фіолетовий"
+
+#: gutenberg.php:89
+msgid "Experiments Settings"
+msgstr "Експериментальні налаштування"
+
+#: build/block-library/blocks/search.php:25
+#: build/block-library/blocks/search.php:26
+#: build/block-library/blocks/search.php:52 build/block-editor/index.js:42
+#: build/block-library/index.js:59
+msgid "Search"
+msgstr "Пошук"
+
+#: build/block-library/blocks/rss.php:23
+msgid "An error has occurred, which probably means the feed is down. Try again later."
+msgstr "Сталася помилка Це може означати, що канал не працює. Спробуйте ще раз пізніше."
+
+#: build/block-library/blocks/rss.php:19
+msgid "RSS Error:"
+msgstr "Помилка RSS:"
+
+#: lib/editor-settings.php:28 build/block-editor/index.js:1
+msgid "Thumbnail"
+msgstr "Мініатюри"
+
+#: lib/editor-settings.php:31 build/block-editor/index.js:1
+msgid "Full Size"
+msgstr "Повний розмір"
+
+#: lib/full-site-editing/default-template-types.php:69
+#: build/block-editor/index.js:66 build/blocks/index.js:1
+#: build/core-data/index.js:1
+msgid "Media"
+msgstr "Медіафайли"
+
+#: lib/class-wp-theme-json-resolver.php:263 build/block-library/index.js:68
+msgid "Huge"
+msgstr "Величезний"
+
+#: lib/class-wp-theme-json-resolver.php:261 lib/block-patterns.php:30
+#: lib/editor-settings.php:29 build/block-editor/index.js:1
+#: build/block-editor/index.js:9 build/components/index.js:10
+msgid "Medium"
+msgstr "Cередній"
+
+#: lib/class-wp-theme-json-resolver.php:260 build/block-library/index.js:68
+msgid "Normal"
+msgstr "Звичайна"
+
+#: build/block-library/blocks/archives.php:97
+msgid "No archives to show."
+msgstr "Немає архівів для показу."
+
+#: post-content.php:41
+msgid "Beautiful landscape"
+msgstr "Красивий краєвид"
+
+#: post-content.php:159
+msgid "The WordPress community"
+msgstr "Спільнота WordPress"
+
+#: post-content.php:185
+msgid "Thanks for testing Gutenberg!"
+msgstr "Дякую за тестування Гутенберга!"
+
+#: post-content.php:177
+msgid "Help build Gutenberg"
+msgstr "Допоможіть побудувати Гутенберг"
+
+#. translators: %s: Gutenberg GitHub repository URL
+#: post-content.php:168
+msgid "If you want to learn more about how to build additional blocks, or if you are interested in helping with the project, head over to the <a href=\"%s\">GitHub repository</a>."
+msgstr "Якщо ви хочете дізнатись більше про те, як створювати додаткові блоки, або якщо ви зацікавлені в тому, щоб допомогти проекту, <a href=\"%s\">перейдіть до сховища GitHub</a> ."
+
+#: post-content.php:155
+msgid "You can build any block you like, static or dynamic, decorative or plain. Here&#8217;s a pullquote block:"
+msgstr "Ви можете побудувати будь-який блок, який вам подобається, статичний або динамічний, декоративний або просто. Ось блок блокування:"
+
+#: post-content.php:145
+msgid "Any block can opt into these alignments. The embed block has them also, and is responsive out of the box:"
+msgstr "Будь-який блок може вибрати ці вирівнювання. Вбудований блок також має їх, і реагує на нього з коробки:"
+
+#: post-content.php:141
+msgid "The above is a gallery with just two images. It&#8217;s an easier way to create visually appealing layouts, without having to deal with floats. You can also easily convert the gallery back to individual images again, by using the block switcher."
+msgstr "Вище це галерея з двома зображеннями. Це простий спосіб створити візуально привабливі макети, без необхідності мати справу з поплавцями. Ви також можете легко перетворити галерею назад на індивідуальні зображення знову за допомогою блоку перемикача."
+
+#: post-content.php:128
+msgid "Sure, the full-wide image can be pretty big. But sometimes the image is worth it."
+msgstr "Звичайно, повноцінний імідж може бути досить великим. Але іноді образ це коштує."
+
+#: post-content.php:124
+msgid "Accessibility is important &mdash; don&#8217;t forget image alt attribute"
+msgstr "Доступність важлива - не забувайте атрибут image alt"
+
+#: post-content.php:120
+msgid "If you combine the new <strong>wide</strong> and <strong>full-wide</strong> alignments with galleries, you can create a very media rich layout, very quickly:"
+msgstr "Якщо ви об'єднаєте нові <strong>широкі</strong> та <strong>повноцінні</strong> вирівнювання за допомогою галерей, ви можете створити дуже масивний медіа-стилі, дуже швидко:"
+
+#: post-content.php:112
+msgid "You can change the amount of columns in your galleries by dragging a slider in the block inspector in the sidebar."
+msgstr "Ви можете змінити кількість стовпців у ваших галереях, перетягуючи повзунок в інспекторі блоку на бічній панелі."
+
+#: post-content.php:98
+msgid "Blocks can be anything you need. For instance, you may want to add a subdued quote as part of the composition of your text, or you may prefer to display a giant stylized one. All of these options are available in the inserter."
+msgstr "Блоки можуть бути що завгодно. Наприклад, ви можете додати податкову цитату як частину композиції вашого тексту, або ви можете віддати перевагу стисуванню гіганта. Всі ці параметри доступні у вкладенні."
+
+#: post-content.php:94
+msgid "The information corresponding to the source of the quote is a separate text field, similar to captions under images, so the structure of the quote is protected even if you select, modify, or remove the source. It&#8217;s always easy to add it back."
+msgstr "Інформація, яка відповідає джерелу цитат, є окремим текстовим полем, подібним до підписів під зображеннями, тому структура цитати захищена, навіть якщо ви вибираєте, змінюєте чи видаляєте джерело. Завжди легко додати його назад."
+
+#: post-content.php:89
+msgid "Matt Mullenweg, 2017"
+msgstr "Метт Малленвег, 2017 рік"
+
+#: post-content.php:88
+msgid "The editor will endeavor to create a new page and post building experience that makes writing rich posts effortless, and has “blocks” to make it easy what today might take shortcodes, custom HTML, or “mystery meat” embed discovery."
+msgstr "Редактор намагатиметься створити нову сторінку та пошта, яка спрощує написання багатих повідомлень, і має &quot;блоки&quot;, щоб полегшити доступність коротких кодів, спеціальних HTML-кодів або відкриття вставки &quot;таємного м&#39;яса&quot;."
+
+#: post-content.php:83
+msgid "A huge benefit of blocks is that you can edit them in place and manipulate your content directly. Instead of having fields for editing things like the source of a quote, or the text of a button, you can directly change the content. Try editing the following quote:"
+msgstr "Велика перевага блоків полягає в тому, що ви можете редагувати їх на місці та маніпулювати вмістом безпосередньо. Замість того, щоб мати поля для редагування речей, як джерело цитати, або тексту кнопки, ви можете безпосередньо змінити вміст. Спробуйте редагувати наступну цитату:"
+
+#: post-content.php:79
+msgid "Visual Editing"
+msgstr "Візуальне Редагування"
+
+#: post-content.php:70
+msgid "And <em>Lists</em> like this one of course :)"
+msgstr "І це, звичайно, <em>Списки</em> :)"
+
+#: post-content.php:69
+msgid "Layout blocks, like Buttons, Hero Images, Separators, etc."
+msgstr "Блоки макета, як-от кнопки, зображення героя, сепаратори тощо."
+
+#: post-content.php:68
+msgid "Embeds, like YouTube, Tweets, or other WordPress posts."
+msgstr "Вбудовує, як YouTube, Tweets чи інші повідомлення WordPress."
+
+#: post-content.php:67
+msgid "Galleries"
+msgstr "Галереї"
+
+#: post-content.php:66
+msgid "Images &amp; Videos"
+msgstr "Зображення та відео"
+
+#: post-content.php:65
+msgid "Text &amp; Headings"
+msgstr "Текст та заголовки"
+
+#: post-content.php:60
+msgid "Go give it a try, you may discover things WordPress can already add into your posts that you didn&#8217;t know about. Here&#8217;s a short list of what you can currently find there:"
+msgstr "Давайте спробуємо, ви можете дізнатись про те, що WordPress вже може додати до своїх публікацій, про які ви не знали. Ось короткий список того, що ви зараз можете знайти там:"
+
+#: post-content.php:52
+msgid "The <em>Inserter</em> Tool"
+msgstr "Інструмент <em>Вставлення</em>"
+
+#: post-content.php:48
+msgid "Try selecting and removing or editing the caption, now you don&#8217;t have to be careful about selecting the image or other text by mistake and ruining the presentation."
+msgstr "Спробуйте вибирати і видаляти або редагувати заголовок, тепер вам не треба бути обережним при виборі зображення чи іншого тексту помилково і позбавити презентацію."
+
+#: post-content.php:42
+msgid "If your theme supports it, you&#8217;ll see the \"wide\" button on the image toolbar. Give it a try."
+msgstr "Якщо ваша тема підтримує її, ви побачите кнопку &quot;широкий&quot; на панелі інструментів зображення. Спробувати."
+
+#: post-content.php:36
+msgid "Handling images and media with the utmost care is a primary focus of the new editor. Hopefully, you&#8217;ll find aspects of adding captions or going full-width with your pictures much easier and robust than before."
+msgstr "Основна увага нового редактора - це надзвичайно важлива обробка зображень та носіїв. Сподіваємося, ви знайдете аспекти додавання субтитрів або повноцінне розміщення фотографій набагато простіше та надійніше, ніж раніше."
+
+#: post-content.php:32
+msgid "A Picture is Worth a Thousand Words"
+msgstr "Картина варта тисяч слів"
+
+#: post-content.php:28
+msgid "Headings are separate blocks as well, which helps with the outline and organization of your content."
+msgstr "Заголовки також є окремими блоками, що допомагає контуру та організації вмісту."
+
+#: post-content.php:56
+msgid "Imagine everything that WordPress can do is available to you quickly and in the same place on the interface. No need to figure out HTML tags, classes, or remember complicated shortcode syntax. That&#8217;s the spirit behind the inserter—the <code>(+)</code> button you&#8217;ll see around the editor—which allows you to browse all available content blocks and add them into your post. Plugins and themes are able to register their own, opening up all sort of possibilities for rich editing and publishing."
+msgstr "Уявіть, що все, що WordPress може зробити, доступно вам швидко і в одному місці на інтерфейсі. Не потрібно вирахувати HTML теги, класи або запам&#39;ятати складний синтаксис коротких кодів. Це дух за вставкою - кнопка <code>(+)</code> яку ви побачите біля редактора, що дозволяє переглядати всі доступні блоки вмісту та додати їх до вашого повідомлення. Плагіни та теми можуть реєструвати свої власні, відкриваючи всілякі можливості для багатих редагування та публікації."
+
+#: post-content.php:16
+msgid "The goal of this new editor is to make adding rich content to WordPress simple and enjoyable. This whole post is composed of <em>pieces of content</em>—somewhat similar to LEGO bricks—that you can move around and interact with. Move your cursor around and you&#8217;ll notice the different blocks light up with outlines and arrows. Press the arrows to reposition blocks quickly, without fearing about losing things in the process of copying and pasting."
+msgstr "Мета цього нового редактора - зробити додавання багатим змістом до WordPress простим та приємним. Весь цей пост складається з <em>частин вмісту, який</em> трохи схожий на цеглу LEGO, - що ви можете пересуватися та взаємодіяти. Перемістіть курсор навколо, і ви помітите, що різні блоки запалюються контурами та стрілками. Натисніть стрілки, щоб швидко перемістити блоки, не боячись втратити речі в процесі копіювання та вставки."
+
+#: post-content.php:116
+msgid "Media Rich"
+msgstr "Media Rich"
+
+#: post-content.php:24
+msgid "... like this one, which is right aligned."
+msgstr "… як цей, який правильно вирівняний."
+
+#: post-content.php:20
+msgid "What you are reading now is a <strong>text block</strong> the most basic block of all. The text block has its own controls to be moved freely around the post..."
+msgstr "Те, що ви зараз читаєте, - це <strong>текстовий блок,</strong> найбільш основний блок. Текстовий блок має власні елементи керування, які можна вільно переміщати навколо публікації …"
+
+#: post-content.php:159 build/block-library/index.js:8
+msgid "Code is Poetry"
+msgstr "Код - це поезія."
+
+#: post-content.php:11
+msgid "Of Mountains &amp; Printing Presses"
+msgstr "Книга гір і морів"
+
+#: lib/demo.php:59
+msgid "Welcome to the Gutenberg Editor"
+msgstr "Ласкаво просимо в редактор Gutenberg"
+
+#: lib/class-wp-rest-menu-items-controller.php:68
+#: lib/class-wp-rest-menu-items-controller.php:887
+msgid "Unique identifier for the object."
+msgstr "Унікальний ідентифікатор об'єкту."
+
+#: lib/class-wp-rest-menu-items-controller.php:862
+msgid "The title for the object."
+msgstr "Заголовок об'єкту."
+
+#: lib/class-wp-theme-json-resolver.php:259 lib/block-patterns.php:50
+#: build/block-library/index.js:68 build/components/index.js:10
+msgid "Small"
+msgstr "Менший"
+
+#: build/block-library/blocks/archives.php:45
+msgid "Select Year"
+msgstr "Виберіть рік"
+
+#: gutenberg.php:73 gutenberg.php:74
+msgid "Support"
+msgstr "Підтримка"
+
+#. translators: 1: author name (inside <a> or <span> tag, based on if they have
+#. a URL), 2: post title related to this comment
+#: build/block-library/blocks/latest-comments.php:99
+msgid "%1$s on %2$s"
+msgstr "%1$s на %2$s"
+
+#: build/block-library/blocks/archives.php:54
+msgid "Select Week"
+msgstr "Виберіть тиждень"
+
+#: build/block-library/blocks/archives.php:51
+msgid "Select Day"
+msgstr "Виберіть день"
+
+#: build/block-library/blocks/archives.php:48
+msgid "Select Month"
+msgstr "Виберіть місяць"
+
+#: build/block-library/blocks/archives.php:27
+msgid "Archives"
+msgstr "Архіви"
+
+#: build/block-library/blocks/latest-comments.php:141
+msgid "No comments to show."
+msgstr "Немає коментарів до показу."
+
+#: build/block-library/blocks/archives.php:57
+msgid "Select Post"
+msgstr "Виберіть запис"
+
+#: lib/class-wp-theme-json-resolver.php:262 lib/block-patterns.php:12
+#: lib/editor-settings.php:30 build/block-editor/index.js:1
+#: build/block-library/index.js:68 build/components/index.js:10
+msgid "Large"
+msgstr "Великий"
+
+#: lib/class-wp-theme-json-resolver.php:226 build/block-editor/index.js:1
+msgid "Light green cyan"
+msgstr "Світлий зелено-блакитний"
+
+#: lib/class-wp-theme-json-resolver.php:228 build/block-editor/index.js:1
+msgid "Pale cyan blue"
+msgstr "Блідо синьо-блакитний"
+
+#: lib/class-wp-theme-json-resolver.php:227 build/block-editor/index.js:1
+msgid "Vivid green cyan"
+msgstr "Яскравий зелено-блакитний"
+
+#: lib/class-wp-theme-json-resolver.php:225 build/block-editor/index.js:1
+msgid "Luminous vivid amber"
+msgstr "Яскравий світлий бурштин"
+
+#: lib/class-wp-theme-json-resolver.php:224 build/block-editor/index.js:1
+msgid "Luminous vivid orange"
+msgstr "Яскраво світлий помаранчевий"
+
+#: lib/class-wp-theme-json-resolver.php:223 build/block-editor/index.js:1
+msgid "Vivid red"
+msgstr "Яскраво червоний"
+
+#: lib/class-wp-theme-json-resolver.php:222 build/block-editor/index.js:1
+msgid "Pale pink"
+msgstr "Блідо-рожевий"
+
+#: lib/class-wp-theme-json-resolver.php:220 build/block-editor/index.js:1
+msgid "Cyan bluish gray"
+msgstr "Блакитний блакитно-сірий"
+
+#: lib/class-wp-theme-json-resolver.php:229 build/block-editor/index.js:1
+msgid "Vivid cyan blue"
+msgstr "Яскравий синьо-блакитний"
+
+#: gutenberg.php:112
+msgid "beta"
+msgstr "бета"
+
+#: lib/class-wp-rest-menu-items-controller.php:919
+msgid "The ID for the parent of the object."
+msgstr "ID для батьків об'єкта."
+
+#: gutenberg.php:49 gutenberg.php:50 lib/experiments-page.php:56
+#: build/edit-widgets/index.js:24 build/blocks/index.js:1
+#: build/core-data/index.js:1
+msgid "Widgets"
+msgstr "Віджети"
+
+#: lib/full-site-editing/templates-utils.php:17 build/editor/index.js:5
+msgid "Status"
+msgstr "Статус"
+
+#: build/block-library/blocks/rss.php:31
+#: build/block-library/blocks/latest-comments.php:31
+#: build/block-library/blocks/latest-posts.php:102 build/editor/index.js:21
+#: build/editor/index.js:35 build/block-library/index.js:30
+#: build/block-library/index.js:48 build/edit-navigation/index.js:6
+#: build/edit-post/index.js:40 build/edit-site/index.js:30
+msgid "(no title)"
+msgstr "(Без назви)"
+
+#. translators: ARIA label for the Block Settings Sidebar tab, not selected.
+#. translators: Text label for the Block Settings Sidebar tab.
+#. translators: Text label for the Template Settings Sidebar tab.
+#: lib/class-wp-widget-block.php:40 lib/navigation.php:91 lib/navigation.php:96
+#: build/edit-widgets/index.js:23 build/edit-post/index.js:37
+#: build/edit-post/index.js:38 build/edit-site/index.js:28
+#: build/edit-site/index.js:29 build/edit-site/index.js:30
+msgid "Block"
+msgstr "Блок"
+
+#. Description of the plugin
+msgid "Printing since 1440. This is the development plugin for the new block editor in core."
+msgstr "Друкуємо з 1440 року. Це розробка плагіна для нового редактора блоків в ядрі."
+
+#. translators: button label text should, if possible, be under 16 characters.
+#: lib/full-site-editing/templates-utils.php:15 build/editor/index.js:25
+#: build/components/index.js:5
+msgid "Slug"
+msgstr "﻿Ярлик"
+
+#: gutenberg.php:80 gutenberg.php:81
+msgid "Documentation"
+msgstr "Документація"
+
+#: build/block-library/blocks/categories.php:30
+msgid "Select Category"
+msgstr "Виберіть рубрику"
+
+#. translators: %s: Minimum required version
+#: gutenberg.php:173
+msgid "Gutenberg requires WordPress %s or later to function properly. Please upgrade WordPress before activating Gutenberg."
+msgstr "Гутенберг вимагає WordPress %s або пізнішої для належного функціонування. Будь ласка, оновіть WordPress перед активацією Gutenberg."
+
+#: gutenberg.php:41 gutenberg.php:42
+msgid "Demo"
+msgstr "Демо"
+
+#. Plugin Name of the plugin
+msgid "Gutenberg"
+msgstr "Gutenberg"
+
+#. Author of the plugin
+msgid "Gutenberg Team"
+msgstr "Команда Gutenberg"
+
+#. Plugin URI of the plugin
+msgid "https://github.com/WordPress/gutenberg"
+msgstr "https://github.com/WordPress/gutenberg"

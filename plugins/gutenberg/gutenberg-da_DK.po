@@ -1,0 +1,207 @@
+# Translation of Plugins - Gutenberg - Development (trunk) in Danish
+# This file is distributed under the same license as the Plugins - Gutenberg - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-04-09 14:47:22+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: da_DK\n"
+"Project-Id-Version: Plugins - Gutenberg - Development (trunk)\n"
+
+#: lib/class-wp-theme-json-resolver.php:261 lib/block-patterns.php:30
+#: lib/editor-settings.php:29 build/block-editor/index.js:1
+#: build/block-editor/index.js:9 build/components/index.js:10
+msgid "Medium"
+msgstr "Mellem"
+
+#: build/block-library/blocks/archives.php:97
+msgid "No archives to show."
+msgstr "Ingen arkiver at vise"
+
+#: post-content.php:41
+msgid "Beautiful landscape"
+msgstr "Smukt landskab"
+
+#: post-content.php:185
+msgid "Thanks for testing Gutenberg!"
+msgstr "Tak for, at du vil teste Gutenberg!"
+
+#: post-content.php:177
+msgid "Help build Gutenberg"
+msgstr "Hjælp med at bygge Gutenberg"
+
+#: post-content.php:159
+msgid "The WordPress community"
+msgstr "Wordpress-fællesskabet"
+
+#: post-content.php:159 build/block-library/index.js:8
+msgid "Code is Poetry"
+msgstr "Kode er poeci"
+
+#: post-content.php:79
+msgid "Visual Editing"
+msgstr "Visuel redigering"
+
+#: post-content.php:70
+msgid "And <em>Lists</em> like this one of course :)"
+msgstr "Og <em>lister</em> som denne her selvfølgelig :)"
+
+#: post-content.php:67
+msgid "Galleries"
+msgstr "Gallerier"
+
+#: post-content.php:66
+msgid "Images &amp; Videos"
+msgstr "Billeder &amp; videoer"
+
+#: post-content.php:65
+msgid "Text &amp; Headings"
+msgstr "Tekst &amp; overskrifter"
+
+#: post-content.php:52
+msgid "The <em>Inserter</em> Tool"
+msgstr "<em>Indsætningsværktøjet</em>"
+
+#: post-content.php:32
+msgid "A Picture is Worth a Thousand Words"
+msgstr "Et billede siger mere end tusind ord"
+
+#: post-content.php:89
+msgid "Matt Mullenweg, 2017"
+msgstr "Matt Mullenweg, 2017"
+
+#: lib/demo.php:59
+msgid "Welcome to the Gutenberg Editor"
+msgstr "Velkommen til Gutenberg-editoren"
+
+#: lib/class-wp-rest-menu-items-controller.php:862
+msgid "The title for the object."
+msgstr "Titlen på objektet."
+
+#: lib/class-wp-rest-menu-items-controller.php:68
+#: lib/class-wp-rest-menu-items-controller.php:887
+msgid "Unique identifier for the object."
+msgstr "Unik identifikator til objektet."
+
+#: lib/class-wp-theme-json-resolver.php:259 lib/block-patterns.php:50
+#: build/block-library/index.js:68 build/components/index.js:10
+msgid "Small"
+msgstr "lille"
+
+#: gutenberg.php:73 gutenberg.php:74
+msgid "Support"
+msgstr "Support"
+
+#: build/block-library/blocks/latest-comments.php:141
+msgid "No comments to show."
+msgstr "Der er ingen kommentarer at vise."
+
+#: build/block-library/blocks/archives.php:57
+msgid "Select Post"
+msgstr "Vælg indlæg"
+
+#: build/block-library/blocks/archives.php:54
+msgid "Select Week"
+msgstr "Vælg uge"
+
+#: build/block-library/blocks/archives.php:51
+msgid "Select Day"
+msgstr "Vælg dag"
+
+#: build/block-library/blocks/archives.php:48
+msgid "Select Month"
+msgstr "Vælg måned"
+
+#: build/block-library/blocks/archives.php:45
+msgid "Select Year"
+msgstr "Vælg år"
+
+#. translators: 1: author name (inside <a> or <span> tag, based on if they have
+#. a URL), 2: post title related to this comment
+#: build/block-library/blocks/latest-comments.php:99
+msgid "%1$s on %2$s"
+msgstr "%1$s på %2$s"
+
+#: build/block-library/blocks/archives.php:27
+msgid "Archives"
+msgstr "arkiv"
+
+#: lib/class-wp-theme-json-resolver.php:262 lib/block-patterns.php:12
+#: lib/editor-settings.php:30 build/block-editor/index.js:1
+#: build/block-library/index.js:68 build/components/index.js:10
+msgid "Large"
+msgstr "Stor"
+
+#: gutenberg.php:112
+msgid "beta"
+msgstr "beta"
+
+#: lib/class-wp-rest-menu-items-controller.php:919
+msgid "The ID for the parent of the object."
+msgstr "ID'et for forældren af objektet."
+
+#: lib/full-site-editing/templates-utils.php:17 build/editor/index.js:5
+msgid "Status"
+msgstr "Status"
+
+#. translators: ARIA label for the Block Settings Sidebar tab, not selected.
+#. translators: Text label for the Block Settings Sidebar tab.
+#. translators: Text label for the Template Settings Sidebar tab.
+#: lib/class-wp-widget-block.php:40 lib/navigation.php:91 lib/navigation.php:96
+#: build/edit-widgets/index.js:23 build/edit-post/index.js:37
+#: build/edit-post/index.js:38 build/edit-site/index.js:28
+#: build/edit-site/index.js:29 build/edit-site/index.js:30
+msgid "Block"
+msgstr "Blok"
+
+#: build/block-library/blocks/rss.php:31
+#: build/block-library/blocks/latest-comments.php:31
+#: build/block-library/blocks/latest-posts.php:102 build/editor/index.js:21
+#: build/editor/index.js:35 build/block-library/index.js:30
+#: build/block-library/index.js:48 build/edit-navigation/index.js:6
+#: build/edit-post/index.js:40 build/edit-site/index.js:30
+msgid "(no title)"
+msgstr "(ingen titel)"
+
+#: gutenberg.php:49 gutenberg.php:50 lib/experiments-page.php:56
+#: build/edit-widgets/index.js:24 build/blocks/index.js:1
+#: build/core-data/index.js:1
+msgid "Widgets"
+msgstr "Widgets"
+
+#. Description of the plugin
+msgid "Printing since 1440. This is the development plugin for the new block editor in core."
+msgstr "Bogtrykkeri siden 1440. Dette er udviklerplugin'et for den nye indbyggede blok-editor i kernen."
+
+#. translators: button label text should, if possible, be under 16 characters.
+#: lib/full-site-editing/templates-utils.php:15 build/editor/index.js:25
+#: build/components/index.js:5
+msgid "Slug"
+msgstr "Slug"
+
+#: gutenberg.php:80 gutenberg.php:81
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: build/block-library/blocks/categories.php:30
+msgid "Select Category"
+msgstr "Vælg kategori"
+
+#. Author of the plugin
+msgid "Gutenberg Team"
+msgstr "Gutenberg Team"
+
+#. Plugin URI of the plugin
+msgid "https://github.com/WordPress/gutenberg"
+msgstr "https://github.com/WordPress/gutenberg"
+
+#. Plugin Name of the plugin
+msgid "Gutenberg"
+msgstr "Gutenberg"
+
+#: gutenberg.php:41 gutenberg.php:42
+msgid "Demo"
+msgstr "Demo"

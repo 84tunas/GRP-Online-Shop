@@ -1,0 +1,269 @@
+# Translation of Plugins - Gutenberg - Development (trunk) in Greek
+# This file is distributed under the same license as the Plugins - Gutenberg - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-08-07 19:22:34+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: el_GR\n"
+"Project-Id-Version: Plugins - Gutenberg - Development (trunk)\n"
+
+#: lib/full-site-editing/templates-utils.php:16 build/block-library/index.js:46
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: build/block-library/blocks/site-logo.php:95
+msgid "Site logo."
+msgstr "Λογότυπο ιστότοπου"
+
+#. translators: %s: the author.
+#. translators: byline. %s: current author.
+#: build/block-library/blocks/rss.php:60
+#: build/block-library/blocks/latest-posts.php:114
+#: build/block-library/index.js:50
+msgid "by %s"
+msgstr "από %s"
+
+#: lib/class-wp-theme-json-resolver.php:221 build/block-editor/index.js:1
+msgid "White"
+msgstr "Λευκό"
+
+#: lib/class-wp-theme-json-resolver.php:219 build/block-editor/index.js:1
+#: build/block-editor/index.js:9
+msgid "Black"
+msgstr "Μαύρο"
+
+#. translators: accessibility text for the content landmark region.
+#: lib/navigation.php:338 build/edit-widgets/index.js:7
+#: build/edit-post/index.js:7 build/edit-site/index.js:7
+#: build/edit-site/index.js:30
+msgid "Content"
+msgstr "Περιεχόμενο"
+
+#: lib/class-wp-rest-menu-items-controller.php:606
+msgid "Invalid URL."
+msgstr "Μη έγκυρο URL."
+
+#: lib/class-wp-theme-json-resolver.php:440 build/edit-site/index.js:30
+msgid "Global Styles"
+msgstr "Γενικό στυλ"
+
+#: lib/full-site-editing/templates-utils.php:18
+#: lib/full-site-editing/templates.php:99 build/edit-site/index.js:30
+msgid "Theme"
+msgstr "Θέμα"
+
+#: gutenberg.php:108
+msgid "Site Editor (beta)"
+msgstr "Διορθωτής Ιστότοπου (beta)"
+
+#: lib/full-site-editing/template-parts.php:20
+msgctxt "Template Part"
+msgid "Add New"
+msgstr "Προσθήκη Νέου"
+
+#. translators: ARIA label for the Template Settings Sidebar tab, not selected.
+#. translators: Text label for the Template Settings Sidebar tab.
+#: lib/full-site-editing/templates.php:37 build/edit-post/index.js:38
+#: build/edit-site/index.js:26 build/edit-site/index.js:28
+#: build/edit-site/index.js:29
+msgid "Template"
+msgstr "Πρότυπο"
+
+#: lib/full-site-editing/templates.php:42
+msgid "Edit Template"
+msgstr "Τροποποίηση προτύπου"
+
+#: lib/full-site-editing/templates.php:44
+msgid "All Templates"
+msgstr "Όλα τα πρότυπα"
+
+#: lib/full-site-editing/templates.php:54
+msgid "Templates list"
+msgstr "Λίστα προτύπων"
+
+#: lib/full-site-editing/templates.php:39
+msgctxt "Template"
+msgid "Add New"
+msgstr "Προσθήκη Νέου"
+
+#: build/block-library/blocks/search.php:25
+#: build/block-library/blocks/search.php:26
+#: build/block-library/blocks/search.php:52 build/block-editor/index.js:42
+#: build/block-library/index.js:59
+msgid "Search"
+msgstr "Αναζήτηση"
+
+#: build/block-library/blocks/rss.php:23
+msgid "An error has occurred, which probably means the feed is down. Try again later."
+msgstr "Παρουσιάστηκε σφάλμα. Το κανάλι ίσως είναι εκτός λειτουργίας. Ξαναδοκιμάστε αργότερα."
+
+#: build/block-library/blocks/rss.php:19
+msgid "RSS Error:"
+msgstr "Σφάλμα RSS:"
+
+#: lib/editor-settings.php:28 build/block-editor/index.js:1
+msgid "Thumbnail"
+msgstr "Μικρογραφία"
+
+#: lib/editor-settings.php:31 build/block-editor/index.js:1
+msgid "Full Size"
+msgstr "Πλήρες Μέγεθος"
+
+#: lib/full-site-editing/default-template-types.php:69
+#: build/block-editor/index.js:66 build/blocks/index.js:1
+#: build/core-data/index.js:1
+msgid "Media"
+msgstr "Πολυμέσα"
+
+#: lib/class-wp-theme-json-resolver.php:261 lib/block-patterns.php:30
+#: lib/editor-settings.php:29 build/block-editor/index.js:1
+#: build/block-editor/index.js:9 build/components/index.js:10
+msgid "Medium"
+msgstr "Μεσαίο"
+
+#: build/block-library/blocks/archives.php:97
+msgid "No archives to show."
+msgstr "Δεν υπάρχουν αρχεία προς εμφάνιση."
+
+#: post-content.php:185
+msgid "Thanks for testing Gutenberg!"
+msgstr "Ευχαριστούμε για την δοκιμή του Gutenberg!"
+
+#: post-content.php:177
+msgid "Help build Gutenberg"
+msgstr "Βοηθήστε στην κατασκευή του Gutenberg"
+
+#: post-content.php:159
+msgid "The WordPress community"
+msgstr "Η κοινότητα του WordPress"
+
+#: post-content.php:159 build/block-library/index.js:8
+msgid "Code is Poetry"
+msgstr "Ο Κώδικας είναι Ποίηση"
+
+#: post-content.php:89
+msgid "Matt Mullenweg, 2017"
+msgstr "Matt Mullenweg, 2017"
+
+#: post-content.php:66
+msgid "Images &amp; Videos"
+msgstr "Εικόνες &amp; Βίντεο"
+
+#: post-content.php:67
+msgid "Galleries"
+msgstr "Συλλογές Εικόνων"
+
+#: post-content.php:65
+msgid "Text &amp; Headings"
+msgstr "Κείμενο &amp; Επικεφαλίδες"
+
+#: lib/demo.php:59
+msgid "Welcome to the Gutenberg Editor"
+msgstr "Καλώς ήρθατε στον διορθωτή Gutenberg"
+
+#: lib/class-wp-theme-json-resolver.php:259 lib/block-patterns.php:50
+#: build/block-library/index.js:68 build/components/index.js:10
+msgid "Small"
+msgstr "Μικρό"
+
+#: build/block-library/blocks/archives.php:54
+msgid "Select Week"
+msgstr "Επιλέξτε εβδομάδα"
+
+#: build/block-library/blocks/archives.php:51
+msgid "Select Day"
+msgstr "Επιλέξτε ημέρα"
+
+#: build/block-library/blocks/archives.php:48
+msgid "Select Month"
+msgstr "Επιλέξτε μήνα"
+
+#: build/block-library/blocks/archives.php:57
+msgid "Select Post"
+msgstr "Επιλέξτε άρθρο"
+
+#: build/block-library/blocks/latest-comments.php:141
+msgid "No comments to show."
+msgstr "Χωρίς σχόλια για εμφάνιση."
+
+#. translators: 1: author name (inside <a> or <span> tag, based on if they have
+#. a URL), 2: post title related to this comment
+#: build/block-library/blocks/latest-comments.php:99
+msgid "%1$s on %2$s"
+msgstr "%1$s στο %2$s"
+
+#: gutenberg.php:73 gutenberg.php:74
+msgid "Support"
+msgstr "Υποστήριξη"
+
+#: build/block-library/blocks/archives.php:45
+msgid "Select Year"
+msgstr "Επιλέξτε έτος"
+
+#: lib/class-wp-theme-json-resolver.php:226 build/block-editor/index.js:1
+msgid "Light green cyan"
+msgstr "Ανοιχτό πράσινο κυανό"
+
+#: lib/class-wp-theme-json-resolver.php:262 lib/block-patterns.php:12
+#: lib/editor-settings.php:30 build/block-editor/index.js:1
+#: build/block-library/index.js:68 build/components/index.js:10
+msgid "Large"
+msgstr "Μεγάλο"
+
+#: build/block-library/blocks/rss.php:31
+#: build/block-library/blocks/latest-comments.php:31
+#: build/block-library/blocks/latest-posts.php:102 build/editor/index.js:21
+#: build/editor/index.js:35 build/block-library/index.js:30
+#: build/block-library/index.js:48 build/edit-navigation/index.js:6
+#: build/edit-post/index.js:40 build/edit-site/index.js:30
+msgid "(no title)"
+msgstr "(χωρίς τίτλο)"
+
+#: lib/full-site-editing/templates-utils.php:17 build/editor/index.js:5
+msgid "Status"
+msgstr "Κατάσταση"
+
+#: gutenberg.php:49 gutenberg.php:50 lib/experiments-page.php:56
+#: build/edit-widgets/index.js:24 build/blocks/index.js:1
+#: build/core-data/index.js:1
+msgid "Widgets"
+msgstr "Μικροεφαρμογές"
+
+#. translators: button label text should, if possible, be under 16 characters.
+#: lib/full-site-editing/templates-utils.php:15 build/editor/index.js:25
+#: build/components/index.js:5
+msgid "Slug"
+msgstr "Σύντομο όνομα"
+
+#: gutenberg.php:80 gutenberg.php:81
+msgid "Documentation"
+msgstr "Τεκμηρίωση"
+
+#: build/block-library/blocks/categories.php:30
+msgid "Select Category"
+msgstr "Επιλογή Κατηγορίας"
+
+#. translators: %s: Minimum required version
+#: gutenberg.php:173
+msgid "Gutenberg requires WordPress %s or later to function properly. Please upgrade WordPress before activating Gutenberg."
+msgstr "Το Gutenberg απαιτεί το WordPress %s  ή μεταγενέστερο προκειμένου να λειτουργήσει σωστά. Παρακαλούμε, αναβαθμίστε το WordPress προτού ενεργοποιήσετε τον Gutenberg."
+
+#. Plugin Name of the plugin
+msgid "Gutenberg"
+msgstr "Gutenberg"
+
+#. Plugin URI of the plugin
+msgid "https://github.com/WordPress/gutenberg"
+msgstr "https://github.com/WordPress/gutenberg"
+
+#: gutenberg.php:41 gutenberg.php:42
+msgid "Demo"
+msgstr "Δοκιμή"
+
+#. Author of the plugin
+msgid "Gutenberg Team"
+msgstr "Η Ομάδα του Gutenberg"

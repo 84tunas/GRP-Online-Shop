@@ -1,0 +1,1614 @@
+# Translation of Plugins - Gutenberg - Development (trunk) in Welsh
+# This file is distributed under the same license as the Plugins - Gutenberg - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-03-24 12:20:06+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != 11) ? 2 : 3;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: cy_GB\n"
+"Project-Id-Version: Plugins - Gutenberg - Development (trunk)\n"
+
+#: lib/full-site-editing/default-template-types.php:82
+msgid "Template shown when no content is found."
+msgstr "Templed  i'w dangos pan heb ganfod cynnwys."
+
+#: lib/full-site-editing/default-template-types.php:74
+msgid "Template used to display search results."
+msgstr "Templed sy'n cael ei ddefnyddio i ddangos canlyniadau chwilio."
+
+#: lib/full-site-editing/default-template-types.php:73
+msgctxt "Template name"
+msgid "Search"
+msgstr "Chwilio"
+
+#: lib/full-site-editing/default-template-types.php:70
+msgid "Template used to display individual media items or attachments."
+msgstr "Templed sy'n cael ei ddefnyddio i ddangos eitemau cyfryngau unigol neu atodiadau."
+
+#: lib/full-site-editing/default-template-types.php:66
+msgid "Archive template used to display a list of posts with a given tag."
+msgstr "Templed archif sy'n cael ei ddefnyddio i ddangos rhestr o gofnodion gyda thag penodol."
+
+#: lib/full-site-editing/default-template-types.php:65
+msgctxt "Template name"
+msgid "Tag"
+msgstr "Tag"
+
+#: lib/full-site-editing/default-template-types.php:62
+msgid "Archive template used to display a list of posts from a specific date."
+msgstr "Templed archif sy'n cael ei defnyddio i ddangos rhestr o gofnodion o ddyddiad penodol."
+
+#: lib/full-site-editing/default-template-types.php:61
+msgctxt "Template name"
+msgid "Date"
+msgstr "Dyddiad"
+
+#: lib/full-site-editing/default-template-types.php:58
+msgid "Archive template used to display a list of posts from the same taxonomy."
+msgstr "Templed archif sy'n cael ei defnyddio i ddangos rhestr o gofnodion o'r un tacsonomeg."
+
+#: lib/full-site-editing/default-template-types.php:57
+msgctxt "Template name"
+msgid "Taxonomy"
+msgstr "Tacsonomeg"
+
+#: lib/full-site-editing/default-template-types.php:54
+msgid "Archive template used to display a list of posts from the same category."
+msgstr "Templed archif sy'n cael ei defnyddio i ddangos rhestr o gofnodion o'r un categori."
+
+#: lib/full-site-editing/default-template-types.php:53
+msgctxt "Template name"
+msgid "Category"
+msgstr "Categori"
+
+#: lib/full-site-editing/default-template-types.php:50
+msgid "Archive template used to display a list of posts from a single author."
+msgstr "Templed archif sy'n cael ei defnyddio i ddangos rhestr o gofnodion gan un awdur."
+
+#: lib/full-site-editing/default-template-types.php:49
+msgctxt "Template name"
+msgid "Author"
+msgstr "Awdur"
+
+#: lib/full-site-editing/default-template-types.php:46
+msgid "The archive template displays multiple entries at once. It is used as a fallback for the Category, Author, and Date templates, which take precedence when they are available."
+msgstr "Mae'r templed archif yn dangos sawl cofnod ar unwaith. Mae nhw'n cael eu defnyddio fel cofnod wrth gefn ar gyfer templedi Categori, Awdur a Dyddiad, sy'n cael blaenoriaeth pan fyddant ar gael."
+
+#: lib/full-site-editing/default-template-types.php:42
+msgid "Template used to display individual pages."
+msgstr "Templed sy'n cael ei ddefnyddio i ddangos tudalennau unigol."
+
+#: lib/full-site-editing/default-template-types.php:38
+msgid "Template used to display a single post type."
+msgstr "Templed sy'n cael ei ddefnyddio i ddangos un math o gofnod."
+
+#: lib/full-site-editing/default-template-types.php:34
+msgid "Template used to display a single blog post."
+msgstr "Templed sy'n cael ei ddefnyddio i ddangos un cofnod blog."
+
+#: lib/full-site-editing/default-template-types.php:30
+msgid "Template used for displaying single views of the content. This template is a fallback for the Single, Post, and Page templates, which take precedence when they exist."
+msgstr "Templed sy'n cael ei ddefnyddio i ddangos golwg unigol o'r cynnwys. Mae'r templed hwn yn gopi wrth gefn ar gyfer templedi Sengl, Cofnod a Thudalen, sy'n cael blaenoriaeth pan fyddant yn bodoli."
+
+#: lib/full-site-editing/default-template-types.php:26
+msgid "Template used to render the front page of the site, whether it displays blog posts or a static page. The front page template takes precedence over the \"Home\" template."
+msgstr "Templed sy'n cael ei ddefnyddio i rendro tudalen flaen y wefan, p'un a yw'n dangos cofnodion blog neu dudalen statig. Mae templed y dudalen flaen yn cael blaenoriaeth dros y templed \"Cartref\"."
+
+#: lib/full-site-editing/default-template-types.php:22
+msgid "Template used for the main page that displays blog posts. This is the front page by default in WordPress. If a static front page is set, this is the template used for the page that contains the latest blog posts."
+msgstr "Templed sy'n cael ei ddefnyddio ar gyfer y brif dudalen sy'n dangos cofnodion blog. Dyma'r dudalen flaen rhagosodedig yn WordPress. Os yw tudalen flaen statig wedi'i gosod, dyma'r templed sy'n cael ei ddefnyddio ar gyfer y dudalen sy'n cynnwys y cofnodion blog diweddaraf."
+
+#: lib/full-site-editing/default-template-types.php:18
+msgid "The default template used when no other template is available. This is a required template in WordPress."
+msgstr "Y templed rhagosodedig sy'n cael ei ddefnyddio pan nad oes templed arall ar gael. Hwn yw dempled gofynnol WordPress."
+
+#. translators: %1$s: Template area type, %2$s: the uncategorized template area
+#. value.
+#: lib/full-site-editing/template-parts.php:200
+msgid "\"%1$s\" is not a supported wp_template_part area value and has been added as \"%2$s\"."
+msgstr "Nid yw \"%1$s\" yn werth ardal wp_template_part sy'n cael ei gynnal ac mae wedi'i ychwanegu fel \"%2$s\"."
+
+#. translators: %s are the block attributes.
+#: build/block-library/blocks/template-part.php:77
+msgid "Could not render Template Part block with the attributes: <code>%s</code>. Block cannot be rendered inside itself."
+msgstr "Methu rendro bloc Rhan Templed gyda'r priodoleddau: <code>%s</code>. Nid oes modd rendro bloc y tu mewn iddo'i hun."
+
+#: build/block-library/blocks/template-part.php:69
+msgid "Template Part not found."
+msgstr "Heb ganfod Templed Rhan."
+
+#: lib/compat.php:191
+msgid "Reusable block updated."
+msgstr "Bloc Ailddefnyddiadwy wedi'i ddiweddaru."
+
+#: lib/class-wp-rest-widget-types-controller.php:345
+msgid "Human-readable name identifying the widget type."
+msgstr "Enw dynol-ddarllenadwy yn nodi'r math o declyn."
+
+#: lib/class-wp-rest-widget-types-controller.php:57
+#: lib/class-wp-rest-widget-types-controller.php:77
+msgid "The widget type id."
+msgstr "ID y math o declyn."
+
+#: lib/full-site-editing/template-parts.php:79
+msgid "Template Part Area"
+msgstr "Ardal Rhan o Dempled"
+
+#: lib/full-site-editing/template-parts.php:78
+msgid "Template Part Areas"
+msgstr "Ardaloedd Rhan o Dempled"
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:558
+msgid "Where the template part is intended for use (header, footer, etc.)"
+msgstr "Lle mae'n fwriad defnyddio rhan y templed (pennyn, troedyn, ac ati)"
+
+#: build/block-library/blocks/post-navigation-link.php:35
+msgctxt "label for previous post link"
+msgid "Previous"
+msgstr "Blaenorol"
+
+#: build/block-library/blocks/post-navigation-link.php:35
+msgctxt "label for next post link"
+msgid "Next"
+msgstr "Nesaf"
+
+#: lib/experiments-page.php:61
+msgid "Enable Widgets screen in Customizer"
+msgstr "Galluogi sgrin Teclynnau yn y Cyfaddaswr"
+
+#: lib/class-wp-rest-pattern-directory-controller.php:285
+msgid "Limit results to those matching a keyword ID."
+msgstr "Cyfyngu'r canlyniadau i'r rhai sy'n cyfateb i ID allweddair."
+
+#: lib/class-wp-rest-url-details-controller.php:198
+msgid "Unable to retrieve body from response at this URL."
+msgstr "Methu adfer y corff o'r ymateb yn yr URL hwn."
+
+#: lib/class-wp-rest-url-details-controller.php:192
+msgid "URL not found. Response returned a non-200 status code for this URL."
+msgstr "Heb ganfod yr URL. Dychwelodd yr ymateb god statws nad yw'n 200 ar gyfer yr URL hwn."
+
+#: lib/class-wp-rest-url-details-controller.php:158
+msgid "Sorry, you are not allowed to process remote urls."
+msgstr "Ymddiheuriadau, nid oes gennych ganiatâd i brosesu urlau o bell."
+
+#: lib/class-wp-rest-url-details-controller.php:96
+msgid "Invalid URL"
+msgstr "URL annilys"
+
+#: lib/class-wp-rest-url-details-controller.php:71
+msgid "The contents of the <title> tag from the URL."
+msgstr "Cynnwys y <title> tag o'r URL."
+
+#: lib/class-wp-rest-url-details-controller.php:40
+msgid "The URL to process."
+msgstr "Yr URL i'w brosesu."
+
+#: lib/class-wp-rest-pattern-directory-controller.php:279
+msgid "Limit results to those matching a category ID."
+msgstr "Cyfyngu'r canlyniadau i'r rhai sy'n cyfateb i ID categori."
+
+#: lib/class-wp-rest-pattern-directory-controller.php:251
+msgid "The preferred width of the viewport when previewing a pattern, in pixels."
+msgstr "Dewis lled yr wylfa wrth ragolwg patrwm, mewn picseli."
+
+#: lib/class-wp-rest-pattern-directory-controller.php:244
+msgid "A description of the pattern."
+msgstr "Disgrifiad o'r patrwm."
+
+#: lib/class-wp-rest-pattern-directory-controller.php:236
+msgid "The pattern's keyword slugs."
+msgstr "Bonyn allweddair y patrwm."
+
+#: lib/class-wp-rest-pattern-directory-controller.php:228
+msgid "The pattern's category slugs."
+msgstr "Bonion categori'r patrwm."
+
+#: lib/class-wp-rest-pattern-directory-controller.php:221
+msgid "The pattern content."
+msgstr "Cynnwys y patrwm."
+
+#: lib/class-wp-rest-pattern-directory-controller.php:207
+msgid "The pattern ID."
+msgstr "ID y patrwm."
+
+#: lib/class-wp-rest-pattern-directory-controller.php:129
+msgid "https://wordpress.org/support/forums/"
+msgstr "https://wordpress.org/support/forums/"
+
+#. translators: %s: Support forums URL.
+#: lib/class-wp-rest-pattern-directory-controller.php:128
+msgid "An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href=\"%s\">support forums</a>."
+msgstr "Digwyddodd gwall annisgwyl. Mae'n bosib fod rhywbeth o'i le ar WordPress.org neu ffurfweddiad y gweinydd. Os ydych yn parhau i brofi anawsterau, chwiliwch drwy'r <a href=\"%s\">fforymau cefnogi</a>."
+
+#: lib/class-wp-rest-pattern-directory-controller.php:72
+msgid "Sorry, you are not allowed to browse the local block pattern directory."
+msgstr "Ymddiheuriadau, nid oes caniatâd i chi bori trwy'r cyfeiriadur patrymau bloc lleol."
+
+#: build/block-library/blocks/query-pagination-previous.php:22
+msgid "&laquo; Previous Page"
+msgstr "&laquo; Tudalen Flaenorol"
+
+#: build/block-library/blocks/query-pagination-next.php:23
+msgid "Next Page &raquo;"
+msgstr "Tudalen Nesaf &raquo;"
+
+#. translators: Visible only in the front end, this warning takes the place of
+#. a faulty block.
+#: build/block-library/blocks/block.php:46
+#: build/block-library/blocks/template-part.php:90
+msgid "[block rendering halted]"
+msgstr "[ataliwyd rendro bloc]"
+
+#. translators: %s is the user-provided title of the reusable block.
+#: build/block-library/blocks/block.php:32
+msgid "Could not render Reusable Block <strong>%s</strong>. Block cannot be rendered inside itself."
+msgstr "Methu rendro Bloc Ailddefnyddiadwy <strong>%s</strong>. Nid oes modd rendro blociau y tu mewn i'w hunain."
+
+#: lib/full-site-editing/block-templates.php:224
+msgid "No theme is defined for this template."
+msgstr "Nid oes thema wedi'i diffinio ar gyfer y templed hwn."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:548
+msgid "Post ID."
+msgstr "ID y Cofnod"
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:542
+msgid "Status of template."
+msgstr "Statws y templed."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:536
+msgid "Description of template."
+msgstr "Disgrifiad o'r templed."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:530
+msgid "Title of template."
+msgstr "Teitl y templed."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:524
+msgid "Content of template."
+msgstr "Cynnwys y templed."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:518
+msgid "Whether the template is customized."
+msgstr "P'un a yw'r templed wedi'i gyfaddasu."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:513
+msgid "Theme identifier for the template."
+msgstr "Dynodwr thema ar gyfer y templed."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:505
+msgid "Unique slug identifying the template."
+msgstr "Bonyn unigryw yn adnabod y templed."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:499
+msgid "ID of template."
+msgstr "ID y templed."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:477
+msgid "Limit to the specified post id."
+msgstr "Cyfyngiad i'r id y cofnod penodedig."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:312
+msgid "The template has already been deleted."
+msgstr "Mae'r templed eisoes wedi'i ddileu."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:287
+msgid "Templates based on theme files can't be removed."
+msgstr "Nid oes modd dileu templedi sy'n seiliedig ar ffeiliau thema."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:174
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:199
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:250
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:284
+msgid "No templates exist with that id."
+msgstr "Nid oes templedi yn bodoli gyda'r id hwnnw."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:109
+msgid "Sorry, you are not allowed to access the templates on this site."
+msgstr "Ymddiheuriadau, nid oes caniatâd i chi gyrchu'r templedi ar y wefan hon."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:70
+msgid "The id of a template"
+msgstr "Id templed"
+
+#: lib/client-assets.php:101 build/i18n/index.js:1
+msgctxt "text direction"
+msgid "ltr"
+msgstr "ltr"
+
+#: lib/full-site-editing/default-template-types.php:29
+msgctxt "Template name"
+msgid "Singular"
+msgstr "Singular"
+
+#: lib/full-site-editing/full-site-editing.php:83
+msgid "Edit site"
+msgstr "Golygu gwefan"
+
+#: lib/full-site-editing/templates.php:98
+msgid "Themes"
+msgstr "Themâu"
+
+#. translators: %s: Number of auto-draft posts.
+#: lib/full-site-editing/templates-utils.php:91
+msgctxt "Post status"
+msgid "Auto-Draft <span class=\"count\">(%s)</span>"
+msgid_plural "Auto-Drafts <span class=\"count\">(%s)</span>"
+msgstr[0] "Awto-Ddrafft <span class=\"count\">(%s)</span>"
+msgstr[1] "Awto-Ddrafft <span class=\"count\">(%s)</span>"
+msgstr[2] "Awto-Ddrafft <span class=\"count\">(%s)</span>"
+msgstr[3] "Awto-Ddrafft <span class=\"count\">(%s)</span>"
+
+#: lib/full-site-editing/templates-utils.php:47
+msgctxt "Post status"
+msgid "Auto-Draft"
+msgstr "AwtoDdrafft "
+
+#: lib/full-site-editing/default-template-types.php:81
+msgctxt "Template name"
+msgid "404"
+msgstr "404"
+
+#: lib/full-site-editing/default-template-types.php:77
+msgid "Privacy Policy"
+msgstr "Polisi Preifatrwydd"
+
+#: lib/full-site-editing/default-template-types.php:41
+msgctxt "Template name"
+msgid "Page"
+msgstr "Tudalen"
+
+#: lib/full-site-editing/default-template-types.php:37
+msgctxt "Template name"
+msgid "Post"
+msgstr "Cofnod"
+
+#: lib/full-site-editing/default-template-types.php:21
+msgctxt "Template name"
+msgid "Home"
+msgstr "Cartref"
+
+#: lib/full-site-editing/full-site-editing.php:26
+msgid "You're using an experimental Full Site Editing theme. Full Site Editing is an experimental feature and potential API changes are to be expected!"
+msgstr "Rydych yn defnyddio thema Golygu Gwefan Lawn arbrofol. Mae Golygu Gwefan Lawn yn nodwedd arbrofol ac mae disgwyl newidiadau posib i'r API!"
+
+#. translators: %s: "beta" label.
+#: gutenberg.php:111
+msgid "Site Editor %s"
+msgstr "Golygydd Gwefan %s"
+
+#: lib/full-site-editing/default-template-types.php:17
+msgctxt "Template name"
+msgid "Index"
+msgstr "Mynegai"
+
+#: lib/full-site-editing/default-template-types.php:33
+msgctxt "Template name"
+msgid "Single"
+msgstr "Unigol"
+
+#: lib/full-site-editing/default-template-types.php:45
+msgctxt "Template name"
+msgid "Archive"
+msgstr "Archif"
+
+#: lib/full-site-editing/default-template-types.php:25
+msgctxt "Template name"
+msgid "Front Page"
+msgstr "Y Dudalen Flaen"
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:89
+#: lib/class-wp-rest-menu-items-controller.php:92
+msgid "Whether to bypass Trash and force deletion."
+msgstr "P'un ai i hepgor Sbwriel a gorfodi dileu."
+
+#: lib/class-wp-rest-menu-items-controller.php:58
+msgid "The password for the post if it is password protected."
+msgstr "Cyfrinair ar gyfer y cofnod os yw wedi ei ddiogelu gan gyfrinair."
+
+#: lib/class-wp-rest-sidebars-controller.php:430
+msgid "HTML content to append to the sidebar title when displayed. Default is a closing h2 element."
+msgstr "Cynnwys HTML i'w atodi i deitl y bar ochr wrth ei ddangos. Y rhagosodiad yw elfen h2 yn cau."
+
+#: lib/class-wp-rest-sidebars-controller.php:423
+msgid "HTML content to prepend to the sidebar title when displayed. Default is an opening h2 element."
+msgstr "Cynnwys HTML i'w osod ar ddechrau teitl y bar ochr wrth ei ddangos. Y rhagosodiad yw elfen h2 yn agor."
+
+#: lib/class-wp-rest-sidebars-controller.php:416
+msgid "HTML content to append to each widget's HTML output when assigned to this sidebar. Default is a closing list item element."
+msgstr "Cynnwys HTML i'w atodi i allbwn HTML pob teclyn pan gaiff ei aseinio i'r bar ochr hwn. Y rhagosodiad yw elfen eitem rhestr yn cau."
+
+#: lib/class-wp-rest-sidebars-controller.php:409
+msgid "HTML content to prepend to each widget's HTML output when assigned to this sidebar. Default is an opening list item element."
+msgstr "Cynnwys HTML i'w osod ar ddechrau allbwn HTML pob teclyn pan gaiff ei aseinio i'r bar ochr hwn. Mae'r rhagosodiad yn elfen eitem rhestr gau."
+
+#: lib/class-wp-rest-sidebars-controller.php:403
+msgid "Extra CSS class to assign to the sidebar in the Widgets interface."
+msgstr "Dosbarth CSS ychwanegol i'w aseinio i'r bar ochr yn y rhyngwyneb Teclynnau."
+
+#: lib/class-wp-rest-sidebars-controller.php:159
+msgid "No sidebar exists with that id."
+msgstr "Nid oes bar ochr yn bodoli gyda'r id hwnnw."
+
+#: lib/class-wp-rest-batch-controller.php:216
+msgid "The handler for the route is invalid"
+msgstr "Mae'r triniwr y llwybr yn annilys"
+
+#: lib/class-wp-rest-batch-controller.php:143
+#: lib/class-wp-rest-batch-controller.php:249
+msgid "The requested route does not support batch requests."
+msgstr "Nid yw'r llwybr y gofynnwyd amdano yn cefnogi ceisiadau swp."
+
+#: lib/class-wp-rest-batch-controller.php:89
+msgid "Could not parse the path."
+msgstr "Methu dosrannu'r llwybr."
+
+#: lib/class-wp-rest-widgets-controller.php:766
+msgid "The sidebar the widget belongs to."
+msgstr "Y bar ochr y mae'r teclyn yn perthyn iddo."
+
+#: lib/class-wp-rest-widgets-controller.php:732
+msgid "The sidebar to return widgets for."
+msgstr "Y bar ochr i ddychwelyd teclynnau ar ei gyfer."
+
+#: lib/class-wp-rest-widgets-controller.php:501
+msgid "The requested widget is invalid."
+msgstr "Mae'r teclyn y gofynnwyd amdano yn annilys."
+
+#: lib/class-wp-rest-widgets-controller.php:373
+msgid "No widget was found with that id."
+msgstr "Heb ddarganfod teclyn gyda'r id hwnnw."
+
+#: lib/class-wp-rest-widget-types-controller.php:162
+#: lib/class-wp-rest-widgets-controller.php:346
+#: lib/class-wp-rest-sidebars-controller.php:228
+msgid "Sorry, you are not allowed to manage widgets on this site."
+msgstr "Ymddiheuriadau, nid oes gennych hawl i reoli teclynnau ar y wefan hon."
+
+#: lib/class-wp-rest-widgets-controller.php:80
+msgid "Whether to force removal of the widget, or move it to the inactive sidebar."
+msgstr "P'un ai i orfodi tynnu'r teclyn, neu ei symud i'r bar ochr anweithredol."
+
+#: lib/class-wp-rest-widget-types-controller.php:379
+msgid "Customize selective refresh."
+msgstr "Cyfaddasu adnewyddiad dethol."
+
+#: lib/class-wp-rest-widget-types-controller.php:372
+msgid "Widget class name."
+msgstr "Enw dosbarth Teclyn."
+
+#: lib/class-wp-rest-widget-types-controller.php:365
+msgid "Option name."
+msgstr "Enw'r dewis."
+
+#: lib/class-wp-rest-widget-types-controller.php:358
+msgid "Class name"
+msgstr "Enw'r dosbarth"
+
+#: lib/class-wp-rest-widget-types-controller.php:339
+msgid "Unique slug identifying the widget type."
+msgstr "Bonyn unigryw yn nodi'r math o declyn."
+
+#: lib/class-wp-rest-widget-types-controller.php:187
+msgid "Invalid widget type."
+msgstr "Math teclyn annilys."
+
+#: build/edit-widgets/blocks/legacy-widget.php:32
+msgid "Rendering legacy widget block using widgetId is unsupported."
+msgstr "Nid yw rendro hen declyn bloc yn cael ei gynnal."
+
+#: lib/class-wp-rest-menu-items-controller.php:980
+msgid "HTML content to display for this block menu item."
+msgstr "Cynnwys HTML i'w ddangos ar gyfer yr eitem ddewislen hon."
+
+#: lib/class-wp-rest-widgets-controller.php:799
+msgid "HTML representation of the widget admin form."
+msgstr "Cynrychiolaeth HTML o'r ffurflen weinyddu teclynnau."
+
+#: lib/class-wp-rest-sidebars-controller.php:258
+msgid "Inactive widgets"
+msgstr "Teclynnau Anweithredol"
+
+#: lib/class-wp-rest-widgets-controller.php:805
+msgid "Settings of the widget."
+msgstr "Gosodiadau'r teclyn."
+
+#: lib/class-wp-rest-widgets-controller.php:793
+msgid "HTML representation of the widget."
+msgstr "Cynrychiolaeth HTML o'r teclyn."
+
+#: lib/class-wp-rest-widgets-controller.php:788
+msgid "Number of the widget."
+msgstr "Nifer y teclyn."
+
+#: lib/class-wp-rest-widget-types-controller.php:352
+#: lib/class-wp-rest-widgets-controller.php:783
+msgid "Description of the widget."
+msgstr "Disgrifiad o'r teclyn."
+
+#: lib/class-wp-rest-widgets-controller.php:778
+msgid "Name of the widget."
+msgstr "Enw'r teclyn."
+
+#: lib/class-wp-rest-widgets-controller.php:773
+msgid "Class name of the widget implementation."
+msgstr "Enw dosbarth gweithrediad y teclyn."
+
+#: lib/class-wp-rest-widgets-controller.php:761
+msgid "Type of widget for the object."
+msgstr "Math o widget ar gyfer y gwrthrych."
+
+#: lib/class-wp-rest-sidebars-controller.php:444
+msgid "Nested widgets."
+msgstr "Widgets nythwyd"
+
+#: lib/class-wp-rest-sidebars-controller.php:437
+msgid "Status of sidebar."
+msgstr "Statws y bar ochr."
+
+#: lib/class-wp-rest-sidebars-controller.php:397
+msgid "Description of sidebar."
+msgstr "Disgrifiad o'r bar ochr."
+
+#: lib/class-wp-rest-sidebars-controller.php:391
+msgid "Unique name identifying the sidebar."
+msgstr "Enw unigryw yn dynodi'r bar ochr."
+
+#: lib/class-wp-rest-sidebars-controller.php:385
+msgid "ID of sidebar."
+msgstr "ID y bar ochr."
+
+#: lib/class-wp-rest-sidebars-controller.php:81
+msgid "The id of a registered sidebar"
+msgstr "Id bar ochr cofrestredig"
+
+#: lib/class-wp-widget-block.php:33
+msgid "Gutenberg block."
+msgstr "Bloc Gutenberg."
+
+#: lib/full-site-editing/templates-utils.php:16 build/block-library/index.js:46
+msgid "Description"
+msgstr "Disgrifiad"
+
+#: lib/full-site-editing/edit-site-page.php:204
+msgid "The ID of the page that should be displayed on the front page"
+msgstr "ID y dudalen y dylid ei harddangos ar y dudalen flaen"
+
+#: lib/full-site-editing/edit-site-page.php:194
+msgid "What to show on the front page"
+msgstr "Beth i'w ddangos ar y dudalen flaen"
+
+#: lib/compat.php:190
+msgid "Reusable block scheduled."
+msgstr "Bloc ailddefnyddiadwy wedi'i amserlennu."
+
+#: lib/compat.php:189
+msgid "Reusable block reverted to draft."
+msgstr "Dychwelwyd y bloc ailddefnyddiadwy i'r drafft."
+
+#: lib/compat.php:188
+msgid "Reusable block published privately."
+msgstr "Bloc ailddefnyddiadwy wedi'i gyhoeddi'n breifat."
+
+#: lib/compat.php:187
+msgid "Reusable block published."
+msgstr "Bloc ailddefnyddiadwy wedi'i gyhoeddi."
+
+#: lib/compat.php:186
+msgid "Reusable blocks list"
+msgstr "Rhestr blociau ailddefnyddiadwy"
+
+#: lib/compat.php:185
+msgid "Reusable blocks list navigation"
+msgstr "Llywio rhestr blociau ailddefnyddiadwy"
+
+#: lib/compat.php:184
+msgid "Filter reusable blocks list"
+msgstr "Hidlo rhestr blociau ailddefnyddiadwy"
+
+#: lib/compat.php:183
+msgid "No reusable blocks found in Trash."
+msgstr "Dim blociau ailddefnyddiadwy yn y Sbwriel."
+
+#: lib/compat.php:182
+msgid "No reusable blocks found."
+msgstr "Heb ddarganfod blociau ailddefnyddiadwy."
+
+#: lib/compat.php:181
+msgid "Search Reusable blocks"
+msgstr "Chwilio blociau ailddefnyddiadwy"
+
+#: lib/compat.php:180
+msgid "All Reusable blocks"
+msgstr "Pob bloc ailddefnyddiadwy"
+
+#: lib/compat.php:179
+msgid "View Reusable block"
+msgstr "Gweld bloc Ailddefnyddiadwy"
+
+#: lib/compat.php:178
+msgid "Edit Reusable block"
+msgstr "Golygu Bloc ailddefnyddiadwy"
+
+#: lib/compat.php:177
+msgid "New Reusable block"
+msgstr "Bloc Ailddefnyddiadwy newydd"
+
+#: lib/compat.php:176
+msgid "Add new Reusable block"
+msgstr "Ychwanegu bloc Ailddefnyddiadwy newydd"
+
+#: lib/compat.php:175
+msgctxt "Reusable block"
+msgid "Add New"
+msgstr "Ychwanegu"
+
+#: lib/compat.php:174
+msgctxt "add new on admin bar"
+msgid "Reusable block"
+msgstr "Bloc ailddefnyddiadwy"
+
+#: lib/compat.php:173
+msgctxt "admin menu"
+msgid "Reusable blocks"
+msgstr "Blociau ailddefnyddiadwy"
+
+#: lib/compat.php:172
+msgctxt "post type singular name"
+msgid "Reusable block"
+msgstr "Bloc ailddefnyddiadwy"
+
+#: lib/compat.php:171
+msgctxt "post type general name"
+msgid "Reusable blocks"
+msgstr "Blociau ailddefnyddiadwy"
+
+#: build/block-library/blocks/site-logo.php:95
+msgid "Site logo."
+msgstr "Logo Gwefan"
+
+#: lib/class-wp-rest-menus-controller.php:589
+msgid "Whether to automatically add top level pages to this menu."
+msgstr "P'un ai i ychwanegu tudalennau lefel uchaf i'r ddewislen hon yn awtomatig."
+
+#: lib/class-wp-rest-menus-controller.php:171
+msgid "Sorry, you are not allowed to set auto add pages."
+msgstr "Mae'n ddrwg gennym, nid oes caniatâd i chi osod tudalennau ychwanegu'n awtomatig."
+
+#: lib/class-wp-rest-menu-items-controller.php:1000
+msgid "Version of the block format used in the HTML content."
+msgstr "Fersiwn y fformat bloc cynnwys sy'n cael ei ddefnyddio gan y gwrthrych."
+
+#: lib/class-wp-rest-menu-items-controller.php:994
+msgid "HTML content, transformed for display."
+msgstr "Cynnwys HTML ar gyfer y gwrthrych, wedi ei drosi i'w ddangos."
+
+#: lib/class-wp-rest-menu-items-controller.php:989
+msgid "HTML content, as it exists in the database."
+msgstr "Cynnwys ar gyfer y gwrthrych, fel y mae'n bodoli yn y gronfa ddata."
+
+#: lib/class-wp-rest-menu-items-controller.php:523
+msgid "Content required if menu item of type block."
+msgstr "Angen cynnwys os yw'r eitem ar y ddewislen o'r math bloc."
+
+#: lib/class-wp-rest-pattern-directory-controller.php:214
+msgid "The pattern title, in human readable format."
+msgstr "Teitl y patrwm, mewn fformat darllenadwy dynol."
+
+#. translators: %s: the author.
+#. translators: byline. %s: current author.
+#: build/block-library/blocks/rss.php:60
+#: build/block-library/blocks/latest-posts.php:114
+#: build/block-library/index.js:50
+msgid "by %s"
+msgstr "gan %s"
+
+#: lib/class-wp-theme-json-resolver.php:221 build/block-editor/index.js:1
+msgid "White"
+msgstr "Gwyn"
+
+#: lib/class-wp-theme-json-resolver.php:219 build/block-editor/index.js:1
+#: build/block-editor/index.js:9
+msgid "Black"
+msgstr "Du"
+
+#. translators: accessibility text for the content landmark region.
+#: lib/navigation.php:338 build/edit-widgets/index.js:7
+#: build/edit-post/index.js:7 build/edit-site/index.js:7
+#: build/edit-site/index.js:30
+msgid "Content"
+msgstr "Cynnwys"
+
+#: lib/experiments-page.php:50
+msgid "Enable Navigation screen"
+msgstr "Galluogi'r sgrin Llywio"
+
+#: gutenberg.php:62 gutenberg.php:63
+msgid "Navigation (beta)"
+msgstr "Llywio (beta)"
+
+#: lib/class-wp-rest-menu-items-controller.php:1105
+msgid "Sort collection by object attribute."
+msgstr "Trefnu'r casgliad yn ôl priodweddau'r gwrthrychau."
+
+#: lib/class-wp-rest-menu-items-controller.php:1098
+msgid "Order sort attribute ascending or descending."
+msgstr "Trefnu priodweddau i fyny neu i lawr."
+
+#: lib/class-wp-rest-menu-items-controller.php:1093
+msgid "Limit result set to posts with a specific menu_order value."
+msgstr "Cyfyngu set canlyniadau i gofnodion gyda gwerth penodol menu_order."
+
+#. translators: %s: taxonomy name
+#: lib/class-wp-rest-menu-items-controller.php:1059
+msgid "The terms assigned to the object in the %s taxonomy."
+msgstr "NeilltuirY termau neulltiwyd i'r gwrthrych yn nhacsonomeg %s."
+
+#: lib/class-wp-rest-menu-items-controller.php:1047
+msgid "Whether the menu item represents an object that no longer exists."
+msgstr "P'un a yw'r eitem ar y ddewislen yn cynrychioli gwrthrych nad yw'n bodoli mwyach."
+
+#: lib/class-wp-rest-menu-items-controller.php:1033
+msgid "The XFN relationship expressed in the link of this menu item."
+msgstr "Y berthynas XFN sy'n cael ei fynegi yn nolen yr eitem ddewislen hon."
+
+#: lib/class-wp-rest-menu-items-controller.php:1026
+msgid "The URL to which this menu item points."
+msgstr "Yr URL y mae'r eitem ddewislen hon yn pwyntio ato."
+
+#: lib/class-wp-rest-menu-items-controller.php:1019
+msgid "The singular label used to describe this type of menu item."
+msgstr "Y label unigol sy'n cael ei ddefnyddio i ddisgrifio'r math hwn o eitem ar y ddewislen."
+
+#: lib/class-wp-rest-menu-items-controller.php:1009
+msgid "The target attribute of the link element for this menu item."
+msgstr "Priodoledd targed yr elfen gyswllt yr eitem ddewislen hon."
+
+#: lib/class-wp-rest-menu-items-controller.php:972
+msgid "The DB ID of the original object this menu item represents, e . g . ID for posts and term_id for categories."
+msgstr "ID DB y gwrthrych gwreiddiol y mae'r eitem ddewislen hon yn ei gynrychioli, e. e. ID ar gyfer cofnodion a term_id ar gyfer categorïau."
+
+#: lib/class-wp-rest-menu-items-controller.php:966
+msgid "The type of object originally represented, such as \"category,\" \"post\", or \"attachment.\""
+msgstr "Y math o wrthrych a gynrychiolwyd yn wreiddiol, megis \"categori,\" \"cofnod\", neu \"atodiad.\""
+
+#: lib/class-wp-rest-menu-items-controller.php:959
+msgid "The DB ID of the nav_menu_item that is this item's menu parent, if any, otherwise 0."
+msgstr "ID DB y nav_menu_item sef rhiant dewislen yr eitem hon, os o gwbl, fel arall 0."
+
+#: lib/class-wp-rest-menu-items-controller.php:950
+msgid "The description of this menu item."
+msgstr "Y disgrifiad o'r eitem hon ar y ddewislen."
+
+#: lib/class-wp-rest-menu-items-controller.php:936
+msgid "Class names for the link element of this menu item."
+msgstr "Enwau dosbarth ar gyfer elfen gyswllt yr eitem ddewislen hon."
+
+#: lib/class-wp-rest-menu-items-controller.php:927
+msgid "Text for the title attribute of the link element for this menu item."
+msgstr "Testun ar gyfer priodoledd teitl yr elfen gyswllt ar gyfer yr eitem ddewislen hon."
+
+#: lib/class-wp-rest-menu-items-controller.php:911
+msgid "A named status for the object."
+msgstr "Statws ag enw ar gyfer y gwrthrych."
+
+#: lib/class-wp-rest-menu-items-controller.php:903
+msgid "The family of objects originally represented, such as \"post_type\" or \"taxonomy\"."
+msgstr "Y teulu o wrthrychau a gynrychiolwyd yn wreiddiol, megis \"post_type\" neu \"tacsonomeg\"."
+
+#: lib/class-wp-rest-menu-items-controller.php:896
+msgid "Name of type."
+msgstr "Enw'r math."
+
+#: lib/class-wp-rest-menu-items-controller.php:878
+msgid "HTML title for the object, transformed for display."
+msgstr "Teitl HTML ar gyfer y gwrthrych, wedi ei drosi i'w ddangos."
+
+#: lib/class-wp-rest-menu-items-controller.php:873
+msgid "Title for the object, as it exists in the database."
+msgstr "Teitl ar gyfer y gwrthrych, fel y mae'n bodoli yn y gronfa ddata."
+
+#: lib/class-wp-rest-menu-items-controller.php:834
+msgid "Get linked object."
+msgstr "Cael gwrthrych cysylltiedig."
+
+#: lib/class-wp-rest-menu-items-controller.php:606
+msgid "Invalid URL."
+msgstr "URL annilys."
+
+#: lib/class-wp-rest-menu-items-controller.php:564
+#: lib/class-wp-rest-menu-items-controller.php:567
+msgid "Invalid menu item parent."
+msgstr "Rhiant eitem dewislen annilys."
+
+#: lib/class-wp-rest-menu-items-controller.php:556
+msgid "Invalid menu position."
+msgstr "Safle dewislen annilys."
+
+#: lib/class-wp-rest-menu-items-controller.php:531
+msgid "Invalid menu ID."
+msgstr "ID dewislen annilys."
+
+#: lib/class-wp-rest-menu-items-controller.php:516
+msgid "URL required if menu item of type custom."
+msgstr "Mae angen URL os yw eitem dewislen yn un cyfaddas."
+
+#: lib/class-wp-rest-menu-items-controller.php:513
+msgid "Title required if menu item of type custom."
+msgstr "Mae angen teitl os yw eitem dewislen yn un cyfaddas."
+
+#: lib/class-wp-rest-menu-items-controller.php:495
+msgid "Invalid post ID."
+msgstr "ID y gofnod yn annilys."
+
+#: lib/class-wp-rest-menu-items-controller.php:348
+msgid "The post cannot be deleted."
+msgstr "Nid oes modd dileu'r cofnod."
+
+#. translators: %s: force=true
+#: lib/class-wp-rest-menu-items-controller.php:340
+msgid "Menu items do not support trashing. Set '%s' to delete."
+msgstr "Nid yw eitmu dewislen cefnogi sbwriel. Gosod '%s' i'w ddileu."
+
+#: lib/class-wp-rest-menu-items-controller.php:174
+msgid "Cannot create existing post."
+msgstr "Methu creu'r cofnod presennol."
+
+#: lib/class-wp-rest-menu-items-controller.php:160
+msgid "Sorry, you cannot view these menu items, unless you have access to permission edit them. "
+msgstr "Mae'n ddrwg gennym, nid oes modd i chi weld yr eitemau dewislen hyn, oni bai bod gennych fynediad at ganiatâd i'w golygu. "
+
+#: lib/class-wp-rest-customizer-nonces.php:51
+#: lib/class-wp-rest-menu-items-controller.php:158
+msgid "Sorry, you are not allowed to edit posts in this post type."
+msgstr "Ymddiheuriadau, nid oes gennych hawl i olygu cofnodion yn yr math yma o gofnod."
+
+#: lib/class-wp-rest-menu-items-controller.php:142
+msgid "Sorry, you cannot view this menu item, unless you have access to permission edit it. "
+msgstr "Ymddiheuriadau, nid oes modd i chi weld yr eitemau dewislen hyn, oni bai bod gennych fynediad at ganiatâd i'w olygu. "
+
+#: lib/class-wp-rest-menus-controller.php:580
+msgid "The locations assigned to the menu."
+msgstr "Y lleoliadau a neilltuwyd i'r ddewislen."
+
+#: lib/class-wp-rest-menus-controller.php:552
+msgid "Menu location does not exist."
+msgstr "Nid yw lleoliad y ddewislen yn bodoli."
+
+#: lib/class-wp-rest-menus-controller.php:458
+msgid "The term cannot be deleted."
+msgstr "Nid oes modd dileu'r term."
+
+#. translators: %s: force=true
+#: lib/class-wp-rest-menus-controller.php:448
+msgid "Terms do not support trashing. Set '%s' to delete."
+msgstr "Nid yw telerau'n cefnogi rhoi yn y sbwriel. Gosod '%s' i'w ddileu."
+
+#: lib/class-wp-rest-menus-controller.php:268
+#: lib/class-wp-rest-menus-controller.php:377
+msgid "Parent term does not exist."
+msgstr "Nid yw'r term rhiant yn bodoli."
+
+#: lib/class-wp-rest-menus-controller.php:262
+#: lib/class-wp-rest-menus-controller.php:371
+msgid "Cannot set parent term, taxonomy is not hierarchical."
+msgstr "Methu gosod rhiant y term, nid yw'r tacsonomeg yn hierarchaidd."
+
+#: lib/class-wp-rest-menus-controller.php:139
+msgid "Sorry, you are not allowed to assign the provided locations."
+msgstr "Ymddiheuriadau, nid oes modd i chi neilltuo'r lleoliad ddarparwyd."
+
+#: lib/class-wp-rest-menus-controller.php:60
+msgid "Sorry, you cannot view this menu, unless you have access to permission edit it. "
+msgstr "Ymddiheuriadau, nid oes modd i chi weld ddewislen hon, oni bai bod gennych fynediad at ganiatâd i'w olygu. "
+
+#: lib/class-wp-rest-menus-controller.php:58
+msgid "Sorry, you are not allowed to edit this term."
+msgstr "Ymddiheuriadau, nid oes modd i chi olygu'r term hwn."
+
+#: lib/class-wp-rest-menus-controller.php:40
+msgid "Sorry, you cannot view these menus, unless you have access to permission edit them. "
+msgstr "Ymddiheuriadau, nid oes modd i chi weld dewislenni hyn, oni bai bod gennych fynediad at ganiatâd i'w golygu. "
+
+#: lib/class-wp-rest-menus-controller.php:38
+msgid "Sorry, you are not allowed to edit terms in this taxonomy."
+msgstr "Ymddiheuriadau, nid oes gennych hawl i olygu termau yn y tacsonomeg hwn."
+
+#: lib/class-wp-rest-menu-locations-controller.php:206
+msgid "The ID of the assigned menu."
+msgstr "ID y ddewislen a neilltuwyd."
+
+#: lib/class-wp-rest-menu-locations-controller.php:200
+msgid "The description of the menu location."
+msgstr "Y disgrifiad o leoliad y ddewislen."
+
+#: lib/class-wp-rest-menu-locations-controller.php:194
+msgid "The name of the menu location."
+msgstr "Enw lleoliad y ddewislen."
+
+#: lib/class-wp-rest-menus-controller.php:146
+#: lib/class-wp-rest-menu-locations-controller.php:116
+#: lib/class-wp-rest-menu-locations-controller.php:132
+msgid "Invalid menu location."
+msgstr "Lleoliad dewislen annilys."
+
+#: lib/class-wp-rest-menu-locations-controller.php:76
+#: lib/class-wp-rest-menu-locations-controller.php:113
+msgid "Sorry, you are not allowed to view menu locations."
+msgstr "Ymddiheuriadau, nid oes gennych hawl i weld lleoliadau dewislenni."
+
+#: lib/class-wp-rest-menu-locations-controller.php:50
+msgid "An alphanumeric identifier for the menu location."
+msgstr "Dynodwr alffaniwmerig ar gyfer lleoliad y ddewislen."
+
+#: lib/class-wp-theme-json-resolver.php:440 build/edit-site/index.js:30
+msgid "Global Styles"
+msgstr "Arddulliau Cyffredinol"
+
+#: lib/full-site-editing/template-loader.php:69
+msgid "Empty template."
+msgstr "Templed gwag."
+
+#: lib/full-site-editing/template-loader.php:77
+msgid "No matching template found."
+msgstr "Heb ganfod templedi tebyg."
+
+#: lib/full-site-editing/templates-utils.php:18
+#: lib/full-site-editing/templates.php:99 build/edit-site/index.js:30
+msgid "Theme"
+msgstr "Thema"
+
+#: lib/experiments-page.php:98
+msgid "The block editor includes experimental features that are useable while they're in development. Select the ones you'd like to enable. These features are likely to change, so avoid using them in production."
+msgstr "Mae'r golygydd bloc yn cynnwys nodweddion arbrofol y mae modd eu defnyddio wrth iddyn nhw gael eu datblygu. Dewiswch y rhai yr hoffech eu galluogi. Mae'r nodweddion hyn yn debygol o newid, felly ceisiwch osgoi eu defnyddio wrth gynhyrchu."
+
+#: gutenberg.php:108
+msgid "Site Editor (beta)"
+msgstr "Golygydd Gwefan (beta)"
+
+#: lib/class-wp-rest-widget-types-controller.php:82
+msgid "Current widget instance"
+msgstr "Enghraifft teclyn cyfredol"
+
+#: lib/full-site-editing/template-parts.php:40
+msgid "Template parts to include in your templates."
+msgstr "Darmau o dempledi i'w cynnwys yn eich templedi."
+
+#: lib/full-site-editing/template-parts.php:35
+msgid "Template parts list"
+msgstr "Rhestr darnau templed"
+
+#: lib/full-site-editing/template-parts.php:34
+msgid "Template parts list navigation"
+msgstr "Llywio rhestr darnau templedi"
+
+#: lib/full-site-editing/template-parts.php:33
+msgid "Filter template parts list"
+msgstr "Hidlo rhestr darnau templed"
+
+#: lib/full-site-editing/template-parts.php:32
+msgid "Uploaded to this template part"
+msgstr "Llwythwyd i fyny i'r darn templed"
+
+#: lib/full-site-editing/template-parts.php:31
+msgid "Insert into template part"
+msgstr "Mewnosod i ddarn o dempled"
+
+#: lib/full-site-editing/template-parts.php:30
+msgid "Template part archives"
+msgstr "Archif darnau templed"
+
+#: lib/full-site-editing/template-parts.php:29
+msgid "No template parts found in Trash."
+msgstr "Heb ddarganfod unrhyw ddarnau templed yn y Sbwriel."
+
+#: lib/full-site-editing/template-parts.php:28
+msgid "No template parts found."
+msgstr "Heb ddarngandfod darnau o dempledi."
+
+#: lib/full-site-editing/template-parts.php:27
+msgid "Parent Template Part:"
+msgstr "Darn o Dempled Rhiant:"
+
+#: lib/full-site-editing/template-parts.php:26
+msgid "Search Template Parts"
+msgstr "Chwilio am Ddarnau Templedi"
+
+#: lib/full-site-editing/template-parts.php:25
+msgid "All Template Parts"
+msgstr "Pob Ddarn Templed"
+
+#: lib/full-site-editing/template-parts.php:24
+msgid "View Template Part"
+msgstr "Gweld Darnau Templed"
+
+#: lib/full-site-editing/template-parts.php:23
+msgid "Edit Template Part"
+msgstr "Golygu Darn Templed"
+
+#: lib/full-site-editing/template-parts.php:22
+msgid "New Template Part"
+msgstr "Darn Templed Newydd"
+
+#: lib/full-site-editing/template-parts.php:21
+msgid "Add New Template Part"
+msgstr "Ychwanegu Darn Templed Newydd"
+
+#: lib/full-site-editing/template-parts.php:20
+msgctxt "Template Part"
+msgid "Add New"
+msgstr "Ychwanegu"
+
+#: lib/full-site-editing/template-parts.php:19
+msgctxt "Admin Menu text"
+msgid "Template Parts"
+msgstr "Darnau Templed"
+
+#: lib/full-site-editing/template-parts.php:18 build/block-library/index.js:73
+msgid "Template Part"
+msgstr "Darn Templed"
+
+#: lib/full-site-editing/template-parts.php:17 build/edit-site/index.js:30
+msgid "Template Parts"
+msgstr "Darnau Templed"
+
+#: lib/experiments-page.php:45 build/edit-navigation/index.js:6
+msgid "Navigation"
+msgstr "Llywio"
+
+#: lib/full-site-editing/templates.php:54
+msgid "Templates list"
+msgstr "Rhestr templedi"
+
+#: lib/full-site-editing/templates.php:53
+msgid "Templates list navigation"
+msgstr "Llywio'r rhestr templedi"
+
+#: lib/full-site-editing/templates.php:52
+msgid "Filter templates list"
+msgstr "Hidlo rhestr templedi"
+
+#: lib/full-site-editing/templates.php:51
+msgid "Uploaded to this template"
+msgstr "Llwythwyd i fyny i'r templed hwn"
+
+#: lib/full-site-editing/templates.php:50
+msgid "Insert into template"
+msgstr "Mewnosod i'r templed"
+
+#: lib/full-site-editing/templates.php:49
+msgid "Template archives"
+msgstr "Archif templedi"
+
+#: lib/full-site-editing/templates.php:48
+msgid "No templates found in Trash."
+msgstr "Heb ganfod templedi yn y Sbwriel."
+
+#: lib/full-site-editing/templates.php:47
+msgid "No templates found."
+msgstr "Heb ganfod templedi."
+
+#: lib/full-site-editing/templates.php:46
+msgid "Parent Template:"
+msgstr "Templed Rhiant:"
+
+#: lib/full-site-editing/templates.php:45
+msgid "Search Templates"
+msgstr "Chwilio Templedi"
+
+#: lib/full-site-editing/templates.php:44
+msgid "All Templates"
+msgstr "Pob Templed"
+
+#: lib/full-site-editing/templates.php:43
+msgid "View Template"
+msgstr "Gweld y Templed"
+
+#: lib/full-site-editing/templates.php:42
+msgid "Edit Template"
+msgstr "Golygu Templed"
+
+#: lib/full-site-editing/templates.php:41
+msgid "New Template"
+msgstr "Templed Newydd"
+
+#: lib/full-site-editing/templates.php:40
+msgid "Add New Template"
+msgstr "Ychwanegu Templed Newydd"
+
+#: lib/full-site-editing/templates.php:39
+msgctxt "Template"
+msgid "Add New"
+msgstr "Ychwanegu"
+
+#: lib/full-site-editing/templates.php:38
+msgctxt "Admin Menu text"
+msgid "Templates"
+msgstr "Templedi"
+
+#. translators: ARIA label for the Template Settings Sidebar tab, not selected.
+#. translators: Text label for the Template Settings Sidebar tab.
+#: lib/full-site-editing/templates.php:37 build/edit-post/index.js:38
+#: build/edit-site/index.js:26 build/edit-site/index.js:28
+#: build/edit-site/index.js:29
+msgid "Template"
+msgstr "Templed"
+
+#: lib/full-site-editing/template-loader.php:164
+msgid "No matching template found"
+msgstr "Heb ganfod templedi sy'n cydweddu"
+
+#: lib/class-wp-theme-json-resolver.php:250 build/block-editor/index.js:1
+msgid "Midnight"
+msgstr "Canol Nos"
+
+#: lib/class-wp-theme-json-resolver.php:249 build/block-editor/index.js:1
+msgid "Electric grass"
+msgstr "Glaswellt trydanol"
+
+#: lib/class-wp-theme-json-resolver.php:248 build/block-editor/index.js:1
+msgid "Pale ocean"
+msgstr "Cefnfor gwelw"
+
+#: lib/class-wp-theme-json-resolver.php:247 build/block-editor/index.js:1
+msgid "Luminous dusk"
+msgstr "Cyfnos llewychol"
+
+#: lib/class-wp-theme-json-resolver.php:246 build/block-editor/index.js:1
+msgid "Blush bordeaux"
+msgstr "Bordeaux ysgafn"
+
+#: lib/class-wp-theme-json-resolver.php:245 build/block-editor/index.js:1
+msgid "Blush light purple"
+msgstr "Porffor golau ysgafn"
+
+#: lib/class-wp-theme-json-resolver.php:244 build/block-editor/index.js:1
+msgid "Cool to warm spectrum"
+msgstr "Sbectrwm oer i gynnes"
+
+#: lib/class-wp-theme-json-resolver.php:243 build/block-editor/index.js:1
+msgid "Very light gray to cyan bluish gray"
+msgstr "Llwyd ysgafn iawn i lwyd cyan glas"
+
+#: lib/class-wp-theme-json-resolver.php:242 build/block-editor/index.js:1
+msgid "Luminous vivid orange to vivid red"
+msgstr "Oren llachar llewychol i goch llachar"
+
+#: lib/class-wp-theme-json-resolver.php:241 build/block-editor/index.js:1
+msgid "Luminous vivid amber to luminous vivid orange"
+msgstr "Ambr byw llewychol i oren llachar llewychol"
+
+#: lib/class-wp-theme-json-resolver.php:240 build/block-editor/index.js:1
+msgid "Light green cyan to vivid green cyan"
+msgstr "Cyan gwyrdd golau i gyan gwyrdd llachar"
+
+#: lib/class-wp-theme-json-resolver.php:239 build/block-editor/index.js:1
+msgid "Vivid cyan blue to vivid purple"
+msgstr "Glas cyan llachar i borffor llachar"
+
+#: lib/full-site-editing/templates.php:59
+msgid "Templates to include in your theme."
+msgstr "Templedi i'w cynnwys yn eich thema."
+
+#: lib/full-site-editing/templates.php:36 build/edit-site/index.js:30
+msgid "Templates"
+msgstr "Templedi"
+
+#: lib/class-wp-theme-json-resolver.php:230 build/block-editor/index.js:1
+msgid "Vivid purple"
+msgstr "Porffor cryf"
+
+#: gutenberg.php:89
+msgid "Experiments Settings"
+msgstr "Gosodiadau Arbrofion"
+
+#: lib/experiments-page.php:19
+msgid "Experimental settings"
+msgstr "Gosodiadau arbrofol"
+
+#. translators: %s: taxonomy name
+#: build/block-library/blocks/tag-cloud.php:28
+msgid "Your site doesn&#8217;t have any %s, so there&#8217;s nothing to display here at the moment."
+msgstr "Nid oes gan eich gwefan unrhyw %s, felly nid oes dim i'w ddangos yma ar hyn o bryd."
+
+#: build/block-library/blocks/search.php:25
+#: build/block-library/blocks/search.php:26
+#: build/block-library/blocks/search.php:52 build/block-editor/index.js:42
+#: build/block-library/index.js:59
+msgid "Search"
+msgstr "Chwilio"
+
+#: build/block-library/blocks/rss.php:23
+msgid "An error has occurred, which probably means the feed is down. Try again later."
+msgstr "Digwyddodd gwall, sydd fel arfer yn golygu nad yw'r llif yn weithredol ar hyn o bryd. Ceisia eto'n hwyrach ymlaen."
+
+#: build/block-library/blocks/rss.php:19
+msgid "RSS Error:"
+msgstr "Gwall RSS:"
+
+#: lib/editor-settings.php:28 build/block-editor/index.js:1
+msgid "Thumbnail"
+msgstr "Llun bach"
+
+#: lib/editor-settings.php:31 build/block-editor/index.js:1
+msgid "Full Size"
+msgstr "Maint Llawn"
+
+#: lib/full-site-editing/default-template-types.php:69
+#: build/block-editor/index.js:66 build/blocks/index.js:1
+#: build/core-data/index.js:1
+msgid "Media"
+msgstr "Cyfrwng"
+
+#: lib/class-wp-theme-json-resolver.php:263 build/block-library/index.js:68
+msgid "Huge"
+msgstr "Anferth"
+
+#: lib/class-wp-theme-json-resolver.php:261 lib/block-patterns.php:30
+#: lib/editor-settings.php:29 build/block-editor/index.js:1
+#: build/block-editor/index.js:9 build/components/index.js:10
+msgid "Medium"
+msgstr "Canolig"
+
+#: lib/class-wp-theme-json-resolver.php:260 build/block-library/index.js:68
+msgid "Normal"
+msgstr "Arferol"
+
+#: build/block-library/blocks/archives.php:97
+msgid "No archives to show."
+msgstr "Dim archifau i'w dangos."
+
+#: post-content.php:41
+msgid "Beautiful landscape"
+msgstr "Tirwedd hardd"
+
+#: post-content.php:185
+msgid "Thanks for testing Gutenberg!"
+msgstr "Diolch am brofi Gutenberg!"
+
+#: post-content.php:177
+msgid "Help build Gutenberg"
+msgstr "Helpwch i adeiladu Gutenberg"
+
+#. translators: %s: Gutenberg GitHub repository URL
+#: post-content.php:168
+msgid "If you want to learn more about how to build additional blocks, or if you are interested in helping with the project, head over to the <a href=\"%s\">GitHub repository</a>."
+msgstr "Os ydych chi eisiau dysgu mwy am sut i adeiladu blociau ychwanegol, neu os oes gennych ddiddordeb mewn helpu gyda'r prosiect, ewch i'r <a href=\"%s\">storfa GitHub</a> ."
+
+#: post-content.php:159
+msgid "The WordPress community"
+msgstr "Cymuned WordPress"
+
+#: post-content.php:159 build/block-library/index.js:8
+msgid "Code is Poetry"
+msgstr "Barddoniaeth yw Cod"
+
+#: post-content.php:155
+msgid "You can build any block you like, static or dynamic, decorative or plain. Here&#8217;s a pullquote block:"
+msgstr "Gallwch adeiladu unrhyw floc fel yr hoffech chi, yn sefydlog neu'n ddeinamig, addurnol neu blaen. Dyma floc dangos dyfyniad:"
+
+#: post-content.php:145
+msgid "Any block can opt into these alignments. The embed block has them also, and is responsive out of the box:"
+msgstr "Gallwch osod unrhyw floc i gyd-fynd â'r aliniadau hyn. Mae'r bloc mewnblannu hefyd yn gallu gwneud hynny ac yn ymatebol hefyd:"
+
+#: post-content.php:141
+msgid "The above is a gallery with just two images. It&#8217;s an easier way to create visually appealing layouts, without having to deal with floats. You can also easily convert the gallery back to individual images again, by using the block switcher."
+msgstr "Mae'r uchod yn oriel gyda dim ond dwy ddelwedd. Mae'n ffordd haws o greu cynlluniau sy'n apelio'n weledol, heb orfod delio â rhai sy'n arnofio. Gallwch hefyd drawsnewid yr oriel yn ôl i ddelweddau unigol yn hawdd, trwy ddefnyddio'r bloc newid."
+
+#: post-content.php:128
+msgid "Sure, the full-wide image can be pretty big. But sometimes the image is worth it."
+msgstr "Gall y ddelwedd lawn-eang fod yn eithaf mawr. Ond ar adegau mae'r ddelwedd yn drawiadol iawn."
+
+#: post-content.php:124
+msgid "Accessibility is important &mdash; don&#8217;t forget image alt attribute"
+msgstr "Mae hygyrchedd yn bwysig - peidiwch ag anghofio priodwedd delwedd"
+
+#: post-content.php:120
+msgid "If you combine the new <strong>wide</strong> and <strong>full-wide</strong> alignments with galleries, you can create a very media rich layout, very quickly:"
+msgstr "Os ydych chi'n cyfuno'r aliniadau newydd <strong>llydan</strong> a <strong>llydan llawn</strong> ag orielau, gallwch greu cynllun cyfrwng cyfoethog, yn gyflym iawn:"
+
+#: post-content.php:116
+msgid "Media Rich"
+msgstr "Cyfrwng Cyfoethog"
+
+#: post-content.php:112
+msgid "You can change the amount of columns in your galleries by dragging a slider in the block inspector in the sidebar."
+msgstr "Gallwch newid y nifer o golofnau yn eich orielau trwy lusgo llithrydd yn yr arolygydd bloc yn y bar ochr."
+
+#: post-content.php:98
+msgid "Blocks can be anything you need. For instance, you may want to add a subdued quote as part of the composition of your text, or you may prefer to display a giant stylized one. All of these options are available in the inserter."
+msgstr "Gall blociau fod yn unrhyw beth sydd eu hangen arnoch. Er enghraifft, efallai yr hoffech chi ychwanegu dyfyniad tawel fel rhan o gyfansoddiad eich testun, neu efallai y byddai'n well gennych ddangos un arddull fawr. Mae'r holl opsiynau hyn ar gael yn y mewnosodwr."
+
+#: post-content.php:94
+msgid "The information corresponding to the source of the quote is a separate text field, similar to captions under images, so the structure of the quote is protected even if you select, modify, or remove the source. It&#8217;s always easy to add it back."
+msgstr "Mae'r wybodaeth sy'n cyfateb i ffynhonnell y dyfyniad yn faes testun ar wahân, sy'n debyg i benawdau dan ddelweddau, felly mae strwythur y dyfyniad wedi'i ddiogelu hyd yn oed os ydych yn dewis, yn addasu, neu'n tynnu'r ffynhonnell. Mae bob amser yn hawdd ei roi yn ôl."
+
+#: post-content.php:89
+msgid "Matt Mullenweg, 2017"
+msgstr "Matt Mullenweg, 2017"
+
+#: post-content.php:88
+msgid "The editor will endeavor to create a new page and post building experience that makes writing rich posts effortless, and has “blocks” to make it easy what today might take shortcodes, custom HTML, or “mystery meat” embed discovery."
+msgstr "Bydd y golygydd yn ceisio creu tudalen newydd a phrofiad ôl-adeiladu sy'n gwneud ysgrifennu cofnodion cyfoethog yn hawdd, ac mae ganddo 'flociau' i wneud yn hawdd yr hyn, r hyn o bryd, sy'n cymryd codau byr,, HTML cyfaddas, neu ddarganfod mewnblaniad  “mystery meat”."
+
+#: post-content.php:83
+msgid "A huge benefit of blocks is that you can edit them in place and manipulate your content directly. Instead of having fields for editing things like the source of a quote, or the text of a button, you can directly change the content. Try editing the following quote:"
+msgstr "Mantais mawr blociau yw y gallwch eu golygu yn eu lle a thrin eich cynnwys yn uniongyrchol. Yn lle cael meysydd ar gyfer golygu pethau fel ffynhonnell dyfyniad, neu destun botwm, gallwch newid y cynnwys yn uniongyrchol. Ceisiwch olygu'r dyfyniad canlynol:"
+
+#: post-content.php:79
+msgid "Visual Editing"
+msgstr "Golygu Gweledol"
+
+#: post-content.php:70
+msgid "And <em>Lists</em> like this one of course :)"
+msgstr "A <em>Rhestrau</em> fel hyn, wrth gwrs :)"
+
+#: post-content.php:69
+msgid "Layout blocks, like Buttons, Hero Images, Separators, etc."
+msgstr "Blociau cynllun, fel Botymau, Delweddau Trawiadol, Gwahanwyr, ac ati."
+
+#: post-content.php:68
+msgid "Embeds, like YouTube, Tweets, or other WordPress posts."
+msgstr "Mewnblaniadau, fel YouTube, Trydariadau, neu gofnodion WordPress eraill."
+
+#: post-content.php:67
+msgid "Galleries"
+msgstr "Orielau"
+
+#: post-content.php:66
+msgid "Images &amp; Videos"
+msgstr "Delweddau a Fideos"
+
+#: post-content.php:65
+msgid "Text &amp; Headings"
+msgstr "Penawdau Testun"
+
+#: post-content.php:60
+msgid "Go give it a try, you may discover things WordPress can already add into your posts that you didn&#8217;t know about. Here&#8217;s a short list of what you can currently find there:"
+msgstr "Rhowch cynnig arno, fe allwch ddarganfod pethau y gall WordPress eu hychwanegu at eich cofnod nad oeddech chi'n gwybod amdanyn nhw. Dyma restr fer o'r hyn y gallwch chi ei gael yno ar hyn o bryd:"
+
+#: post-content.php:56
+msgid "Imagine everything that WordPress can do is available to you quickly and in the same place on the interface. No need to figure out HTML tags, classes, or remember complicated shortcode syntax. That&#8217;s the spirit behind the inserter—the <code>(+)</code> button you&#8217;ll see around the editor—which allows you to browse all available content blocks and add them into your post. Plugins and themes are able to register their own, opening up all sort of possibilities for rich editing and publishing."
+msgstr "Dychmygwch fod popeth y gall WordPress ei wneud ar gael i chi yn gyflym ac yn yr un lle ar y rhyngwyneb. Nid oes angen gweithio allan tagiau HTML, dosbarthiadau, na chofio cystrawen cymhlethdod codau byr. Dyna'r syniad y tu ôl i'r mewnosodwr — y botwm <code>(+)</code> byddwch yn ei weld o gwmpas y golygydd—sy'n eich galluogi i bori drwy'r holl flociau cynnwys sydd ar gael a'u hychwanegu i'ch cofnod. Gall ychwanegion a themâu gofrestru eu hunain, gan agor pob math o bosibiliadau ar gyfer golygu a chyhoeddi cyfoethog."
+
+#: post-content.php:52
+msgid "The <em>Inserter</em> Tool"
+msgstr "Y Teclyn <em>Mewnosod</em>"
+
+#: post-content.php:48
+msgid "Try selecting and removing or editing the caption, now you don&#8217;t have to be careful about selecting the image or other text by mistake and ruining the presentation."
+msgstr "Ceisiwch ddewis a dileu neu olygu'r pennawd, nawr does dim angen i chi fod yn ofalus ynglŷn â dewis y ddelwedd neu destun arall trwy gamgymeriad a difetha'r cyflwyniad."
+
+#: post-content.php:42
+msgid "If your theme supports it, you&#8217;ll see the \"wide\" button on the image toolbar. Give it a try."
+msgstr "Os yw'ch thema yn ei gefnogi, fe welwch y botwm \"eang\" ar y bar offer delwedd. Rhowch gynnig arni."
+
+#: post-content.php:36
+msgid "Handling images and media with the utmost care is a primary focus of the new editor. Hopefully, you&#8217;ll find aspects of adding captions or going full-width with your pictures much easier and robust than before."
+msgstr "Mae delio â delweddau a chyfryngau gyda'r gofal mwyaf yn brif ffocws y golygydd newydd. Gobeithio y byddwch yn cael ychwanegu capsiynau neu fynd yn lled llawn â'ch lluniau yn llawer haws a chadarn nag o'r blaen."
+
+#: post-content.php:32
+msgid "A Picture is Worth a Thousand Words"
+msgstr "Mae Darlun yn Werth Mil o Eiriau"
+
+#: post-content.php:28
+msgid "Headings are separate blocks as well, which helps with the outline and organization of your content."
+msgstr "Mae penawdau hefyd yn flociau ar wahân, sy'n helpu gydag amlinell a threfniadaeth eich cynnwys."
+
+#: post-content.php:24
+msgid "... like this one, which is right aligned."
+msgstr "... fel yr un yma, sydd wedi'i alinio i'r dde."
+
+#: post-content.php:20
+msgid "What you are reading now is a <strong>text block</strong> the most basic block of all. The text block has its own controls to be moved freely around the post..."
+msgstr "Mae'r hyn rydych yn ei ddarllen nawr yw <strong>floc testun</strong>, y bloc mwyaf sylfaenol oll. Mae gan y bloc testun ei reolaethau ei hun i'w symud yn rhydd o gwmpas y cofnod..."
+
+#: post-content.php:16
+msgid "The goal of this new editor is to make adding rich content to WordPress simple and enjoyable. This whole post is composed of <em>pieces of content</em>—somewhat similar to LEGO bricks—that you can move around and interact with. Move your cursor around and you&#8217;ll notice the different blocks light up with outlines and arrows. Press the arrows to reposition blocks quickly, without fearing about losing things in the process of copying and pasting."
+msgstr "Nod y golygydd newydd hwn yw ychwanegu cynnwys cyfoethog i WordPress mewn ffordd syml a hwylus. Mae'r cofnod cyfan hwn yn cynnwys <em>darnau o gynnwys</em> - ychydig yn debyg i frics LOGO - y gallwch eu symud o gwmpas a rhyngweithio â nhw. Symudwch eich cyrchwr o gwmpas a byddwch yn sylwi ar y gwahanol flociau yn goleuo gydag amlinelliadau a saethau. Cliciwch y saethau i ailosod y blociau'n gyflym, heb ofni colli pethau yn y broses o gopïo a gludo."
+
+#: post-content.php:11
+msgid "Of Mountains &amp; Printing Presses"
+msgstr "Mynyddoedd a Gweisg Argraffu"
+
+#: lib/demo.php:59
+msgid "Welcome to the Gutenberg Editor"
+msgstr "Croeso i Olygydd Gutenberg"
+
+#: lib/class-wp-rest-menu-items-controller.php:862
+msgid "The title for the object."
+msgstr "Y teitl ar gyfer y gwrthrych."
+
+#: lib/class-wp-rest-menu-items-controller.php:68
+#: lib/class-wp-rest-menu-items-controller.php:887
+msgid "Unique identifier for the object."
+msgstr "Dynodwr unigryw ar gyfer y gwrthrych."
+
+#: lib/class-wp-theme-json-resolver.php:259 lib/block-patterns.php:50
+#: build/block-library/index.js:68 build/components/index.js:10
+msgid "Small"
+msgstr "Bach"
+
+#: gutenberg.php:76
+msgid "https://wordpress.org/support/plugin/gutenberg/"
+msgstr "https://wordpress.org/support/plugin/gutenberg/"
+
+#: gutenberg.php:73 gutenberg.php:74
+msgid "Support"
+msgstr "Cymorth"
+
+#: build/block-library/blocks/latest-comments.php:141
+msgid "No comments to show."
+msgstr "Dim sylwadau i'w dangos."
+
+#. translators: 1: author name (inside <a> or <span> tag, based on if they have
+#. a URL), 2: post title related to this comment
+#: build/block-library/blocks/latest-comments.php:99
+msgid "%1$s on %2$s"
+msgstr "%1$s ar %2$s"
+
+#: build/block-library/blocks/archives.php:57
+msgid "Select Post"
+msgstr "Dewis Cofnod"
+
+#: build/block-library/blocks/archives.php:54
+msgid "Select Week"
+msgstr "Dewis Wythnos"
+
+#: build/block-library/blocks/archives.php:51
+msgid "Select Day"
+msgstr "Dewis Diwrnod"
+
+#: build/block-library/blocks/archives.php:48
+msgid "Select Month"
+msgstr "Dewis Mis"
+
+#: build/block-library/blocks/archives.php:45
+msgid "Select Year"
+msgstr "Dewis Blwyddyn"
+
+#: build/block-library/blocks/archives.php:27
+msgid "Archives"
+msgstr "Archif"
+
+#: lib/class-wp-theme-json-resolver.php:220 build/block-editor/index.js:1
+msgid "Cyan bluish gray"
+msgstr "Llwyd las wyrdd"
+
+#: lib/class-wp-theme-json-resolver.php:229 build/block-editor/index.js:1
+msgid "Vivid cyan blue"
+msgstr "Glas wyrdd cryf"
+
+#: lib/class-wp-theme-json-resolver.php:228 build/block-editor/index.js:1
+msgid "Pale cyan blue"
+msgstr "Glas wyrdd gwan"
+
+#: lib/class-wp-theme-json-resolver.php:227 build/block-editor/index.js:1
+msgid "Vivid green cyan"
+msgstr "Gwyrdd glaswyrdd cryf"
+
+#: lib/class-wp-theme-json-resolver.php:226 build/block-editor/index.js:1
+msgid "Light green cyan"
+msgstr "Gwyrdd glaswyrdd cryf"
+
+#: lib/class-wp-theme-json-resolver.php:225 build/block-editor/index.js:1
+msgid "Luminous vivid amber"
+msgstr "Ambr cryf llewyrchol"
+
+#: lib/class-wp-theme-json-resolver.php:224 build/block-editor/index.js:1
+msgid "Luminous vivid orange"
+msgstr "Oren cryf llewyrchol"
+
+#: lib/class-wp-theme-json-resolver.php:223 build/block-editor/index.js:1
+msgid "Vivid red"
+msgstr "Coch llachar"
+
+#: lib/class-wp-theme-json-resolver.php:222 build/block-editor/index.js:1
+msgid "Pale pink"
+msgstr "Pinc gwan"
+
+#: lib/class-wp-theme-json-resolver.php:262 lib/block-patterns.php:12
+#: lib/editor-settings.php:30 build/block-editor/index.js:1
+#: build/block-library/index.js:68 build/components/index.js:10
+msgid "Large"
+msgstr "Mawr"
+
+#: lib/class-wp-rest-menu-items-controller.php:487
+msgid "Invalid term ID."
+msgstr "ID term annilys."
+
+#: lib/class-wp-rest-menu-items-controller.php:919
+msgid "The ID for the parent of the object."
+msgstr "ID rhiant y gwrthrych."
+
+#: gutenberg.php:112
+msgid "beta"
+msgstr "beta"
+
+#: lib/full-site-editing/templates-utils.php:17 build/editor/index.js:5
+msgid "Status"
+msgstr "Statws"
+
+#. translators: ARIA label for the Block Settings Sidebar tab, not selected.
+#. translators: Text label for the Block Settings Sidebar tab.
+#. translators: Text label for the Template Settings Sidebar tab.
+#: lib/class-wp-widget-block.php:40 lib/navigation.php:91 lib/navigation.php:96
+#: build/edit-widgets/index.js:23 build/edit-post/index.js:37
+#: build/edit-post/index.js:38 build/edit-site/index.js:28
+#: build/edit-site/index.js:29 build/edit-site/index.js:30
+msgid "Block"
+msgstr "Bloc"
+
+#: build/block-library/blocks/rss.php:31
+#: build/block-library/blocks/latest-comments.php:31
+#: build/block-library/blocks/latest-posts.php:102 build/editor/index.js:21
+#: build/editor/index.js:35 build/block-library/index.js:30
+#: build/block-library/index.js:48 build/edit-navigation/index.js:6
+#: build/edit-post/index.js:40 build/edit-site/index.js:30
+msgid "(no title)"
+msgstr "(dim teitl)"
+
+#: gutenberg.php:90
+msgid "Experiments"
+msgstr "Arbrofion"
+
+#: gutenberg.php:49 gutenberg.php:50 lib/experiments-page.php:56
+#: build/edit-widgets/index.js:24 build/blocks/index.js:1
+#: build/core-data/index.js:1
+msgid "Widgets"
+msgstr "Teclynnau"
+
+#. Description of the plugin
+msgid "Printing since 1440. This is the development plugin for the new block editor in core."
+msgstr "Argraffu ers 1440. Dyma'r ategyn datblygu ar gyfer y golygydd bloc newydd yn y craidd."
+
+#: lib/class-wp-rest-widgets-controller.php:756
+msgid "Unique identifier for the widget."
+msgstr "Dynodwr unigryw y teclyn."
+
+#: gutenberg.php:186
+msgid "Gutenberg development mode requires files to be built. Run <code>npm install</code> to install dependencies, <code>npm run build</code> to build the files or <code>npm run dev</code> to build the files and watch for changes. Read the <a href=\"https://github.com/WordPress/gutenberg/blob/HEAD/docs/contributors/getting-started.md\">contributing</a> file for more information."
+msgstr "Mae modd datblygu Gutenberg yn ei gwneud yn ofynnol i ffeiliau gael eu hadeiladu. Rhedwch <code>npm install</code> i osod y dibyniaethau, <code>npm run build</code> i adeiladu'r ffeiliau neu <code>npm run dev</code> i adeiladu'r ffeiliau a gwylio am newidiadau. Darllenwch y ffeil <a href=\"https://github.com/WordPress/gutenberg/blob/HEAD/docs/contributors/getting-started.md\">cyfrannu</a> i gael mwy o wybodaeth."
+
+#. translators: button label text should, if possible, be under 16 characters.
+#: lib/full-site-editing/templates-utils.php:15 build/editor/index.js:25
+#: build/components/index.js:5
+msgid "Slug"
+msgstr "Bonyn"
+
+#: gutenberg.php:80 gutenberg.php:81
+msgid "Documentation"
+msgstr "Dogfennaeth"
+
+#: build/block-library/blocks/categories.php:30
+msgid "Select Category"
+msgstr "Dewis Categori"
+
+#: lib/class-wp-rest-menu-items-controller.php:506
+msgid "Invalid post type."
+msgstr "Math cofnod annilys."
+
+#. translators: %s: Minimum required version
+#: gutenberg.php:173
+msgid "Gutenberg requires WordPress %s or later to function properly. Please upgrade WordPress before activating Gutenberg."
+msgstr "Mae Gutenberg angen WordPress %s neu'n hwyrach i weithio'n iawn. Diweddarwch WordPress cyn gweithredu Gutenberg."
+
+#. Author of the plugin
+msgid "Gutenberg Team"
+msgstr "Tîm Gutenberg"
+
+#. Plugin URI of the plugin
+msgid "https://github.com/WordPress/gutenberg"
+msgstr "https://github.com/WordPress/gutenberg"
+
+#. Plugin Name of the plugin
+msgid "Gutenberg"
+msgstr "Gutenberg"
+
+#: gutenberg.php:41 gutenberg.php:42
+msgid "Demo"
+msgstr "Arddangos"

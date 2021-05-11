@@ -1,0 +1,1613 @@
+# Translation of Plugins - Gutenberg - Development (trunk) in Romanian
+# This file is distributed under the same license as the Plugins - Gutenberg - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-03-17 22:08:46+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n == 0 || n % 100 >= 2 && n % 100 <= 19) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ro\n"
+"Project-Id-Version: Plugins - Gutenberg - Development (trunk)\n"
+
+#: lib/full-site-editing/default-template-types.php:82
+msgid "Template shown when no content is found."
+msgstr "Șablonul arătat când nu a fost găsit niciun conținut."
+
+#: lib/full-site-editing/default-template-types.php:74
+msgid "Template used to display search results."
+msgstr "Șablonul folosit pentru a afișa rezultatele de căutare."
+
+#: lib/full-site-editing/default-template-types.php:73
+msgctxt "Template name"
+msgid "Search"
+msgstr "Căutare"
+
+#: lib/full-site-editing/default-template-types.php:70
+msgid "Template used to display individual media items or attachments."
+msgstr "Șablonul folosit pentru a afișa elemente media individuale sau atașamente."
+
+#: lib/full-site-editing/default-template-types.php:66
+msgid "Archive template used to display a list of posts with a given tag."
+msgstr "Șablonul pentru arhivă folosit pentru a afișa o listă a articolelor pentru o etichetă dată."
+
+#: lib/full-site-editing/default-template-types.php:65
+msgctxt "Template name"
+msgid "Tag"
+msgstr "Etichetă"
+
+#: lib/full-site-editing/default-template-types.php:62
+msgid "Archive template used to display a list of posts from a specific date."
+msgstr "Șablonul pentru arhivă folosit pentru a afișa o listă a articolelor pentru o anumită dată."
+
+#: lib/full-site-editing/default-template-types.php:61
+msgctxt "Template name"
+msgid "Date"
+msgstr "Dată"
+
+#: lib/full-site-editing/default-template-types.php:58
+msgid "Archive template used to display a list of posts from the same taxonomy."
+msgstr "Șablonul pentru arhivă folosit pentru a afișa o listă a articolelor din aceeași taxonomie."
+
+#: lib/full-site-editing/default-template-types.php:57
+msgctxt "Template name"
+msgid "Taxonomy"
+msgstr "Taxonomie"
+
+#: lib/full-site-editing/default-template-types.php:54
+msgid "Archive template used to display a list of posts from the same category."
+msgstr "Șablonul pentru arhivă folosit pentru a afișa o listă a articolelor din aceeași categorie."
+
+#: lib/full-site-editing/default-template-types.php:53
+msgctxt "Template name"
+msgid "Category"
+msgstr "Categorie"
+
+#: lib/full-site-editing/default-template-types.php:50
+msgid "Archive template used to display a list of posts from a single author."
+msgstr "Șablonul pentru arhivă folosit pentru a afișa o listă a articolelor pentru un singur autor."
+
+#: lib/full-site-editing/default-template-types.php:49
+msgctxt "Template name"
+msgid "Author"
+msgstr "Autor"
+
+#: lib/full-site-editing/default-template-types.php:46
+msgid "The archive template displays multiple entries at once. It is used as a fallback for the Category, Author, and Date templates, which take precedence when they are available."
+msgstr "Șablonul pentru arhivă afișează simultan mai multe intrări. Este folosit ca o alternativă pentru șabloanele Categorie, Autor și Dată care au prioritate când sunt disponibile."
+
+#: lib/full-site-editing/default-template-types.php:42
+msgid "Template used to display individual pages."
+msgstr "Șablonul folosit pentru a afișa pagini individuale."
+
+#: lib/full-site-editing/default-template-types.php:38
+msgid "Template used to display a single post type."
+msgstr "Șablonul folosit pentru a afișa un singur tip de articol."
+
+#: lib/full-site-editing/default-template-types.php:34
+msgid "Template used to display a single blog post."
+msgstr "Șablonul folosit pentru a afișa un singur articol de blog."
+
+#: lib/full-site-editing/default-template-types.php:30
+msgid "Template used for displaying single views of the content. This template is a fallback for the Single, Post, and Page templates, which take precedence when they exist."
+msgstr "Șablonul folosit pentru afișarea vizualizărilor singulare ale conținutului. Acest șablon este o alternativă pentru șabloanele Singular, Articol și Pagină care au prioritate când există."
+
+#: lib/full-site-editing/default-template-types.php:26
+msgid "Template used to render the front page of the site, whether it displays blog posts or a static page. The front page template takes precedence over the \"Home\" template."
+msgstr "Șablonul folosit pentru a randa pagina din față a site-ului, indiferent dacă afișează articole de blog sau o pagină statică. Șablonul pentru Pagina din față are prioritate față de șablonul „Prima pagină”."
+
+#: lib/full-site-editing/default-template-types.php:22
+msgid "Template used for the main page that displays blog posts. This is the front page by default in WordPress. If a static front page is set, this is the template used for the page that contains the latest blog posts."
+msgstr "Șablonul folosit pentru pagina principală care afișează articole de blog. Este pagina din față implicită în WordPress. Dacă este setată o pagină din față statică, acesta este șablonul folosit pentru pagina care conține ultimele articole de pe blog."
+
+#: lib/full-site-editing/default-template-types.php:18
+msgid "The default template used when no other template is available. This is a required template in WordPress."
+msgstr "Șablonul implicit folosit când nu este disponibil niciun alt șablon. Acesta este un șablon obligatoriu în WordPress."
+
+#. translators: %1$s: Template area type, %2$s: the uncategorized template area
+#. value.
+#: lib/full-site-editing/template-parts.php:200
+msgid "\"%1$s\" is not a supported wp_template_part area value and has been added as \"%2$s\"."
+msgstr "„%1$s” nu este o valoare acceptată pentru zona wp_template_part și a fost adăugată ca „%2$s”."
+
+#. translators: %s are the block attributes.
+#: build/block-library/blocks/template-part.php:77
+msgid "Could not render Template Part block with the attributes: <code>%s</code>. Block cannot be rendered inside itself."
+msgstr "Nu am putut randa blocul Parte de șablon cu atributele: <code>%s</code>. Blocul nu poate fi randat în interiorul lui."
+
+#: build/block-library/blocks/template-part.php:69
+msgid "Template Part not found."
+msgstr "Parte de șablon negăsită."
+
+#: lib/compat.php:191
+msgid "Reusable block updated."
+msgstr "Blocul reutilizabil a fost actualizat."
+
+#: lib/class-wp-rest-widget-types-controller.php:345
+msgid "Human-readable name identifying the widget type."
+msgstr "Nume care poate fi citit de oameni și identifică tipul de piesă."
+
+#: lib/class-wp-rest-widget-types-controller.php:57
+#: lib/class-wp-rest-widget-types-controller.php:77
+msgid "The widget type id."
+msgstr "ID-ul tipului de piesă."
+
+#: lib/full-site-editing/template-parts.php:79
+msgid "Template Part Area"
+msgstr "Zonă pentru partea din șablon"
+
+#: lib/full-site-editing/template-parts.php:78
+msgid "Template Part Areas"
+msgstr "Zone pentru părți din șablon"
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:558
+msgid "Where the template part is intended for use (header, footer, etc.)"
+msgstr "Unde este destinată să fie folosită partea din șablon (antet, subsol etc.)"
+
+#: build/block-library/blocks/post-navigation-link.php:35
+msgctxt "label for previous post link"
+msgid "Previous"
+msgstr "Anterior"
+
+#: build/block-library/blocks/post-navigation-link.php:35
+msgctxt "label for next post link"
+msgid "Next"
+msgstr "Următor"
+
+#: lib/experiments-page.php:61
+msgid "Enable Widgets screen in Customizer"
+msgstr "Activează ecranul Piese în Personalizator"
+
+#: lib/class-wp-rest-pattern-directory-controller.php:285
+msgid "Limit results to those matching a keyword ID."
+msgstr "Limitează rezultatele la cele care se potrivesc cu un ID de cuvânt cheie."
+
+#: lib/class-wp-rest-url-details-controller.php:198
+msgid "Unable to retrieve body from response at this URL."
+msgstr "Nu pot să recuperez corpul din răspunsul la acest URL."
+
+#: lib/class-wp-rest-url-details-controller.php:192
+msgid "URL not found. Response returned a non-200 status code for this URL."
+msgstr "URL găsit. Răspunsul a returnat un cod de stare care nu este 200 pentru acest URL."
+
+#: lib/class-wp-rest-url-details-controller.php:158
+msgid "Sorry, you are not allowed to process remote urls."
+msgstr "Regret, nu ai voie să procesezi URL-uri de la distanță."
+
+#: lib/class-wp-rest-url-details-controller.php:96
+msgid "Invalid URL"
+msgstr "URL invalid"
+
+#: lib/class-wp-rest-url-details-controller.php:71
+msgid "The contents of the <title> tag from the URL."
+msgstr "Conținutul tagului <title> din URL."
+
+#: lib/class-wp-rest-url-details-controller.php:40
+msgid "The URL to process."
+msgstr "URL-ul de procesat."
+
+#: lib/class-wp-rest-pattern-directory-controller.php:279
+msgid "Limit results to those matching a category ID."
+msgstr "Limitează rezultatele la cele care se potrivesc cu un ID categorie."
+
+#: lib/class-wp-rest-pattern-directory-controller.php:251
+msgid "The preferred width of the viewport when previewing a pattern, in pixels."
+msgstr "Lățimea preferată pentru spațiul vizibil la previzualizarea unui model, în pixeli."
+
+#: lib/class-wp-rest-pattern-directory-controller.php:244
+msgid "A description of the pattern."
+msgstr "O descriere a modelului."
+
+#: lib/class-wp-rest-pattern-directory-controller.php:236
+msgid "The pattern's keyword slugs."
+msgstr "Descriptorii cuvintelor cheie ale modelului."
+
+#: lib/class-wp-rest-pattern-directory-controller.php:228
+msgid "The pattern's category slugs."
+msgstr "Descriptorii categoriilor modelului."
+
+#: lib/class-wp-rest-pattern-directory-controller.php:221
+msgid "The pattern content."
+msgstr "Conținutul modelului."
+
+#: lib/class-wp-rest-pattern-directory-controller.php:207
+msgid "The pattern ID."
+msgstr "ID-ul modelului."
+
+#: lib/class-wp-rest-pattern-directory-controller.php:129
+msgid "https://wordpress.org/support/forums/"
+msgstr "https://wordpress.org/support/forums/"
+
+#. translators: %s: Support forums URL.
+#: lib/class-wp-rest-pattern-directory-controller.php:128
+msgid "An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href=\"%s\">support forums</a>."
+msgstr "A apărut o eroare neașteptată. S-ar putea să fie o problemă cu WordPress.org sau cu configurația acestui server. Dacă în continuare ai probleme, te rugăm să apelezi la <a href=\"%s\">forumurile de ajutor</a>."
+
+#: lib/class-wp-rest-pattern-directory-controller.php:72
+msgid "Sorry, you are not allowed to browse the local block pattern directory."
+msgstr "Regret, nu ai voie să răsfoiești directorul local cu modele de blocuri."
+
+#: build/block-library/blocks/query-pagination-previous.php:22
+msgid "&laquo; Previous Page"
+msgstr "&laquo; Pagina anterioară"
+
+#: build/block-library/blocks/query-pagination-next.php:23
+msgid "Next Page &raquo;"
+msgstr "Pagina următoare &raquo;"
+
+#. translators: Visible only in the front end, this warning takes the place of
+#. a faulty block.
+#: build/block-library/blocks/block.php:46
+#: build/block-library/blocks/template-part.php:90
+msgid "[block rendering halted]"
+msgstr "[randarea blocului a fost oprită]"
+
+#. translators: %s is the user-provided title of the reusable block.
+#: build/block-library/blocks/block.php:32
+msgid "Could not render Reusable Block <strong>%s</strong>. Block cannot be rendered inside itself."
+msgstr "Nu am putut randa blocul reutilizabil <strong>%s</strong>. Blocul nu poate fi randat în interiorul lui."
+
+#: lib/full-site-editing/block-templates.php:224
+msgid "No theme is defined for this template."
+msgstr "Nu este definită nicio temă pentru acest șablon."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:548
+msgid "Post ID."
+msgstr "ID articol."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:542
+msgid "Status of template."
+msgstr "Starea șablonului."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:536
+msgid "Description of template."
+msgstr "Descrierea șablonului."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:530
+msgid "Title of template."
+msgstr "Titlul șablonului."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:524
+msgid "Content of template."
+msgstr "Conținutul șablonului."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:518
+msgid "Whether the template is customized."
+msgstr "Indiferent dacă șablonul este personalizat."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:513
+msgid "Theme identifier for the template."
+msgstr "Identificator temă pentru șablon."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:505
+msgid "Unique slug identifying the template."
+msgstr "Descriptor unic care identifică șablonul."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:499
+msgid "ID of template."
+msgstr "ID-ul șablonului."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:477
+msgid "Limit to the specified post id."
+msgstr "Limitează la anumite ID-uri articol. "
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:312
+msgid "The template has already been deleted."
+msgstr "Șablonul a fost deja șters."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:287
+msgid "Templates based on theme files can't be removed."
+msgstr "Șabloanele create pe baza fișierelor temei nu pot fi înlăturate."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:174
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:199
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:250
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:284
+msgid "No templates exist with that id."
+msgstr "Nu există niciun șablon cu acest ID."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:109
+msgid "Sorry, you are not allowed to access the templates on this site."
+msgstr "Regret, nu ai voie să accesezi șabloane pe acest site."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:70
+msgid "The id of a template"
+msgstr "ID-ul șablonului"
+
+#: lib/client-assets.php:101 build/i18n/index.js:1
+msgctxt "text direction"
+msgid "ltr"
+msgstr "ltr"
+
+#: lib/full-site-editing/default-template-types.php:29
+msgctxt "Template name"
+msgid "Singular"
+msgstr "Singular"
+
+#: lib/full-site-editing/full-site-editing.php:83
+msgid "Edit site"
+msgstr "Editează situl"
+
+#: lib/full-site-editing/templates.php:98
+msgid "Themes"
+msgstr "Teme"
+
+#. translators: %s: Number of auto-draft posts.
+#: lib/full-site-editing/templates-utils.php:91
+msgctxt "Post status"
+msgid "Auto-Draft <span class=\"count\">(%s)</span>"
+msgid_plural "Auto-Drafts <span class=\"count\">(%s)</span>"
+msgstr[0] "Ciornă automată <span class=\"count\">(%s)</span>"
+msgstr[1] "Ciorne automate <span class=\"count\">(%s)</span>"
+msgstr[2] "Ciorne automate <span class=\"count\">(%s)</span>"
+
+#: lib/full-site-editing/templates-utils.php:47
+msgctxt "Post status"
+msgid "Auto-Draft"
+msgstr "Ciornă automată"
+
+#: lib/full-site-editing/default-template-types.php:81
+msgctxt "Template name"
+msgid "404"
+msgstr "404"
+
+#: lib/full-site-editing/default-template-types.php:77
+msgid "Privacy Policy"
+msgstr "Politică de confidențialitate"
+
+#: lib/full-site-editing/default-template-types.php:41
+msgctxt "Template name"
+msgid "Page"
+msgstr "Pagină"
+
+#: lib/full-site-editing/default-template-types.php:37
+msgctxt "Template name"
+msgid "Post"
+msgstr "Articol"
+
+#: lib/full-site-editing/default-template-types.php:21
+msgctxt "Template name"
+msgid "Home"
+msgstr "Prima pagină"
+
+#: lib/full-site-editing/full-site-editing.php:26
+msgid "You're using an experimental Full Site Editing theme. Full Site Editing is an experimental feature and potential API changes are to be expected!"
+msgstr "Folosești o temă experimentală: Editare completă site. Editare completă site este o funcționalitate experimentală și pot apărea posibile modificări în API!"
+
+#. translators: %s: "beta" label.
+#: gutenberg.php:111
+msgid "Site Editor %s"
+msgstr "Editor de situri %s"
+
+#: lib/full-site-editing/default-template-types.php:17
+msgctxt "Template name"
+msgid "Index"
+msgstr "Index"
+
+#: lib/full-site-editing/default-template-types.php:33
+msgctxt "Template name"
+msgid "Single"
+msgstr "Singulare"
+
+#: lib/full-site-editing/default-template-types.php:45
+msgctxt "Template name"
+msgid "Archive"
+msgstr "Arhivă"
+
+#: lib/full-site-editing/default-template-types.php:25
+msgctxt "Template name"
+msgid "Front Page"
+msgstr "Pagina din față"
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:89
+#: lib/class-wp-rest-menu-items-controller.php:92
+msgid "Whether to bypass Trash and force deletion."
+msgstr "Indiferent dacă evită aruncarea la gunoi și forțează ștergerea."
+
+#: lib/class-wp-rest-menu-items-controller.php:58
+msgid "The password for the post if it is password protected."
+msgstr "Parola pentru articol, dacă el este protejat cu parolă."
+
+#: lib/class-wp-rest-sidebars-controller.php:430
+msgid "HTML content to append to the sidebar title when displayed. Default is a closing h2 element."
+msgstr "Conținutul HTML de atașat la titlul barei laterale când acesta este afișat. Implicit, este un element de închidere h2."
+
+#: lib/class-wp-rest-sidebars-controller.php:423
+msgid "HTML content to prepend to the sidebar title when displayed. Default is an opening h2 element."
+msgstr "Conținutul HTML de adăugat pentru titlul barei laterale când acesta este afișat. Implicit, este un element de închidere h2."
+
+#: lib/class-wp-rest-sidebars-controller.php:416
+msgid "HTML content to append to each widget's HTML output when assigned to this sidebar. Default is a closing list item element."
+msgstr "Conținutul HTML de atașat la ieșirea HTML a fiecărei piese când o piesă este atribuită acestei bare laterale. Implicit, este un element de listă de închidere."
+
+#: lib/class-wp-rest-sidebars-controller.php:409
+msgid "HTML content to prepend to each widget's HTML output when assigned to this sidebar. Default is an opening list item element."
+msgstr "Conținutul HTML de adăugat la ieșirea HTML a fiecărei piese când o piesă este atribuită acestei bare laterale. Implicit, este un element de listă de deschidere."
+
+#: lib/class-wp-rest-sidebars-controller.php:403
+msgid "Extra CSS class to assign to the sidebar in the Widgets interface."
+msgstr "Clasă CSS suplimentară pentru a fi atribuită barei laterale din interfața Piese."
+
+#: lib/class-wp-rest-sidebars-controller.php:159
+msgid "No sidebar exists with that id."
+msgstr "Nu există nicio bară laterală cu acest ID."
+
+#: lib/class-wp-rest-batch-controller.php:216
+msgid "The handler for the route is invalid"
+msgstr "Manipulantul pentru rută este invalid"
+
+#: lib/class-wp-rest-batch-controller.php:143
+#: lib/class-wp-rest-batch-controller.php:249
+msgid "The requested route does not support batch requests."
+msgstr "Ruta cerută nu suportă cereri în serie."
+
+#: lib/class-wp-rest-batch-controller.php:89
+msgid "Could not parse the path."
+msgstr "Nu am putut interpreta calea."
+
+#: lib/class-wp-rest-widgets-controller.php:766
+msgid "The sidebar the widget belongs to."
+msgstr "Bara laterală de unde este piesa."
+
+#: lib/class-wp-rest-widgets-controller.php:732
+msgid "The sidebar to return widgets for."
+msgstr "Bara laterală pentru a returna piese."
+
+#: lib/class-wp-rest-widgets-controller.php:501
+msgid "The requested widget is invalid."
+msgstr "Piesa cerută este invalidă."
+
+#: lib/class-wp-rest-widgets-controller.php:373
+msgid "No widget was found with that id."
+msgstr "Nu am găsit nicio piesă cu acest ID."
+
+#: lib/class-wp-rest-widget-types-controller.php:162
+#: lib/class-wp-rest-widgets-controller.php:346
+#: lib/class-wp-rest-sidebars-controller.php:228
+msgid "Sorry, you are not allowed to manage widgets on this site."
+msgstr "Regret, nu ai voie să administrezi piesele de pe acest sit."
+
+#: lib/class-wp-rest-widgets-controller.php:80
+msgid "Whether to force removal of the widget, or move it to the inactive sidebar."
+msgstr "Indiferent dacă forțezi înlăturarea piesei sau o muți în bara laterală inactivă."
+
+#: lib/class-wp-rest-widget-types-controller.php:379
+msgid "Customize selective refresh."
+msgstr "Personalizează reîmprospătarea selectivă."
+
+#: lib/class-wp-rest-widget-types-controller.php:372
+msgid "Widget class name."
+msgstr "Nume clasă piese."
+
+#: lib/class-wp-rest-widget-types-controller.php:365
+msgid "Option name."
+msgstr "Nume opțiune."
+
+#: lib/class-wp-rest-widget-types-controller.php:358
+msgid "Class name"
+msgstr "Nume clasă"
+
+#: lib/class-wp-rest-widget-types-controller.php:339
+msgid "Unique slug identifying the widget type."
+msgstr "Descriptor unic care identifică tipul de piesă."
+
+#: lib/class-wp-rest-widget-types-controller.php:187
+msgid "Invalid widget type."
+msgstr "Tip de piesă invalid."
+
+#: build/edit-widgets/blocks/legacy-widget.php:32
+msgid "Rendering legacy widget block using widgetId is unsupported."
+msgstr "Randarea blocului Piese tradiționale folosind widgetId nu este acceptată."
+
+#: lib/class-wp-rest-menu-items-controller.php:980
+msgid "HTML content to display for this block menu item."
+msgstr "Conținut HTML de afișat pentru acest element de meniu bloc."
+
+#: lib/class-wp-rest-widgets-controller.php:799
+msgid "HTML representation of the widget admin form."
+msgstr "Reprezentare HTML pentru formularul de administrare piesă."
+
+#: lib/class-wp-rest-sidebars-controller.php:258
+msgid "Inactive widgets"
+msgstr "Piese inactive"
+
+#: lib/class-wp-rest-widgets-controller.php:805
+msgid "Settings of the widget."
+msgstr "Setările piesei."
+
+#: lib/class-wp-rest-widgets-controller.php:793
+msgid "HTML representation of the widget."
+msgstr "Reprezentarea HTML pentru piesă."
+
+#: lib/class-wp-rest-widgets-controller.php:788
+msgid "Number of the widget."
+msgstr "Număr de piese."
+
+#: lib/class-wp-rest-widget-types-controller.php:352
+#: lib/class-wp-rest-widgets-controller.php:783
+msgid "Description of the widget."
+msgstr "Descrierea piesei."
+
+#: lib/class-wp-rest-widgets-controller.php:778
+msgid "Name of the widget."
+msgstr "Numele piesei."
+
+#: lib/class-wp-rest-widgets-controller.php:773
+msgid "Class name of the widget implementation."
+msgstr "Numele clasei pentru implementarea piesei."
+
+#: lib/class-wp-rest-widgets-controller.php:761
+msgid "Type of widget for the object."
+msgstr "Tip de piesă pentru obiect."
+
+#: lib/class-wp-rest-sidebars-controller.php:444
+msgid "Nested widgets."
+msgstr "Piese imbricate."
+
+#: lib/class-wp-rest-sidebars-controller.php:437
+msgid "Status of sidebar."
+msgstr "Starea barei laterale."
+
+#: lib/class-wp-rest-sidebars-controller.php:397
+msgid "Description of sidebar."
+msgstr "Descrierea barei laterale."
+
+#: lib/class-wp-rest-sidebars-controller.php:391
+msgid "Unique name identifying the sidebar."
+msgstr "Nume unic care identifică bara laterală."
+
+#: lib/class-wp-rest-sidebars-controller.php:385
+msgid "ID of sidebar."
+msgstr "ID-ul barei laterale."
+
+#: lib/class-wp-rest-sidebars-controller.php:81
+msgid "The id of a registered sidebar"
+msgstr "ID-ul unei bare laterală înregistrată"
+
+#: lib/class-wp-widget-block.php:33
+msgid "Gutenberg block."
+msgstr "Bloc Gutenberg."
+
+#: lib/full-site-editing/templates-utils.php:16 build/block-library/index.js:46
+msgid "Description"
+msgstr "Descriere"
+
+#: lib/full-site-editing/edit-site-page.php:204
+msgid "The ID of the page that should be displayed on the front page"
+msgstr "ID-ul paginii care ar trebui afișată în pagina din față"
+
+#: lib/full-site-editing/edit-site-page.php:194
+msgid "What to show on the front page"
+msgstr "Ce să arăți în pagina din față"
+
+#: lib/compat.php:190
+msgid "Reusable block scheduled."
+msgstr "Blocul reutilizabil a fost programat."
+
+#: lib/compat.php:189
+msgid "Reusable block reverted to draft."
+msgstr "Blocul reutilizabil a revenit la ciornă."
+
+#: lib/compat.php:188
+msgid "Reusable block published privately."
+msgstr "Blocul reutilizabil a fost publicat ca privat."
+
+#: lib/compat.php:187
+msgid "Reusable block published."
+msgstr "Blocul reutilizabil a fost publicat."
+
+#: lib/compat.php:186
+msgid "Reusable blocks list"
+msgstr "Listă blocuri reutilizabile"
+
+#: lib/compat.php:185
+msgid "Reusable blocks list navigation"
+msgstr "Navigare în lista cu blocuri reutilizabile"
+
+#: lib/compat.php:184
+msgid "Filter reusable blocks list"
+msgstr "Filtrează lista cu blocuri reutilizabile"
+
+#: lib/compat.php:183
+msgid "No reusable blocks found in Trash."
+msgstr "Nu am găsit niciun bloc reutilizabil la gunoi."
+
+#: lib/compat.php:182
+msgid "No reusable blocks found."
+msgstr "Nu am găsit niciun bloc reutilizabil."
+
+#: lib/compat.php:181
+msgid "Search Reusable blocks"
+msgstr "Caută blocuri reutilizabile"
+
+#: lib/compat.php:180
+msgid "All Reusable blocks"
+msgstr "Toate blocurile reutilizabile"
+
+#: lib/compat.php:179
+msgid "View Reusable block"
+msgstr "Vezi blocul reutilizabil"
+
+#: lib/compat.php:178
+msgid "Edit Reusable block"
+msgstr "Editează blocul reutilizabil"
+
+#: lib/compat.php:177
+msgid "New Reusable block"
+msgstr "Bloc reutilizabil nou"
+
+#: lib/compat.php:176
+msgid "Add new Reusable block"
+msgstr "Adaugă bloc reutilizabil nou"
+
+#: lib/compat.php:175
+msgctxt "Reusable block"
+msgid "Add New"
+msgstr "Adaugă un bloc reutilizabil nou"
+
+#: lib/compat.php:174
+msgctxt "add new on admin bar"
+msgid "Reusable block"
+msgstr "Bloc reutilizabil"
+
+#: lib/compat.php:173
+msgctxt "admin menu"
+msgid "Reusable blocks"
+msgstr "Blocuri reutilizabile"
+
+#: lib/compat.php:172
+msgctxt "post type singular name"
+msgid "Reusable block"
+msgstr "Bloc reutilizabil"
+
+#: lib/compat.php:171
+msgctxt "post type general name"
+msgid "Reusable blocks"
+msgstr "Blocuri reutilizabile"
+
+#: build/block-library/blocks/site-logo.php:95
+msgid "Site logo."
+msgstr "Logo sit."
+
+#: lib/class-wp-rest-menus-controller.php:589
+msgid "Whether to automatically add top level pages to this menu."
+msgstr "Indiferent dacă adaugi automat pagini de nivel superior în acest meniu."
+
+#: lib/class-wp-rest-menus-controller.php:171
+msgid "Sorry, you are not allowed to set auto add pages."
+msgstr "Regret, nu ai voie să setezi paginile cu adăugare automată."
+
+#: lib/class-wp-rest-menu-items-controller.php:1000
+msgid "Version of the block format used in the HTML content."
+msgstr "Versiune pentru formatul de bloc folosit în conținutul HTML."
+
+#: lib/class-wp-rest-menu-items-controller.php:994
+msgid "HTML content, transformed for display."
+msgstr "Conținutul HTML, transformat pentru afișare."
+
+#: lib/class-wp-rest-menu-items-controller.php:989
+msgid "HTML content, as it exists in the database."
+msgstr "Conținutul HTML, așa cum există în baza de date."
+
+#: lib/class-wp-rest-menu-items-controller.php:523
+msgid "Content required if menu item of type block."
+msgstr "Conținut cerut dacă elementul de meniu este de tipul bloc."
+
+#: lib/class-wp-rest-pattern-directory-controller.php:214
+msgid "The pattern title, in human readable format."
+msgstr "Titlul blocului, într-un format care poate fi citit de oameni."
+
+#. translators: %s: the author.
+#. translators: byline. %s: current author.
+#: build/block-library/blocks/rss.php:60
+#: build/block-library/blocks/latest-posts.php:114
+#: build/block-library/index.js:50
+msgid "by %s"
+msgstr "de %s"
+
+#: lib/class-wp-theme-json-resolver.php:221 build/block-editor/index.js:1
+msgid "White"
+msgstr "Alb"
+
+#: lib/class-wp-theme-json-resolver.php:219 build/block-editor/index.js:1
+#: build/block-editor/index.js:9
+msgid "Black"
+msgstr "Negru"
+
+#. translators: accessibility text for the content landmark region.
+#: lib/navigation.php:338 build/edit-widgets/index.js:7
+#: build/edit-post/index.js:7 build/edit-site/index.js:7
+#: build/edit-site/index.js:30
+msgid "Content"
+msgstr "Conținut"
+
+#: lib/experiments-page.php:50
+msgid "Enable Navigation screen"
+msgstr "Activează ecranul de navigare"
+
+#: gutenberg.php:62 gutenberg.php:63
+msgid "Navigation (beta)"
+msgstr "Navigare (beta)"
+
+#: lib/class-wp-rest-menu-items-controller.php:1105
+msgid "Sort collection by object attribute."
+msgstr "Sortează colecția după atribute obiect."
+
+#: lib/class-wp-rest-menu-items-controller.php:1098
+msgid "Order sort attribute ascending or descending."
+msgstr "Ordonează atributele de sortare crescător sau descrescător."
+
+#: lib/class-wp-rest-menu-items-controller.php:1093
+msgid "Limit result set to posts with a specific menu_order value."
+msgstr "Limitează setul de rezultate la articole cu o anumită valoare menu_order."
+
+#. translators: %s: taxonomy name
+#: lib/class-wp-rest-menu-items-controller.php:1059
+msgid "The terms assigned to the object in the %s taxonomy."
+msgstr "Termenii atribuiți obiectului în taxonomia %s."
+
+#: lib/class-wp-rest-menu-items-controller.php:1047
+msgid "Whether the menu item represents an object that no longer exists."
+msgstr "Indiferent dacă elementul de meniu reprezintă un obiect care nu mai există."
+
+#: lib/class-wp-rest-menu-items-controller.php:1033
+msgid "The XFN relationship expressed in the link of this menu item."
+msgstr "Relația XFN exprimată în legătura acestui element de meniu."
+
+#: lib/class-wp-rest-menu-items-controller.php:1026
+msgid "The URL to which this menu item points."
+msgstr "URL-ul la care indică acest element de meniu."
+
+#: lib/class-wp-rest-menu-items-controller.php:1019
+msgid "The singular label used to describe this type of menu item."
+msgstr "Singura etichetă folosită pentru a descrie acest tip de element de meniu."
+
+#: lib/class-wp-rest-menu-items-controller.php:1009
+msgid "The target attribute of the link element for this menu item."
+msgstr "Atributul țintă al elementului de legătură pentru acest element de meniu."
+
+#: lib/class-wp-rest-menu-items-controller.php:972
+msgid "The DB ID of the original object this menu item represents, e . g . ID for posts and term_id for categories."
+msgstr "ID-ul din baza de date al obiectului inițial pe care îl reprezintă acest element de meniu, de exemplu, ID pentru articole și term_id pentru categorii."
+
+#: lib/class-wp-rest-menu-items-controller.php:966
+msgid "The type of object originally represented, such as \"category,\" \"post\", or \"attachment.\""
+msgstr "Tipul de obiect reprezentat inițial, cum ar fi „categorie”, „articol” sau „atașament”."
+
+#: lib/class-wp-rest-menu-items-controller.php:959
+msgid "The DB ID of the nav_menu_item that is this item's menu parent, if any, otherwise 0."
+msgstr "ID-ul bazei de date al nav_menu_item care este părintele meniului pentru acest element, dacă există unul. În caz contrar, 0."
+
+#: lib/class-wp-rest-menu-items-controller.php:950
+msgid "The description of this menu item."
+msgstr "Descrierea acestui element de meniu."
+
+#: lib/class-wp-rest-menu-items-controller.php:936
+msgid "Class names for the link element of this menu item."
+msgstr "Numele clasei pentru elementul de legătură al acestui element de meniu."
+
+#: lib/class-wp-rest-menu-items-controller.php:927
+msgid "Text for the title attribute of the link element for this menu item."
+msgstr "Text pentru atributul de titlu al elementului de legătură pentru acest element de meniu."
+
+#: lib/class-wp-rest-menu-items-controller.php:911
+msgid "A named status for the object."
+msgstr "O stare numită pentru obiect."
+
+#: lib/class-wp-rest-menu-items-controller.php:903
+msgid "The family of objects originally represented, such as \"post_type\" or \"taxonomy\"."
+msgstr "Familia de obiecte reprezentate inițial, cum ar fi „post_type” sau „taxonomy”."
+
+#: lib/class-wp-rest-menu-items-controller.php:896
+msgid "Name of type."
+msgstr "Numele tipului."
+
+#: lib/class-wp-rest-menu-items-controller.php:878
+msgid "HTML title for the object, transformed for display."
+msgstr "Titlu HTML pentru obiect, transformat pentru afișare."
+
+#: lib/class-wp-rest-menu-items-controller.php:873
+msgid "Title for the object, as it exists in the database."
+msgstr "Titlu pentru obiect, așa cum există în baza de date."
+
+#: lib/class-wp-rest-menu-items-controller.php:834
+msgid "Get linked object."
+msgstr "Ia obiectul legat."
+
+#: lib/class-wp-rest-menu-items-controller.php:606
+msgid "Invalid URL."
+msgstr "URL invalid."
+
+#: lib/class-wp-rest-menu-items-controller.php:564
+#: lib/class-wp-rest-menu-items-controller.php:567
+msgid "Invalid menu item parent."
+msgstr "Părinte element de meniu invalid."
+
+#: lib/class-wp-rest-menu-items-controller.php:556
+msgid "Invalid menu position."
+msgstr "Poziție meniu invalidă."
+
+#: lib/class-wp-rest-menu-items-controller.php:531
+msgid "Invalid menu ID."
+msgstr "ID meniu invalid."
+
+#: lib/class-wp-rest-menu-items-controller.php:516
+msgid "URL required if menu item of type custom."
+msgstr "URL-ul necesar dacă elementul de meniu este de tipul personalizat."
+
+#: lib/class-wp-rest-menu-items-controller.php:513
+msgid "Title required if menu item of type custom."
+msgstr "Titlul necesar dacă elementul de meniu este de tipul personalizat."
+
+#: lib/class-wp-rest-menu-items-controller.php:495
+msgid "Invalid post ID."
+msgstr "ID articol invalid."
+
+#: lib/class-wp-rest-menu-items-controller.php:348
+msgid "The post cannot be deleted."
+msgstr "Articolul nu poate fi șters."
+
+#. translators: %s: force=true
+#: lib/class-wp-rest-menu-items-controller.php:340
+msgid "Menu items do not support trashing. Set '%s' to delete."
+msgstr "Elementele de meniu nu pot fi aruncate la gunoi. Setează „%s” pentru a șterge."
+
+#: lib/class-wp-rest-menu-items-controller.php:174
+msgid "Cannot create existing post."
+msgstr "Nu pot crea un articol existent."
+
+#: lib/class-wp-rest-menu-items-controller.php:160
+msgid "Sorry, you cannot view these menu items, unless you have access to permission edit them. "
+msgstr "Regret, nu poți vedea aceste elemente de meniu dacă nu ai acces la permisiunea de a le edita."
+
+#: lib/class-wp-rest-customizer-nonces.php:51
+#: lib/class-wp-rest-menu-items-controller.php:158
+msgid "Sorry, you are not allowed to edit posts in this post type."
+msgstr "Regret, nu ai voie să editezi articole în acest tip de articol."
+
+#: lib/class-wp-rest-menu-items-controller.php:142
+msgid "Sorry, you cannot view this menu item, unless you have access to permission edit it. "
+msgstr "Regret, nu poți vedea acest element de meniu dacă nu ai acces la permisiunea de a-l edita."
+
+#: lib/class-wp-rest-menus-controller.php:580
+msgid "The locations assigned to the menu."
+msgstr "Locațiile atribuite meniului."
+
+#: lib/class-wp-rest-menus-controller.php:552
+msgid "Menu location does not exist."
+msgstr "Locația meniului nu există."
+
+#: lib/class-wp-rest-menus-controller.php:458
+msgid "The term cannot be deleted."
+msgstr "Termenul nu poate fi șters."
+
+#. translators: %s: force=true
+#: lib/class-wp-rest-menus-controller.php:448
+msgid "Terms do not support trashing. Set '%s' to delete."
+msgstr "Termenii nu pot fi aruncați la gunoi. Setează „%s” pentru a șterge."
+
+#: lib/class-wp-rest-menus-controller.php:268
+#: lib/class-wp-rest-menus-controller.php:377
+msgid "Parent term does not exist."
+msgstr "Termenul părinte nu există."
+
+#: lib/class-wp-rest-menus-controller.php:262
+#: lib/class-wp-rest-menus-controller.php:371
+msgid "Cannot set parent term, taxonomy is not hierarchical."
+msgstr "Nu pot seta termenul părinte, taxonomia nu este ierarhică."
+
+#: lib/class-wp-rest-menus-controller.php:139
+msgid "Sorry, you are not allowed to assign the provided locations."
+msgstr "Regret, nu ai voie să atribui locațiile furnizate."
+
+#: lib/class-wp-rest-menus-controller.php:60
+msgid "Sorry, you cannot view this menu, unless you have access to permission edit it. "
+msgstr "Regret, nu poți vedea acest meniu dacă nu ai acces la permisiunea de a-l edita."
+
+#: lib/class-wp-rest-menus-controller.php:58
+msgid "Sorry, you are not allowed to edit this term."
+msgstr "Regret, nu ai voie să editezi acest termen."
+
+#: lib/class-wp-rest-menus-controller.php:40
+msgid "Sorry, you cannot view these menus, unless you have access to permission edit them. "
+msgstr "Regret, nu poți vedea aceste meniuri dacă nu ai acces la permisiunea de a le edita."
+
+#: lib/class-wp-rest-menus-controller.php:38
+msgid "Sorry, you are not allowed to edit terms in this taxonomy."
+msgstr "Regret, nu ai voie să editezi termeni în această taxonomie."
+
+#: lib/class-wp-rest-menu-locations-controller.php:206
+msgid "The ID of the assigned menu."
+msgstr "ID-ul meniului atribuit."
+
+#: lib/class-wp-rest-menu-locations-controller.php:200
+msgid "The description of the menu location."
+msgstr "Descrierea locației meniului."
+
+#: lib/class-wp-rest-menu-locations-controller.php:194
+msgid "The name of the menu location."
+msgstr "Numele locației meniului."
+
+#: lib/class-wp-rest-menus-controller.php:146
+#: lib/class-wp-rest-menu-locations-controller.php:116
+#: lib/class-wp-rest-menu-locations-controller.php:132
+msgid "Invalid menu location."
+msgstr "Locație meniu invalidă."
+
+#: lib/class-wp-rest-menu-locations-controller.php:76
+#: lib/class-wp-rest-menu-locations-controller.php:113
+msgid "Sorry, you are not allowed to view menu locations."
+msgstr "Regret, nu ai voie să vezi locațiile meniului."
+
+#: lib/class-wp-rest-menu-locations-controller.php:50
+msgid "An alphanumeric identifier for the menu location."
+msgstr "Un identificator alfanumeric pentru locația meniului."
+
+#: lib/class-wp-theme-json-resolver.php:440 build/edit-site/index.js:30
+msgid "Global Styles"
+msgstr "Stiluri globale"
+
+#: lib/full-site-editing/template-loader.php:69
+msgid "Empty template."
+msgstr "Șablon gol."
+
+#: lib/full-site-editing/template-loader.php:77
+msgid "No matching template found."
+msgstr "Nu am găsit niciun șablon care să se potrivească."
+
+#: lib/full-site-editing/templates-utils.php:18
+#: lib/full-site-editing/templates.php:99 build/edit-site/index.js:30
+msgid "Theme"
+msgstr "Temă"
+
+#: lib/experiments-page.php:98
+msgid "The block editor includes experimental features that are useable while they're in development. Select the ones you'd like to enable. These features are likely to change, so avoid using them in production."
+msgstr "Editorul de blocuri include funcționalități experimentale care pot fi folosite în timp ce sunt în dezvoltare. Selectează-le pe cele care vrei să le activezi. Este posibil ca aceste funcționalități să sufere modificări importante, deci evită utilizarea lor în producție."
+
+#: gutenberg.php:108
+msgid "Site Editor (beta)"
+msgstr "Editor sit (beta)"
+
+#: lib/class-wp-rest-widget-types-controller.php:82
+msgid "Current widget instance"
+msgstr "Instanță piesă curentă"
+
+#: lib/full-site-editing/template-parts.php:40
+msgid "Template parts to include in your templates."
+msgstr "Părți din șablon de inclus în șabloanele tale."
+
+#: lib/full-site-editing/template-parts.php:35
+msgid "Template parts list"
+msgstr "Listă cu părți din șablon"
+
+#: lib/full-site-editing/template-parts.php:34
+msgid "Template parts list navigation"
+msgstr "Navigare în lista cu părți din șablon"
+
+#: lib/full-site-editing/template-parts.php:33
+msgid "Filter template parts list"
+msgstr "Filtrează lista cu părți din șablon"
+
+#: lib/full-site-editing/template-parts.php:32
+msgid "Uploaded to this template part"
+msgstr "Încărcată în această parte din șablon"
+
+#: lib/full-site-editing/template-parts.php:31
+msgid "Insert into template part"
+msgstr "Inserează în partea din șablon"
+
+#: lib/full-site-editing/template-parts.php:30
+msgid "Template part archives"
+msgstr "Arhive părți din șablon"
+
+#: lib/full-site-editing/template-parts.php:29
+msgid "No template parts found in Trash."
+msgstr "Nicio parte din șablon găsită la gunoi."
+
+#: lib/full-site-editing/template-parts.php:28
+msgid "No template parts found."
+msgstr "Nicio parte din șablon găsită."
+
+#: lib/full-site-editing/template-parts.php:27
+msgid "Parent Template Part:"
+msgstr "Parte din șablon părinte:"
+
+#: lib/full-site-editing/template-parts.php:26
+msgid "Search Template Parts"
+msgstr "Caută părți din șablon"
+
+#: lib/full-site-editing/template-parts.php:25
+msgid "All Template Parts"
+msgstr "Toate părțile din șablon"
+
+#: lib/full-site-editing/template-parts.php:24
+msgid "View Template Part"
+msgstr "Vezi partea din șablon"
+
+#: lib/full-site-editing/template-parts.php:23
+msgid "Edit Template Part"
+msgstr "Editează partea din șablon"
+
+#: lib/full-site-editing/template-parts.php:22
+msgid "New Template Part"
+msgstr "Parte de șablon nouă"
+
+#: lib/full-site-editing/template-parts.php:21
+msgid "Add New Template Part"
+msgstr "Adaugă parte de șablon nouă"
+
+#: lib/full-site-editing/template-parts.php:20
+msgctxt "Template Part"
+msgid "Add New"
+msgstr "Adaugă parte nouă"
+
+#: lib/full-site-editing/template-parts.php:19
+msgctxt "Admin Menu text"
+msgid "Template Parts"
+msgstr "Părți din șablon"
+
+#: lib/full-site-editing/template-parts.php:18 build/block-library/index.js:73
+msgid "Template Part"
+msgstr "Parte de șablon"
+
+#: lib/full-site-editing/template-parts.php:17 build/edit-site/index.js:30
+msgid "Template Parts"
+msgstr "Părți din șablon"
+
+#: lib/experiments-page.php:45 build/edit-navigation/index.js:6
+msgid "Navigation"
+msgstr "Navigare"
+
+#: lib/full-site-editing/templates.php:54
+msgid "Templates list"
+msgstr "Listă de șabloane"
+
+#: lib/full-site-editing/templates.php:53
+msgid "Templates list navigation"
+msgstr "Navigare în lista de șabloane"
+
+#: lib/full-site-editing/templates.php:52
+msgid "Filter templates list"
+msgstr "Filtrează lista de șabloane"
+
+#: lib/full-site-editing/templates.php:51
+msgid "Uploaded to this template"
+msgstr "Încărcată în acest șablon"
+
+#: lib/full-site-editing/templates.php:50
+msgid "Insert into template"
+msgstr "Inserează în șablon"
+
+#: lib/full-site-editing/templates.php:49
+msgid "Template archives"
+msgstr "Arhive șabloane"
+
+#: lib/full-site-editing/templates.php:48
+msgid "No templates found in Trash."
+msgstr "Niciun șablon găsit la gunoi."
+
+#: lib/full-site-editing/templates.php:47
+msgid "No templates found."
+msgstr "Niciun șablon găsit."
+
+#: lib/full-site-editing/templates.php:46
+msgid "Parent Template:"
+msgstr "Șablon părinte:"
+
+#: lib/full-site-editing/templates.php:45
+msgid "Search Templates"
+msgstr "Caută șabloane"
+
+#: lib/full-site-editing/templates.php:44
+msgid "All Templates"
+msgstr "Toate șabloanele"
+
+#: lib/full-site-editing/templates.php:43
+msgid "View Template"
+msgstr "Vezi șablonul"
+
+#: lib/full-site-editing/templates.php:42
+msgid "Edit Template"
+msgstr "Editează șablonul"
+
+#: lib/full-site-editing/templates.php:41
+msgid "New Template"
+msgstr "Șablon nou"
+
+#: lib/full-site-editing/templates.php:40
+msgid "Add New Template"
+msgstr "Adaugă șablon nou"
+
+#: lib/full-site-editing/templates.php:39
+msgctxt "Template"
+msgid "Add New"
+msgstr "Adaugă șablon nou"
+
+#: lib/full-site-editing/templates.php:38
+msgctxt "Admin Menu text"
+msgid "Templates"
+msgstr "Șabloane"
+
+#. translators: ARIA label for the Template Settings Sidebar tab, not selected.
+#. translators: Text label for the Template Settings Sidebar tab.
+#: lib/full-site-editing/templates.php:37 build/edit-post/index.js:38
+#: build/edit-site/index.js:26 build/edit-site/index.js:28
+#: build/edit-site/index.js:29
+msgid "Template"
+msgstr "Șablon"
+
+#: lib/full-site-editing/template-loader.php:164
+msgid "No matching template found"
+msgstr "Nu am găsit niciun șablon care să se potrivească"
+
+#: lib/class-wp-theme-json-resolver.php:250 build/block-editor/index.js:1
+msgid "Midnight"
+msgstr "Miezul nopții"
+
+#: lib/class-wp-theme-json-resolver.php:249 build/block-editor/index.js:1
+msgid "Electric grass"
+msgstr "Verde electrizant"
+
+#: lib/class-wp-theme-json-resolver.php:248 build/block-editor/index.js:1
+msgid "Pale ocean"
+msgstr "Albastru-verde (ocean) pal"
+
+#: lib/class-wp-theme-json-resolver.php:247 build/block-editor/index.js:1
+msgid "Luminous dusk"
+msgstr "Crepuscul luminos"
+
+#: lib/class-wp-theme-json-resolver.php:246 build/block-editor/index.js:1
+msgid "Blush bordeaux"
+msgstr "Bordo roșu-violet"
+
+#: lib/class-wp-theme-json-resolver.php:245 build/block-editor/index.js:1
+msgid "Blush light purple"
+msgstr "Mov roșu-violet deschis"
+
+#: lib/class-wp-theme-json-resolver.php:244 build/block-editor/index.js:1
+msgid "Cool to warm spectrum"
+msgstr "Spectru de culori de la reci la calde"
+
+#: lib/class-wp-theme-json-resolver.php:243 build/block-editor/index.js:1
+msgid "Very light gray to cyan bluish gray"
+msgstr "De la gri foarte deschis la gri albăstrui-turcoaz"
+
+#: lib/class-wp-theme-json-resolver.php:242 build/block-editor/index.js:1
+msgid "Luminous vivid orange to vivid red"
+msgstr "De la portocaliu viu luminos la roșu viu"
+
+#: lib/class-wp-theme-json-resolver.php:241 build/block-editor/index.js:1
+msgid "Luminous vivid amber to luminous vivid orange"
+msgstr "De la chihlimbar viu luminos la portocaliu viu luminos"
+
+#: lib/class-wp-theme-json-resolver.php:240 build/block-editor/index.js:1
+msgid "Light green cyan to vivid green cyan"
+msgstr "De la turcoaz verde deschis la turcoaz verde viu"
+
+#: lib/class-wp-theme-json-resolver.php:239 build/block-editor/index.js:1
+msgid "Vivid cyan blue to vivid purple"
+msgstr "De la albastru turcoaz viu la violet viu"
+
+#: lib/full-site-editing/templates.php:59
+msgid "Templates to include in your theme."
+msgstr "Șabloane de inclus în tema ta."
+
+#: lib/full-site-editing/templates.php:36 build/edit-site/index.js:30
+msgid "Templates"
+msgstr "Șabloane"
+
+#: lib/class-wp-theme-json-resolver.php:230 build/block-editor/index.js:1
+msgid "Vivid purple"
+msgstr "Violet viu"
+
+#: gutenberg.php:89
+msgid "Experiments Settings"
+msgstr "Setări experimente"
+
+#: lib/experiments-page.php:19
+msgid "Experimental settings"
+msgstr "Setări experimentale"
+
+#. translators: %s: taxonomy name
+#: build/block-library/blocks/tag-cloud.php:28
+msgid "Your site doesn&#8217;t have any %s, so there&#8217;s nothing to display here at the moment."
+msgstr "Situl tău nu are nicio %s, deci momentan nu există nimic de afișat aici."
+
+#: build/block-library/blocks/search.php:25
+#: build/block-library/blocks/search.php:26
+#: build/block-library/blocks/search.php:52 build/block-editor/index.js:42
+#: build/block-library/index.js:59
+msgid "Search"
+msgstr "Caută"
+
+#: build/block-library/blocks/rss.php:23
+msgid "An error has occurred, which probably means the feed is down. Try again later."
+msgstr "A apărut o eroare, care, probabil, înseamnă că fluxul nu funcționează. Reîncercă mai târziu."
+
+#: build/block-library/blocks/rss.php:19
+msgid "RSS Error:"
+msgstr "Eroare RSS:"
+
+#: lib/editor-settings.php:28 build/block-editor/index.js:1
+msgid "Thumbnail"
+msgstr "Miniatură"
+
+#: lib/editor-settings.php:31 build/block-editor/index.js:1
+msgid "Full Size"
+msgstr "Dimensiune completă"
+
+#: lib/full-site-editing/default-template-types.php:69
+#: build/block-editor/index.js:66 build/blocks/index.js:1
+#: build/core-data/index.js:1
+msgid "Media"
+msgstr "Media"
+
+#: lib/class-wp-theme-json-resolver.php:263 build/block-library/index.js:68
+msgid "Huge"
+msgstr "Foarte mare"
+
+#: lib/class-wp-theme-json-resolver.php:261 lib/block-patterns.php:30
+#: lib/editor-settings.php:29 build/block-editor/index.js:1
+#: build/block-editor/index.js:9 build/components/index.js:10
+msgid "Medium"
+msgstr "Mediu"
+
+#: lib/class-wp-theme-json-resolver.php:260 build/block-library/index.js:68
+msgid "Normal"
+msgstr "Normal"
+
+#: build/block-library/blocks/archives.php:97
+msgid "No archives to show."
+msgstr "Nicio arhivă de arătat."
+
+#: post-content.php:41
+msgid "Beautiful landscape"
+msgstr "Peisaj frumos"
+
+#: post-content.php:185
+msgid "Thanks for testing Gutenberg!"
+msgstr "Îți mulțumim pentru testarea Gutenberg!"
+
+#: post-content.php:177
+msgid "Help build Gutenberg"
+msgstr "Ajută la construirea Gutenberg"
+
+#. translators: %s: Gutenberg GitHub repository URL
+#: post-content.php:168
+msgid "If you want to learn more about how to build additional blocks, or if you are interested in helping with the project, head over to the <a href=\"%s\">GitHub repository</a>."
+msgstr "Dacă vrei să afli mai multe despre cum să construiești blocuri suplimentare sau dacă ești interesat să ajuți proiectul, mergi la <a href=\"%s\">depozitarul GitHub</a>."
+
+#: post-content.php:159
+msgid "The WordPress community"
+msgstr "Comunitatea WordPress"
+
+#: post-content.php:159 build/block-library/index.js:8
+msgid "Code is Poetry"
+msgstr "Codul este poezie"
+
+#: post-content.php:155
+msgid "You can build any block you like, static or dynamic, decorative or plain. Here&#8217;s a pullquote block:"
+msgstr "Poți să construiești orice bloc vrei, static sau dinamic, decorativ sau simplu. Iată un bloc cu o citare succintă:"
+
+#: post-content.php:145
+msgid "Any block can opt into these alignments. The embed block has them also, and is responsive out of the box:"
+msgstr "Toate blocurile pot folosi aceste alinieri. Blocul de înglobare le are, de asemenea, și este gata de funcționare:"
+
+#: post-content.php:141
+msgid "The above is a gallery with just two images. It&#8217;s an easier way to create visually appealing layouts, without having to deal with floats. You can also easily convert the gallery back to individual images again, by using the block switcher."
+msgstr "Mai sus este o galerie cu doar două imagini. Este o modalitate mai ușoară de a crea aranjamente atrăgătoare din punct de vedere vizual, fără nicio problemă. De asemenea, poți converti ușor galeria înapoi la imagini individuale, folosind comutatorul pentru blocuri."
+
+#: post-content.php:128
+msgid "Sure, the full-wide image can be pretty big. But sometimes the image is worth it."
+msgstr "Desigur, imaginea în lățime completă poate fi destul de mare. Dar uneori imaginea merită."
+
+#: post-content.php:124
+msgid "Accessibility is important &mdash; don&#8217;t forget image alt attribute"
+msgstr "Accesibilitatea este importantă &mdash; nu uita de atributul alternativă imagine"
+
+#: post-content.php:120
+msgid "If you combine the new <strong>wide</strong> and <strong>full-wide</strong> alignments with galleries, you can create a very media rich layout, very quickly:"
+msgstr "Dacă combini noile alinieri <strong>mare</strong> și <strong>lățime completă</strong> cu galeriile, poți crea un aranjament cu foarte multe elemente media, foarte repede:"
+
+#: post-content.php:116
+msgid "Media Rich"
+msgstr "Multă media"
+
+#: post-content.php:112
+msgid "You can change the amount of columns in your galleries by dragging a slider in the block inspector in the sidebar."
+msgstr "Poți modifica numărul de coloane din galerii prin tragerea unui carusel în inspectorul de blocuri din bara laterală."
+
+#: post-content.php:98
+msgid "Blocks can be anything you need. For instance, you may want to add a subdued quote as part of the composition of your text, or you may prefer to display a giant stylized one. All of these options are available in the inserter."
+msgstr "Blocurile pot face orice ai nevoie. De exemplu, poate vrei să adaugi un citat discret în conținutul textului sau poate preferi să afișezi unul cu litere uriașe. Toate aceste opțiuni sunt disponibile în dispozitivul de inserare."
+
+#: post-content.php:94
+msgid "The information corresponding to the source of the quote is a separate text field, similar to captions under images, so the structure of the quote is protected even if you select, modify, or remove the source. It&#8217;s always easy to add it back."
+msgstr "Informațiile corespunzătoare sursei citatului sunt într-un câmp de text separat, similar cu textele asociate de sub imagini, astfel structura citatului este protejată chiar dacă selectezi, modifici sau înlături sursa. Este mereu ușor să-l adaugi înapoi."
+
+#: post-content.php:89
+msgid "Matt Mullenweg, 2017"
+msgstr "Matt Mullenweg, 2017"
+
+#: post-content.php:88
+msgid "The editor will endeavor to create a new page and post building experience that makes writing rich posts effortless, and has “blocks” to make it easy what today might take shortcodes, custom HTML, or “mystery meat” embed discovery."
+msgstr "Editorul se va strădui să creeze o nouă experiență în construirea articolelor și paginilor care să facă facilă scrierea unor articole bogate și are „blocuri” care să ușureze ceea ce fac astăzi scurt-codurile, HTML-ul personalizat și altele."
+
+#: post-content.php:83
+msgid "A huge benefit of blocks is that you can edit them in place and manipulate your content directly. Instead of having fields for editing things like the source of a quote, or the text of a button, you can directly change the content. Try editing the following quote:"
+msgstr "Un avantaj imens al blocurilor este că le poți edita pe loc și să-ți gestionezi direct conținutul. În loc să ai câmpuri pentru editarea elementelor, cum ar fi sursa unui citat sau textul unui buton, poți schimba direct conținutul. Încearcă editarea citatului următor:"
+
+#: post-content.php:79
+msgid "Visual Editing"
+msgstr "Editare vizuală"
+
+#: post-content.php:70
+msgid "And <em>Lists</em> like this one of course :)"
+msgstr "Și <em>liste</em>  ca aceasta, bineînțeles :)"
+
+#: post-content.php:69
+msgid "Layout blocks, like Buttons, Hero Images, Separators, etc."
+msgstr "Blocuri de aspect, cum ar fi butoane, imagini Hero, separatori etc."
+
+#: post-content.php:68
+msgid "Embeds, like YouTube, Tweets, or other WordPress posts."
+msgstr "Înglobări, cum ar fi YouTube, twituri sau alte articole WordPress."
+
+#: post-content.php:67
+msgid "Galleries"
+msgstr "Galerii"
+
+#: post-content.php:66
+msgid "Images &amp; Videos"
+msgstr "Imagini și videouri"
+
+#: post-content.php:65
+msgid "Text &amp; Headings"
+msgstr "Text și subtitluri"
+
+#: post-content.php:60
+msgid "Go give it a try, you may discover things WordPress can already add into your posts that you didn&#8217;t know about. Here&#8217;s a short list of what you can currently find there:"
+msgstr "Încearcă-l, poți descoperi unele lucruri pe care WordPress poate le-a adăugat deja în articolele tale, de care nu știai. Iată o scurtă listă cu ceea ce poți găsi în prezent:"
+
+#: post-content.php:56
+msgid "Imagine everything that WordPress can do is available to you quickly and in the same place on the interface. No need to figure out HTML tags, classes, or remember complicated shortcode syntax. That&#8217;s the spirit behind the inserter—the <code>(+)</code> button you&#8217;ll see around the editor—which allows you to browse all available content blocks and add them into your post. Plugins and themes are able to register their own, opening up all sort of possibilities for rich editing and publishing."
+msgstr "Imaginează-ți că tot ceea ce poate face WordPress este disponibil rapid și în același loc, pe o interfață. Nu trebuie să ai cunoștințe despre taguri HTML, clase sau să-ți amintești sintaxa complicată a scurt-codurilor. Acesta este spiritul din spatele înserărilor - butonul <code>(+)</code> pe care îl vei vedea peste tot în editor - care îți permite să răsfoiești toate blocurile de conținut disponibile și să le adaugi în articolul tău. Modulele și temele pot să-și înregistreze propriile lor blocuri, deschizând tot felul de posibilități pentru editare, redactare și publicare."
+
+#: post-content.php:52
+msgid "The <em>Inserter</em> Tool"
+msgstr "Instrumentul <em>Inserări</em>"
+
+#: post-content.php:48
+msgid "Try selecting and removing or editing the caption, now you don&#8217;t have to be careful about selecting the image or other text by mistake and ruining the presentation."
+msgstr "Încearcă selectarea și înlăturarea sau editarea textului asociat, acum nu trebuie să fii foarte atent dacă selectezi o imagine sau un alt text din greșeală pentru că nu strici prezentarea."
+
+#: post-content.php:42
+msgid "If your theme supports it, you&#8217;ll see the \"wide\" button on the image toolbar. Give it a try."
+msgstr "Dacă tema ta îl suportă, vei vedea butonul „mare” în bara de unelte pentru imagini. Încearcă-l."
+
+#: post-content.php:36
+msgid "Handling images and media with the utmost care is a primary focus of the new editor. Hopefully, you&#8217;ll find aspects of adding captions or going full-width with your pictures much easier and robust than before."
+msgstr "Gestionarea cu maximă atenție a imaginilor și elementelor media este punctul central al noului editor. Sperăm că toate aspectele legate de adăugarea de texte asociate sau de lățimea completă a imaginilor îți vor părea mult mai ușoare și mai robuste decât înainte."
+
+#: post-content.php:32
+msgid "A Picture is Worth a Thousand Words"
+msgstr "O fotografie valorează mai mult decât o mie de cuvinte"
+
+#: post-content.php:28
+msgid "Headings are separate blocks as well, which helps with the outline and organization of your content."
+msgstr "Subtitlurile sunt și ele blocuri separate, care te ajută la conturarea și organizarea conținutului."
+
+#: post-content.php:24
+msgid "... like this one, which is right aligned."
+msgstr "... ca acesta, care este aliniat corect."
+
+#: post-content.php:20
+msgid "What you are reading now is a <strong>text block</strong> the most basic block of all. The text block has its own controls to be moved freely around the post..."
+msgstr "Ceea ce citești acum este un <strong>bloc text</strong>, care este blocul de bază. Blocul text are comenzi proprii pentru a fi mutat fără nicio restricție oriunde în articol."
+
+#: post-content.php:16
+msgid "The goal of this new editor is to make adding rich content to WordPress simple and enjoyable. This whole post is composed of <em>pieces of content</em>—somewhat similar to LEGO bricks—that you can move around and interact with. Move your cursor around and you&#8217;ll notice the different blocks light up with outlines and arrows. Press the arrows to reposition blocks quickly, without fearing about losing things in the process of copying and pasting."
+msgstr "Scopul acestui editor nou este de a face mai simplă și mai plăcută adăugarea unui conținut bogat în WordPress. Acest articol este compus în totalitate din <em>bucăți de conținut</em> - ceva similar cu piesele LEGO - pe care le poți muta și totodată să interacționezi cu ele. Mută cursorul în toate părțile și vei observa că diferite blocuri se luminează cu contururi și săgeți. Apasă pe săgeți pentru a repoziționa rapid blocurile, fără teamă că pierzi lucruri în procesul de copiere și plasare."
+
+#: post-content.php:11
+msgid "Of Mountains &amp; Printing Presses"
+msgstr "De munți și prese de tipărire"
+
+#: lib/demo.php:59
+msgid "Welcome to the Gutenberg Editor"
+msgstr "Bine ai venit la editorul Gutenberg"
+
+#: lib/class-wp-rest-menu-items-controller.php:862
+msgid "The title for the object."
+msgstr "Titlul pentru obiect."
+
+#: lib/class-wp-rest-menu-items-controller.php:68
+#: lib/class-wp-rest-menu-items-controller.php:887
+msgid "Unique identifier for the object."
+msgstr "Identificator unic pentru obiect."
+
+#: lib/class-wp-theme-json-resolver.php:259 lib/block-patterns.php:50
+#: build/block-library/index.js:68 build/components/index.js:10
+msgid "Small"
+msgstr "Mic"
+
+#: gutenberg.php:76
+msgid "https://wordpress.org/support/plugin/gutenberg/"
+msgstr "https://wordpress.org/support/plugin/gutenberg/"
+
+#: gutenberg.php:73 gutenberg.php:74
+msgid "Support"
+msgstr "Suport"
+
+#: build/block-library/blocks/latest-comments.php:141
+msgid "No comments to show."
+msgstr "Niciun comentariu de arătat."
+
+#. translators: 1: author name (inside <a> or <span> tag, based on if they have
+#. a URL), 2: post title related to this comment
+#: build/block-library/blocks/latest-comments.php:99
+msgid "%1$s on %2$s"
+msgstr "%1$s pe %2$s"
+
+#: build/block-library/blocks/archives.php:57
+msgid "Select Post"
+msgstr "Selectează articolul"
+
+#: build/block-library/blocks/archives.php:54
+msgid "Select Week"
+msgstr "Selectează săptămâna"
+
+#: build/block-library/blocks/archives.php:51
+msgid "Select Day"
+msgstr "Selectează ziua"
+
+#: build/block-library/blocks/archives.php:48
+msgid "Select Month"
+msgstr "Selectează luna"
+
+#: build/block-library/blocks/archives.php:45
+msgid "Select Year"
+msgstr "Selectează anul"
+
+#: build/block-library/blocks/archives.php:27
+msgid "Archives"
+msgstr "Arhive"
+
+#: lib/class-wp-theme-json-resolver.php:220 build/block-editor/index.js:1
+msgid "Cyan bluish gray"
+msgstr "Gri albăstrui cyan"
+
+#: lib/class-wp-theme-json-resolver.php:229 build/block-editor/index.js:1
+msgid "Vivid cyan blue"
+msgstr "Albastru cyan viu"
+
+#: lib/class-wp-theme-json-resolver.php:228 build/block-editor/index.js:1
+msgid "Pale cyan blue"
+msgstr "Albastru cyan pal"
+
+#: lib/class-wp-theme-json-resolver.php:227 build/block-editor/index.js:1
+msgid "Vivid green cyan"
+msgstr "Cyan verde viu"
+
+#: lib/class-wp-theme-json-resolver.php:226 build/block-editor/index.js:1
+msgid "Light green cyan"
+msgstr "Cyan verde deschis"
+
+#: lib/class-wp-theme-json-resolver.php:225 build/block-editor/index.js:1
+msgid "Luminous vivid amber"
+msgstr "Chihlimbar viu luminos"
+
+#: lib/class-wp-theme-json-resolver.php:224 build/block-editor/index.js:1
+msgid "Luminous vivid orange"
+msgstr "Portocaliu viu luminos"
+
+#: lib/class-wp-theme-json-resolver.php:223 build/block-editor/index.js:1
+msgid "Vivid red"
+msgstr "Roșu viu"
+
+#: lib/class-wp-theme-json-resolver.php:222 build/block-editor/index.js:1
+msgid "Pale pink"
+msgstr "Roz pal"
+
+#: lib/class-wp-theme-json-resolver.php:262 lib/block-patterns.php:12
+#: lib/editor-settings.php:30 build/block-editor/index.js:1
+#: build/block-library/index.js:68 build/components/index.js:10
+msgid "Large"
+msgstr "Mare"
+
+#: lib/class-wp-rest-menu-items-controller.php:487
+msgid "Invalid term ID."
+msgstr "ID termen invalid."
+
+#: lib/class-wp-rest-menu-items-controller.php:919
+msgid "The ID for the parent of the object."
+msgstr "ID-ul pentru părintele obiectului."
+
+#: gutenberg.php:112
+msgid "beta"
+msgstr "beta"
+
+#: lib/full-site-editing/templates-utils.php:17 build/editor/index.js:5
+msgid "Status"
+msgstr "Stare"
+
+#. translators: ARIA label for the Block Settings Sidebar tab, not selected.
+#. translators: Text label for the Block Settings Sidebar tab.
+#. translators: Text label for the Template Settings Sidebar tab.
+#: lib/class-wp-widget-block.php:40 lib/navigation.php:91 lib/navigation.php:96
+#: build/edit-widgets/index.js:23 build/edit-post/index.js:37
+#: build/edit-post/index.js:38 build/edit-site/index.js:28
+#: build/edit-site/index.js:29 build/edit-site/index.js:30
+msgid "Block"
+msgstr "Bloc"
+
+#: build/block-library/blocks/rss.php:31
+#: build/block-library/blocks/latest-comments.php:31
+#: build/block-library/blocks/latest-posts.php:102 build/editor/index.js:21
+#: build/editor/index.js:35 build/block-library/index.js:30
+#: build/block-library/index.js:48 build/edit-navigation/index.js:6
+#: build/edit-post/index.js:40 build/edit-site/index.js:30
+msgid "(no title)"
+msgstr "(fără titlu)"
+
+#: gutenberg.php:90
+msgid "Experiments"
+msgstr "Experimente"
+
+#: gutenberg.php:49 gutenberg.php:50 lib/experiments-page.php:56
+#: build/edit-widgets/index.js:24 build/blocks/index.js:1
+#: build/core-data/index.js:1
+msgid "Widgets"
+msgstr "Piese"
+
+#. Description of the plugin
+msgid "Printing since 1440. This is the development plugin for the new block editor in core."
+msgstr "Tipărirea a început în jurul anului 1440. Acesta este modulul de dezvoltare pentru noul editor de blocuri din nucleu."
+
+#: lib/class-wp-rest-widgets-controller.php:756
+msgid "Unique identifier for the widget."
+msgstr "Identificator unic pentru piesă."
+
+#: gutenberg.php:186
+msgid "Gutenberg development mode requires files to be built. Run <code>npm install</code> to install dependencies, <code>npm run build</code> to build the files or <code>npm run dev</code> to build the files and watch for changes. Read the <a href=\"https://github.com/WordPress/gutenberg/blob/HEAD/docs/contributors/getting-started.md\">contributing</a> file for more information."
+msgstr "Modul de dezvoltare Gutenberg necesită construirea de fișiere. Rulează <code>npm install</code> pentru a instala dependențe, <code>npm run build</code> pentru a construi fișierele sau <code>npm run dev</code> pentru a construi fișierele și pentru a urmări modificările. Pentru mai multe informații, citește fișierul <a href=\"https://github.com/WordPress/gutenberg/blob/HEAD/docs/contributors/getting-started.md\">contribuie</a>."
+
+#. translators: button label text should, if possible, be under 16 characters.
+#: lib/full-site-editing/templates-utils.php:15 build/editor/index.js:25
+#: build/components/index.js:5
+msgid "Slug"
+msgstr "Descriptor"
+
+#: gutenberg.php:80 gutenberg.php:81
+msgid "Documentation"
+msgstr "Documentație"
+
+#: build/block-library/blocks/categories.php:30
+msgid "Select Category"
+msgstr "Selectează categoria"
+
+#: lib/class-wp-rest-menu-items-controller.php:506
+msgid "Invalid post type."
+msgstr "Tip de articol nevalid."
+
+#. translators: %s: Minimum required version
+#: gutenberg.php:173
+msgid "Gutenberg requires WordPress %s or later to function properly. Please upgrade WordPress before activating Gutenberg."
+msgstr "Pentru a funcționa corect, Gutenberg necesită WordPress %s sau o versiune ulterioară. Te rog actualizează WordPress înainte de a activa Gutenberg."
+
+#. Author of the plugin
+msgid "Gutenberg Team"
+msgstr "Echipa Gutenberg"
+
+#. Plugin URI of the plugin
+msgid "https://github.com/WordPress/gutenberg"
+msgstr "https://github.com/WordPress/gutenberg"
+
+#. Plugin Name of the plugin
+msgid "Gutenberg"
+msgstr "Gutenberg"
+
+#: gutenberg.php:41 gutenberg.php:42
+msgid "Demo"
+msgstr "Demonstrație"

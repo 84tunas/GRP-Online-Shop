@@ -1,0 +1,1422 @@
+# Translation of Plugins - Gutenberg - Development (trunk) in Norwegian (Bokmål)
+# This file is distributed under the same license as the Plugins - Gutenberg - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-04-02 14:48:11+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: nb_NO\n"
+"Project-Id-Version: Plugins - Gutenberg - Development (trunk)\n"
+
+#: lib/full-site-editing/default-template-types.php:82
+msgid "Template shown when no content is found."
+msgstr "Mal som vises når intet innhold er funnet."
+
+#: lib/full-site-editing/default-template-types.php:74
+msgid "Template used to display search results."
+msgstr "Mal som brukes for å vise søkeresultater."
+
+#: lib/full-site-editing/default-template-types.php:73
+msgctxt "Template name"
+msgid "Search"
+msgstr "Søk"
+
+#: lib/full-site-editing/default-template-types.php:70
+msgid "Template used to display individual media items or attachments."
+msgstr "Mal som brukes for å vise individuelle media-elementer eller vedlegg."
+
+#: lib/full-site-editing/default-template-types.php:66
+msgid "Archive template used to display a list of posts with a given tag."
+msgstr "Arkivmal som brukes til å vise en liste over innlegg med et bestemt stikkord."
+
+#: lib/full-site-editing/default-template-types.php:65
+msgctxt "Template name"
+msgid "Tag"
+msgstr "Stikkord"
+
+#: lib/full-site-editing/default-template-types.php:62
+msgid "Archive template used to display a list of posts from a specific date."
+msgstr "Arkvimal som brukes til å vise en liste over innlegg på en bestemt dato."
+
+#: lib/full-site-editing/default-template-types.php:61
+msgctxt "Template name"
+msgid "Date"
+msgstr "Dato"
+
+#: lib/full-site-editing/default-template-types.php:58
+msgid "Archive template used to display a list of posts from the same taxonomy."
+msgstr "Arkivmal som brukes til å vise en liste over innlegg fra samme taskpnnomi"
+
+#: lib/full-site-editing/default-template-types.php:57
+msgctxt "Template name"
+msgid "Taxonomy"
+msgstr "Taksonomi"
+
+#: lib/full-site-editing/default-template-types.php:54
+msgid "Archive template used to display a list of posts from the same category."
+msgstr "Arkivmal som brukes til å vise en liste over innlegg fra samme kategori."
+
+#: lib/full-site-editing/default-template-types.php:53
+msgctxt "Template name"
+msgid "Category"
+msgstr "Kategori"
+
+#: lib/full-site-editing/default-template-types.php:50
+msgid "Archive template used to display a list of posts from a single author."
+msgstr "Arkivmal som brukes til å vise en liste over innlegg fra en enkelt forfatter."
+
+#: lib/full-site-editing/default-template-types.php:49
+msgctxt "Template name"
+msgid "Author"
+msgstr "Forfatter"
+
+#: lib/full-site-editing/default-template-types.php:46
+msgid "The archive template displays multiple entries at once. It is used as a fallback for the Category, Author, and Date templates, which take precedence when they are available."
+msgstr "Arkivmalen viser flere innlegg på en gang. Den blir brukt som en reserve for kategori-, forfatter- og datomalene, som alle tar forrang når de er tilgjengelige."
+
+#: lib/full-site-editing/default-template-types.php:42
+msgid "Template used to display individual pages."
+msgstr "Mal brukt til å vise individuelle sider."
+
+#: lib/full-site-editing/default-template-types.php:38
+msgid "Template used to display a single post type."
+msgstr "Mal brukt til å vise enkeltinnhold."
+
+#: lib/full-site-editing/default-template-types.php:34
+msgid "Template used to display a single blog post."
+msgstr "Mal brukt til å vise enkeltinnlegg."
+
+#: lib/full-site-editing/default-template-types.php:30
+msgid "Template used for displaying single views of the content. This template is a fallback for the Single, Post, and Page templates, which take precedence when they exist."
+msgstr "Mal brukt til å vise enkeltinnhold. Denne malen er en reserve for enkelt- innlegg- og sidemalen, som tar forrang når de eksisterer."
+
+#: lib/full-site-editing/default-template-types.php:26
+msgid "Template used to render the front page of the site, whether it displays blog posts or a static page. The front page template takes precedence over the \"Home\" template."
+msgstr "Mal brukt til å vise forsiden på nettstedet, enten den viser innlegg eller en statisk side. Forsidemalen tar forrang over hjem-malen."
+
+#: lib/full-site-editing/default-template-types.php:22
+msgid "Template used for the main page that displays blog posts. This is the front page by default in WordPress. If a static front page is set, this is the template used for the page that contains the latest blog posts."
+msgstr "Mal brukt hovedsiden brukt til innlegg. Dette er standard forside i WordPress. Om en statisk forside er bestemt brukes denne malen for siden som inneholder siste innlegg."
+
+#: lib/full-site-editing/default-template-types.php:18
+msgid "The default template used when no other template is available. This is a required template in WordPress."
+msgstr "Standardmalen som brukes når ingen andre maler er tilgjengelige. Denne er en påkrevd mal i WordPress."
+
+#. translators: %s are the block attributes.
+#: build/block-library/blocks/template-part.php:77
+msgid "Could not render Template Part block with the attributes: <code>%s</code>. Block cannot be rendered inside itself."
+msgstr "Kunne ikke gjengi delmal-blokk med attributter: <code>%s</code>. En blokk kan ikke gjengis inne i seg selv."
+
+#: build/block-library/blocks/template-part.php:69
+msgid "Template Part not found."
+msgstr "Delmal ikke funnet."
+
+#: lib/compat.php:191
+msgid "Reusable block updated."
+msgstr "Gjenbrukbar blokk oppdatert."
+
+#: lib/class-wp-rest-widget-types-controller.php:345
+msgid "Human-readable name identifying the widget type."
+msgstr "Lesbart navn for å identifisere typen widget."
+
+#: lib/class-wp-rest-widget-types-controller.php:57
+#: lib/class-wp-rest-widget-types-controller.php:77
+msgid "The widget type id."
+msgstr "Widget-type-ID."
+
+#: lib/full-site-editing/template-parts.php:79
+msgid "Template Part Area"
+msgstr "Delmalområde"
+
+#: lib/full-site-editing/template-parts.php:78
+msgid "Template Part Areas"
+msgstr "Delmalområder"
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:558
+msgid "Where the template part is intended for use (header, footer, etc.)"
+msgstr "Hvor delmalen er ment brukt (topp, bunn osv.)"
+
+#: build/block-library/blocks/post-navigation-link.php:35
+msgctxt "label for previous post link"
+msgid "Previous"
+msgstr "Forrige"
+
+#: build/block-library/blocks/post-navigation-link.php:35
+msgctxt "label for next post link"
+msgid "Next"
+msgstr "Neste"
+
+#: lib/experiments-page.php:61
+msgid "Enable Widgets screen in Customizer"
+msgstr "Slå på widgets-skjermen i Tilpass"
+
+#: lib/class-wp-rest-pattern-directory-controller.php:285
+msgid "Limit results to those matching a keyword ID."
+msgstr "Begrens resultater til de som passer med en nøkkelord-ID."
+
+#: lib/class-wp-rest-url-details-controller.php:198
+msgid "Unable to retrieve body from response at this URL."
+msgstr "Kunne ikke hente brødtekst fra respons med denne URL."
+
+#: lib/class-wp-rest-url-details-controller.php:192
+msgid "URL not found. Response returned a non-200 status code for this URL."
+msgstr "URL ikke funnet. Responsen fra denne URLen returnerte en statuskode som ikke er 200."
+
+#: lib/class-wp-rest-url-details-controller.php:96
+msgid "Invalid URL"
+msgstr "Ugyldig URL"
+
+#: lib/class-wp-rest-pattern-directory-controller.php:279
+msgid "Limit results to those matching a category ID."
+msgstr "Begrens resultater til de som samsvarer med en kategori-ID."
+
+#: lib/class-wp-rest-pattern-directory-controller.php:244
+msgid "A description of the pattern."
+msgstr "En beskrivelse av mønsteret."
+
+#: lib/class-wp-rest-pattern-directory-controller.php:221
+msgid "The pattern content."
+msgstr "Innholdet av mønsteret."
+
+#: lib/class-wp-rest-pattern-directory-controller.php:207
+msgid "The pattern ID."
+msgstr "Mønster-ID."
+
+#: lib/class-wp-rest-pattern-directory-controller.php:129
+msgid "https://wordpress.org/support/forums/"
+msgstr "https://wordpress.org/support/forums/"
+
+#: build/block-library/blocks/query-pagination-previous.php:22
+msgid "&laquo; Previous Page"
+msgstr "&laquo; Forrige side"
+
+#: build/block-library/blocks/query-pagination-next.php:23
+msgid "Next Page &raquo;"
+msgstr "Neste side &raquo;"
+
+#: lib/full-site-editing/block-templates.php:224
+msgid "No theme is defined for this template."
+msgstr "Intet tema definert for denne malen."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:548
+msgid "Post ID."
+msgstr "Innleggs-ID."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:542
+msgid "Status of template."
+msgstr "Status for mal."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:536
+msgid "Description of template."
+msgstr "Beskrivelse av mal."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:530
+msgid "Title of template."
+msgstr "Navn på mal."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:524
+msgid "Content of template."
+msgstr "Innhold av mal."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:518
+msgid "Whether the template is customized."
+msgstr "Om malen er tilpasset."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:513
+msgid "Theme identifier for the template."
+msgstr "Tema-identifikator for malen."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:505
+msgid "Unique slug identifying the template."
+msgstr "Unik identifikator for malen."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:499
+msgid "ID of template."
+msgstr "ID for mal."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:477
+msgid "Limit to the specified post id."
+msgstr "Begrens til den angitte innleggs-ID."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:312
+msgid "The template has already been deleted."
+msgstr "Denne malen har allerede blitt slettet."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:287
+msgid "Templates based on theme files can't be removed."
+msgstr "Maler basert på temafiler kan ikke fjernes."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:174
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:199
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:250
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:284
+msgid "No templates exist with that id."
+msgstr "Ingen maler finnes med den IDen."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:70
+msgid "The id of a template"
+msgstr "ID-en for en mal"
+
+#: lib/client-assets.php:101 build/i18n/index.js:1
+msgctxt "text direction"
+msgid "ltr"
+msgstr "ltr"
+
+#: lib/full-site-editing/default-template-types.php:29
+msgctxt "Template name"
+msgid "Singular"
+msgstr "Enkeltvis"
+
+#: lib/full-site-editing/full-site-editing.php:83
+msgid "Edit site"
+msgstr "Rediger nettsted"
+
+#: lib/full-site-editing/templates.php:98
+msgid "Themes"
+msgstr "Temaer"
+
+#. translators: %s: Number of auto-draft posts.
+#: lib/full-site-editing/templates-utils.php:91
+msgctxt "Post status"
+msgid "Auto-Draft <span class=\"count\">(%s)</span>"
+msgid_plural "Auto-Drafts <span class=\"count\">(%s)</span>"
+msgstr[0] "Auto-kladd <span class=\"count\">(%s)</span>"
+msgstr[1] "Auto-kladd <span class=\"count\">(%s)</span>"
+
+#: lib/full-site-editing/templates-utils.php:47
+msgctxt "Post status"
+msgid "Auto-Draft"
+msgstr "Automatisk kladd"
+
+#: lib/full-site-editing/default-template-types.php:81
+msgctxt "Template name"
+msgid "404"
+msgstr "404"
+
+#: lib/full-site-editing/default-template-types.php:77
+msgid "Privacy Policy"
+msgstr "Personvernerklæring"
+
+#: lib/full-site-editing/default-template-types.php:41
+msgctxt "Template name"
+msgid "Page"
+msgstr "Side"
+
+#: lib/full-site-editing/default-template-types.php:37
+msgctxt "Template name"
+msgid "Post"
+msgstr "Innlegg"
+
+#: lib/full-site-editing/default-template-types.php:21
+msgctxt "Template name"
+msgid "Home"
+msgstr "Hjemme"
+
+#. translators: %s: "beta" label.
+#: gutenberg.php:111
+msgid "Site Editor %s"
+msgstr "Nettstedsredigering %s"
+
+#: lib/full-site-editing/default-template-types.php:17
+msgctxt "Template name"
+msgid "Index"
+msgstr "Indeks"
+
+#: lib/full-site-editing/default-template-types.php:33
+msgctxt "Template name"
+msgid "Single"
+msgstr "Enkeltvis"
+
+#: lib/full-site-editing/default-template-types.php:45
+msgctxt "Template name"
+msgid "Archive"
+msgstr "Arkiv"
+
+#: lib/full-site-editing/default-template-types.php:25
+msgctxt "Template name"
+msgid "Front Page"
+msgstr "Forside"
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:89
+#: lib/class-wp-rest-menu-items-controller.php:92
+msgid "Whether to bypass Trash and force deletion."
+msgstr "Om man skal hoppe over papirkurven og tvinge sletting."
+
+#: lib/class-wp-rest-menu-items-controller.php:58
+msgid "The password for the post if it is password protected."
+msgstr "Passordet for innlegget hvis det er passordbeskyttet."
+
+#: lib/class-wp-rest-batch-controller.php:216
+msgid "The handler for the route is invalid"
+msgstr "Behandleren for ruten er ikke gyldig"
+
+#: lib/class-wp-rest-batch-controller.php:89
+msgid "Could not parse the path."
+msgstr "Klarte ikke å tolke filbanen."
+
+#: lib/class-wp-rest-widgets-controller.php:501
+msgid "The requested widget is invalid."
+msgstr "Den forespurte modulen er ugyldig."
+
+#: lib/class-wp-rest-widget-types-controller.php:372
+msgid "Widget class name."
+msgstr "Modulens klassenavn."
+
+#: lib/class-wp-rest-widget-types-controller.php:365
+msgid "Option name."
+msgstr "Navn på innstillingen."
+
+#: lib/class-wp-rest-widget-types-controller.php:358
+msgid "Class name"
+msgstr "Klassenavn"
+
+#: lib/class-wp-rest-widget-types-controller.php:187
+msgid "Invalid widget type."
+msgstr "Ugyldig modultype."
+
+#: lib/class-wp-rest-sidebars-controller.php:258
+msgid "Inactive widgets"
+msgstr "Inaktive widgeter"
+
+#: lib/class-wp-rest-widgets-controller.php:805
+msgid "Settings of the widget."
+msgstr "Innstillinger for widgeten."
+
+#: lib/class-wp-rest-widgets-controller.php:788
+msgid "Number of the widget."
+msgstr "Modulens nummer."
+
+#: lib/class-wp-rest-widget-types-controller.php:352
+#: lib/class-wp-rest-widgets-controller.php:783
+msgid "Description of the widget."
+msgstr "Modulens beskrivelse."
+
+#: lib/class-wp-rest-widgets-controller.php:778
+msgid "Name of the widget."
+msgstr "Modulens navn."
+
+#: lib/class-wp-rest-sidebars-controller.php:444
+msgid "Nested widgets."
+msgstr "Nøstede widgeter."
+
+#: lib/class-wp-rest-sidebars-controller.php:437
+msgid "Status of sidebar."
+msgstr "Sidelinjens status."
+
+#: lib/class-wp-rest-sidebars-controller.php:397
+msgid "Description of sidebar."
+msgstr "Sidelinjens beskrivelse."
+
+#: lib/class-wp-rest-sidebars-controller.php:385
+msgid "ID of sidebar."
+msgstr "Sidelinjens ID."
+
+#: lib/class-wp-widget-block.php:33
+msgid "Gutenberg block."
+msgstr "Gutenberg-blokk."
+
+#: lib/full-site-editing/templates-utils.php:16 build/block-library/index.js:46
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: lib/full-site-editing/edit-site-page.php:194
+msgid "What to show on the front page"
+msgstr "Hva som skal vises på forsiden"
+
+#: lib/compat.php:190
+msgid "Reusable block scheduled."
+msgstr "Gjenbrukbar blokk planlagt."
+
+#: lib/compat.php:189
+msgid "Reusable block reverted to draft."
+msgstr "Gjenbrukbar blokk satt tilbake til kladd."
+
+#: lib/compat.php:188
+msgid "Reusable block published privately."
+msgstr "Gjenbrukbar blokk privat publisert."
+
+#: lib/compat.php:187
+msgid "Reusable block published."
+msgstr "Gjenbrukbar blokk publisert."
+
+#: lib/compat.php:186
+msgid "Reusable blocks list"
+msgstr "Oversikt over gjenbrukbare blokker"
+
+#: lib/compat.php:185
+msgid "Reusable blocks list navigation"
+msgstr "Navigering i gjenbrukbare blokker"
+
+#: lib/compat.php:184
+msgid "Filter reusable blocks list"
+msgstr "Filttrer oversikten over gjenbrukbare blokker"
+
+#: lib/compat.php:183
+msgid "No reusable blocks found in Trash."
+msgstr "Ingen gjenbrukbare blokker funnet i papirkurven."
+
+#: lib/compat.php:182
+msgid "No reusable blocks found."
+msgstr "Fant ingen gjenbrukbare blokker."
+
+#: lib/compat.php:181
+msgid "Search Reusable blocks"
+msgstr "Søk i gjenbrukbare blokker"
+
+#: lib/compat.php:180
+msgid "All Reusable blocks"
+msgstr "Alle gjenbrukbare blokker"
+
+#: lib/compat.php:179
+msgid "View Reusable block"
+msgstr "Se gjenbrukbar blokk"
+
+#: lib/compat.php:178
+msgid "Edit Reusable block"
+msgstr "Rediger gjenbrukbar blokk"
+
+#: lib/compat.php:177
+msgid "New Reusable block"
+msgstr "Ny gjenbrukbar blokk"
+
+#: lib/compat.php:176
+msgid "Add new Reusable block"
+msgstr "Legg til ny gjenbrukbar blokk"
+
+#: lib/compat.php:175
+msgctxt "Reusable block"
+msgid "Add New"
+msgstr "Legg til ny"
+
+#: lib/compat.php:174
+msgctxt "add new on admin bar"
+msgid "Reusable block"
+msgstr "Gjenbrukbar blokk"
+
+#: lib/compat.php:173
+msgctxt "admin menu"
+msgid "Reusable blocks"
+msgstr "Gjenbrukbare blokker"
+
+#: lib/compat.php:172
+msgctxt "post type singular name"
+msgid "Reusable block"
+msgstr "Gjenbrukbar blokk"
+
+#: lib/compat.php:171
+msgctxt "post type general name"
+msgid "Reusable blocks"
+msgstr "Gjenbrukbare blokker"
+
+#: build/block-library/blocks/site-logo.php:95
+msgid "Site logo."
+msgstr "Nettstedslogo."
+
+#: lib/class-wp-rest-menus-controller.php:589
+msgid "Whether to automatically add top level pages to this menu."
+msgstr "Om toppnivå-sider automatisk skal legges til på denne menyen."
+
+#: lib/class-wp-rest-menus-controller.php:171
+msgid "Sorry, you are not allowed to set auto add pages."
+msgstr "Beklager, du har ikke tillatelse til å sette auto legg til sider."
+
+#: lib/class-wp-rest-menu-items-controller.php:1000
+msgid "Version of the block format used in the HTML content."
+msgstr "Versjon av blokkformatet brukt i HTML-innholdet."
+
+#: lib/class-wp-rest-menu-items-controller.php:994
+msgid "HTML content, transformed for display."
+msgstr "HTML-innhold, omformet for visning."
+
+#: lib/class-wp-rest-menu-items-controller.php:989
+msgid "HTML content, as it exists in the database."
+msgstr "HTML-innhold, slik det eksisterer i databasen."
+
+#: lib/class-wp-rest-menu-items-controller.php:523
+msgid "Content required if menu item of type block."
+msgstr "Innhold er nødvendig for menypunkter av type blokk."
+
+#: lib/class-wp-rest-pattern-directory-controller.php:214
+msgid "The pattern title, in human readable format."
+msgstr "Blokktittelen, lesbart format."
+
+#. translators: %s: the author.
+#. translators: byline. %s: current author.
+#: build/block-library/blocks/rss.php:60
+#: build/block-library/blocks/latest-posts.php:114
+#: build/block-library/index.js:50
+msgid "by %s"
+msgstr "av %s"
+
+#: lib/class-wp-theme-json-resolver.php:221 build/block-editor/index.js:1
+msgid "White"
+msgstr "Hvit"
+
+#: lib/class-wp-theme-json-resolver.php:219 build/block-editor/index.js:1
+#: build/block-editor/index.js:9
+msgid "Black"
+msgstr "Svart"
+
+#. translators: accessibility text for the content landmark region.
+#: lib/navigation.php:338 build/edit-widgets/index.js:7
+#: build/edit-post/index.js:7 build/edit-site/index.js:7
+#: build/edit-site/index.js:30
+msgid "Content"
+msgstr "Innhold"
+
+#: lib/experiments-page.php:50
+msgid "Enable Navigation screen"
+msgstr "Slå på navigasjonskjerm"
+
+#: gutenberg.php:62 gutenberg.php:63
+msgid "Navigation (beta)"
+msgstr "Navigasjon (beta)"
+
+#: lib/class-wp-rest-menu-items-controller.php:1105
+msgid "Sort collection by object attribute."
+msgstr "Sorter samlingen etter objektattributt."
+
+#: lib/class-wp-rest-menu-items-controller.php:1098
+msgid "Order sort attribute ascending or descending."
+msgstr "Sorter attributter stigende eller synkende."
+
+#: lib/class-wp-rest-menu-items-controller.php:1093
+msgid "Limit result set to posts with a specific menu_order value."
+msgstr "Begrens resultatene til innlegg med spesifikk verdi for menu_order."
+
+#. translators: %s: taxonomy name
+#: lib/class-wp-rest-menu-items-controller.php:1059
+msgid "The terms assigned to the object in the %s taxonomy."
+msgstr "Termer tilordnet objektet i taksonomien %s."
+
+#: lib/class-wp-rest-menu-items-controller.php:1047
+msgid "Whether the menu item represents an object that no longer exists."
+msgstr "Om menypunktet representerer et objekt som ikke lenger finnes."
+
+#: lib/class-wp-rest-menu-items-controller.php:1033
+msgid "The XFN relationship expressed in the link of this menu item."
+msgstr "XFN-relasjonen uttrykt i lenken på dette menyelementet."
+
+#: lib/class-wp-rest-menu-items-controller.php:1026
+msgid "The URL to which this menu item points."
+msgstr "Den URL som menyelementet peker til."
+
+#: lib/class-wp-rest-menu-items-controller.php:1019
+msgid "The singular label used to describe this type of menu item."
+msgstr "Etiketten som er brukt til å beskrive denne typen meyelement."
+
+#: lib/class-wp-rest-menu-items-controller.php:1009
+msgid "The target attribute of the link element for this menu item."
+msgstr "Mål-attributtet til lenken på dette menyelementet."
+
+#: lib/class-wp-rest-menu-items-controller.php:950
+msgid "The description of this menu item."
+msgstr "Beskrivelsen av dette menyelementet."
+
+#: lib/class-wp-rest-menu-items-controller.php:927
+msgid "Text for the title attribute of the link element for this menu item."
+msgstr "Tekst for title-attributtet til lenken på dette menyelementet"
+
+#: lib/class-wp-rest-menu-items-controller.php:911
+msgid "A named status for the object."
+msgstr "En navngitt status for objektet."
+
+#: lib/class-wp-rest-menu-items-controller.php:896
+msgid "Name of type."
+msgstr "Navn på type."
+
+#: lib/class-wp-rest-menu-items-controller.php:878
+msgid "HTML title for the object, transformed for display."
+msgstr "HTML-tittelen til objektet, omgjort for visning."
+
+#: lib/class-wp-rest-menu-items-controller.php:873
+msgid "Title for the object, as it exists in the database."
+msgstr "Tittelen for objektet, som den eksisterer i databasen."
+
+#: lib/class-wp-rest-menu-items-controller.php:834
+msgid "Get linked object."
+msgstr "Få lenket objekt."
+
+#: lib/class-wp-rest-menu-items-controller.php:606
+msgid "Invalid URL."
+msgstr "Ugyldig URL."
+
+#: lib/class-wp-rest-menu-items-controller.php:564
+#: lib/class-wp-rest-menu-items-controller.php:567
+msgid "Invalid menu item parent."
+msgstr "Ugyldig forelder til menyelement."
+
+#: lib/class-wp-rest-menu-items-controller.php:556
+msgid "Invalid menu position."
+msgstr "Ugyldig menyposisjon."
+
+#: lib/class-wp-rest-menu-items-controller.php:531
+msgid "Invalid menu ID."
+msgstr "Ugyldig meny-ID."
+
+#: lib/class-wp-rest-menu-items-controller.php:516
+msgid "URL required if menu item of type custom."
+msgstr "URL kreves om menyelementet av typen tilpasset."
+
+#: lib/class-wp-rest-menu-items-controller.php:513
+msgid "Title required if menu item of type custom."
+msgstr "Tittel kreves om menyelementet av typen tilpasset."
+
+#: lib/class-wp-rest-menu-items-controller.php:495
+msgid "Invalid post ID."
+msgstr "Ugyldig innleggs-ID."
+
+#: lib/class-wp-rest-menu-items-controller.php:348
+msgid "The post cannot be deleted."
+msgstr "Innlegget kan ikke slettes."
+
+#. translators: %s: force=true
+#: lib/class-wp-rest-menu-items-controller.php:340
+msgid "Menu items do not support trashing. Set '%s' to delete."
+msgstr "Menyelementer støtter ikke bruk av papirkruv. Sett '%s' for å slette."
+
+#: lib/class-wp-rest-menu-items-controller.php:174
+msgid "Cannot create existing post."
+msgstr "Kan ikke opprette eksisterende innlegg."
+
+#: lib/class-wp-rest-customizer-nonces.php:51
+#: lib/class-wp-rest-menu-items-controller.php:158
+msgid "Sorry, you are not allowed to edit posts in this post type."
+msgstr "Beklager, du har ikke tillatelse til å redigere innhold av denne typen."
+
+#: lib/class-wp-rest-menus-controller.php:580
+msgid "The locations assigned to the menu."
+msgstr "Posisjonen er tilordnet menyen."
+
+#: lib/class-wp-rest-menus-controller.php:552
+msgid "Menu location does not exist."
+msgstr "Menyposisjonen finnes ikke."
+
+#: lib/class-wp-rest-menus-controller.php:458
+msgid "The term cannot be deleted."
+msgstr "Termen kan ikke slettes."
+
+#. translators: %s: force=true
+#: lib/class-wp-rest-menus-controller.php:448
+msgid "Terms do not support trashing. Set '%s' to delete."
+msgstr "Termer støtter ikke bruk av papirkurv. Sett '%s' for å slette."
+
+#: lib/class-wp-rest-menus-controller.php:268
+#: lib/class-wp-rest-menus-controller.php:377
+msgid "Parent term does not exist."
+msgstr "Forelder-termen finnes ikke."
+
+#: lib/class-wp-rest-menus-controller.php:262
+#: lib/class-wp-rest-menus-controller.php:371
+msgid "Cannot set parent term, taxonomy is not hierarchical."
+msgstr "Kan ikke angi forelder-term fordi taksonomien ikke er hierarkisk."
+
+#: lib/class-wp-rest-menus-controller.php:139
+msgid "Sorry, you are not allowed to assign the provided locations."
+msgstr "Beklager, du har ikke tillatelse til å tilordne de angitte posisjonene."
+
+#: lib/class-wp-rest-menus-controller.php:60
+msgid "Sorry, you cannot view this menu, unless you have access to permission edit it. "
+msgstr "Beklager, du kan ikke se denne menyen, om du ikke har tilgang til å redigere den."
+
+#: lib/class-wp-rest-menus-controller.php:58
+msgid "Sorry, you are not allowed to edit this term."
+msgstr "Beklager, du har ikke tillatelse til å redigere denne termen."
+
+#: lib/class-wp-rest-menus-controller.php:40
+msgid "Sorry, you cannot view these menus, unless you have access to permission edit them. "
+msgstr "Beklager, du kan ikke se disse menyene, om du ikke har tilgang til å redigere dem."
+
+#: lib/class-wp-rest-menus-controller.php:38
+msgid "Sorry, you are not allowed to edit terms in this taxonomy."
+msgstr "Beklager, du har ikke tillatelse til å redigere termer i denne taksonomien."
+
+#: lib/class-wp-rest-menu-locations-controller.php:206
+msgid "The ID of the assigned menu."
+msgstr "ID-en til den tilordnede menyen."
+
+#: lib/class-wp-rest-menu-locations-controller.php:200
+msgid "The description of the menu location."
+msgstr "Beskrivelsen av menyposisjonen."
+
+#: lib/class-wp-rest-menu-locations-controller.php:194
+msgid "The name of the menu location."
+msgstr "Navnet på menyposisjonen."
+
+#: lib/class-wp-rest-menus-controller.php:146
+#: lib/class-wp-rest-menu-locations-controller.php:116
+#: lib/class-wp-rest-menu-locations-controller.php:132
+msgid "Invalid menu location."
+msgstr "Ugyldig menyposisjon."
+
+#: lib/class-wp-rest-menu-locations-controller.php:76
+#: lib/class-wp-rest-menu-locations-controller.php:113
+msgid "Sorry, you are not allowed to view menu locations."
+msgstr "Beklager, du har ikke tillatelse til å se menyposisjoner."
+
+#: lib/class-wp-rest-menu-locations-controller.php:50
+msgid "An alphanumeric identifier for the menu location."
+msgstr "En alfanumerisk identifikator for menyposisjonen."
+
+#: lib/class-wp-theme-json-resolver.php:440 build/edit-site/index.js:30
+msgid "Global Styles"
+msgstr "Globale stiler"
+
+#: lib/full-site-editing/template-loader.php:69
+msgid "Empty template."
+msgstr "Tom mal."
+
+#: lib/full-site-editing/template-loader.php:77
+msgid "No matching template found."
+msgstr "Ingen passende mal funnet."
+
+#: lib/full-site-editing/templates-utils.php:18
+#: lib/full-site-editing/templates.php:99 build/edit-site/index.js:30
+msgid "Theme"
+msgstr "Tema"
+
+#: gutenberg.php:108
+msgid "Site Editor (beta)"
+msgstr "Nettstedsregstrering (beta)"
+
+#: lib/full-site-editing/template-parts.php:40
+msgid "Template parts to include in your templates."
+msgstr "Delmaler å inkludere i dine maler."
+
+#: lib/full-site-editing/template-parts.php:35
+msgid "Template parts list"
+msgstr "Delmaloversikt"
+
+#: lib/full-site-editing/template-parts.php:34
+msgid "Template parts list navigation"
+msgstr "Navigering i delmaloversikt"
+
+#: lib/full-site-editing/template-parts.php:33
+msgid "Filter template parts list"
+msgstr "Filtrer delmaloversikt"
+
+#: lib/full-site-editing/template-parts.php:32
+msgid "Uploaded to this template part"
+msgstr "Lastet opp til denne delmalen"
+
+#: lib/full-site-editing/template-parts.php:31
+msgid "Insert into template part"
+msgstr "Sett inn i delmal"
+
+#: lib/full-site-editing/template-parts.php:30
+msgid "Template part archives"
+msgstr "Delmalarkiver"
+
+#: lib/full-site-editing/template-parts.php:29
+msgid "No template parts found in Trash."
+msgstr "Ingen delmaler funnet i papirkurven."
+
+#: lib/full-site-editing/template-parts.php:28
+msgid "No template parts found."
+msgstr "Ingen delmaler funnet."
+
+#: lib/full-site-editing/template-parts.php:27
+msgid "Parent Template Part:"
+msgstr "Forelderdelmal:"
+
+#: lib/full-site-editing/template-parts.php:26
+msgid "Search Template Parts"
+msgstr "Søk delmaler"
+
+#: lib/full-site-editing/template-parts.php:25
+msgid "All Template Parts"
+msgstr "Alle delmaler"
+
+#: lib/full-site-editing/template-parts.php:24
+msgid "View Template Part"
+msgstr "Se delmal"
+
+#: lib/full-site-editing/template-parts.php:23
+msgid "Edit Template Part"
+msgstr "Rediger delmal"
+
+#: lib/full-site-editing/template-parts.php:22
+msgid "New Template Part"
+msgstr "Ny delmal"
+
+#: lib/full-site-editing/template-parts.php:21
+msgid "Add New Template Part"
+msgstr "Legg til ny delmal"
+
+#: lib/full-site-editing/template-parts.php:20
+msgctxt "Template Part"
+msgid "Add New"
+msgstr "Legg til"
+
+#: lib/full-site-editing/template-parts.php:19
+msgctxt "Admin Menu text"
+msgid "Template Parts"
+msgstr "Delmaler"
+
+#: lib/full-site-editing/template-parts.php:18 build/block-library/index.js:73
+msgid "Template Part"
+msgstr "Delmal"
+
+#: lib/full-site-editing/template-parts.php:17 build/edit-site/index.js:30
+msgid "Template Parts"
+msgstr "Delmaler"
+
+#: lib/experiments-page.php:45 build/edit-navigation/index.js:6
+msgid "Navigation"
+msgstr "Navigasjon"
+
+#: lib/full-site-editing/templates.php:54
+msgid "Templates list"
+msgstr "Maloversikt"
+
+#: lib/full-site-editing/templates.php:53
+msgid "Templates list navigation"
+msgstr "Navigering i maloversikt"
+
+#: lib/full-site-editing/templates.php:52
+msgid "Filter templates list"
+msgstr "Filtrer maloversikt"
+
+#: lib/full-site-editing/templates.php:51
+msgid "Uploaded to this template"
+msgstr "Lastet opp til denne malen"
+
+#: lib/full-site-editing/templates.php:50
+msgid "Insert into template"
+msgstr "Sett inn i malen"
+
+#: lib/full-site-editing/templates.php:49
+msgid "Template archives"
+msgstr "Malarkiver"
+
+#: lib/full-site-editing/templates.php:48
+msgid "No templates found in Trash."
+msgstr "Ingen maler funnet i papirkurven."
+
+#: lib/full-site-editing/templates.php:47
+msgid "No templates found."
+msgstr "Ingen maler funnet."
+
+#: lib/full-site-editing/templates.php:46
+msgid "Parent Template:"
+msgstr "Forelder-mal:"
+
+#: lib/full-site-editing/templates.php:45
+msgid "Search Templates"
+msgstr "Søk maler"
+
+#: lib/full-site-editing/templates.php:44
+msgid "All Templates"
+msgstr "Alle maler"
+
+#: lib/full-site-editing/templates.php:43
+msgid "View Template"
+msgstr "Vis mal"
+
+#: lib/full-site-editing/templates.php:42
+msgid "Edit Template"
+msgstr "Rediger mal"
+
+#: lib/full-site-editing/templates.php:41
+msgid "New Template"
+msgstr "Ny mal"
+
+#: lib/full-site-editing/templates.php:40
+msgid "Add New Template"
+msgstr "Legg til ny mal"
+
+#: lib/full-site-editing/templates.php:39
+msgctxt "Template"
+msgid "Add New"
+msgstr "Legg til ny"
+
+#: lib/full-site-editing/templates.php:38
+msgctxt "Admin Menu text"
+msgid "Templates"
+msgstr "Maler"
+
+#. translators: ARIA label for the Template Settings Sidebar tab, not selected.
+#. translators: Text label for the Template Settings Sidebar tab.
+#: lib/full-site-editing/templates.php:37 build/edit-post/index.js:38
+#: build/edit-site/index.js:26 build/edit-site/index.js:28
+#: build/edit-site/index.js:29
+msgid "Template"
+msgstr "Mal"
+
+#: lib/full-site-editing/template-loader.php:164
+msgid "No matching template found"
+msgstr "Ingen passende maler funnet"
+
+#: lib/class-wp-theme-json-resolver.php:250 build/block-editor/index.js:1
+msgid "Midnight"
+msgstr "Midnatt"
+
+#: lib/class-wp-theme-json-resolver.php:249 build/block-editor/index.js:1
+msgid "Electric grass"
+msgstr "Elektrisk gress"
+
+#: lib/class-wp-theme-json-resolver.php:248 build/block-editor/index.js:1
+msgid "Pale ocean"
+msgstr "Blekt hav"
+
+#: lib/class-wp-theme-json-resolver.php:247 build/block-editor/index.js:1
+msgid "Luminous dusk"
+msgstr "Lysende skumring"
+
+#: lib/class-wp-theme-json-resolver.php:246 build/block-editor/index.js:1
+msgid "Blush bordeaux"
+msgstr "Rødlig bordeaux"
+
+#: lib/class-wp-theme-json-resolver.php:245 build/block-editor/index.js:1
+msgid "Blush light purple"
+msgstr "Rødlig lyselilla"
+
+#: lib/class-wp-theme-json-resolver.php:244 build/block-editor/index.js:1
+msgid "Cool to warm spectrum"
+msgstr "Kaldt til varmt spektrum"
+
+#: lib/class-wp-theme-json-resolver.php:243 build/block-editor/index.js:1
+msgid "Very light gray to cyan bluish gray"
+msgstr "Veldig lysegrå til blålig cyan-grå"
+
+#: lib/class-wp-theme-json-resolver.php:242 build/block-editor/index.js:1
+msgid "Luminous vivid orange to vivid red"
+msgstr "Lysende, levende oransje til levende rød"
+
+#: lib/class-wp-theme-json-resolver.php:241 build/block-editor/index.js:1
+msgid "Luminous vivid amber to luminous vivid orange"
+msgstr "Lysende, levende rav til lysende, levende oransje"
+
+#: lib/class-wp-theme-json-resolver.php:240 build/block-editor/index.js:1
+msgid "Light green cyan to vivid green cyan"
+msgstr "Lysegrønn cyan til levende grønn cyan"
+
+#: lib/class-wp-theme-json-resolver.php:239 build/block-editor/index.js:1
+msgid "Vivid cyan blue to vivid purple"
+msgstr "Levende cyan blå til levende lilla"
+
+#: lib/full-site-editing/templates.php:59
+msgid "Templates to include in your theme."
+msgstr "Maler å inkludere i ditt tema."
+
+#: lib/full-site-editing/templates.php:36 build/edit-site/index.js:30
+msgid "Templates"
+msgstr "Maler"
+
+#: lib/class-wp-theme-json-resolver.php:230 build/block-editor/index.js:1
+msgid "Vivid purple"
+msgstr "Levende lilla"
+
+#: gutenberg.php:89
+msgid "Experiments Settings"
+msgstr "Innstillinger for eksperimenter"
+
+#: lib/experiments-page.php:19
+msgid "Experimental settings"
+msgstr "Innstillinger for eksperimenter"
+
+#. translators: %s: taxonomy name
+#: build/block-library/blocks/tag-cloud.php:28
+msgid "Your site doesn&#8217;t have any %s, so there&#8217;s nothing to display here at the moment."
+msgstr "Ditt nettsted har ingen %s, så det er ingen ting å vise akkurat nå."
+
+#: build/block-library/blocks/search.php:25
+#: build/block-library/blocks/search.php:26
+#: build/block-library/blocks/search.php:52 build/block-editor/index.js:42
+#: build/block-library/index.js:59
+msgid "Search"
+msgstr "Søk"
+
+#: build/block-library/blocks/rss.php:23
+msgid "An error has occurred, which probably means the feed is down. Try again later."
+msgstr "En feil har oppstått, noe som trolig betyr at innmatingen er nede. Prøv igjen senere."
+
+#: build/block-library/blocks/rss.php:19
+msgid "RSS Error:"
+msgstr "RSS-feil:"
+
+#: lib/editor-settings.php:28 build/block-editor/index.js:1
+msgid "Thumbnail"
+msgstr "Miniatyrbilde"
+
+#: lib/editor-settings.php:31 build/block-editor/index.js:1
+msgid "Full Size"
+msgstr "Full størrelse"
+
+#: lib/full-site-editing/default-template-types.php:69
+#: build/block-editor/index.js:66 build/blocks/index.js:1
+#: build/core-data/index.js:1
+msgid "Media"
+msgstr "Media"
+
+#: lib/class-wp-theme-json-resolver.php:263 build/block-library/index.js:68
+msgid "Huge"
+msgstr "Enorm"
+
+#: lib/class-wp-theme-json-resolver.php:261 lib/block-patterns.php:30
+#: lib/editor-settings.php:29 build/block-editor/index.js:1
+#: build/block-editor/index.js:9 build/components/index.js:10
+msgid "Medium"
+msgstr "Middels"
+
+#: lib/class-wp-theme-json-resolver.php:260 build/block-library/index.js:68
+msgid "Normal"
+msgstr "Normal"
+
+#: build/block-library/blocks/archives.php:97
+msgid "No archives to show."
+msgstr "Ingen arkiver å vise."
+
+#: post-content.php:41
+msgid "Beautiful landscape"
+msgstr "Vakkert landskap"
+
+#: post-content.php:185
+msgid "Thanks for testing Gutenberg!"
+msgstr "Takk for at du tester Gutenberg!"
+
+#: post-content.php:177
+msgid "Help build Gutenberg"
+msgstr "Hjelp til med å utvikle Gutenberg"
+
+#. translators: %s: Gutenberg GitHub repository URL
+#: post-content.php:168
+msgid "If you want to learn more about how to build additional blocks, or if you are interested in helping with the project, head over to the <a href=\"%s\">GitHub repository</a>."
+msgstr "Hvis du vil lære mer om hvordan man bygger ekstra blokker, eller hvis du vil hjelpe til med prosjektet, ta en tur innom <a href=\"%s\">GitHub</a>."
+
+#: post-content.php:159
+msgid "The WordPress community"
+msgstr "WordPress-samfunnet"
+
+#: post-content.php:159 build/block-library/index.js:8
+msgid "Code is Poetry"
+msgstr "Kode er poesi"
+
+#: post-content.php:155
+msgid "You can build any block you like, static or dynamic, decorative or plain. Here&#8217;s a pullquote block:"
+msgstr "Du kan bygge enhver type blokk, statisk eller dynamisk, dekorativ eller flat. Her er en egensitat-blokk:"
+
+#: post-content.php:145
+msgid "Any block can opt into these alignments. The embed block has them also, and is responsive out of the box:"
+msgstr "Enhver blokk kan eventuelt ha disse justeringene. Innbyggingsblokken har dem også og er responsiv rett ut av boksen."
+
+#: post-content.php:141
+msgid "The above is a gallery with just two images. It&#8217;s an easier way to create visually appealing layouts, without having to deal with floats. You can also easily convert the gallery back to individual images again, by using the block switcher."
+msgstr "Over ser du et galleri med bare to bilder. Det er en enklere måte å lage visuelt slående layouter på, uten å trenge å bry seg om floats. Du kan også enkelt konvertere galleriet tilbake til individuelle bilder igjen, ved å bruke blokk-bytteren."
+
+#: post-content.php:128
+msgid "Sure, the full-wide image can be pretty big. But sometimes the image is worth it."
+msgstr "Klart, fullstørrelse-bilder kan være temmelig store. Men noen ganger er bildet verdt det."
+
+#: post-content.php:124
+msgid "Accessibility is important &mdash; don&#8217;t forget image alt attribute"
+msgstr "Tilgjengelighet er viktig &mdash; ikke glem en alternativ tekst"
+
+#: post-content.php:120
+msgid "If you combine the new <strong>wide</strong> and <strong>full-wide</strong> alignments with galleries, you can create a very media rich layout, very quickly:"
+msgstr "Hvis du kombinerer de nye <strong>bred</strong> og <strong>full-bred</strong> justeringene med gallerier, kan du skape et layout rikt på medier svært enkelt:"
+
+#: post-content.php:116
+msgid "Media Rich"
+msgstr "Rik på media"
+
+#: post-content.php:112
+msgid "You can change the amount of columns in your galleries by dragging a slider in the block inspector in the sidebar."
+msgstr "Du kan endre antall kolonner i ditt galleri ved å dra på en skyvebryter i blokk-inspisienten i sidestolpen."
+
+#: post-content.php:98
+msgid "Blocks can be anything you need. For instance, you may want to add a subdued quote as part of the composition of your text, or you may prefer to display a giant stylized one. All of these options are available in the inserter."
+msgstr "Blokker kan kan være enhver ting du trenger. For eksempel kan du vile legge til dempede sitater som en del av oppbyggingen av din tekst eller du kan foretrekke å vise an diger stilisert sak. Alle disse alternativene er tilgjengelige ved innsetting."
+
+#: post-content.php:94
+msgid "The information corresponding to the source of the quote is a separate text field, similar to captions under images, so the structure of the quote is protected even if you select, modify, or remove the source. It&#8217;s always easy to add it back."
+msgstr "Informasjonen som tilsvarer kilden til sitatet er et separat tekstfelt, i likhet med bildetekster for bilder, så strukturen til sitatet bevares selv om du velger, endrer eller fjerner kilden. Det er alltid enkelt å legge den til igjen."
+
+#: post-content.php:89
+msgid "Matt Mullenweg, 2017"
+msgstr "Matt Mullenweg, 2017"
+
+#: post-content.php:88
+msgid "The editor will endeavor to create a new page and post building experience that makes writing rich posts effortless, and has “blocks” to make it easy what today might take shortcodes, custom HTML, or “mystery meat” embed discovery."
+msgstr "Redigeringsverktøyet forsøker å skape en ny skapelsesopplevelse for sider og innlegg som gjør det problemfritt å skrive innlegg med rikt innhold. Verktøyet bruker \"blokker\", for å gjøre det enklere å bruke det som idag ville trengt kortkoder, egendefinert HTML, eller automatisk innbygging du ikke vet innholdet i."
+
+#: post-content.php:83
+msgid "A huge benefit of blocks is that you can edit them in place and manipulate your content directly. Instead of having fields for editing things like the source of a quote, or the text of a button, you can directly change the content. Try editing the following quote:"
+msgstr "En stor fordel med blokker er at du kan redigere dem der de er plassert, og manipulere innholdet direkte. I stedet for å ha felter for å redigere ting som kilden til et sitat, eller teksten på en knapp, kan du endre innholdet direkte. Prøv å redigere følgende sitat:"
+
+#: post-content.php:79
+msgid "Visual Editing"
+msgstr "Visuell redigering"
+
+#: post-content.php:70
+msgid "And <em>Lists</em> like this one of course :)"
+msgstr "Og <em>lister</em> som denne, selvfølgelig :)"
+
+#: post-content.php:69
+msgid "Layout blocks, like Buttons, Hero Images, Separators, etc."
+msgstr "Blokker for utforming, som knapper, heltebilder, skille-elementer osv."
+
+#: post-content.php:68
+msgid "Embeds, like YouTube, Tweets, or other WordPress posts."
+msgstr "Innbygginger, som YouTube, tvitringer eller andre WordPress-innlegg."
+
+#: post-content.php:67
+msgid "Galleries"
+msgstr "Gallerier"
+
+#: post-content.php:66
+msgid "Images &amp; Videos"
+msgstr "Bilder og videoer"
+
+#: post-content.php:65
+msgid "Text &amp; Headings"
+msgstr "Tekst og overskrifter"
+
+#: post-content.php:60
+msgid "Go give it a try, you may discover things WordPress can already add into your posts that you didn&#8217;t know about. Here&#8217;s a short list of what you can currently find there:"
+msgstr "Prøv det ut. Du kan oppdage nye ting som WordPress kan sette inn i dine innlegg, ting du ikke visste om. Her er en kort oversikt over hva du for tiden kan finne der:"
+
+#: post-content.php:56
+msgid "Imagine everything that WordPress can do is available to you quickly and in the same place on the interface. No need to figure out HTML tags, classes, or remember complicated shortcode syntax. That&#8217;s the spirit behind the inserter—the <code>(+)</code> button you&#8217;ll see around the editor—which allows you to browse all available content blocks and add them into your post. Plugins and themes are able to register their own, opening up all sort of possibilities for rich editing and publishing."
+msgstr "Forestill deg at alt WordPress kan gjøre er lett tilgjengelig, på samme sted i brukergrensesnittet. Det er ikke behov for å styre med HTML-elementer og klasser, eller å memorere komplisert kortkode-syntaks. Dette er tanken bak innsettingsverktøyet—<code>(+)</code>-knappen du ser rundt omkring i redigeringsvinduet—som lar deg bla gjennom alle tilgjengelige innholdsblokker og legge dem til i innlegget ditt. Utvidelser og temaer kan registrere sine egne, noe som åpner all slags muligheter for rik redigering og publisering."
+
+#: post-content.php:52
+msgid "The <em>Inserter</em> Tool"
+msgstr "<em>Innsettings</em>-verktøyet"
+
+#: post-content.php:48
+msgid "Try selecting and removing or editing the caption, now you don&#8217;t have to be careful about selecting the image or other text by mistake and ruining the presentation."
+msgstr "Prøv å velge og så fjerne eller redigere bildeteksten. Nå trenger du ikke være forsiktig med å velge bildet eller også tekst, ved en feiltakelse, og ødelegge presentasjonen."
+
+#: post-content.php:42
+msgid "If your theme supports it, you&#8217;ll see the \"wide\" button on the image toolbar. Give it a try."
+msgstr "Hvis ditt tema støtter det vil du se knappen for \"bred\" på verktøylinjen for bildet. Prøv det ut."
+
+#: post-content.php:36
+msgid "Handling images and media with the utmost care is a primary focus of the new editor. Hopefully, you&#8217;ll find aspects of adding captions or going full-width with your pictures much easier and robust than before."
+msgstr "Behandling av bilder og media med den ytterste varsomhet er et primært fokus for det nye redigeringsverktøyet. Forhåpentligvis vil du finne sider ved det å legge til bildetekst til, eller gjøre full bredde av, dine bilder mye enklere og robust enn før."
+
+#: post-content.php:32
+msgid "A Picture is Worth a Thousand Words"
+msgstr "Et bilde et verdt tusen ord"
+
+#: post-content.php:28
+msgid "Headings are separate blocks as well, which helps with the outline and organization of your content."
+msgstr "Overskrifter er også separate blokker, som hjelper med omrisset og organiseringen av innholdet ditt."
+
+#: post-content.php:24
+msgid "... like this one, which is right aligned."
+msgstr "... som denne, som er høyrejustert."
+
+#: post-content.php:20
+msgid "What you are reading now is a <strong>text block</strong> the most basic block of all. The text block has its own controls to be moved freely around the post..."
+msgstr "Det du leser nå er en <strong>tekstblokk</strong>, den mest grunnleggende blokken av alle. Tekstblokken har sine egne kontroll for å kunne flyttes fritt rundt i innlegget."
+
+#: post-content.php:16
+msgid "The goal of this new editor is to make adding rich content to WordPress simple and enjoyable. This whole post is composed of <em>pieces of content</em>—somewhat similar to LEGO bricks—that you can move around and interact with. Move your cursor around and you&#8217;ll notice the different blocks light up with outlines and arrows. Press the arrows to reposition blocks quickly, without fearing about losing things in the process of copying and pasting."
+msgstr "Målet med det nye redigeringsverktøyet er å gjøre det å legge til rikt innhold i WordPress enkelt og hyggelig. Hele dette innlegget er satt sammen av <em>brikker av innhold</em> -- noe liknende Legoklosser -- som du kan flytte rundt og samhandle med. Flytt din markør rundt og du vil legge merke til at de ulike blokkene utheves med omriss og piler. Trykk pilene for å flytte blokken hurtig uten å frykte å miste ting i en prosess med klipp og lim."
+
+#: post-content.php:11
+msgid "Of Mountains &amp; Printing Presses"
+msgstr "Fra fjell og trykkpresser"
+
+#: lib/demo.php:59
+msgid "Welcome to the Gutenberg Editor"
+msgstr "Velkommen til redigeringsverktøyet Gutenberg"
+
+#: lib/class-wp-rest-menu-items-controller.php:862
+msgid "The title for the object."
+msgstr "Tittel for objektet."
+
+#: lib/class-wp-rest-menu-items-controller.php:68
+#: lib/class-wp-rest-menu-items-controller.php:887
+msgid "Unique identifier for the object."
+msgstr "Unik identifikator for objektet."
+
+#: lib/class-wp-theme-json-resolver.php:259 lib/block-patterns.php:50
+#: build/block-library/index.js:68 build/components/index.js:10
+msgid "Small"
+msgstr "Liten"
+
+#: gutenberg.php:76
+msgid "https://wordpress.org/support/plugin/gutenberg/"
+msgstr "https://wordpress.org/support/plugin/gutenberg"
+
+#: gutenberg.php:73 gutenberg.php:74
+msgid "Support"
+msgstr "Brukerstøtte"
+
+#: build/block-library/blocks/latest-comments.php:141
+msgid "No comments to show."
+msgstr "Ingen kommentarer å vise."
+
+#. translators: 1: author name (inside <a> or <span> tag, based on if they have
+#. a URL), 2: post title related to this comment
+#: build/block-library/blocks/latest-comments.php:99
+msgid "%1$s on %2$s"
+msgstr "%1$s til %2$s"
+
+#: build/block-library/blocks/archives.php:57
+msgid "Select Post"
+msgstr "Velg innlegg"
+
+#: build/block-library/blocks/archives.php:54
+msgid "Select Week"
+msgstr "Velg uke"
+
+#: build/block-library/blocks/archives.php:51
+msgid "Select Day"
+msgstr "Velg dag"
+
+#: build/block-library/blocks/archives.php:48
+msgid "Select Month"
+msgstr "Velg måned"
+
+#: build/block-library/blocks/archives.php:45
+msgid "Select Year"
+msgstr "Velg år"
+
+#: build/block-library/blocks/archives.php:27
+msgid "Archives"
+msgstr "Arkiv"
+
+#: lib/class-wp-theme-json-resolver.php:220 build/block-editor/index.js:1
+msgid "Cyan bluish gray"
+msgstr "Cyan-blåaktig grå"
+
+#: lib/class-wp-theme-json-resolver.php:229 build/block-editor/index.js:1
+msgid "Vivid cyan blue"
+msgstr "Levende cyan-blå"
+
+#: lib/class-wp-theme-json-resolver.php:228 build/block-editor/index.js:1
+msgid "Pale cyan blue"
+msgstr "Blek cyanblå"
+
+#: lib/class-wp-theme-json-resolver.php:227 build/block-editor/index.js:1
+msgid "Vivid green cyan"
+msgstr "Levende cyan-grønn"
+
+#: lib/class-wp-theme-json-resolver.php:226 build/block-editor/index.js:1
+msgid "Light green cyan"
+msgstr "Lys cyan-grønn"
+
+#: lib/class-wp-theme-json-resolver.php:225 build/block-editor/index.js:1
+msgid "Luminous vivid amber"
+msgstr "Lysende levaktig rav"
+
+#: lib/class-wp-theme-json-resolver.php:224 build/block-editor/index.js:1
+msgid "Luminous vivid orange"
+msgstr "Lysende livaktig oransje"
+
+#: lib/class-wp-theme-json-resolver.php:223 build/block-editor/index.js:1
+msgid "Vivid red"
+msgstr "Livaktig rød"
+
+#: lib/class-wp-theme-json-resolver.php:222 build/block-editor/index.js:1
+msgid "Pale pink"
+msgstr "Blek rosa"
+
+#: lib/class-wp-theme-json-resolver.php:262 lib/block-patterns.php:12
+#: lib/editor-settings.php:30 build/block-editor/index.js:1
+#: build/block-library/index.js:68 build/components/index.js:10
+msgid "Large"
+msgstr "Stor"
+
+#: lib/class-wp-rest-menu-items-controller.php:487
+msgid "Invalid term ID."
+msgstr "Ugyldig term-ID."
+
+#: lib/class-wp-rest-menu-items-controller.php:919
+msgid "The ID for the parent of the object."
+msgstr "ID for forelder-objektet."
+
+#: gutenberg.php:112
+msgid "beta"
+msgstr "beta"
+
+#: lib/full-site-editing/templates-utils.php:17 build/editor/index.js:5
+msgid "Status"
+msgstr "Status"
+
+#. translators: ARIA label for the Block Settings Sidebar tab, not selected.
+#. translators: Text label for the Block Settings Sidebar tab.
+#. translators: Text label for the Template Settings Sidebar tab.
+#: lib/class-wp-widget-block.php:40 lib/navigation.php:91 lib/navigation.php:96
+#: build/edit-widgets/index.js:23 build/edit-post/index.js:37
+#: build/edit-post/index.js:38 build/edit-site/index.js:28
+#: build/edit-site/index.js:29 build/edit-site/index.js:30
+msgid "Block"
+msgstr "Blokk"
+
+#: build/block-library/blocks/rss.php:31
+#: build/block-library/blocks/latest-comments.php:31
+#: build/block-library/blocks/latest-posts.php:102 build/editor/index.js:21
+#: build/editor/index.js:35 build/block-library/index.js:30
+#: build/block-library/index.js:48 build/edit-navigation/index.js:6
+#: build/edit-post/index.js:40 build/edit-site/index.js:30
+msgid "(no title)"
+msgstr "(ingen overskrift)"
+
+#: gutenberg.php:90
+msgid "Experiments"
+msgstr "Eksperimenter"
+
+#: gutenberg.php:49 gutenberg.php:50 lib/experiments-page.php:56
+#: build/edit-widgets/index.js:24 build/blocks/index.js:1
+#: build/core-data/index.js:1
+msgid "Widgets"
+msgstr "Widgeter"
+
+#. Description of the plugin
+msgid "Printing since 1440. This is the development plugin for the new block editor in core."
+msgstr "Trykket siden 1440. Dette er utviklingsutvidelsen for den nye blokkeditoren i kjernen."
+
+#: lib/class-wp-rest-widgets-controller.php:756
+msgid "Unique identifier for the widget."
+msgstr "Unik identifikasjon for widgeten."
+
+#: gutenberg.php:186
+msgid "Gutenberg development mode requires files to be built. Run <code>npm install</code> to install dependencies, <code>npm run build</code> to build the files or <code>npm run dev</code> to build the files and watch for changes. Read the <a href=\"https://github.com/WordPress/gutenberg/blob/HEAD/docs/contributors/getting-started.md\">contributing</a> file for more information."
+msgstr "Gutenberg utviklermodus krever at noen filer blir bygger. Kjør <code>npm install</code> for å installere avhengigheter, <code>npm run build</code> for å bygge filene eller <code>npm run dev</code> for å bygge filene og følge med på endringer. Les <a href=\"https://github.com/WordPress/gutenberg/blob/master/docs/contributors/getting-started.md\">filen om å bidra</a> for å få mer informasjon."
+
+#. translators: button label text should, if possible, be under 16 characters.
+#: lib/full-site-editing/templates-utils.php:15 build/editor/index.js:25
+#: build/components/index.js:5
+msgid "Slug"
+msgstr "Permalenke"
+
+#: gutenberg.php:80 gutenberg.php:81
+msgid "Documentation"
+msgstr "Dokumentasjon"
+
+#: build/block-library/blocks/categories.php:30
+msgid "Select Category"
+msgstr "Velg kategori"
+
+#: lib/class-wp-rest-menu-items-controller.php:506
+msgid "Invalid post type."
+msgstr "Ugyldig inholdstype"
+
+#. translators: %s: Minimum required version
+#: gutenberg.php:173
+msgid "Gutenberg requires WordPress %s or later to function properly. Please upgrade WordPress before activating Gutenberg."
+msgstr "Gutenberg krever WordPress %s eller senere for å fungere ordentlig. Vennligst oppgrader WordPress før du aktiverer Gutenberg."
+
+#. Author of the plugin
+msgid "Gutenberg Team"
+msgstr "Gutenberg-teamet"
+
+#. Plugin URI of the plugin
+msgid "https://github.com/WordPress/gutenberg"
+msgstr "https://github.com/WordPress/gutenberg"
+
+#. Plugin Name of the plugin
+msgid "Gutenberg"
+msgstr "Gutenberg"
+
+#: gutenberg.php:41 gutenberg.php:42
+msgid "Demo"
+msgstr "Demo"

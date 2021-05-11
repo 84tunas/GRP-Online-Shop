@@ -1,0 +1,216 @@
+# Translation of Plugins - Page Builder Gutenberg Blocks – CoBlocks - Stable (latest release) in Thai
+# This file is distributed under the same license as the Plugins - Page Builder Gutenberg Blocks – CoBlocks - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-02-19 22:13:40+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: th\n"
+"Project-Id-Version: Plugins - Page Builder Gutenberg Blocks – CoBlocks - Stable (latest release)\n"
+
+#: includes/class-coblocks-settings.php:136
+msgid "Setting use to disable or enable all color controls across the site."
+msgstr "การตั้งค่าใช้เพื่อปิดหรือเปิดส่วนควบคุมสีทั้งหมดทั่วเว็บ"
+
+#: includes/class-coblocks-settings.php:124
+msgid "Setting use to disable or enable custom color controls across the site."
+msgstr "การตั้งค่าใช้เพื่อปิดหรือเปิดใช้งานส่วนควบคุมการปรับแต่งสีทั่วทั้งเว็บ"
+
+#: includes/class-coblocks-settings.php:148
+msgid "Setting use to disable or enable gradient controls and presets across the site."
+msgstr "การตั้งค่าใช้เพื่อปิดหรือเปิดส่วนควบคุมการไล่ระดับสีและการตั้งค่าล่วงหน้าทั่วทั้งเว็บ"
+
+#: includes/class-coblocks-settings.php:112
+msgid "Setting use to disable or enable typography controls across the site."
+msgstr "การตั้งค่าใช้เพื่อปิดหรือเปิดใช้งานส่วนควบคุมการออกแบบตัวอักษรทั่วทั้งเว็บ"
+
+#: src/blocks/events/index.php:122
+msgid "An error has occurred, check for calendar privileges to make sure it is public or try again later."
+msgstr "เกิดข้อผิดพลาด โปรดตรวจสอบสิทธิ์ของปฏิทินเพื่อให้แน่ใจว่าเป็นสาธารณะหรือลองอีกครั้งภายหลัง"
+
+#: src/extensions/layout-selector/index.php:25 dist/coblocks.js:58
+msgid "Contact"
+msgstr "ข้อมูลติดต่อ"
+
+#. translators: placeholder for email shortcode.
+#: includes/class-coblocks-form.php:51
+msgid "Form submission from [%1$s]"
+msgstr "แบบฟอร์มส่งจาก [%1$s]"
+
+#: includes/class-coblocks-form.php:1036 dist/coblocks.js:58
+msgid "name"
+msgstr "ชื่อ"
+
+#: includes/class-coblocks-form.php:382 dist/coblocks.js:58
+msgid "Text"
+msgstr "ข้อความ"
+
+#: includes/class-coblocks-form.php:1048 dist/coblocks.js:58
+msgid "email"
+msgstr "อีเมล"
+
+#: includes/class-coblocks-form.php:722 dist/coblocks.js:58
+msgid "Hidden"
+msgstr "ซ่อน"
+
+#: includes/class-coblocks-form.php:557 includes/class-coblocks-form.php:606
+#: dist/coblocks.js:58
+msgid "Select"
+msgstr "เลือก"
+
+#: class-coblocks.php:81 class-coblocks.php:93
+msgid "Something went wrong."
+msgstr "มีบางสิ่งผิดพลาด"
+
+#: includes/class-coblocks-form.php:688 dist/coblocks.js:58
+msgid "Website"
+msgstr "เว็บไซต์"
+
+#: src/blocks/posts/index.php:51 src/blocks/post-carousel/index.php:51
+msgid "An error has occurred, which probably means the feed is down. Try again later."
+msgstr "เกิดข้อผิดพลาดขึ้น ซึ่งอาจหมายถึงฟีดไม่ทำงาน ลองอีกครั้งในภายหลัง"
+
+#: includes/class-coblocks-form.php:493 dist/coblocks.js:58
+msgid "Choose one"
+msgstr "เลือกหนึ่งรูปแบบ"
+
+#: includes/class-coblocks-form.php:423 dist/coblocks.js:58
+msgid "Date"
+msgstr "วันที่"
+
+#: includes/class-coblocks-form.php:454 dist/coblocks.js:58
+msgid "Phone"
+msgstr "โทรศัพท์"
+
+#: src/blocks/posts/index.php:171 src/blocks/post-carousel/index.php:184
+msgctxt "placeholder when a post has no title"
+msgid "(no title)"
+msgstr "(ไม่มีชื่อเรื่อง)"
+
+#: src/blocks/social-profiles/index.php:76 dist/coblocks.js:58
+msgid "Instagram"
+msgstr "Instagram"
+
+#: src/blocks/social-profiles/index.php:89 dist/coblocks.js:58
+msgid "YouTube"
+msgstr "YouTube"
+
+#: src/blocks/social-profiles/index.php:93 dist/coblocks.js:58
+msgid "Yelp"
+msgstr "Yelp"
+
+#: src/blocks/social-profiles/index.php:97 dist/coblocks.js:58
+msgid "Houzz"
+msgstr "Houzz"
+
+#: src/blocks/social-profiles/index.php:84
+msgid "Linkedin"
+msgstr "LinkedIn"
+
+#: includes/class-coblocks-form.php:351 dist/coblocks.js:58
+msgid "Message"
+msgstr "ข้อความ"
+
+#: includes/class-coblocks-form.php:258 dist/coblocks.js:58
+msgid "Name"
+msgstr "ชื่อ"
+
+#. Author of the plugin
+msgid "GoDaddy"
+msgstr "GoDaddy"
+
+#. Author URI of the plugin
+msgid "https://www.godaddy.com"
+msgstr "https://www.godaddy.com"
+
+#: includes/class-coblocks-form.php:803 dist/coblocks.js:58
+msgid "Submit"
+msgstr "ส่ง"
+
+#: includes/class-coblocks-form.php:63 dist/coblocks.js:58
+msgid "Your message was sent:"
+msgstr "ส่งข้อความของคุณแล้ว:"
+
+#: includes/class-coblocks-google-map-block.php:120
+msgid "Google Map API key for map rendering"
+msgstr "คีย์ API ของ Google Map เพื่อสร้างแผนที่"
+
+#: includes/class-coblocks-form.php:229 includes/class-coblocks-form.php:321
+#: dist/coblocks.js:58
+msgid "Email"
+msgstr "อีเมล"
+
+#: src/blocks/social-profiles/index.php:72 dist/coblocks.js:58
+msgid "Twitter"
+msgstr "Twitter"
+
+#: src/blocks/social-profiles/index.php:80 dist/coblocks.js:58
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: src/blocks/share/index.php:148 dist/coblocks.js:58
+msgid "Share via Email"
+msgstr "แชร์ทางอีเมล"
+
+#: src/blocks/share/index.php:156 dist/coblocks.js:58
+msgid "Share on Google"
+msgstr "แชร์ใน Google"
+
+#: src/blocks/share/index.php:160 dist/coblocks.js:58
+msgid "Share on Reddit"
+msgstr "แชร์ใน Reddit"
+
+#: includes/admin/class-coblocks-action-links.php:41
+msgid "Leave a Review"
+msgstr "แสดงความคิดเห็น"
+
+#: src/blocks/share/index.php:136 dist/coblocks.js:58
+msgid "Share on Twitter"
+msgstr "แชร์ใน Twitter"
+
+#: src/blocks/share/index.php:140 dist/coblocks.js:58
+msgid "Share on Pinterest"
+msgstr "แชร์ใน Pinterest"
+
+#: src/blocks/share/index.php:152 dist/coblocks.js:58
+msgid "Share on Tumblr"
+msgstr "แชร์ใน Tumblr"
+
+#: src/blocks/share/index.php:144
+msgid "Share on Linkedin"
+msgstr "แชร์ทาง LinkedIn"
+
+#. Description of the plugin
+msgid "CoBlocks is a suite of professional <strong>page building content blocks</strong> for the WordPress Gutenberg block editor. Our blocks are hyper-focused on empowering makers to build beautifully rich pages in WordPress."
+msgstr "CoBlocks เป็นชุด <strong>บล็อกเนื้อหาสำหรับสร้างเพจ</strong> ระดับมืออาชีพสำหรับโปรแกรมแก้ไขบล็อก WordPress Gutenberg บล็อกของเราเน้นให้ผู้สร้างมีความสามารถที่จะสร้างเพจที่สวยงามสมบูรณ์ได้ใน WordPress"
+
+#: src/blocks/social-profiles/index.php:68 dist/coblocks.js:58
+msgid "Facebook"
+msgstr "เฟซบุ๊ค"
+
+#: includes/class-coblocks-form.php:262 dist/coblocks.js:58
+msgid "First"
+msgstr "ชื่อ"
+
+#: includes/class-coblocks-form.php:101
+msgid "Google reCaptcha secret key for form spam protection"
+msgstr "คีย์ลับ Google reCAPTCHA เพื่อป้องกันการสแปมแบบฟอร์ม"
+
+#: includes/class-coblocks-form.php:89
+msgid "Google reCaptcha site key for form spam protection"
+msgstr "คีย์เว็บไซต์ Google reCAPTCHA เพื่อป้องกันการสแปมแบบฟอร์ม"
+
+#: includes/class-coblocks-form.php:263 dist/coblocks.js:58
+msgid "Last"
+msgstr "สกุล"
+
+#: includes/admin/class-coblocks-action-links.php:41
+msgid "Review CoBlocks on WordPress.org"
+msgstr "ดู CoBlocks ใน WordPress.org"
+
+#: src/blocks/share/index.php:132 dist/coblocks.js:58
+msgid "Share on Facebook"
+msgstr "แชร์ในเฟซบุ๊ค"

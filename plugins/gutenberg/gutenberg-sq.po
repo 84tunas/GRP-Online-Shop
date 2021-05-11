@@ -1,0 +1,1612 @@
+# Translation of Plugins - Gutenberg - Development (trunk) in Albanian
+# This file is distributed under the same license as the Plugins - Gutenberg - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-03-18 08:01:49+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: sq_AL\n"
+"Project-Id-Version: Plugins - Gutenberg - Development (trunk)\n"
+
+#: lib/full-site-editing/default-template-types.php:82
+msgid "Template shown when no content is found."
+msgstr "Gjedhe e shfaqur, kur s’gjendet lëndë."
+
+#: lib/full-site-editing/default-template-types.php:74
+msgid "Template used to display search results."
+msgstr "Gjedhe e përdorur për të shfaqur përfundime kërkimi."
+
+#: lib/full-site-editing/default-template-types.php:73
+msgctxt "Template name"
+msgid "Search"
+msgstr "Kërkim"
+
+#: lib/full-site-editing/default-template-types.php:70
+msgid "Template used to display individual media items or attachments."
+msgstr "Gjedhe e përdorur për të shfaqur objekte individuale media ose bashkëngjitje."
+
+#: lib/full-site-editing/default-template-types.php:66
+msgid "Archive template used to display a list of posts with a given tag."
+msgstr "Gjedhe arkiv e përdorur për të shfaqur një listë postimesh me një etike të dhënë."
+
+#: lib/full-site-editing/default-template-types.php:65
+msgctxt "Template name"
+msgid "Tag"
+msgstr "Etiketë"
+
+#: lib/full-site-editing/default-template-types.php:62
+msgid "Archive template used to display a list of posts from a specific date."
+msgstr "Gjedhe arkiv e përdorur për të shfaqur një listë postimesh nga një datë e dhënë."
+
+#: lib/full-site-editing/default-template-types.php:61
+msgctxt "Template name"
+msgid "Date"
+msgstr "Datë"
+
+#: lib/full-site-editing/default-template-types.php:58
+msgid "Archive template used to display a list of posts from the same taxonomy."
+msgstr "Gjedhe arkiv e përdorur për të shfaqur një listë postimesh nga e njëjti klasifikim."
+
+#: lib/full-site-editing/default-template-types.php:57
+msgctxt "Template name"
+msgid "Taxonomy"
+msgstr "Klasifikim"
+
+#: lib/full-site-editing/default-template-types.php:54
+msgid "Archive template used to display a list of posts from the same category."
+msgstr "Gjedhe arkiv e përdorur për të shfaqur një listë postimesh nga e njëjta kategori."
+
+#: lib/full-site-editing/default-template-types.php:53
+msgctxt "Template name"
+msgid "Category"
+msgstr "Kategori"
+
+#: lib/full-site-editing/default-template-types.php:50
+msgid "Archive template used to display a list of posts from a single author."
+msgstr "Gjedhe arkiv e përdorur për të shfaqur një listë postimesh nga një autor i dhënë."
+
+#: lib/full-site-editing/default-template-types.php:49
+msgctxt "Template name"
+msgid "Author"
+msgstr "Autor"
+
+#: lib/full-site-editing/default-template-types.php:46
+msgid "The archive template displays multiple entries at once. It is used as a fallback for the Category, Author, and Date templates, which take precedence when they are available."
+msgstr "Gjedhja e arkivit shfaq disa zëra njëherësh. Përdoret si alternativë për gjedhet Kategori, Autor dhe Datë, të cilat kanë përparësinë, nëse janë të pranishme."
+
+#: lib/full-site-editing/default-template-types.php:42
+msgid "Template used to display individual pages."
+msgstr "Gjedhe e përdorur për të shfaqur faqe individuale."
+
+#: lib/full-site-editing/default-template-types.php:38
+msgid "Template used to display a single post type."
+msgstr "Gjedhe e përdorur për të shfaqur lloj njësh postimi."
+
+#: lib/full-site-editing/default-template-types.php:34
+msgid "Template used to display a single blog post."
+msgstr "Gjedhe e përdorur për të shfaqur një postim njësh blogu."
+
+#: lib/full-site-editing/default-template-types.php:30
+msgid "Template used for displaying single views of the content. This template is a fallback for the Single, Post, and Page templates, which take precedence when they exist."
+msgstr "Gjedhe e përdorur për të shfaqur pamje njëshe të lëndës. Kjo gjedhe është alternativë për gjedhet Njësh, Postim dhe Faqe, të cilat kanë përparësinë, nëse janë të pranishme."
+
+#: lib/full-site-editing/default-template-types.php:26
+msgid "Template used to render the front page of the site, whether it displays blog posts or a static page. The front page template takes precedence over the \"Home\" template."
+msgstr "Gjedhe e përdorur të vizatuar faqen ballore të sajtit, qoftë kur shfaq postime blogu ose një faqe statike. Gjedhja e faqes ballore ka përparësinë kundrejt gjedhes “Kreu”."
+
+#: lib/full-site-editing/default-template-types.php:22
+msgid "Template used for the main page that displays blog posts. This is the front page by default in WordPress. If a static front page is set, this is the template used for the page that contains the latest blog posts."
+msgstr "Gjedhe e përdorur për faqen kryesore që shfaq postimet e blogut. Në WordPress kjo është faqja ballore, si parazgjedhje. Nëse është ujdisur një faqe statike, kjo është gjedhja e përdorur për faqen që përmban postimet më të reja në blog."
+
+#: lib/full-site-editing/default-template-types.php:18
+msgid "The default template used when no other template is available. This is a required template in WordPress."
+msgstr "Gjedhja parazgjedhje e përdorur kur s’ka gjedhe tjetër të gatshme. Kjo është një gjedhe e domosdoshme në WordPress."
+
+#. translators: %1$s: Template area type, %2$s: the uncategorized template area
+#. value.
+#: lib/full-site-editing/template-parts.php:200
+msgid "\"%1$s\" is not a supported wp_template_part area value and has been added as \"%2$s\"."
+msgstr "\"%1$s\" s’është vlerë zone wp_template_part e mbuluar dhe është shtuar si \"%2$s\"."
+
+#. translators: %s are the block attributes.
+#: build/block-library/blocks/template-part.php:77
+msgid "Could not render Template Part block with the attributes: <code>%s</code>. Block cannot be rendered inside itself."
+msgstr "S’u vizatua dot bllok Pjesë Gjedheje me atributet: <code>%s</code>. Blloku s’mund të vizatohet brenda vetes."
+
+#: build/block-library/blocks/template-part.php:69
+msgid "Template Part not found."
+msgstr "S’u gjet Pjesë Gjedheje."
+
+#: lib/compat.php:191
+msgid "Reusable block updated."
+msgstr "U përditësua bllok i ripërdorshëm."
+
+#: lib/class-wp-rest-widget-types-controller.php:345
+msgid "Human-readable name identifying the widget type."
+msgstr "Emër i lexueshëm nga syri njerëzor që identifikon llojin e widget-t."
+
+#: lib/class-wp-rest-widget-types-controller.php:57
+#: lib/class-wp-rest-widget-types-controller.php:77
+msgid "The widget type id."
+msgstr "ID-ja e llojit të widget-it."
+
+#: lib/full-site-editing/template-parts.php:79
+msgid "Template Part Area"
+msgstr "Fushë Pjese Gjedheje"
+
+#: lib/full-site-editing/template-parts.php:78
+msgid "Template Part Areas"
+msgstr "Fusha Pjese Gjedheje"
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:558
+msgid "Where the template part is intended for use (header, footer, etc.)"
+msgstr "Për ku është menduar të përdoret pjesa e gjedhes (kryefaqe, fundfaqe, etj.)"
+
+#: build/block-library/blocks/post-navigation-link.php:35
+msgctxt "label for previous post link"
+msgid "Previous"
+msgstr "I mëparshmi"
+
+#: build/block-library/blocks/post-navigation-link.php:35
+msgctxt "label for next post link"
+msgid "Next"
+msgstr "Pasuesi"
+
+#: lib/experiments-page.php:61
+msgid "Enable Widgets screen in Customizer"
+msgstr "Aktivizo skenë Widget-esh te Përshtatësi"
+
+#: lib/class-wp-rest-pattern-directory-controller.php:285
+msgid "Limit results to those matching a keyword ID."
+msgstr "Kufizoji përfundimet te ato që kanë përputhje me një ID fjalëkyçi."
+
+#: lib/class-wp-rest-url-details-controller.php:198
+msgid "Unable to retrieve body from response at this URL."
+msgstr "S’arrihet të merret lëndë nga përgjigja në këtë URL."
+
+#: lib/class-wp-rest-url-details-controller.php:192
+msgid "URL not found. Response returned a non-200 status code for this URL."
+msgstr "S’u gjet URL. Përgjigja ktheu një kod gjendjeje jo-200 për këtë URL."
+
+#: lib/class-wp-rest-url-details-controller.php:158
+msgid "Sorry, you are not allowed to process remote urls."
+msgstr "Na ndjeni, s’keni leje të përpunoni URL të largëta."
+
+#: lib/class-wp-rest-url-details-controller.php:96
+msgid "Invalid URL"
+msgstr "URL e pavlefshme"
+
+#: lib/class-wp-rest-url-details-controller.php:71
+msgid "The contents of the <title> tag from the URL."
+msgstr "Lënda e etiketës <title> nga URL-ja."
+
+#: lib/class-wp-rest-url-details-controller.php:40
+msgid "The URL to process."
+msgstr "URL-ja për t’u përpunuar."
+
+#: lib/class-wp-rest-pattern-directory-controller.php:279
+msgid "Limit results to those matching a category ID."
+msgstr "Kufizoji përfundimet te ato që kanë përputhje me një ID kategorie."
+
+#: lib/class-wp-rest-pattern-directory-controller.php:251
+msgid "The preferred width of the viewport when previewing a pattern, in pixels."
+msgstr "Gjerësia e parapëlqyer për ekranin, kur parashihet një rregullsi, në piksel."
+
+#: lib/class-wp-rest-pattern-directory-controller.php:244
+msgid "A description of the pattern."
+msgstr "Përshkrim i rregullsisë."
+
+#: lib/class-wp-rest-pattern-directory-controller.php:236
+msgid "The pattern's keyword slugs."
+msgstr "Identifikues fjalëkyçi të regullsisë."
+
+#: lib/class-wp-rest-pattern-directory-controller.php:228
+msgid "The pattern's category slugs."
+msgstr "Identifikues kategorie të rregullsisës."
+
+#: lib/class-wp-rest-pattern-directory-controller.php:221
+msgid "The pattern content."
+msgstr "Lënda e rregullsisë."
+
+#: lib/class-wp-rest-pattern-directory-controller.php:207
+msgid "The pattern ID."
+msgstr "ID-ja e rregullsisë."
+
+#: lib/class-wp-rest-pattern-directory-controller.php:129
+msgid "https://wordpress.org/support/forums/"
+msgstr "https://wordpress.org/support/forums/"
+
+#. translators: %s: Support forums URL.
+#: lib/class-wp-rest-pattern-directory-controller.php:128
+msgid "An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href=\"%s\">support forums</a>."
+msgstr "Ndodhi një gabim i papritur. Diçka mund të jetë gabim me WordPress.org ose me formësimin e këtij shërbyesi. Nëse vazhdoni të keni pobleme, ju lutemi, provoni <a href=\"%s\">forumet e asistencës</a>."
+
+#: lib/class-wp-rest-pattern-directory-controller.php:72
+msgid "Sorry, you are not allowed to browse the local block pattern directory."
+msgstr "Na ndjeni, s’keni leje të shfletoni listën e rregullsive vendore të blloqeve."
+
+#: build/block-library/blocks/query-pagination-previous.php:22
+msgid "&laquo; Previous Page"
+msgstr "&laquo; Faqja e Mëparshme"
+
+#: build/block-library/blocks/query-pagination-next.php:23
+msgid "Next Page &raquo;"
+msgstr "Faqja Pasuese &raquo;"
+
+#. translators: Visible only in the front end, this warning takes the place of
+#. a faulty block.
+#: build/block-library/blocks/block.php:46
+#: build/block-library/blocks/template-part.php:90
+msgid "[block rendering halted]"
+msgstr "[rikrijimi i bllokut u ndal]"
+
+#. translators: %s is the user-provided title of the reusable block.
+#: build/block-library/blocks/block.php:32
+msgid "Could not render Reusable Block <strong>%s</strong>. Block cannot be rendered inside itself."
+msgstr "S’u vizatua dot Bllok i Ripërdorshëm <strong>%s</strong>. Blloku s’mund të vizatohet brenda vetes."
+
+#: lib/full-site-editing/block-templates.php:224
+msgid "No theme is defined for this template."
+msgstr "S’ka temë të përkufizuar për këtë gjedhe."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:548
+msgid "Post ID."
+msgstr "ID Postimi."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:542
+msgid "Status of template."
+msgstr "Gjendje gjedheje."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:536
+msgid "Description of template."
+msgstr "Përshkrim gjedheje."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:530
+msgid "Title of template."
+msgstr "Titull gjedheje."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:524
+msgid "Content of template."
+msgstr "Lëndë gjedheje."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:518
+msgid "Whether the template is customized."
+msgstr "Nëse është e përshtatur apo jo gjedhja."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:513
+msgid "Theme identifier for the template."
+msgstr "Identifikues teme për gjedhen."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:505
+msgid "Unique slug identifying the template."
+msgstr "Identifikues unik që identifikon gjedhen."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:499
+msgid "ID of template."
+msgstr "ID gjedheje."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:477
+msgid "Limit to the specified post id."
+msgstr "Kufizoje me ID-në e postimit të dhënë."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:312
+msgid "The template has already been deleted."
+msgstr "Gjedhja tashmë është fshirë."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:287
+msgid "Templates based on theme files can't be removed."
+msgstr "S’mund të hiqen gjedhe të bazuara në kartela teme."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:174
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:199
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:250
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:284
+msgid "No templates exist with that id."
+msgstr "S’ka gjedhe me atë ID."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:109
+msgid "Sorry, you are not allowed to access the templates on this site."
+msgstr "Na ndjeni, s’keni leje të hyni te gjedhet në këtë sajt."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:70
+msgid "The id of a template"
+msgstr "ID-ja e gjedhes"
+
+#: lib/client-assets.php:101 build/i18n/index.js:1
+msgctxt "text direction"
+msgid "ltr"
+msgstr "mnd"
+
+#: lib/full-site-editing/default-template-types.php:29
+msgctxt "Template name"
+msgid "Singular"
+msgstr "Njëjës"
+
+#: lib/full-site-editing/full-site-editing.php:83
+msgid "Edit site"
+msgstr "Përpunoni sajtin"
+
+#: lib/full-site-editing/templates.php:98
+msgid "Themes"
+msgstr "Tema"
+
+#. translators: %s: Number of auto-draft posts.
+#: lib/full-site-editing/templates-utils.php:91
+msgctxt "Post status"
+msgid "Auto-Draft <span class=\"count\">(%s)</span>"
+msgid_plural "Auto-Drafts <span class=\"count\">(%s)</span>"
+msgstr[0] "Auto-Skicë <span class=\"count\">(%s)</span>"
+msgstr[1] "Auto-Skica <span class=\"count\">(%s)</span>"
+
+#: lib/full-site-editing/templates-utils.php:47
+msgctxt "Post status"
+msgid "Auto-Draft"
+msgstr "Auto-Skicë"
+
+#: lib/full-site-editing/default-template-types.php:81
+msgctxt "Template name"
+msgid "404"
+msgstr "404"
+
+#: lib/full-site-editing/default-template-types.php:77
+msgid "Privacy Policy"
+msgstr "Rregulla Privatësie"
+
+#: lib/full-site-editing/default-template-types.php:41
+msgctxt "Template name"
+msgid "Page"
+msgstr "Faqe"
+
+#: lib/full-site-editing/default-template-types.php:37
+msgctxt "Template name"
+msgid "Post"
+msgstr "Postim"
+
+#: lib/full-site-editing/default-template-types.php:21
+msgctxt "Template name"
+msgid "Home"
+msgstr "Kreu"
+
+#: lib/full-site-editing/full-site-editing.php:26
+msgid "You're using an experimental Full Site Editing theme. Full Site Editing is an experimental feature and potential API changes are to be expected!"
+msgstr "Po përdorni një temë eksperimentale Përpunimi të Plotë Sajti. Përpunimi i Plotë i Sajtit është një veçori eksperimentale dhe duhen pritur ndryshime potenciale API-sh!"
+
+#. translators: %s: "beta" label.
+#: gutenberg.php:111
+msgid "Site Editor %s"
+msgstr "Përpunues Sajti %s"
+
+#: lib/full-site-editing/default-template-types.php:17
+msgctxt "Template name"
+msgid "Index"
+msgstr "Tregues"
+
+#: lib/full-site-editing/default-template-types.php:33
+msgctxt "Template name"
+msgid "Single"
+msgstr "Njëjës"
+
+#: lib/full-site-editing/default-template-types.php:45
+msgctxt "Template name"
+msgid "Archive"
+msgstr "Arkiv"
+
+#: lib/full-site-editing/default-template-types.php:25
+msgctxt "Template name"
+msgid "Front Page"
+msgstr "Faqe Ballore"
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:89
+#: lib/class-wp-rest-menu-items-controller.php:92
+msgid "Whether to bypass Trash and force deletion."
+msgstr "Të anashkalohet apo jo Shpënia te Hedhurinat dhe të bëhet fshirje e detyruar."
+
+#: lib/class-wp-rest-menu-items-controller.php:58
+msgid "The password for the post if it is password protected."
+msgstr "Fjalëkalimi për postimin, nëse është i mbrojtur me fjalëkalim."
+
+#: lib/class-wp-rest-sidebars-controller.php:430
+msgid "HTML content to append to the sidebar title when displayed. Default is a closing h2 element."
+msgstr "Lëndë HTML për t’ia shtuar në fund titullit të anështyllës, kur shfaqet. Parazgjedhja është një element h2 mbylljeje."
+
+#: lib/class-wp-rest-sidebars-controller.php:423
+msgid "HTML content to prepend to the sidebar title when displayed. Default is an opening h2 element."
+msgstr "Lëndë HTML për t’ia shtuar para titullit të anështyllës, kur shfaqet. Parazgjedhja është një element h2 hapjeje."
+
+#: lib/class-wp-rest-sidebars-controller.php:416
+msgid "HTML content to append to each widget's HTML output when assigned to this sidebar. Default is a closing list item element."
+msgstr "Lëndë HTML për t’ia shtuar në fund output-it HTML të çdo widget-it, kur i caktohet kësaj anështylle. Parazgjedhja është një element mbylljeje liste."
+
+#: lib/class-wp-rest-sidebars-controller.php:409
+msgid "HTML content to prepend to each widget's HTML output when assigned to this sidebar. Default is an opening list item element."
+msgstr "Lëndë HTML për t’ia shtuar para output-it HTML të çdo widget-i, kur i caktohet kësaj anështylle. Parazgjedhja është një element hapjeje liste."
+
+#: lib/class-wp-rest-sidebars-controller.php:403
+msgid "Extra CSS class to assign to the sidebar in the Widgets interface."
+msgstr "Klasë CSS ekstra për t’i caktuar anështyllës te ndërfaqja e Widget-eve."
+
+#: lib/class-wp-rest-sidebars-controller.php:159
+msgid "No sidebar exists with that id."
+msgstr "S’ka anështyllë me atë ID."
+
+#: lib/class-wp-rest-batch-controller.php:216
+msgid "The handler for the route is invalid"
+msgstr "Trajtuesi për rrugën është i pavlefshëm"
+
+#: lib/class-wp-rest-batch-controller.php:143
+#: lib/class-wp-rest-batch-controller.php:249
+msgid "The requested route does not support batch requests."
+msgstr "Rruga e kërkuar nuk mbulon kërkesa veprimi në masë."
+
+#: lib/class-wp-rest-batch-controller.php:89
+msgid "Could not parse the path."
+msgstr "S’u përtyp dot shtegu."
+
+#: lib/class-wp-rest-widgets-controller.php:766
+msgid "The sidebar the widget belongs to."
+msgstr "Anështylla së cilës i përket widget-i."
+
+#: lib/class-wp-rest-widgets-controller.php:732
+msgid "The sidebar to return widgets for."
+msgstr "Anshtyllë për të cilën të sillen widget-et."
+
+#: lib/class-wp-rest-widgets-controller.php:501
+msgid "The requested widget is invalid."
+msgstr "Widget-i i kërkuar është i pavlefshëm."
+
+#: lib/class-wp-rest-widgets-controller.php:373
+msgid "No widget was found with that id."
+msgstr "S’u gjet widget me atë ID."
+
+#: lib/class-wp-rest-widget-types-controller.php:162
+#: lib/class-wp-rest-widgets-controller.php:346
+#: lib/class-wp-rest-sidebars-controller.php:228
+msgid "Sorry, you are not allowed to manage widgets on this site."
+msgstr "Na ndjeni, s’keni leje të administroni widget-e në këtë sajt."
+
+#: lib/class-wp-rest-widgets-controller.php:80
+msgid "Whether to force removal of the widget, or move it to the inactive sidebar."
+msgstr "Nëse widget-i duhet hequr me zor, apo kaluar te anështylla joaktive."
+
+#: lib/class-wp-rest-widget-types-controller.php:379
+msgid "Customize selective refresh."
+msgstr "Përshtatni rifreskim përzgjedhës."
+
+#: lib/class-wp-rest-widget-types-controller.php:372
+msgid "Widget class name."
+msgstr "Emër klase e widget-it."
+
+#: lib/class-wp-rest-widget-types-controller.php:365
+msgid "Option name."
+msgstr "Emër mundësie."
+
+#: lib/class-wp-rest-widget-types-controller.php:358
+msgid "Class name"
+msgstr "Emër klase"
+
+#: lib/class-wp-rest-widget-types-controller.php:339
+msgid "Unique slug identifying the widget type."
+msgstr "Identifikues unik që identifikon llojin e widget-it."
+
+#: lib/class-wp-rest-widget-types-controller.php:187
+msgid "Invalid widget type."
+msgstr "Lloj i pavlefshëm widget-i."
+
+#: build/edit-widgets/blocks/legacy-widget.php:32
+msgid "Rendering legacy widget block using widgetId is unsupported."
+msgstr "Nuk mbulohet formimi i bllokut për widget të dikurshëm duke përdorur widgetId."
+
+#: lib/class-wp-rest-menu-items-controller.php:980
+msgid "HTML content to display for this block menu item."
+msgstr "Lëndë HTML për t’u shfaqur për këtë element menuje blloku."
+
+#: lib/class-wp-rest-widgets-controller.php:799
+msgid "HTML representation of the widget admin form."
+msgstr "Paraqitje HTML e formularit të përgjegjësit të widget-eve."
+
+#: lib/class-wp-rest-sidebars-controller.php:258
+msgid "Inactive widgets"
+msgstr "Widget-e joaktive"
+
+#: lib/class-wp-rest-widgets-controller.php:805
+msgid "Settings of the widget."
+msgstr "Rregullime të widget-it."
+
+#: lib/class-wp-rest-widgets-controller.php:793
+msgid "HTML representation of the widget."
+msgstr "Përfaqësim HTML i widget-it."
+
+#: lib/class-wp-rest-widgets-controller.php:788
+msgid "Number of the widget."
+msgstr "Numër i widget-it."
+
+#: lib/class-wp-rest-widget-types-controller.php:352
+#: lib/class-wp-rest-widgets-controller.php:783
+msgid "Description of the widget."
+msgstr "Përshkrim i widget-it."
+
+#: lib/class-wp-rest-widgets-controller.php:778
+msgid "Name of the widget."
+msgstr "Emër i widget-it."
+
+#: lib/class-wp-rest-widgets-controller.php:773
+msgid "Class name of the widget implementation."
+msgstr "Emër klase e sendërtimit të widget-it."
+
+#: lib/class-wp-rest-widgets-controller.php:761
+msgid "Type of widget for the object."
+msgstr "Lloj widget-i për objektin."
+
+#: lib/class-wp-rest-sidebars-controller.php:444
+msgid "Nested widgets."
+msgstr "Widget-e brenda njëri-tjetrit."
+
+#: lib/class-wp-rest-sidebars-controller.php:437
+msgid "Status of sidebar."
+msgstr "Gjendje anështylle."
+
+#: lib/class-wp-rest-sidebars-controller.php:397
+msgid "Description of sidebar."
+msgstr "Përshkrim anështylle."
+
+#: lib/class-wp-rest-sidebars-controller.php:391
+msgid "Unique name identifying the sidebar."
+msgstr "Emër unik që identifikon anështyllën."
+
+#: lib/class-wp-rest-sidebars-controller.php:385
+msgid "ID of sidebar."
+msgstr "ID-ja e anështyllës."
+
+#: lib/class-wp-rest-sidebars-controller.php:81
+msgid "The id of a registered sidebar"
+msgstr "ID-ja e një anështylle të regjistruar."
+
+#: lib/class-wp-widget-block.php:33
+msgid "Gutenberg block."
+msgstr "Bllok Gutenberg."
+
+#: lib/full-site-editing/templates-utils.php:16 build/block-library/index.js:46
+msgid "Description"
+msgstr "Përshkrim"
+
+#: lib/full-site-editing/edit-site-page.php:204
+msgid "The ID of the page that should be displayed on the front page"
+msgstr "ID-ja e faqes që duhet shfaqur në faqen ballore"
+
+#: lib/full-site-editing/edit-site-page.php:194
+msgid "What to show on the front page"
+msgstr "Ç’të shfaqet te faqja ballore"
+
+#: lib/compat.php:190
+msgid "Reusable block scheduled."
+msgstr "U planifikua bllok i ripërdorshëm."
+
+#: lib/compat.php:189
+msgid "Reusable block reverted to draft."
+msgstr "Blloku i ripërdorshëm u kthye te versioni skicë."
+
+#: lib/compat.php:188
+msgid "Reusable block published privately."
+msgstr "Blloku i ripërdorshëm u botua privatisht."
+
+#: lib/compat.php:187
+msgid "Reusable block published."
+msgstr "Blloku i ripërdorshëm u botua."
+
+#: lib/compat.php:186
+msgid "Reusable blocks list"
+msgstr "Listë blloqesh të ripërdorshëm"
+
+#: lib/compat.php:185
+msgid "Reusable blocks list navigation"
+msgstr "Lëvizje në listë blloqesh të ripërdorshëm"
+
+#: lib/compat.php:184
+msgid "Filter reusable blocks list"
+msgstr "Filtroni listën e blloqeve të ripërdorshëm"
+
+#: lib/compat.php:183
+msgid "No reusable blocks found in Trash."
+msgstr "Te Hedhurinat s’u gjetën blloqe të ripërdorshëm."
+
+#: lib/compat.php:182
+msgid "No reusable blocks found."
+msgstr "S’u gjetën blloqe të ripërdorshëm."
+
+#: lib/compat.php:181
+msgid "Search Reusable blocks"
+msgstr "Kërkoni blloqe të ripërdorshëm"
+
+#: lib/compat.php:180
+msgid "All Reusable blocks"
+msgstr "Krejt blloqet e ripërdorshëm"
+
+#: lib/compat.php:179
+msgid "View Reusable block"
+msgstr "Shihni bllok të ripërdorshëm"
+
+#: lib/compat.php:178
+msgid "Edit Reusable block"
+msgstr "Përpunoni bllok të ripërdorshëm"
+
+#: lib/compat.php:177
+msgid "New Reusable block"
+msgstr "Bllok i ripërdorshëm i ri"
+
+#: lib/compat.php:176
+msgid "Add new Reusable block"
+msgstr "Shtoni bllok të ripërdorshëm të ri"
+
+#: lib/compat.php:175
+msgctxt "Reusable block"
+msgid "Add New"
+msgstr "Shtoni të ri"
+
+#: lib/compat.php:174
+msgctxt "add new on admin bar"
+msgid "Reusable block"
+msgstr "Bllok i ripërdorshëm"
+
+#: lib/compat.php:173
+msgctxt "admin menu"
+msgid "Reusable blocks"
+msgstr "Blloqe të Ripërdorshëm"
+
+#: lib/compat.php:172
+msgctxt "post type singular name"
+msgid "Reusable block"
+msgstr "Bllok i ripërdorshëm"
+
+#: lib/compat.php:171
+msgctxt "post type general name"
+msgid "Reusable blocks"
+msgstr "Blloqe të ripërdorshëm"
+
+#: build/block-library/blocks/site-logo.php:95
+msgid "Site logo."
+msgstr "Logo sajti."
+
+#: lib/class-wp-rest-menus-controller.php:589
+msgid "Whether to automatically add top level pages to this menu."
+msgstr "Shto vetvetiu te kjo menu faqe të reja të shkallës së epërme."
+
+#: lib/class-wp-rest-menus-controller.php:171
+msgid "Sorry, you are not allowed to set auto add pages."
+msgstr "Na ndjeni. s’keni leje të caktoni vetështim faqesh."
+
+#: lib/class-wp-rest-menu-items-controller.php:1000
+msgid "Version of the block format used in the HTML content."
+msgstr "Version i formatit të bllokut në lëndë HTML."
+
+#: lib/class-wp-rest-menu-items-controller.php:994
+msgid "HTML content, transformed for display."
+msgstr "Lëndë HTML, e shndërruar për shfaqje."
+
+#: lib/class-wp-rest-menu-items-controller.php:989
+msgid "HTML content, as it exists in the database."
+msgstr "Lëndë HTML, siç gjendet te baza e të dhënave."
+
+#: lib/class-wp-rest-menu-items-controller.php:523
+msgid "Content required if menu item of type block."
+msgstr "Lënda është e domosdoshme, në qoftë element menuje lloji blloku."
+
+#: lib/class-wp-rest-pattern-directory-controller.php:214
+msgid "The pattern title, in human readable format."
+msgstr "Titulli i rregullsisë, në format të lexueshëm nga syri njerëzor."
+
+#. translators: %s: the author.
+#. translators: byline. %s: current author.
+#: build/block-library/blocks/rss.php:60
+#: build/block-library/blocks/latest-posts.php:114
+#: build/block-library/index.js:50
+msgid "by %s"
+msgstr "nga %s"
+
+#: lib/class-wp-theme-json-resolver.php:221 build/block-editor/index.js:1
+msgid "White"
+msgstr "E bardhë"
+
+#: lib/class-wp-theme-json-resolver.php:219 build/block-editor/index.js:1
+#: build/block-editor/index.js:9
+msgid "Black"
+msgstr "E zezë"
+
+#. translators: accessibility text for the content landmark region.
+#: lib/navigation.php:338 build/edit-widgets/index.js:7
+#: build/edit-post/index.js:7 build/edit-site/index.js:7
+#: build/edit-site/index.js:30
+msgid "Content"
+msgstr "Lëndë"
+
+#: lib/experiments-page.php:50
+msgid "Enable Navigation screen"
+msgstr "Aktivizo skenë Lëvizjesh"
+
+#: gutenberg.php:62 gutenberg.php:63
+msgid "Navigation (beta)"
+msgstr "Lëvizje (beta)"
+
+#: lib/class-wp-rest-menu-items-controller.php:1105
+msgid "Sort collection by object attribute."
+msgstr "Renditeni koleksionin sipas atribut objektesh."
+
+#: lib/class-wp-rest-menu-items-controller.php:1098
+msgid "Order sort attribute ascending or descending."
+msgstr "Atribut rendi renditje rritëse ose zbritëse."
+
+#: lib/class-wp-rest-menu-items-controller.php:1093
+msgid "Limit result set to posts with a specific menu_order value."
+msgstr "Kufizoje grupin e përfundimeve te postime me një vlerë menu_order specifike."
+
+#. translators: %s: taxonomy name
+#: lib/class-wp-rest-menu-items-controller.php:1059
+msgid "The terms assigned to the object in the %s taxonomy."
+msgstr "Termat caktuar objektit te klasifikimi %s."
+
+#: lib/class-wp-rest-menu-items-controller.php:1047
+msgid "Whether the menu item represents an object that no longer exists."
+msgstr "Nëse elementi i menusë përfaqëson një objekt që s’ekziston më."
+
+#: lib/class-wp-rest-menu-items-controller.php:1033
+msgid "The XFN relationship expressed in the link of this menu item."
+msgstr "Marrëdhënia XFN e shprehur te lidhja e këtij elementi menuje."
+
+#: lib/class-wp-rest-menu-items-controller.php:1026
+msgid "The URL to which this menu item points."
+msgstr "URL-ja për ku shpie ky element menuje."
+
+#: lib/class-wp-rest-menu-items-controller.php:1019
+msgid "The singular label used to describe this type of menu item."
+msgstr "Etiketa njëshe e përdorur për të përshkruar këtë lloj elementi menush."
+
+#: lib/class-wp-rest-menu-items-controller.php:1009
+msgid "The target attribute of the link element for this menu item."
+msgstr "Atributi i synuar i pjesës lidhje për këtë element menush."
+
+#: lib/class-wp-rest-menu-items-controller.php:972
+msgid "The DB ID of the original object this menu item represents, e . g . ID for posts and term_id for categories."
+msgstr "ID DB e objektit origjinal që përfaqëson ky zë menuje, p.sh., ID-ja për postimet dhe term_id për kategoritë."
+
+#: lib/class-wp-rest-menu-items-controller.php:966
+msgid "The type of object originally represented, such as \"category,\" \"post\", or \"attachment.\""
+msgstr "Lloji i objektit përfaqësuar fillimisht, bie fjala, \"kategori,\" \"postim\", ose \"bashkëngjitje.\""
+
+#: lib/class-wp-rest-menu-items-controller.php:959
+msgid "The DB ID of the nav_menu_item that is this item's menu parent, if any, otherwise 0."
+msgstr "ID DB e nav_menu_item që është mëma e menusë së këtij zëri, në pastë, përndryshe, 0."
+
+#: lib/class-wp-rest-menu-items-controller.php:950
+msgid "The description of this menu item."
+msgstr "Përshkrimi i këtij elementi menush."
+
+#: lib/class-wp-rest-menu-items-controller.php:936
+msgid "Class names for the link element of this menu item."
+msgstr "Emra klasash për pjesën lidhje të këtij elementi menush."
+
+#: lib/class-wp-rest-menu-items-controller.php:927
+msgid "Text for the title attribute of the link element for this menu item."
+msgstr "Tekst për atributin titull të pjesë lidhje për këtë element menush."
+
+#: lib/class-wp-rest-menu-items-controller.php:911
+msgid "A named status for the object."
+msgstr "Një gjendje e emërtuar për objektin."
+
+#: lib/class-wp-rest-menu-items-controller.php:903
+msgid "The family of objects originally represented, such as \"post_type\" or \"taxonomy\"."
+msgstr "Familja e objekteve të përfaqësuara fillimisht, bie fjala, \"lloj postimi\" ose \"klasifikim\"."
+
+#: lib/class-wp-rest-menu-items-controller.php:896
+msgid "Name of type."
+msgstr "Emër lloji."
+
+#: lib/class-wp-rest-menu-items-controller.php:878
+msgid "HTML title for the object, transformed for display."
+msgstr "Titull HTML për objektin, e shndërruar për shfaqje."
+
+#: lib/class-wp-rest-menu-items-controller.php:873
+msgid "Title for the object, as it exists in the database."
+msgstr "Titull për objektin, siç gjendet te baza e të dhënave."
+
+#: lib/class-wp-rest-menu-items-controller.php:834
+msgid "Get linked object."
+msgstr "Merr objekt të lidhur."
+
+#: lib/class-wp-rest-menu-items-controller.php:606
+msgid "Invalid URL."
+msgstr "URL e pavlefshme."
+
+#: lib/class-wp-rest-menu-items-controller.php:564
+#: lib/class-wp-rest-menu-items-controller.php:567
+msgid "Invalid menu item parent."
+msgstr "Mëmë e pavlefshme elementi menuje."
+
+#: lib/class-wp-rest-menu-items-controller.php:556
+msgid "Invalid menu position."
+msgstr "Pozicion menuje i pavlefshëm."
+
+#: lib/class-wp-rest-menu-items-controller.php:531
+msgid "Invalid menu ID."
+msgstr "ID e pavlefshme menuje."
+
+#: lib/class-wp-rest-menu-items-controller.php:516
+msgid "URL required if menu item of type custom."
+msgstr "URL-ja është e domosdoshme, në qoftë zë menuje lloji vetjak."
+
+#: lib/class-wp-rest-menu-items-controller.php:513
+msgid "Title required if menu item of type custom."
+msgstr "Titulli është i domosdoshëm, në qoftë zë menuje lloji vetjak."
+
+#: lib/class-wp-rest-menu-items-controller.php:495
+msgid "Invalid post ID."
+msgstr "ID e pavlefshme postimi."
+
+#: lib/class-wp-rest-menu-items-controller.php:348
+msgid "The post cannot be deleted."
+msgstr "Postimi s’mund të fshihet."
+
+#. translators: %s: force=true
+#: lib/class-wp-rest-menu-items-controller.php:340
+msgid "Menu items do not support trashing. Set '%s' to delete."
+msgstr "Për elementë menush s’mbulohet shpënia te hedhurinat. Që të fshihen, caktoni '%s'."
+
+#: lib/class-wp-rest-menu-items-controller.php:174
+msgid "Cannot create existing post."
+msgstr "S’mund të krijohet postim ekzistues."
+
+#: lib/class-wp-rest-menu-items-controller.php:160
+msgid "Sorry, you cannot view these menu items, unless you have access to permission edit them. "
+msgstr "Na ndjeni, s’mund t’i shihni këta elementë menuje, veç në paçi leje për përpunim të tyre. "
+
+#: lib/class-wp-rest-customizer-nonces.php:51
+#: lib/class-wp-rest-menu-items-controller.php:158
+msgid "Sorry, you are not allowed to edit posts in this post type."
+msgstr "Na ndjeni, s’keni leje të përpunoni postime të këtij lloji postimesh."
+
+#: lib/class-wp-rest-menu-items-controller.php:142
+msgid "Sorry, you cannot view this menu item, unless you have access to permission edit it. "
+msgstr "Na ndjeni, s’mund ta shihni këtë element menuje, veç në paçi leje për përpunim të tij. "
+
+#: lib/class-wp-rest-menus-controller.php:580
+msgid "The locations assigned to the menu."
+msgstr "Vendndodhjet përshoqëruar menusë."
+
+#: lib/class-wp-rest-menus-controller.php:552
+msgid "Menu location does not exist."
+msgstr "Vendndodhja e menusë s’ekziston."
+
+#: lib/class-wp-rest-menus-controller.php:458
+msgid "The term cannot be deleted."
+msgstr "Termi s’mund të fshihet."
+
+#. translators: %s: force=true
+#: lib/class-wp-rest-menus-controller.php:448
+msgid "Terms do not support trashing. Set '%s' to delete."
+msgstr "Për termat s’mbulohet shpënia te hedhurinat. Për t’i fshirë, caktoni '%s'."
+
+#: lib/class-wp-rest-menus-controller.php:268
+#: lib/class-wp-rest-menus-controller.php:377
+msgid "Parent term does not exist."
+msgstr "Termi mëmë s’ekziston."
+
+#: lib/class-wp-rest-menus-controller.php:262
+#: lib/class-wp-rest-menus-controller.php:371
+msgid "Cannot set parent term, taxonomy is not hierarchical."
+msgstr "Ky klasifikim s’është hierarkik, ndaj s’mund të caktoni term prind."
+
+#: lib/class-wp-rest-menus-controller.php:139
+msgid "Sorry, you are not allowed to assign the provided locations."
+msgstr "Na ndjeni, s’keni leje të përshoqëroni vendndodhjet e dhëna."
+
+#: lib/class-wp-rest-menus-controller.php:60
+msgid "Sorry, you cannot view this menu, unless you have access to permission edit it. "
+msgstr "Na ndjeni, s’mund ta këtë menu, veç në paçi leje për përpunim të saj. "
+
+#: lib/class-wp-rest-menus-controller.php:58
+msgid "Sorry, you are not allowed to edit this term."
+msgstr "Na ndjeni, s’keni leje ta përpunoni këtë term."
+
+#: lib/class-wp-rest-menus-controller.php:40
+msgid "Sorry, you cannot view these menus, unless you have access to permission edit them. "
+msgstr "Na ndjeni, s’mund t’i shihni këto menu, veç në paçi leje për përpunim të tyre. "
+
+#: lib/class-wp-rest-menus-controller.php:38
+msgid "Sorry, you are not allowed to edit terms in this taxonomy."
+msgstr "Na ndjeni, s’ju lejohet të përpunoni terma në këtë klasifikim."
+
+#: lib/class-wp-rest-menu-locations-controller.php:206
+msgid "The ID of the assigned menu."
+msgstr "ID-ja e menusë së përshoqëruar."
+
+#: lib/class-wp-rest-menu-locations-controller.php:200
+msgid "The description of the menu location."
+msgstr "Përshkrimi i vendndodhjes së menusë."
+
+#: lib/class-wp-rest-menu-locations-controller.php:194
+msgid "The name of the menu location."
+msgstr "Emri i vendndodhjes së menusë."
+
+#: lib/class-wp-rest-menus-controller.php:146
+#: lib/class-wp-rest-menu-locations-controller.php:116
+#: lib/class-wp-rest-menu-locations-controller.php:132
+msgid "Invalid menu location."
+msgstr "Vendndodhje e pavlefshme menuje."
+
+#: lib/class-wp-rest-menu-locations-controller.php:76
+#: lib/class-wp-rest-menu-locations-controller.php:113
+msgid "Sorry, you are not allowed to view menu locations."
+msgstr "Na ndjeni, s’keni leje të shihni vendndodhje menush."
+
+#: lib/class-wp-rest-menu-locations-controller.php:50
+msgid "An alphanumeric identifier for the menu location."
+msgstr "Identifikues alfanumerik për vendndodhje menuje."
+
+#: lib/class-wp-theme-json-resolver.php:440 build/edit-site/index.js:30
+msgid "Global Styles"
+msgstr "Stile Globalë"
+
+#: lib/full-site-editing/template-loader.php:69
+msgid "Empty template."
+msgstr "Gjedhe e zbrazët."
+
+#: lib/full-site-editing/template-loader.php:77
+msgid "No matching template found."
+msgstr "S’u gjet gjedhe me përputhje."
+
+#: lib/full-site-editing/templates-utils.php:18
+#: lib/full-site-editing/templates.php:99 build/edit-site/index.js:30
+msgid "Theme"
+msgstr "Temë"
+
+#: lib/experiments-page.php:98
+msgid "The block editor includes experimental features that are useable while they're in development. Select the ones you'd like to enable. These features are likely to change, so avoid using them in production."
+msgstr "Përpunuesi me blloqe përfshin veçori eksperimentale që mund të përdoren, teksa janë ende duke u zhvilluar. Përzgjidhni ato që doni të aktivizohen. Këto veçori ka shumë gjasa të ndryshojnë, ndaj shmangni përdorimin e tyre në prodhim."
+
+#: gutenberg.php:108
+msgid "Site Editor (beta)"
+msgstr "Përpunues Sajti (beta)"
+
+#: lib/class-wp-rest-widget-types-controller.php:82
+msgid "Current widget instance"
+msgstr "Instancë e tanishme e widget-it"
+
+#: lib/full-site-editing/template-parts.php:40
+msgid "Template parts to include in your templates."
+msgstr "Pjesë gjedhesh për t’i përfshirë te gjedhet tuaja."
+
+#: lib/full-site-editing/template-parts.php:35
+msgid "Template parts list"
+msgstr "Listë pjesësh gjedheje"
+
+#: lib/full-site-editing/template-parts.php:34
+msgid "Template parts list navigation"
+msgstr "Lëvizje te listë pjesësh gjedheje"
+
+#: lib/full-site-editing/template-parts.php:33
+msgid "Filter template parts list"
+msgstr "Filtroni listë pjesësh gjedheje"
+
+#: lib/full-site-editing/template-parts.php:32
+msgid "Uploaded to this template part"
+msgstr "U ngarkua te kjo pjesë gjedheje"
+
+#: lib/full-site-editing/template-parts.php:31
+msgid "Insert into template part"
+msgstr "Futeni te pjesë gjedheje"
+
+#: lib/full-site-editing/template-parts.php:30
+msgid "Template part archives"
+msgstr "Arkiv pjesësh gjedheje"
+
+#: lib/full-site-editing/template-parts.php:29
+msgid "No template parts found in Trash."
+msgstr "S’u gjetën pjesë gjedheje te Hedhurinat."
+
+#: lib/full-site-editing/template-parts.php:28
+msgid "No template parts found."
+msgstr "S’u gjetën pjesë gjedheje."
+
+#: lib/full-site-editing/template-parts.php:27
+msgid "Parent Template Part:"
+msgstr "Pjesë Gjedheje Mëmë:"
+
+#: lib/full-site-editing/template-parts.php:26
+msgid "Search Template Parts"
+msgstr "Kërkoni Pjesë Gjedheje"
+
+#: lib/full-site-editing/template-parts.php:25
+msgid "All Template Parts"
+msgstr "Krejt Pjesët e Gjedhes"
+
+#: lib/full-site-editing/template-parts.php:24
+msgid "View Template Part"
+msgstr "Shihni Pjesë Gjedheje"
+
+#: lib/full-site-editing/template-parts.php:23
+msgid "Edit Template Part"
+msgstr "Përpunoni Pjesë Gjedheje"
+
+#: lib/full-site-editing/template-parts.php:22
+msgid "New Template Part"
+msgstr "Pjesë e Re Gjedheje"
+
+#: lib/full-site-editing/template-parts.php:21
+msgid "Add New Template Part"
+msgstr "Shtoni Pjesë të Re Gjedheje"
+
+#: lib/full-site-editing/template-parts.php:20
+msgctxt "Template Part"
+msgid "Add New"
+msgstr "Shtoni të Re"
+
+#: lib/full-site-editing/template-parts.php:19
+msgctxt "Admin Menu text"
+msgid "Template Parts"
+msgstr "Pjesë Gjedhesh"
+
+#: lib/full-site-editing/template-parts.php:18 build/block-library/index.js:73
+msgid "Template Part"
+msgstr "Pjesë Gjedheje"
+
+#: lib/full-site-editing/template-parts.php:17 build/edit-site/index.js:30
+msgid "Template Parts"
+msgstr "Pjesë Gjedheje"
+
+#: lib/experiments-page.php:45 build/edit-navigation/index.js:6
+msgid "Navigation"
+msgstr "Lëvizje"
+
+#: lib/full-site-editing/templates.php:54
+msgid "Templates list"
+msgstr "Listë gjedhesh"
+
+#: lib/full-site-editing/templates.php:53
+msgid "Templates list navigation"
+msgstr "Lëvizje te listë gjedhesh"
+
+#: lib/full-site-editing/templates.php:52
+msgid "Filter templates list"
+msgstr "Filtroni listë gjedhesh"
+
+#: lib/full-site-editing/templates.php:51
+msgid "Uploaded to this template"
+msgstr "U ngarkua te kjo gjedhe"
+
+#: lib/full-site-editing/templates.php:50
+msgid "Insert into template"
+msgstr "Futeni te gjedhe"
+
+#: lib/full-site-editing/templates.php:49
+msgid "Template archives"
+msgstr "Arkiva gjedhesh"
+
+#: lib/full-site-editing/templates.php:48
+msgid "No templates found in Trash."
+msgstr "S’u gjetën gjedhe te Hedhurinat."
+
+#: lib/full-site-editing/templates.php:47
+msgid "No templates found."
+msgstr "S’u gjetën gjedhe."
+
+#: lib/full-site-editing/templates.php:46
+msgid "Parent Template:"
+msgstr "Gjedhe Mëmë:"
+
+#: lib/full-site-editing/templates.php:45
+msgid "Search Templates"
+msgstr "Kërkoni Për Gjedhe"
+
+#: lib/full-site-editing/templates.php:44
+msgid "All Templates"
+msgstr "Krejt Gjedhet"
+
+#: lib/full-site-editing/templates.php:43
+msgid "View Template"
+msgstr "Shihni Gjedhe"
+
+#: lib/full-site-editing/templates.php:42
+msgid "Edit Template"
+msgstr "Përpunoni Gjedhe"
+
+#: lib/full-site-editing/templates.php:41
+msgid "New Template"
+msgstr "Gjedhe e Re"
+
+#: lib/full-site-editing/templates.php:40
+msgid "Add New Template"
+msgstr "Shtoni Gjedhe të Re"
+
+#: lib/full-site-editing/templates.php:39
+msgctxt "Template"
+msgid "Add New"
+msgstr "Shtoni të Re"
+
+#: lib/full-site-editing/templates.php:38
+msgctxt "Admin Menu text"
+msgid "Templates"
+msgstr "Gjedhe"
+
+#. translators: ARIA label for the Template Settings Sidebar tab, not selected.
+#. translators: Text label for the Template Settings Sidebar tab.
+#: lib/full-site-editing/templates.php:37 build/edit-post/index.js:38
+#: build/edit-site/index.js:26 build/edit-site/index.js:28
+#: build/edit-site/index.js:29
+msgid "Template"
+msgstr "Gjedhe"
+
+#: lib/full-site-editing/template-loader.php:164
+msgid "No matching template found"
+msgstr "S’u gjet gjedhe me përputhje"
+
+#: lib/class-wp-theme-json-resolver.php:250 build/block-editor/index.js:1
+msgid "Midnight"
+msgstr "Mesnatë"
+
+#: lib/class-wp-theme-json-resolver.php:249 build/block-editor/index.js:1
+msgid "Electric grass"
+msgstr "Bar elektrik"
+
+#: lib/class-wp-theme-json-resolver.php:248 build/block-editor/index.js:1
+msgid "Pale ocean"
+msgstr "Oqean i zbehtë"
+
+#: lib/class-wp-theme-json-resolver.php:247 build/block-editor/index.js:1
+msgid "Luminous dusk"
+msgstr "Muzg i ndritshëm"
+
+#: lib/class-wp-theme-json-resolver.php:246 build/block-editor/index.js:1
+msgid "Blush bordeaux"
+msgstr "Bordo e zbehtë"
+
+#: lib/class-wp-theme-json-resolver.php:245 build/block-editor/index.js:1
+msgid "Blush light purple"
+msgstr "E purpur e çelët e zbehtë"
+
+#: lib/class-wp-theme-json-resolver.php:244 build/block-editor/index.js:1
+msgid "Cool to warm spectrum"
+msgstr "Spektri nga të ftohta te të ngrohta"
+
+#: lib/class-wp-theme-json-resolver.php:243 build/block-editor/index.js:1
+msgid "Very light gray to cyan bluish gray"
+msgstr "Gri shumë e çelët në gri blu në të gjelbër me nuanca bluje"
+
+#: lib/class-wp-theme-json-resolver.php:242 build/block-editor/index.js:1
+msgid "Luminous vivid orange to vivid red"
+msgstr "Portokalli e ndritshme e ndezur në të kuqe të ndezur"
+
+#: lib/class-wp-theme-json-resolver.php:241 build/block-editor/index.js:1
+msgid "Luminous vivid amber to luminous vivid orange"
+msgstr "Ngjyrë mjalti e ndezur e ndritshme në portokalli të ndezur të ndritshme"
+
+#: lib/class-wp-theme-json-resolver.php:240 build/block-editor/index.js:1
+msgid "Light green cyan to vivid green cyan"
+msgstr "Blu e gjelbër në të gjelbër e çelët në blu të gjelbër në të gjelbër të ndezur"
+
+#: lib/class-wp-theme-json-resolver.php:239 build/block-editor/index.js:1
+msgid "Vivid cyan blue to vivid purple"
+msgstr "Blu e gjelbër në blu e ndezur në të purpur të ndezur"
+
+#: lib/full-site-editing/templates.php:59
+msgid "Templates to include in your theme."
+msgstr "Gjedhe për t’u përfshirë te tema juaj."
+
+#: lib/full-site-editing/templates.php:36 build/edit-site/index.js:30
+msgid "Templates"
+msgstr "Gjedhe"
+
+#: lib/class-wp-theme-json-resolver.php:230 build/block-editor/index.js:1
+msgid "Vivid purple"
+msgstr "E purpur e gjallë"
+
+#: gutenberg.php:89
+msgid "Experiments Settings"
+msgstr "Rregullime Eksperimentesh"
+
+#: lib/experiments-page.php:19
+msgid "Experimental settings"
+msgstr "Rregullime eksperimentale"
+
+#. translators: %s: taxonomy name
+#: build/block-library/blocks/tag-cloud.php:28
+msgid "Your site doesn&#8217;t have any %s, so there&#8217;s nothing to display here at the moment."
+msgstr "Sajti juaj s’ka ndonjë %s, ndaj hëpërhë s’ka gjë për t’u shfaqur këtu."
+
+#: build/block-library/blocks/search.php:25
+#: build/block-library/blocks/search.php:26
+#: build/block-library/blocks/search.php:52 build/block-editor/index.js:42
+#: build/block-library/index.js:59
+msgid "Search"
+msgstr "Kërko"
+
+#: build/block-library/blocks/rss.php:23
+msgid "An error has occurred, which probably means the feed is down. Try again later."
+msgstr "Ndodhi një gabim, i cili, sipas gjasash, do të thotë që prurja s’po funksionon. Riprovoni më vonë."
+
+#: build/block-library/blocks/rss.php:19
+msgid "RSS Error:"
+msgstr "Gabim RSS-je:"
+
+#: lib/editor-settings.php:28 build/block-editor/index.js:1
+msgid "Thumbnail"
+msgstr "Miniaturë"
+
+#: lib/editor-settings.php:31 build/block-editor/index.js:1
+msgid "Full Size"
+msgstr "Madhësi e Plotë"
+
+#: lib/full-site-editing/default-template-types.php:69
+#: build/block-editor/index.js:66 build/blocks/index.js:1
+#: build/core-data/index.js:1
+msgid "Media"
+msgstr "Media"
+
+#: lib/class-wp-theme-json-resolver.php:263 build/block-library/index.js:68
+msgid "Huge"
+msgstr "I stërmadh"
+
+#: lib/class-wp-theme-json-resolver.php:261 lib/block-patterns.php:30
+#: lib/editor-settings.php:29 build/block-editor/index.js:1
+#: build/block-editor/index.js:9 build/components/index.js:10
+msgid "Medium"
+msgstr "Medium"
+
+#: lib/class-wp-theme-json-resolver.php:260 build/block-library/index.js:68
+msgid "Normal"
+msgstr "Normal"
+
+#: build/block-library/blocks/archives.php:97
+msgid "No archives to show."
+msgstr "S’ka arkiva për shfaqje."
+
+#: post-content.php:41
+msgid "Beautiful landscape"
+msgstr "Panoramë e bukur"
+
+#: post-content.php:185
+msgid "Thanks for testing Gutenberg!"
+msgstr "Faleminderit që testoni Gutenberg-un!"
+
+#: post-content.php:177
+msgid "Help build Gutenberg"
+msgstr "Ndihmoni në ngritjen e Gutenberg-ut"
+
+#. translators: %s: Gutenberg GitHub repository URL
+#: post-content.php:168
+msgid "If you want to learn more about how to build additional blocks, or if you are interested in helping with the project, head over to the <a href=\"%s\">GitHub repository</a>."
+msgstr "Nëse doni të mësoni më tepër rreth se si të krijohen blloqe shtesë, ose nëse interesoheni të ndihmoni në projekt, shkoni te <a href=\"%s\">depoja në GitHub</a>."
+
+#: post-content.php:159
+msgid "The WordPress community"
+msgstr "Bashkësia WordPress"
+
+#: post-content.php:159 build/block-library/index.js:8
+msgid "Code is Poetry"
+msgstr "Kodi është Poezi"
+
+#: post-content.php:155
+msgid "You can build any block you like, static or dynamic, decorative or plain. Here&#8217;s a pullquote block:"
+msgstr "Mund të krijoni çfarëdo blloku që doni, statik ose dinamik, zbukurues ose të thjeshtë. Ja një bllok për citime:"
+
+#: post-content.php:145
+msgid "Any block can opt into these alignments. The embed block has them also, and is responsive out of the box:"
+msgstr "Any block can opt into these alignments. The embed block has them also, and is responsive out of the box:"
+
+#: post-content.php:141
+msgid "The above is a gallery with just two images. It&#8217;s an easier way to create visually appealing layouts, without having to deal with floats. You can also easily convert the gallery back to individual images again, by using the block switcher."
+msgstr "Më sipër keni një galeri me vetëm dy figura. Bëhet fjalë për një rrugë më të lehtë për krijim skemash tërheqëse nga ana pamore, pa u dashur të merreni me elementë pezull. Galerinë mund ta riktheni lehtësisht te figura individuale, duke përdorur këmbyesin e bllokut."
+
+#: post-content.php:128
+msgid "Sure, the full-wide image can be pretty big. But sometimes the image is worth it."
+msgstr "Sigurisht, figura në madhësi të plotë mund të jetë goxha e madhe. Por ngandonjëherë figura e ka hak këtë."
+
+#: post-content.php:124
+msgid "Accessibility is important &mdash; don&#8217;t forget image alt attribute"
+msgstr "Përdorshmëria nga kushdo është e rëndësishme &mdash; mos harroni të shtoni atribut alt për figurat"
+
+#: post-content.php:120
+msgid "If you combine the new <strong>wide</strong> and <strong>full-wide</strong> alignments with galleries, you can create a very media rich layout, very quickly:"
+msgstr "Nëse ndërthurni drejtimet e reja <strong>i gjerë</strong> dhe <strong>gjerësi e plotë</strong> me galeri, mund të krijoni një skemë shumë të larmishme për media, dhe shumë shpejt:"
+
+#: post-content.php:116
+msgid "Media Rich"
+msgstr "I pasur Me Media"
+
+#: post-content.php:112
+msgid "You can change the amount of columns in your galleries by dragging a slider in the block inspector in the sidebar."
+msgstr "Sasinë e shtyllave në galerinë tuaj mund të ndryshoni duke tërhequr një rrëshqitës te mbikëqyrësi i bllokut, te anështylla."
+
+#: post-content.php:98
+msgid "Blocks can be anything you need. For instance, you may want to add a subdued quote as part of the composition of your text, or you may prefer to display a giant stylized one. All of these options are available in the inserter."
+msgstr "Blloqet mund të jenë ç’të keni nevojë. Për shembull, mund të doni të shtoni një citim si pjesë e hartimit të tekstit tuaj, ose mund të doni të shfaqni një të tillë gjigant dhe të stilizuar. Krejt këto mundësi i gjeni te futësi."
+
+#: post-content.php:94
+msgid "The information corresponding to the source of the quote is a separate text field, similar to captions under images, so the structure of the quote is protected even if you select, modify, or remove the source. It&#8217;s always easy to add it back."
+msgstr "Të dhënat që i përgjigjen burimit të citimit janë një fushë teksti më vete, si titujt nën figura, kështu që struktura e citimit është e mbrojtur edhe kur përzgjidhni, modifikoni ose e hiqni fare burimin. Është përherë e lehtë ta shtoni më vonë."
+
+#: post-content.php:89
+msgid "Matt Mullenweg, 2017"
+msgstr "Matt Mullenweg, 2017"
+
+#: post-content.php:88
+msgid "The editor will endeavor to create a new page and post building experience that makes writing rich posts effortless, and has “blocks” to make it easy what today might take shortcodes, custom HTML, or “mystery meat” embed discovery."
+msgstr "Përpunuesi do të përpiqet të krijojë një metodë të re ndërtimi faqesh dhe postimesh, e cila e bën të pamundimshëm shkrimin e postimeve të pasur, dhe përmban “blloqe” për ta bërë të kollajtë atë për të cilën sot duhen kode të shkurtër, HTML vetjake, apo nuhatje rreth përmbajtjes së trupëzimeve të mistershme."
+
+#: post-content.php:83
+msgid "A huge benefit of blocks is that you can edit them in place and manipulate your content directly. Instead of having fields for editing things like the source of a quote, or the text of a button, you can directly change the content. Try editing the following quote:"
+msgstr "Një përfitim shumë i madh nga blloqet është se mund t’i përpunoni ata në vend dhe të manipuloni lëndën e tyre drejtpërsëdrejti. Në vend të fushave për përpunim gjërash të tilla si burimi i një citimi, apo teksti i një butoni, mund të ndryshoni lëndën drejtpërdrejt. Provoni të përpunoni citimin vijues:"
+
+#: post-content.php:79
+msgid "Visual Editing"
+msgstr "Përpunim Pamor"
+
+#: post-content.php:70
+msgid "And <em>Lists</em> like this one of course :)"
+msgstr "Dhe <em>Lista</em> si kjo, sigurisht :)"
+
+#: post-content.php:69
+msgid "Layout blocks, like Buttons, Hero Images, Separators, etc."
+msgstr "Blloqe skeme, f.v. Butona, Figura Hero, Ndarës, etj."
+
+#: post-content.php:68
+msgid "Embeds, like YouTube, Tweets, or other WordPress posts."
+msgstr "Trupëzime, b.f., nga YouTube, Tweets, apo postime të tjera WordPress."
+
+#: post-content.php:67
+msgid "Galleries"
+msgstr "Galeri"
+
+#: post-content.php:66
+msgid "Images &amp; Videos"
+msgstr "Figura &amp; Video"
+
+#: post-content.php:65
+msgid "Text &amp; Headings"
+msgstr "Tekst &amp; Krye"
+
+#: post-content.php:60
+msgid "Go give it a try, you may discover things WordPress can already add into your posts that you didn&#8217;t know about. Here&#8217;s a short list of what you can currently find there:"
+msgstr "Provojeni, mund të zbuloni gjëra që s’e dinit se WordPress-i mund t’i shtojë tashmë te postimet tuaja. Ja një listë e shkurtër se ç’mund të gjeni:"
+
+#: post-content.php:56
+msgid "Imagine everything that WordPress can do is available to you quickly and in the same place on the interface. No need to figure out HTML tags, classes, or remember complicated shortcode syntax. That&#8217;s the spirit behind the inserter—the <code>(+)</code> button you&#8217;ll see around the editor—which allows you to browse all available content blocks and add them into your post. Plugins and themes are able to register their own, opening up all sort of possibilities for rich editing and publishing."
+msgstr "Përfytyroni gjithçka që mund të bëjë WordPress-i ta keni në dorë shpejt dhe në të njëjtin vend te ndërfaqja. Pa u dashur të merrni vesh etiketa HTML, klasa, apo të mbani mend sintaksë të ndërlikuar kodesh të shkurtër. Kjo është ideja pas futësit—butoni <code>(+)</code> që do të shihni nëpër përpunues—i cili ju lejon të shfletoni krejt blloqet e gatshëm të lëndës dhe t’i shtoni ata te postimi juaj. Shtojcat dhe temat janë në gjendje të regjistrojnë blloqe të tyret, duke hapur rrugën për gjithë llojet e mundësive për përpunim dhe botim të pasur."
+
+#: post-content.php:52
+msgid "The <em>Inserter</em> Tool"
+msgstr "Mjeti i <em>Futjeve</em>"
+
+#: post-content.php:48
+msgid "Try selecting and removing or editing the caption, now you don&#8217;t have to be careful about selecting the image or other text by mistake and ruining the presentation."
+msgstr "Provoni të përzgjidhni ose përpunoni përshkrimin, tani nuk ju duhet të më të jeni i kujdesshëm se mos përzgjidhni gabimisht figurën apo tjetër tekst dhe të rrënoni paraqitjen."
+
+#: post-content.php:42
+msgid "If your theme supports it, you&#8217;ll see the \"wide\" button on the image toolbar. Give it a try."
+msgstr "Nëse mbulohet nga tema juaj, do të shihni butonin \"e gjerë\" te paneli i figurave. Provojeni."
+
+#: post-content.php:36
+msgid "Handling images and media with the utmost care is a primary focus of the new editor. Hopefully, you&#8217;ll find aspects of adding captions or going full-width with your pictures much easier and robust than before."
+msgstr "Trajtimi me kujdesin më të madh të figurave dhe objekteve media është objektivi i parë i përpunuesit të ri. Shpresojmë se shtimi i legjendave apo kalimi në gjerësi të plotë i figurave tuaja do t’ju duken shumë të lehta dhe të fuqishme se më parë."
+
+#: post-content.php:32
+msgid "A Picture is Worth a Thousand Words"
+msgstr "Një Pamje vlen Sa Një Mijë Fjalë"
+
+#: post-content.php:28
+msgid "Headings are separate blocks as well, which helps with the outline and organization of your content."
+msgstr "Tituj janë gjithashtu blloqe më vete, gjë që ndihmon në përvijimin dhe sistemimin e lëndës tuaj."
+
+#: post-content.php:24
+msgid "... like this one, which is right aligned."
+msgstr "… si kjo, që është e vendosur majtas."
+
+#: post-content.php:20
+msgid "What you are reading now is a <strong>text block</strong> the most basic block of all. The text block has its own controls to be moved freely around the post..."
+msgstr "Ajo që po lexoni tani është një <strong>bllok teksti</strong>, blloku më i themelor nga të tërë. Blloku i tekstit ka kontrollet e veta për t’u lëvizur lirisht nëpër postim…"
+
+#: post-content.php:16
+msgid "The goal of this new editor is to make adding rich content to WordPress simple and enjoyable. This whole post is composed of <em>pieces of content</em>—somewhat similar to LEGO bricks—that you can move around and interact with. Move your cursor around and you&#8217;ll notice the different blocks light up with outlines and arrows. Press the arrows to reposition blocks quickly, without fearing about losing things in the process of copying and pasting."
+msgstr "Synimi i përpunuesit të ri është ta bëjë të thjeshtë dhe të pëlqyeshëm shtimin e lëndës së pasur te WordPress. Ky postim përbëhet i tëri nga <em>pjesë lënde</em>—diçka e ngjashme me blloqet LEGO—që mund t’i lëvizni dhe ndërveproni me to. Lëvizeni kursorin tuaj përqark dhe do të vini re që blloqe të ndryshëm sikur përmenden, me përvijime dhe shigjeta. Shtypni shigjetat që t’i ripozicioni blloqet shpejt e shpejt, pa frikë se mos humbë gjë gjatë procesit të kopjimit dhe ngjitjes."
+
+#: post-content.php:11
+msgid "Of Mountains &amp; Printing Presses"
+msgstr "Mbi Malet &amp; Shtypshkronjat"
+
+#: lib/demo.php:59
+msgid "Welcome to the Gutenberg Editor"
+msgstr "Mirë e vini te Përpunuesi Gutenberg"
+
+#: lib/class-wp-rest-menu-items-controller.php:862
+msgid "The title for the object."
+msgstr "Titulli për objektin."
+
+#: lib/class-wp-rest-menu-items-controller.php:68
+#: lib/class-wp-rest-menu-items-controller.php:887
+msgid "Unique identifier for the object."
+msgstr "Identifikues unik për objektin."
+
+#: lib/class-wp-theme-json-resolver.php:259 lib/block-patterns.php:50
+#: build/block-library/index.js:68 build/components/index.js:10
+msgid "Small"
+msgstr "E vogël"
+
+#: gutenberg.php:76
+msgid "https://wordpress.org/support/plugin/gutenberg/"
+msgstr "https://wordpress.org/support/plugin/gutenberg/"
+
+#: gutenberg.php:73 gutenberg.php:74
+msgid "Support"
+msgstr "Asistencë"
+
+#: build/block-library/blocks/latest-comments.php:141
+msgid "No comments to show."
+msgstr "S’ka komente për shfaqje."
+
+#. translators: 1: author name (inside <a> or <span> tag, based on if they have
+#. a URL), 2: post title related to this comment
+#: build/block-library/blocks/latest-comments.php:99
+msgid "%1$s on %2$s"
+msgstr "%1$s në %2$s"
+
+#: build/block-library/blocks/archives.php:57
+msgid "Select Post"
+msgstr "Përzgjidhni Postim"
+
+#: build/block-library/blocks/archives.php:54
+msgid "Select Week"
+msgstr "Përzgjidhni Javë"
+
+#: build/block-library/blocks/archives.php:51
+msgid "Select Day"
+msgstr "Përzgjidhni Ditë"
+
+#: build/block-library/blocks/archives.php:48
+msgid "Select Month"
+msgstr "Përzgjidhni Muaj"
+
+#: build/block-library/blocks/archives.php:45
+msgid "Select Year"
+msgstr "Përzgjidhni Vit"
+
+#: build/block-library/blocks/archives.php:27
+msgid "Archives"
+msgstr "Arkiva"
+
+#: lib/class-wp-theme-json-resolver.php:220 build/block-editor/index.js:1
+msgid "Cyan bluish gray"
+msgstr "Gri e kaltër e gjelbër në blu"
+
+#: lib/class-wp-theme-json-resolver.php:229 build/block-editor/index.js:1
+msgid "Vivid cyan blue"
+msgstr "Blu e kaltër e gjelbër e ndezur"
+
+#: lib/class-wp-theme-json-resolver.php:228 build/block-editor/index.js:1
+msgid "Pale cyan blue"
+msgstr "Blu e kaltër e gjelbër e zbehtë"
+
+#: lib/class-wp-theme-json-resolver.php:227 build/block-editor/index.js:1
+msgid "Vivid green cyan"
+msgstr "Blu e kaltër e gjelbër e ndezur"
+
+#: lib/class-wp-theme-json-resolver.php:226 build/block-editor/index.js:1
+msgid "Light green cyan"
+msgstr "E kaltër e gjelbër e zbehtë"
+
+#: lib/class-wp-theme-json-resolver.php:225 build/block-editor/index.js:1
+msgid "Luminous vivid amber"
+msgstr "E qelibartë"
+
+#: lib/class-wp-theme-json-resolver.php:224 build/block-editor/index.js:1
+msgid "Luminous vivid orange"
+msgstr "Portokalli e ndritshme e ndezur"
+
+#: lib/class-wp-theme-json-resolver.php:223 build/block-editor/index.js:1
+msgid "Vivid red"
+msgstr "E kuqe e ndezur"
+
+#: lib/class-wp-theme-json-resolver.php:222 build/block-editor/index.js:1
+msgid "Pale pink"
+msgstr "Vjollcë e zbehtë"
+
+#: lib/class-wp-theme-json-resolver.php:262 lib/block-patterns.php:12
+#: lib/editor-settings.php:30 build/block-editor/index.js:1
+#: build/block-library/index.js:68 build/components/index.js:10
+msgid "Large"
+msgstr "E madhe"
+
+#: lib/class-wp-rest-menu-items-controller.php:487
+msgid "Invalid term ID."
+msgstr "ID e pavlefshme termi."
+
+#: lib/class-wp-rest-menu-items-controller.php:919
+msgid "The ID for the parent of the object."
+msgstr "ID-ja për mëmën e objektit."
+
+#: gutenberg.php:112
+msgid "beta"
+msgstr "beta"
+
+#: lib/full-site-editing/templates-utils.php:17 build/editor/index.js:5
+msgid "Status"
+msgstr "Gjendje"
+
+#. translators: ARIA label for the Block Settings Sidebar tab, not selected.
+#. translators: Text label for the Block Settings Sidebar tab.
+#. translators: Text label for the Template Settings Sidebar tab.
+#: lib/class-wp-widget-block.php:40 lib/navigation.php:91 lib/navigation.php:96
+#: build/edit-widgets/index.js:23 build/edit-post/index.js:37
+#: build/edit-post/index.js:38 build/edit-site/index.js:28
+#: build/edit-site/index.js:29 build/edit-site/index.js:30
+msgid "Block"
+msgstr "Bllok"
+
+#: build/block-library/blocks/rss.php:31
+#: build/block-library/blocks/latest-comments.php:31
+#: build/block-library/blocks/latest-posts.php:102 build/editor/index.js:21
+#: build/editor/index.js:35 build/block-library/index.js:30
+#: build/block-library/index.js:48 build/edit-navigation/index.js:6
+#: build/edit-post/index.js:40 build/edit-site/index.js:30
+msgid "(no title)"
+msgstr "(pa titull)"
+
+#: gutenberg.php:90
+msgid "Experiments"
+msgstr "Eksperimente"
+
+#: gutenberg.php:49 gutenberg.php:50 lib/experiments-page.php:56
+#: build/edit-widgets/index.js:24 build/blocks/index.js:1
+#: build/core-data/index.js:1
+msgid "Widgets"
+msgstr "Widget-e"
+
+#. Description of the plugin
+msgid "Printing since 1440. This is the development plugin for the new block editor in core."
+msgstr "Shtypim që nga 1440-a. Kjo është shtojca e zhvillimit për përpunuesin e ri të blloqeve për pjesën bazë."
+
+#: lib/class-wp-rest-widgets-controller.php:756
+msgid "Unique identifier for the widget."
+msgstr "Identifikues unik për widget-in."
+
+#: gutenberg.php:186
+msgid "Gutenberg development mode requires files to be built. Run <code>npm install</code> to install dependencies, <code>npm run build</code> to build the files or <code>npm run dev</code> to build the files and watch for changes. Read the <a href=\"https://github.com/WordPress/gutenberg/blob/HEAD/docs/contributors/getting-started.md\">contributing</a> file for more information."
+msgstr "Mënyra zhvillim për Gutenberg-un lyp kartela, që të montohet. Xhironi <code>npm install</code> që të instaloni varësitë, <code>npm run build</code> që të montohen kartelat, ose <code>npm run dev</code> që të montohen kartelat dhe të shihet për ndryshime. Për më tepër të dhëna, lexoni te kartela <a href=\"https://github.com/WordPress/gutenberg/blob/HEAD/docs/contributors/getting-started.md\">për dhënie ndihmese</a>."
+
+#. translators: button label text should, if possible, be under 16 characters.
+#: lib/full-site-editing/templates-utils.php:15 build/editor/index.js:25
+#: build/components/index.js:5
+msgid "Slug"
+msgstr "Identifikues"
+
+#: gutenberg.php:80 gutenberg.php:81
+msgid "Documentation"
+msgstr "Dokumentim"
+
+#: build/block-library/blocks/categories.php:30
+msgid "Select Category"
+msgstr "Përzgjidhni Kategori"
+
+#: lib/class-wp-rest-menu-items-controller.php:506
+msgid "Invalid post type."
+msgstr "Lloj i pavlefshëm postimi."
+
+#. translators: %s: Minimum required version
+#: gutenberg.php:173
+msgid "Gutenberg requires WordPress %s or later to function properly. Please upgrade WordPress before activating Gutenberg."
+msgstr "Që të funksionojë si duhet, Gutenbergu lyp WordPress %s ose të mëvonshëm. Ju lutemi, përmirësoni WordPress-in, përpara se të aktivizoni Gutenberg-un."
+
+#. Author of the plugin
+msgid "Gutenberg Team"
+msgstr "Ekipi Gutenberg"
+
+#. Plugin URI of the plugin
+msgid "https://github.com/WordPress/gutenberg"
+msgstr "https://github.com/WordPress/gutenberg"
+
+#. Plugin Name of the plugin
+msgid "Gutenberg"
+msgstr "Gutenberg"
+
+#: gutenberg.php:41 gutenberg.php:42
+msgid "Demo"
+msgstr "Demo"

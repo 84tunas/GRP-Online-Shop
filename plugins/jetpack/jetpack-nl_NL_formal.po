@@ -1,0 +1,5328 @@
+# Translation of Plugins - Jetpack &#8211; WP Security, Backup, Speed, &amp; Growth - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - Jetpack &#8211; WP Security, Backup, Speed, &amp; Growth - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-03-12 11:52:24+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - Jetpack &#8211; WP Security, Backup, Speed, &amp; Growth - Stable (latest release)\n"
+
+#: modules/widgets/class-jetpack-instagram-widget.php:566
+#: _inc/blocks/editor.js:28 _inc/blocks/editor-beta.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28
+msgid "Images"
+msgstr "Afbeeldingen"
+
+#: json-endpoints/jetpack/class.jetpack-json-api-get-database-object-backup-endpoint.php:78
+msgid "Object not found"
+msgstr "Object niet gevonden"
+
+#: json-endpoints/jetpack/class.jetpack-json-api-get-database-object-backup-endpoint.php:55
+msgid "Specified object_type not recognized"
+msgstr "Gespecificeerd object_type niet herkend"
+
+#: json-endpoints/jetpack/class.jetpack-json-api-get-database-object-backup-endpoint.php:51
+msgid "You must specify both an object type and id to fetch"
+msgstr "U moet zowel een objecttype als een ID opgeven die moet worden opgehaald"
+
+#: class.jetpack-cli.php:1641
+msgid "The publicize module is not loaded."
+msgstr "De publicatiemodule is niet geladen."
+
+#: class.jetpack-cli.php:1624
+msgid "The publicize module is not active."
+msgstr "De publicatiemodule is niet actief."
+
+#: _inc/lib/debugger/class-jetpack-debugger.php:188
+msgid "Ask us for help!"
+msgstr "Vraag ons om hulp!"
+
+#: _inc/lib/debugger/class-jetpack-debugger.php:187
+msgid "Still having trouble?"
+msgstr "Ervaart u nog steeds problemen?"
+
+#: _inc/lib/debugger/class-jetpack-cxn-tests.php:558
+msgid "Connection test failed (empty response body)"
+msgstr "Verbindingstest mislukt (reactie zonder tekst)"
+
+#. translators: %1$s is the error code, %2$s is the error message
+#: _inc/lib/debugger/class-jetpack-cxn-tests.php:545
+msgid "Connection test failed (#%1$s: %2$s)"
+msgstr "Verbindingstest mislukt (#%1$s: %2$s)"
+
+#: _inc/lib/admin-pages/class.jetpack-admin-page.php:379
+msgctxt "Navigation item"
+msgid "Network Sites"
+msgstr "Netwerksites"
+
+#: _inc/lib/admin-pages/class.jetpack-admin-page.php:326
+#: _inc/lib/admin-pages/class.jetpack-admin-page.php:384
+msgctxt "Navigation item"
+msgid "Network Settings"
+msgstr "Netwerkinstellingen"
+
+#: _inc/lib/admin-pages/class.jetpack-admin-page.php:322
+msgctxt "Navigation item"
+msgid "Sites"
+msgstr "Sites"
+
+#: _inc/lib/admin-pages/class.jetpack-admin-page.php:322
+#: _inc/lib/admin-pages/class.jetpack-admin-page.php:326
+#: _inc/lib/admin-pages/class.jetpack-admin-page.php:379
+#: _inc/lib/admin-pages/class.jetpack-admin-page.php:384
+msgid "Manage your network's Jetpack Sites."
+msgstr "Beheer de Jetpack-sites op uw netwerk."
+
+#: _inc/lib/core-api/wpcom-fields/post-fields-publicize-connections.php:103
+msgid "Whether `enable` can be changed for this post/connection"
+msgstr "Of `enable` kan worden gewijzigd voor dit bericht/deze verbinding"
+
+#: _inc/lib/core-api/wpcom-fields/post-fields-publicize-connections.php:97
+msgid "Whether Publicize has already finished sharing for this post"
+msgstr "Of Publicize het delen al heeft voltooid voor dit bericht"
+
+#: _inc/lib/core-api/wpcom-fields/post-fields-publicize-connections.php:92
+msgid "Whether to share to this connection"
+msgstr "Of deze verbinding gedeeld moet worden"
+
+#: _inc/lib/core-api/wpcom-endpoints/publicize-services.php:69
+msgid "The URL used to connect to the Publicize Service"
+msgstr "De URL die wordt gebruikt om de Publicize Service te koppelen"
+
+#: _inc/lib/core-api/wpcom-fields/post-fields-publicize-connections.php:133
+msgid "Sorry, you are not allowed to access Publicize data for this post."
+msgstr "Sorry, u hebt geen toegang tot de gegevens van Publicize voor dit bericht."
+
+#: _inc/lib/core-api/wpcom-endpoints/publicize-connection-test-results.php:66
+msgid "URL for refreshing the Connection to the Publicize Service"
+msgstr "URL voor het vernieuwen van de verbinding met de Publicize Service"
+
+#: _inc/lib/core-api/wpcom-endpoints/publicize-connection-test-results.php:62
+msgid "Message instructing the user to refresh their Connection to the Publicize Service"
+msgstr "Bericht dat de gebruiker instrueert om de verbinding met de Publicize Service te vernieuwen"
+
+#: _inc/lib/core-api/wpcom-endpoints/publicize-connection-test-results.php:58
+msgid "Can the current user refresh the Publicize Connection?"
+msgstr "Kan de huidige gebruiker de Publicize-verbinding vernieuwen?"
+
+#: _inc/lib/core-api/wpcom-endpoints/publicize-connection-test-results.php:54
+msgid "Publicize Connection success or error message"
+msgstr "Publicize-verbinding geslaagd of foutmelding"
+
+#: _inc/lib/core-api/wpcom-endpoints/publicize-connection-test-results.php:50
+msgid "Did the Publicize Connection test pass?"
+msgstr "Is de Publicize-verbindingstest geslaagd?"
+
+#: _inc/lib/core-api/wpcom-endpoints/service-api-keys.php:285
+msgid "Can't connect to Mapbox"
+msgstr "Kan geen verbinding maken met Mapbox"
+
+#: _inc/lib/core-api/wpcom-endpoints/service-api-keys.php:247
+msgid "Invalid Service"
+msgstr "Ongeldige service"
+
+#: _inc/lib/core-api/wpcom-endpoints/service-api-keys.php:199
+msgid "API key deleted successfully."
+msgstr "API-sleutel verwijderd."
+
+#: _inc/lib/core-api/wpcom-endpoints/service-api-keys.php:172
+msgid "API key updated successfully."
+msgstr "API-sleutel bijgewerkt."
+
+#: _inc/lib/core-api/wpcom-endpoints/service-api-keys.php:170
+msgid "Invalid API Key"
+msgstr "Ongeldige API-sleutel"
+
+#: _inc/lib/core-api/wpcom-endpoints/service-api-keys.php:138
+msgid "API key retrieved successfully."
+msgstr "API-sleutel opgehaald."
+
+#. translators: %s: get_permission_check()
+#. translators: %s: get()
+#. translators: %s: update_permission_check()
+#. translators: %s: update()
+#. translators: %s: get_schema()
+#: _inc/lib/core-api/class-wpcom-rest-field-controller.php:178
+#: _inc/lib/core-api/class-wpcom-rest-field-controller.php:190
+#: _inc/lib/core-api/class-wpcom-rest-field-controller.php:203
+#: _inc/lib/core-api/class-wpcom-rest-field-controller.php:216
+#: _inc/lib/core-api/class-wpcom-rest-field-controller.php:246
+msgid "Method '%s' must be overridden."
+msgstr "Methode '%s' moet worden overschreven."
+
+#. translators: %s: get_permission_check()
+#. translators: %s: update_permission_check()
+#: _inc/lib/core-api/class-wpcom-rest-field-controller.php:123
+#: _inc/lib/core-api/class-wpcom-rest-field-controller.php:153
+msgid "Method '%s' must return either true or WP_Error."
+msgstr "Methode '%s' moet ‘true’ of ‘WP_Error’ retourneren."
+
+#. translators: %s: object_type
+#. translators: %s: field_name
+#: _inc/lib/core-api/class-wpcom-rest-field-controller.php:23
+#: _inc/lib/core-api/class-wpcom-rest-field-controller.php:29
+msgid "Property '%s' must be overridden."
+msgstr "Eigenschap '%s' moet worden overschreven."
+
+#. translators: %s: the name of an API response field
+#: _inc/lib/core-api/class-wpcom-rest-field-controller.php:155
+msgid "You are not allowed to access the '%s' field."
+msgstr "U hebt geen toegang tot het veld '%s'."
+
+#: _inc/lib/class.core-rest-api-endpoints.php:981
+msgid "Site is under construction and cannot be verified"
+msgstr "De site is nog niet af en kan niet geverifieerd worden"
+
+#: _inc/lib/core-api/wpcom-endpoints/publicize-services.php:65
+msgid "Human readable label for the Publicize Service"
+msgstr "Voor mensen leesbaar etiket voor de Publicize Service"
+
+#: _inc/lib/core-api/wpcom-endpoints/publicize-connections.php:82
+msgid "Is this connection available to all users?"
+msgstr "Is deze verbinding beschikbaar voor alle gebruikers?"
+
+#: _inc/lib/core-api/wpcom-endpoints/publicize-connections.php:70
+#: _inc/lib/core-api/wpcom-fields/post-fields-publicize-connections.php:86
+msgid "Username of the connected account"
+msgstr "Gebruikersnaam van het gekoppelde account"
+
+#: _inc/lib/core-api/wpcom-endpoints/publicize-connections.php:66
+#: _inc/lib/core-api/wpcom-endpoints/publicize-services.php:61
+#: _inc/lib/core-api/wpcom-fields/post-fields-publicize-connections.php:80
+msgid "Alphanumeric identifier for the Publicize Service"
+msgstr "Alfanumerieke identificatiecode voor de Publicize Service"
+
+#: _inc/lib/core-api/wpcom-endpoints/publicize-connections.php:62
+#: _inc/lib/core-api/wpcom-fields/post-fields-publicize-connections.php:74
+msgid "Unique identifier for the Publicize Connection"
+msgstr "Unieke identificatiecode voor de Publicize Service"
+
+#: _inc/lib/core-api/wpcom-endpoints/publicize-connections.php:198
+#: _inc/lib/core-api/wpcom-endpoints/publicize-services.php:159
+msgid "Sorry, you are not allowed to access Publicize data on this site."
+msgstr "Sorry, u hebt geen toegang tot de gegevens van Publicize op deze site."
+
+#: class.jetpack-network.php:415
+msgid "Site connection failed!"
+msgstr "Verbinding van site is mislukt!"
+
+#: class.jetpack-admin.php:312 _inc/lib/debugger/class-jetpack-debugger.php:66
+msgid "Debugging Center"
+msgstr "Debug-centrum"
+
+#: modules/contact-form/grunion-contact-form.php:2497
+msgid "Select one"
+msgstr "Selecteer een optie"
+
+#: modules/contact-form/grunion-contact-form.php:2494
+msgid "Choose one"
+msgstr "Kies een optie"
+
+#: modules/contact-form/grunion-contact-form.php:2491
+msgid "Choose several"
+msgstr "Meerdere opties kiezen"
+
+#: modules/contact-form/grunion-contact-form.php:2482 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28
+msgid "Phone"
+msgstr "Telefoon"
+
+#: modules/plugin-search.php:245
+msgid "Activating"
+msgstr "Activeren"
+
+#: modules/verification-tools/blog-verification-tools.php:80
+msgid "You can verify your site using the <a href=\"%s\">\"Site verification\" tool in Jetpack Settings</a>."
+msgstr "U kunt uw site controleren met de <a href=\"%s\">tool voor siteverificatie in de Jetpack-instellingen</a>."
+
+#: modules/module-headings.php:118
+msgctxt "Module Name"
+msgid "Asset CDN"
+msgstr "Asset CDN"
+
+#: modules/module-info.php:853
+msgid ""
+"Our asset CDN is a site acceleration service.\n"
+"\t\tThat means that we host static assets like JavaScript and CSS shipped with WordPress Core and Jetpack from our servers, alleviating the load on your server."
+msgstr ""
+"Onze Asset CDN is een dienst om een site te versnellen.\n"
+"\t\tDat betekent dat we statische inhoud, zoals JavaScript en de CSS van WordPress en Jetpack, vanaf onze servers hosten, waardoor de belasting van uw server verlicht wordt."
+
+#: modules/seo-tools/jetpack-seo.php:183
+msgctxt "10 posts published by John on May 30, 2012"
+msgid "%1$s post published by %2$l on %3$s"
+msgid_plural "%1$s posts published by %2$l on %3$s"
+msgstr[0] "%1$s bericht gepubliceerd door %2$l op %3$s"
+msgstr[1] "%1$s berichten gepubliceerd door %2$l op %3$s"
+
+#: modules/seo-tools/jetpack-seo.php:170
+msgctxt "10 posts publishes by John during May 2012"
+msgid "%1$s post published by %2$l during %3$s"
+msgid_plural "%1$s posts published by %2$l during %3$s"
+msgstr[0] "%1$s bericht gepubliceerd door %2$l tijdens %3$s"
+msgstr[1] "%1$s berichten gepubliceerd door %2$l tijdens %3$s"
+
+#: modules/seo-tools/jetpack-seo.php:160
+msgctxt "10 posts published by John in the year 2012"
+msgid "%1$s post published by %2$l in the year %3$s"
+msgid_plural "%1$s posts published by %2$l in the year %3$s"
+msgstr[0] "%1$s bericht gepubliceerd door %2$l in het jaar %3$s"
+msgstr[1] "%1$s berichten gepubliceerd door %2$l in het jaar %3$s"
+
+#: modules/publicize/publicize.php:872
+msgid "The message to use instead of the title when sharing to Publicize Services"
+msgstr "Het bericht dat gebruikt moet worden in plaats van de titel wanneer via Publicize Services wordt gedeeld"
+
+#: modules/simple-payments/simple-payments.php:379
+msgid "Simple payments; status."
+msgstr "Eenvoudig betalen; status."
+
+#: modules/simple-payments/simple-payments.php:371
+msgid "Simple payments button; paypal email."
+msgstr "Eenvoudig betalen; e-mail PayPal."
+
+#: modules/simple-payments/simple-payments.php:353
+msgid "Simple payments; text with \"Buy\" or other CTA"
+msgstr "Eenvoudig betalen; tekst met 'Kopen' of andere CTA"
+
+#: modules/simple-payments/simple-payments.php:335
+msgid "Simple payments; price."
+msgstr "Eenvoudig betalen; prijs."
+
+#: modules/simple-payments/simple-payments.php:362
+msgid "Simple payments; allow multiple items"
+msgstr "Eenvoudig betalen; meerdere items toestaan"
+
+#: modules/simple-payments/simple-payments.php:344
+msgid "Simple payments; currency code."
+msgstr "Eenvoudig betalen; valutacode."
+
+#: modules/sso.php:196
+msgid "Secure Sign On"
+msgstr "Veilig aanmelden"
+
+#: modules/sitemaps/sitemaps.php:157
+msgid "No sitemap found. Please try again later."
+msgstr "Geen sitemap gevonden. Probeer het later opnieuw."
+
+#. translators: %s is a human_time_diff until next sitemap generation.
+#: modules/sitemaps/sitemap-stylist.php:198 modules/sitemaps/sitemaps.php:161
+msgid "No sitemap found. The system will try to build it again in %s."
+msgstr "Geen sitemap gevonden. Het systeem probeert deze opnieuw te maken over %s."
+
+#: modules/sitemaps/sitemap-builder.php:153
+msgid "Jetpack can not load necessary XML manipulation libraries. Please ask your hosting provider to refer to our server requirements at https://jetpack.com/support/server-requirements/ ."
+msgstr "Jetpack kan de noodzakelijke XML-manipulatiebibliotheken niet laden. Vraag uw hostingprovider om onze serververeisten te raadplegen via https://jetpack.com/support/server-requirements/ ."
+
+#: modules/widgets/rsslinks-widget.php:218
+#: modules/widgets/rsslinks-widget.php:221
+msgid "RSS - "
+msgstr "RSS - "
+
+#: modules/widgets/simple-payments.php:324 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28
+msgid "Invalid price"
+msgstr "Ongeldige prijs"
+
+#: modules/calypsoify/class-jetpack-calypsoify.php:203
+msgid "Plugin Settings"
+msgstr "Plugin-instellingen"
+
+#: modules/widgets/top-posts.php:108
+msgid "Views"
+msgstr "Views"
+
+#: modules/widgets/wordpress-post-widget/class.jetpack-display-posts-widget-base.php:243
+msgid "You must specify a valid blog URL!"
+msgstr "U moet een geldige blog-URL invoeren."
+
+#: modules/widgets/wordpress-post-widget/class.jetpack-display-posts-widget-base.php:534
+msgid "Invalid site information returned from remote."
+msgstr "Er komt geen geldige externe site-informatie terug."
+
+#: modules/widgets/wordpress-post-widget/class.jetpack-display-posts-widget-base.php:595
+msgid "No posts data returned by remote."
+msgstr "Er komt geen externe berichtendata terug."
+
+#: modules/widgets/wordpress-post-widget/class.jetpack-display-posts-widget.php:42
+msgid "Information about this blog is currently being retrieved."
+msgstr "Informatie over dit blog wordt op dit moment opgehaald."
+
+#: modules/widgets/wordpress-post-widget/class.jetpack-display-posts-widget-base.php:107
+msgid "Cannot load blog information at this time."
+msgstr "Er kan op dit moment geen bloginformatie geladen worden."
+
+#: modules/widgets/wordpress-post-widget/class.jetpack-display-posts-widget-base.php:128
+msgid "Cannot load blog posts at this time."
+msgstr "Er kunnen op dit moment geen blogberichten geladen worden."
+
+#: modules/widgets/wordpress-post-widget/class.jetpack-display-posts-widget-base.php:285
+msgid "An error occurred while downloading blog posts list"
+msgstr "Er is een fout opgetreden tijdens het downloaden van blog %s"
+
+#: modules/widgets/wordpress-post-widget/class.jetpack-display-posts-widget-base.php:313
+msgid "Detailed information"
+msgstr "Gedetailleerde informatie"
+
+#: modules/widgets/facebook-likebox.php:41
+msgid "Use the Facebook Page Plugin to connect visitors to your Facebook Page"
+msgstr "Gebruik de Facebookpagina-plugin om bezoekers met uw Facebookpagina te verbinden."
+
+#: modules/widgets/wordpress-post-widget/class.jetpack-display-posts-widget-base.php:430
+#: modules/widgets/wordpress-post-widget/class.jetpack-display-posts-widget-base.php:441
+msgid "An error occurred fetching the remote data."
+msgstr "Er is een fout opgetreden bij het ophalen van externe gegevens."
+
+#: modules/widgets/wordpress-post-widget/class.jetpack-display-posts-widget-base.php:460
+#: modules/widgets/wordpress-post-widget/class.jetpack-display-posts-widget-base.php:476
+msgid "Invalid remote response."
+msgstr "Ongeldige externe respons."
+
+#: modules/theme-tools/social-menu.php:34
+msgid "Social Menu"
+msgstr "Sociaal menu"
+
+#: modules/widgets/facebook-likebox.php:38
+msgid "Facebook Page Plugin"
+msgstr "Facebookpagina-plugin"
+
+#: modules/sitemaps/sitemap-stylist.php:67
+msgid "XML Sitemap"
+msgstr "XML-sitemap"
+
+#: modules/sharedaddy/sharing-sources.php:1174
+msgid "Click to share on Facebook"
+msgstr "Klik om te delen op Facebook"
+
+#: modules/sharedaddy/sharing-sources.php:1999
+msgid "Skype"
+msgstr "Skype"
+
+#: modules/sharedaddy/sharing-sources.php:2017
+msgctxt "share to"
+msgid "Skype"
+msgstr "Skype"
+
+#: modules/module-headings.php:173
+msgctxt "Module Name"
+msgid "Sitemaps"
+msgstr "Sitemaps"
+
+#: modules/module-headings.php:330
+msgctxt "Module Tag"
+msgid "Traffic"
+msgstr "Verkeer"
+
+#. translators: %s is the name of a theme
+#: _inc/lib/debugger/class-jetpack-debugger.php:132
+msgid "If your problem isn't known or caused by a plugin, try activating %s (the default WordPress theme)."
+msgstr "Als uw probleem onbekend is of wordt veroorzaakt door een plugin, kunt u proberen %s te activeren (het standaardthema van WordPress)."
+
+#: _inc/lib/debugger/class-jetpack-debugger.php:134
+msgid "If your problem isn't known or caused by a plugin, try activating the default WordPress theme."
+msgstr "Als uw probleem onbekend is of wordt veroorzaakt door een plugin, kunt u proberen het standaardthema van WordPress te activeren."
+
+#: _inc/lib/debugger/class-jetpack-debugger.php:137
+msgid "If this solves the problem, something in your theme is probably broken – let the theme's author know."
+msgstr "Als dit het probleem oplost, is er waarschijnlijk iets defect in uw thema. Informeer de auteur van het thema hierover."
+
+#. translators: %s is the name of a form field
+#: modules/contact-form/grunion-contact-form.php:3393
+msgid "%s requires at least one selection"
+msgstr "%s vereist minstens één selectie"
+
+#: json-endpoints/jetpack/class.wpcom-json-api-get-option-endpoint.php:28
+msgid "You must specify an option_name"
+msgstr "U moet een option_name opgeven"
+
+#: json-endpoints/jetpack/class.wpcom-json-api-get-option-endpoint.php:43
+msgid "You must specify a whitelisted option_name"
+msgstr "U moet een gewhiteliste option_name opgeven"
+
+#: json-endpoints/jetpack/class.wpcom-json-api-update-option-endpoint.php:19
+msgid "You must specify an option_value"
+msgstr "U moet een option_value opgeven"
+
+#. translators: %1$s is link to author posts, %2$s is author display name
+#: modules/custom-post-types/portfolios.php:899
+msgid "<span>Author:</span> <a href=\"%1$s\">%2$s</a>"
+msgstr "<span>Auteur:</span> <a href=\"%1$s\">%2$s</a>"
+
+#: modules/protect.php:619
+msgid "Your IP (%1$s) has been flagged for potential security violations."
+msgstr "Uw IP (%1$s) staat op de lijst van potentiële beveiligingsovertredingen."
+
+#: modules/widget-visibility/widget-conditions.php:209
+msgid "All pages"
+msgstr "Alle pagina's"
+
+#: modules/comments/comments.php:532
+msgid "Comments are not allowed."
+msgstr "Reacties zijn niet toegestaan."
+
+#. translators: %s is a social network name, e.g. Facebook.
+#: modules/widgets/social-media-icons.php:263
+msgid "%s username:"
+msgstr "%s gebruikersnaam:"
+
+#: modules/search/class-jetpack-search-customize.php:66
+msgid "Theme"
+msgstr "Thema"
+
+#: modules/related-posts/class.related-posts-customize.php:241
+#: modules/widgets/class-jetpack-instagram-widget.php:577
+msgid "Layout"
+msgstr "Opmaak"
+
+#: modules/subscriptions/views.php:158
+msgid "The email address has opted out of subscription emails. <br /> You can manage your preferences at <a href=\"%1$s\" title=\"%2$s\" target=\"_blank\">subscribe.wordpress.com</a>"
+msgstr "Het e-mailadres is uitgeschakeld voor abonnementsmails. <br /> U kunt uw voorkeuren beheren op <a href=\"%1$s\" title=\"%2$s\" target=\"_blank\">subscribe.wordpress.com</a>"
+
+#: modules/subscriptions/views.php:160 modules/subscriptions/views.php:166
+#: modules/subscriptions/views.php:180 modules/subscriptions/views.php:196
+msgid "Manage your email preferences."
+msgstr "E-mailvoorkeuren beheren."
+
+#: modules/custom-post-types/testimonial.php:308
+msgid "Testimonial list navigation"
+msgstr "Navigatie in de testimonialslijst"
+
+#: modules/custom-post-types/testimonial.php:309
+msgid "Testimonials list"
+msgstr "Testimonialslijst"
+
+#: modules/custom-post-types/portfolios.php:328
+msgid "Project type list"
+msgstr "Projecttypelijst"
+
+#: modules/custom-post-types/portfolios.php:357
+msgid "Project tag list navigation"
+msgstr "Navigatie in de projecttaglijst"
+
+#: modules/custom-post-types/portfolios.php:358
+msgid "Project tag list"
+msgstr "Projecttaglijst"
+
+#: modules/custom-post-types/testimonial.php:307
+msgid "Filter Testimonials list"
+msgstr "Testimonialslijst filteren"
+
+#: modules/custom-post-types/nova.php:232
+msgid "Menu items list"
+msgstr "Menu-itemlijst"
+
+#: modules/custom-post-types/portfolios.php:277
+msgid "Filter projects list"
+msgstr "Projectlijst filteren"
+
+#: modules/custom-post-types/portfolios.php:278
+msgid "Project list navigation"
+msgstr "Navigatie in de projectlijst"
+
+#: modules/custom-post-types/portfolios.php:279
+msgid "Projects list"
+msgstr "Projectlijst"
+
+#: modules/custom-post-types/portfolios.php:327
+msgid "Project type list navigation"
+msgstr "Navigatie in de projecttypelijst"
+
+#: modules/custom-post-types/nova.php:150
+msgid "Menu item labels list"
+msgstr "Lijst met menu-itemlabels"
+
+#: modules/custom-post-types/nova.php:182
+msgid "Menu section list navigation"
+msgstr "Navigatie in de menusectielijst"
+
+#: modules/custom-post-types/nova.php:183
+msgid "Menu section list"
+msgstr "Menusectielijst"
+
+#: modules/custom-post-types/nova.php:230
+msgid "Filter menu items list"
+msgstr "Menu-itemlijst filteren"
+
+#: modules/custom-post-types/nova.php:231
+msgid "Menu item list navigation"
+msgstr "Navigatie in de menu-itemlijst"
+
+#: modules/custom-post-types/comics.php:238
+msgid "Filter comics list"
+msgstr "Comicslijst filteren"
+
+#: modules/custom-post-types/comics.php:239
+msgid "Comics list navigation"
+msgstr "Navigatie in de comicslijst"
+
+#: modules/custom-post-types/comics.php:240
+msgid "Comics list"
+msgstr "Comicslijst"
+
+#: modules/custom-post-types/nova.php:149
+msgid "Menu item label list navigation"
+msgstr "Navigatie in de lijst met menu-itemlabels"
+
+#: modules/custom-css/custom-css.php:1335
+msgid "Show all"
+msgstr "Alles tonen"
+
+#: modules/contact-form/grunion-form-view.php:213
+#: modules/contact-form/grunion-editor-view.php:224
+msgid "Checkbox with Multiple Items"
+msgstr "Selectievakje met meerdere items"
+
+#: class.jetpack-network.php:412
+msgid "Site successfully connected."
+msgstr "Site is verbonden."
+
+#: views/admin/network-settings.php:12
+msgid "Network Settings"
+msgstr "Netwerkinstellingen"
+
+#. Author of the plugin
+msgid "Automattic"
+msgstr "Automattic"
+
+#. Description of the plugin
+msgid "Bring the power of the WordPress.com cloud to your self-hosted WordPress. Jetpack enables you to connect your blog to a WordPress.com account to use the powerful features normally only available to WordPress.com users."
+msgstr "Breng de mogelijkheden van de WordPress.com-cloud naar het zelfgehoste WordPress. Jetpack maakt het mogelijk uw blog te verbinden met een WordPress.com-account om de uitgebreide mogelijkheden te gebruiken die normaal alleen beschikbaar zijn voor WordPress.com-gebruikers."
+
+#: modules/plugin-search.php:569 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/build/admin.js:52
+msgid "Learn more"
+msgstr "Meer weten"
+
+#: modules/plugin-search.php:244
+msgid "Activated"
+msgstr "Geactiveerd"
+
+#: views/admin/must-connect-main-blog.php:4
+msgid "Get started with Jetpack Multisite"
+msgstr "Ga aan de slag met Jetpack-Multisite"
+
+#: views/admin/must-connect-main-blog.php:6
+msgid "Get started managing your Multisite install of Jetpack by connecting."
+msgstr "Begin met het beheren van de Multisite-installatie van Jetpack door verbinding te leggen."
+
+#: views/admin/network-activated-notice.php:3
+msgid "Jetpack is network activated and notices can not be dismissed."
+msgstr "Jetpack is geactiveerd in het netwerk en meldingen kunnen niet worden verborgen."
+
+#: views/admin/network-settings.php:4
+msgid "Jetpack Network Settings Updated!"
+msgstr "Jetpack-netwerkinstellingen zijn bijgewerkt."
+
+#: views/admin/network-settings.php:15
+msgid "These settings affect all sites on the network."
+msgstr "Deze instellingen hebben gevolgen voor alle websites op het netwerk"
+
+#: views/admin/network-settings.php:28
+msgid "Sub-site override"
+msgstr "Sub-site voorrang"
+
+#: views/admin/network-settings.php:31
+msgid "Allow individual site administrators to manage their own connections (connect and disconnect) to <a href=\"//wordpress.com\">WordPress.com</a>"
+msgstr "Sta individuele sitebeheerders toe hun eigen verbindingen (verbind en verbreek verbinding) met <a href=\"//wordpress.com\">WordPress.com</a> te beheren"
+
+#: views/admin/network-settings.php:36
+msgid "Protect whitelist"
+msgstr "Whitelist beschermen"
+
+#: modules/widgets/image-widget.php:244
+msgid "Left"
+msgstr "Links"
+
+#: modules/widgets/image-widget.php:246
+msgid "Right"
+msgstr "Rechts"
+
+#: modules/widgets/social-icons.php:247 modules/widgets/rsslinks-widget.php:140
+#: modules/widgets/flickr/form.php:88
+msgid "Medium"
+msgstr "Gemiddeld"
+
+#: modules/widgets/social-icons.php:248 modules/widgets/rsslinks-widget.php:141
+#: modules/widgets/flickr/form.php:99
+msgid "Large"
+msgstr "Groot"
+
+#: modules/widgets/gallery.php:379 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28
+msgid "Media File"
+msgstr "Mediabestand"
+
+#: modules/widgets/gallery.php:378 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28
+msgid "Attachment Page"
+msgstr "Bijlagepagina"
+
+#: modules/widgets/wordpress-post-widget/class.jetpack-display-posts-widget-base.php:202
+msgid "Recent Posts"
+msgstr "Meest recente berichten"
+
+#: modules/widgets/image-widget.php:28
+msgid "Image"
+msgstr "Afbeelding"
+
+#: modules/widgets/authors.php:223 modules/widgets/blog-stats.php:93
+#: modules/widgets/twitter-timeline.php:401
+#: modules/widgets/wordpress-post-widget/class.jetpack-display-posts-widget-base.php:224
+#: modules/widgets/google-translate.php:173 modules/widgets/search.php:1008
+#: modules/widgets/upcoming-events.php:42
+#: modules/widgets/social-media-icons.php:246
+#: modules/widgets/contact-info.php:246 modules/widgets/social-icons.php:254
+#: modules/widgets/rsslinks-widget.php:96 modules/widgets/top-posts.php:94
+#: modules/widgets/flickr/form.php:3 modules/widgets/my-community.php:88
+#: modules/widgets/gallery/templates/form.php:2
+#: modules/widgets/goodreads.php:137
+msgid "Title:"
+msgstr "Titel:"
+
+#: modules/widgets/rsslinks-widget.php:101
+#: modules/widgets/rsslinks-widget.php:177 _inc/build/admin.js:52
+msgid "Posts"
+msgstr "Berichten"
+
+#: modules/widgets/rsslinks-widget.php:161
+msgid "Silver"
+msgstr "Zilver"
+
+#: modules/widgets/rsslinks-widget.php:155
+msgid "Red"
+msgstr "Rood"
+
+#: modules/widgets/rsslinks-widget.php:159
+msgid "Purple"
+msgstr "Paars"
+
+#: modules/widgets/rsslinks-widget.php:160
+msgid "Pink"
+msgstr "Roze"
+
+#: modules/widgets/rsslinks-widget.php:156
+msgid "Orange"
+msgstr "Oranje"
+
+#: modules/widgets/rsslinks-widget.php:157
+msgid "Green"
+msgstr "Groen"
+
+#: modules/widgets/rsslinks-widget.php:158
+msgid "Blue"
+msgstr "Blauw"
+
+#: modules/widget-visibility/widget-conditions.php:435
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: modules/widgets/goodreads.php:28
+msgid "Display your books from Goodreads"
+msgstr "Uw boeken van Goodreads weergeven"
+
+#: modules/widgets/gravatar-profile.php:70
+msgid "You need to select what to show in this <a href=\"%s\">Gravatar Profile widget</a>."
+msgstr "U moet selecteren wat u in deze <a href=\"%s\">Gravatar-profielwidget</a> wilt weergeven."
+
+#: modules/widgets/gravatar-profile.php:311
+msgid "Links to your websites, blogs, or any other sites that help describe who you are."
+msgstr "Links naar uw websites, blogs, of andere sites die helpen te beschrijven wie u bent."
+
+#: modules/widgets/gravatar-profile.php:320
+msgid "Links to services that you use across the web."
+msgstr "Links naar services die u gebruikt op het web."
+
+#: modules/widgets/gravatar-profile.php:324
+msgid "Edit Your Profile"
+msgstr "Uw profiel bewerken"
+
+#: modules/widgets/rsslinks-widget.php:14
+msgid "Links to your blog's RSS feeds"
+msgstr "Linkt naar de RSS-feeds van uw blog"
+
+#: modules/widgets/top-posts.php:170
+msgid "Top Posts &amp; Pages by views are calculated from 24-48 hours of stats. They take a while to change."
+msgstr "Weergaves van populaire berichten &amp; pagina's worden berekend aan de hand van statistieken van de afgelopen 24-48 uur. Het duurt even voordat u verandering ziet."
+
+#: modules/widget-visibility/widget-conditions.php:360 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28
+msgid "Visibility"
+msgstr "Zichtbaarheid"
+
+#: modules/widget-visibility/widget-conditions.php:363
+msgctxt "placeholder: dropdown menu to select widget visibility; hide if or show if"
+msgid "%s if:"
+msgstr "%s als:"
+
+#: modules/widget-visibility/widget-conditions.php:363
+msgctxt "Used in the \"%s if:\" translation for the widget visibility dropdown"
+msgid "Show"
+msgstr "Toon"
+
+#: modules/widget-visibility/widget-conditions.php:363
+msgctxt "Used in the \"%s if:\" translation for the widget visibility dropdown"
+msgid "Hide"
+msgstr "Verberg"
+
+#: modules/widget-visibility/widget-conditions.php:382
+msgctxt "Used as the default option in a dropdown list"
+msgid "-- Select --"
+msgstr "-- Selecteren --"
+
+#: modules/widget-visibility/widget-conditions.php:383 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28
+#: _inc/build/instant-search/jp-search-main.bundle.js:9
+msgid "Category"
+msgstr "Categorie"
+
+#: modules/widget-visibility/widget-conditions.php:384
+msgctxt "Noun, as in: \"The author of this post is...\""
+msgid "Author"
+msgstr "Auteur"
+
+#: modules/widget-visibility/widget-conditions.php:387
+msgctxt "Noun"
+msgid "User"
+msgstr "Gebruiker"
+
+#: modules/widget-visibility/widget-conditions.php:388
+msgctxt "Noun, as in: \"The user role of that can access this widget is...\""
+msgid "Role"
+msgstr "Rol"
+
+#: modules/widget-visibility/widget-conditions.php:391
+msgctxt "Noun, as in: \"This post has one tag.\""
+msgid "Tag"
+msgstr "Tag"
+
+#: modules/widget-visibility/widget-conditions.php:392
+msgctxt "Noun, as in: \"This page is a date archive.\""
+msgid "Date"
+msgstr "Datum"
+
+#: modules/widget-visibility/widget-conditions.php:393
+msgctxt "Example: The user is looking at a page, not a post."
+msgid "Page"
+msgstr "Pagina"
+
+#: modules/widget-visibility/widget-conditions.php:395
+msgctxt "Noun, as in: \"This post has one taxonomy.\""
+msgid "Taxonomy"
+msgstr "Taxonomie"
+
+#: modules/widget-visibility/widget-conditions.php:399
+msgctxt "Widget Visibility: {Rule Major [Page]} is {Rule Minor [Search results]}"
+msgid "is"
+msgstr "is"
+
+#: modules/widget-visibility/widget-conditions.php:429
+msgctxt "Shown between widget visibility conditions."
+msgid "or"
+msgstr "of"
+
+#: modules/widgets/contact-info.php:73
+msgid "Hours & Info"
+msgstr "Openingstijden & informatie"
+
+#: modules/widgets/contact-info.php:74
+msgid ""
+"3999 Mission Boulevard,\n"
+"San Diego CA 92109"
+msgstr ""
+"3999 Mission Boulevard,\n"
+"San Diego CA 92109"
+
+#: modules/widgets/contact-info.php:75
+msgctxt "Example of a phone number"
+msgid "1-202-555-1212"
+msgstr "1-202-555-1212"
+
+#: modules/widgets/contact-info.php:76
+msgid ""
+"Lunch: 11am - 2pm \n"
+"Dinner: M-Th 5pm - 11pm, Fri-Sat:5pm - 1am"
+msgstr ""
+"Lunch: 11.00 - 14.00 \n"
+"Diner: Ma-do 17.00 - 23.00, vrij-zat:17.00 - 01.00"
+
+#: modules/widgets/contact-info.php:251
+msgid "Address:"
+msgstr "Adres:"
+
+#: modules/widgets/contact-info.php:257
+msgid "Show map"
+msgstr "Kaart tonen"
+
+#: modules/widgets/contact-info.php:306
+msgid "Phone:"
+msgstr "Telefoonnr.:"
+
+#: modules/widgets/contact-info.php:316
+msgid "Hours:"
+msgstr "Openingstijden:"
+
+#: modules/widgets/facebook-likebox.php:68
+msgid "It looks like your Facebook URL is incorrectly configured. Please check it in your <a href=\"%s\">widget settings</a>."
+msgstr "Het ziet ernaar uit dat de Facebook-URL verkeerd geconfigureerd is. Gelieve de <a href=\"%s\">widgetinstellingen</a> te controleren."
+
+#: modules/widgets/facebook-likebox.php:174
+msgid "Facebook Page URL"
+msgstr "Facebookpagina-URL"
+
+#: modules/widgets/facebook-likebox.php:177
+msgid "The widget only works with Facebook Pages."
+msgstr "De widget werkt alleen met Facebookpagina's."
+
+#: modules/widgets/facebook-likebox.php:200
+msgid "Show Faces"
+msgstr "Gezichten tonen"
+
+#: modules/widgets/facebook-likebox.php:202
+msgid "Show profile photos in the plugin."
+msgstr "Profielfoto's tonen in de plugin."
+
+#: modules/widgets/facebook-likebox.php:211
+msgid "Show Page Posts."
+msgstr "Paginaberichten weergeven."
+
+#: modules/widgets/facebook-likebox.php:218
+msgid "Show Cover Photo"
+msgstr "Omslagfoto tonen"
+
+#: modules/widgets/gallery/templates/form.php:10
+msgid "Images:"
+msgstr "Afbeeldingen:"
+
+#: modules/widgets/gallery/templates/form.php:39
+msgid "Choose Images"
+msgstr "Afbeeldingen kiezen"
+
+#: modules/widgets/gallery/templates/form.php:43
+msgid "Link To:"
+msgstr "Linken naar:"
+
+#: modules/widgets/gallery/templates/form.php:58
+msgid "Random Order:"
+msgstr "Willekeurige volgorde:"
+
+#: modules/widgets/gallery/templates/form.php:69
+msgid "Style:"
+msgstr "Stijl:"
+
+#: modules/widgets/gallery.php:22
+msgid "Display a photo gallery or slideshow"
+msgstr "Een fotogalerij of diashow weergeven"
+
+#: modules/widgets/gallery.php:370
+msgid "Tiles"
+msgstr "Tegels"
+
+#: modules/widgets/gallery.php:377
+msgid "Carousel"
+msgstr "Carrousel"
+
+#: modules/widgets/goodreads.php:25 modules/widgets/goodreads.php:79
+msgid "Goodreads"
+msgstr "Aanraders"
+
+#: modules/widgets/goodreads.php:34
+msgctxt "past participle: books I have read"
+msgid "Read"
+msgstr "Gelezen"
+
+#: modules/widgets/goodreads.php:35
+msgid "Currently Reading"
+msgstr "Aan het lezen"
+
+#: modules/widgets/goodreads.php:36
+msgctxt "my list of books to read"
+msgid "To Read"
+msgstr "Te lezen"
+
+#: modules/widgets/goodreads.php:141
+msgid "Goodreads numeric user ID <a href=\"%s\" target=\"_blank\">(instructions)</a>:"
+msgstr "Goodreads numeriek gebruikers-ID <a href=\"%s\" target=\"_blank\">(instructie)</a>:"
+
+#: modules/widgets/goodreads.php:143
+msgid "Invalid User ID, please verify and re-enter your Goodreads numeric user ID."
+msgstr "Ongeldig gebruikers-ID; controleer het numerieke gebruikers-ID van Goodreads en voer het opnieuw in."
+
+#: modules/widgets/goodreads.php:148
+msgid "Shelf:"
+msgstr "Plank:"
+
+#: modules/widgets/gravatar-profile.php:22
+msgid "Gravatar Profile"
+msgstr "Gravatar-profiel"
+
+#: modules/widgets/gravatar-profile.php:25
+msgid "Display a mini version of your Gravatar Profile"
+msgstr "Geef een mini-versie van je Gravatar-profiel weer"
+
+#: modules/widgets/gravatar-profile.php:132
+msgid "View Full Profile &rarr;"
+msgstr "Bekijk volledig profiel &rarr;"
+
+#: modules/widgets/gravatar-profile.php:141
+msgid "Error loading profile"
+msgstr "Fout bij het laden van het profiel"
+
+#: modules/widgets/gravatar-profile.php:168
+msgid "Personal Links"
+msgstr "Persoonlijke links"
+
+#: modules/widgets/gravatar-profile.php:210
+msgid "Verified Services"
+msgstr "Geverifieerde services"
+
+#: modules/widgets/gravatar-profile.php:227
+msgctxt "1: User Name, 2: Service Name (Facebook, Twitter, ...)"
+msgid "%1$s on %2$s"
+msgstr "%1$s op %2$s"
+
+#: modules/widgets/gravatar-profile.php:283
+msgid "Select a user or pick \"custom\" and enter a custom email address."
+msgstr "Selecteer een gebruiker of kies 'aangepast' en voer een aangepast e-mailadres in."
+
+#: modules/widgets/gravatar-profile.php:289
+msgid "Custom"
+msgstr "Aangepast"
+
+#: modules/widgets/gravatar-profile.php:301
+msgid "Custom Email Address"
+msgstr "Aangepast e-mailadres"
+
+#: modules/widgets/gravatar-profile.php:309
+msgid "Show Personal Links"
+msgstr "Laat persoonlijke links zien"
+
+#: modules/widgets/gravatar-profile.php:318
+msgid "Show Account Links"
+msgstr "Laat account-links zien"
+
+#: modules/widgets/gravatar-profile.php:324
+msgid "Opens in new window"
+msgstr "Wordt in een nieuw venster geopend"
+
+#: modules/widgets/gravatar-profile.php:324
+msgid "What's a Gravatar?"
+msgstr "Wat is een Gravatar?"
+
+#: modules/widgets/image-widget.php:31
+msgid "Display an image in your sidebar"
+msgstr "Vertoon een afbeelding in de zijbalk"
+
+#: modules/widgets/image-widget.php:229
+msgid "Image URL:"
+msgstr "Afbeeldings-URL:"
+
+#: modules/widgets/image-widget.php:232
+msgid "Alternate text:"
+msgstr "Alternatieve tekst:"
+
+#: modules/widgets/image-widget.php:235
+msgid "Image title:"
+msgstr "Afbeeldingstitel:"
+
+#: modules/widgets/image-widget.php:238
+msgid "Caption:"
+msgstr "Bijschrift:"
+
+#: modules/widgets/image-widget.php:245
+msgid "Center"
+msgstr "Gecentreerd"
+
+#: modules/widgets/image-widget.php:248
+msgid "Image Alignment:"
+msgstr "Afbeeldingsuitlijning:"
+
+#: modules/widgets/image-widget.php:265
+msgid "If empty, we will attempt to determine the image size."
+msgstr "Indien leeg, proberen we de afbeeldingsgrootte vast te stellen."
+
+#: modules/widgets/image-widget.php:266
+msgid "Link URL (when the image is clicked):"
+msgstr "Link-URL (als op de afbeelding wordt geklikt):"
+
+#: modules/widgets/image-widget.php:271
+msgid "Open link in a new window/tab"
+msgstr "Open de link in een nieuw venster/tabblad"
+
+#: modules/widgets/rsslinks-widget.php:20
+msgid "RSS Links"
+msgstr "RSS-links"
+
+#: modules/widgets/rsslinks-widget.php:103
+msgid "Posts & Comments"
+msgstr "Berichten & reacties"
+
+#: modules/widgets/rsslinks-widget.php:105
+msgid "Feed(s) to Display:"
+msgstr "Weer te geven feed(s):"
+
+#: modules/widgets/rsslinks-widget.php:117
+msgid "Text Link"
+msgstr "Tekst-link"
+
+#: modules/widgets/rsslinks-widget.php:118
+msgid "Image Link"
+msgstr "Afbeeldingslink"
+
+#: modules/widgets/rsslinks-widget.php:119
+msgid "Text & Image Links"
+msgstr "Tekst- & afbeeldingslinks"
+
+#: modules/widgets/rsslinks-widget.php:136
+msgid "Image Settings:"
+msgstr "Afbeeldingsinstellingen:"
+
+#: modules/widgets/social-icons.php:246 modules/widgets/rsslinks-widget.php:139
+msgid "Small"
+msgstr "Klein"
+
+#: modules/widgets/rsslinks-widget.php:143
+msgid "Image Size:"
+msgstr "Afbeeldingsgrootte:"
+
+#: modules/widgets/rsslinks-widget.php:163
+msgid "Image Color:"
+msgstr "Afbeeldingskleur:"
+
+#: modules/widgets/rsslinks-widget.php:184
+msgid "Subscribe to %s"
+msgstr "Abonneren op %s"
+
+#: modules/widgets/social-media-icons.php:50
+msgid "A simple widget that displays social media icons."
+msgstr "Een eenvoudige widget die pictogrammen van sociale media weergeeft."
+
+#: modules/widgets/social-media-icons.php:55
+msgid "Social"
+msgstr "Sociaal"
+
+#: modules/widgets/social-media-icons.php:134
+msgid "View %1$s&#8217;s profile on %2$s"
+msgstr "Bekijk het profiel van %1$s op %2$s"
+
+#: modules/widgets/top-posts.php:38 modules/widgets/top-posts.php:45
+#: modules/widgets/top-posts.php:498
+msgid "Top Posts &amp; Pages"
+msgstr "Populaire berichten &amp; pagina's "
+
+#: modules/widgets/top-posts.php:40
+msgid "Shows your most viewed posts and pages."
+msgstr "Toont de meest bekeken berichten en pagina's."
+
+#: modules/widgets/top-posts.php:99
+msgid "Maximum number of posts to show (no more than 10):"
+msgstr "Maximum aantal te tonen berichten (niet meer dan 10):"
+
+#: modules/widgets/top-posts.php:114
+msgid "Types of pages to display:"
+msgstr "Soorten pagina's om weer te geven:"
+
+#: modules/widgets/top-posts.php:138
+msgid "Display as:"
+msgstr "Weergeven als"
+
+#: modules/widgets/top-posts.php:140
+msgid "Text List"
+msgstr "Tekstlijst"
+
+#: modules/widgets/top-posts.php:141
+msgid "Image List"
+msgstr "Afbeeldingslijst"
+
+#: modules/widgets/top-posts.php:142
+msgid "Image Grid"
+msgstr "Afbeeldingsraster"
+
+#: modules/widgets/twitter-timeline.php:31
+#: modules/widgets/twitter-timeline.php:97
+msgid "Twitter Timeline"
+msgstr "Twitter-tijdlijn"
+
+#: modules/widgets/twitter-timeline.php:34
+msgid "Display an official Twitter Embedded Timeline widget."
+msgstr "Toon een officiële widget met ingesloten Twitter-tijdlijn."
+
+#: modules/widgets/twitter-timeline.php:160
+msgid "My Tweets"
+msgstr "Mijn tweets"
+
+#: modules/widgets/twitter-timeline.php:344
+msgid "Follow me on Twitter"
+msgstr "Volg me op Twitter"
+
+#: modules/widgets/wordpress-post-widget/class.jetpack-display-posts-widget-base.php:31
+msgid "Display WordPress Posts"
+msgstr "Toon WordPress-berichten"
+
+#: modules/widgets/wordpress-post-widget/class.jetpack-display-posts-widget-base.php:33
+msgid "Displays a list of recent posts from another WordPress.com or Jetpack-enabled blog."
+msgstr "Geeft een lijst weer met recente berichten van een ander WordPress.com- of met Jetpack-ingeschakeld blog."
+
+#: modules/widgets/wordpress-post-widget/class.jetpack-display-posts-widget-base.php:229
+msgid "Blog URL:"
+msgstr "Blog-URL:"
+
+#: modules/widgets/wordpress-post-widget/class.jetpack-display-posts-widget-base.php:232
+msgid "Enter a WordPress.com or Jetpack WordPress site URL."
+msgstr "Voer de URL van een WordPress.com- of Jetpack-WordPress-website in."
+
+#: modules/widgets/wordpress-post-widget/class.jetpack-display-posts-widget-base.php:249
+msgid "Number of Posts to Display:"
+msgstr "Aantal te tonen berichten:"
+
+#: modules/widgets/wordpress-post-widget/class.jetpack-display-posts-widget-base.php:259
+msgid "Open links in new window/tab:"
+msgstr "Links openen in een nieuw venster/tabblad:"
+
+#: modules/widgets/wordpress-post-widget/class.jetpack-display-posts-widget-base.php:263
+msgid "Show Featured Image:"
+msgstr "Uitgelichte afbeelding tonen:"
+
+#: modules/widgets/wordpress-post-widget/class.jetpack-display-posts-widget-base.php:267
+msgid "Show Excerpts:"
+msgstr "Samenvattingen tonen:"
+
+#. Translators: Placeholder is the name of a widget.
+#: modules/module-extras.php:92
+msgid "%s (Jetpack)"
+msgstr "%s (Jetpack)"
+
+#: modules/widget-visibility/widget-conditions.php:133 _inc/build/admin.js:52
+msgid "Front page"
+msgstr "Startpagina"
+
+#: modules/widget-visibility/widget-conditions.php:134
+msgid "Posts page"
+msgstr "Berichtenpagina"
+
+#: modules/theme-tools/social-links.php:216
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; Selecteren &mdash;"
+
+#: modules/subscriptions.php:367
+msgid "Change whether your visitors can subscribe to your posts or comments or both."
+msgstr "Wijzig of uw bezoekers zich kunnen abonneren op uw berichten of reacties of beide."
+
+#: modules/subscriptions.php:486
+msgid "These settings change emails sent from your blog to followers."
+msgstr "Deze instellingen veranderen e-mails die van uw blog naar volgers worden verstuurd."
+
+#: modules/subscriptions.php:493
+msgid "Introduction text sent when someone follows your blog. (Site and confirmation details will be automatically added for you.)"
+msgstr "Introductietekst die verzonden wordt als iemand uw blog volgt. (Site- en bevestigingsgegevens zullen automatisch voor u worden toegevoegd.)"
+
+#: modules/subscriptions.php:499
+msgid "Introduction text sent when someone follows a post on your blog. (Site and confirmation details will be automatically added for you.)"
+msgstr "Introductietekst die verzonden wordt als iemand een bericht op uw blog volgt. (Site- en bevestigingsgegevens worden automatisch voor u toegevoegd.)"
+
+#: modules/subscriptions.php:504
+msgid ""
+"Howdy.\n"
+"\n"
+"You recently followed this blog's posts. This means you will receive each new post by email.\n"
+"\n"
+"To activate, click confirm below. If you believe this is an error, ignore this message and we'll never bother you again."
+msgstr ""
+"Hallo.\n"
+"\n"
+"U hebt onlangs de berichten op dit blog gevolgd. Dat betekent dat u elk nieuw bericht per e-mail ontvangt.\n"
+"\n"
+"Klik op 'bevestigen' hieronder om te activeren. Als u denkt dat dit een vergissing is, negeer dan dit bericht en we zullen u niet meer lastig vallen."
+
+#: modules/subscriptions.php:505
+msgid ""
+"Howdy.\n"
+"\n"
+"You recently followed one of my posts. This means you will receive an email when new comments are posted.\n"
+"\n"
+"To activate, click confirm below. If you believe this is an error, ignore this message and we'll never bother you again."
+msgstr ""
+"Hallo, \n"
+"\n"
+"U hebt onlangs één van mijn berichten gevolgd. Dat betekent dat u een e-mail ontvangt als er nieuwe reacties geplaatst worden.\n"
+"\n"
+"Klik op 'bevestigen' hieronder om te activeren. Als u denkt dat dit een vergissing is, negeer dan dit bericht en we zullen u niet meer lastig vallen."
+
+#. translators: %s: number of folks following the blog
+#: modules/subscriptions/views.php:401 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28
+msgid "Join %s other subscriber"
+msgid_plural "Join %s other subscribers"
+msgstr[0] "Voeg u bij %s andere abonnee"
+msgstr[1] "Voeg u bij %s andere abonnees"
+
+#: modules/subscriptions/views.php:595
+msgid "Subscribe to Blog via Email"
+msgstr "Abonneer u op dit blog d.m.v. e-mail"
+
+#: modules/subscriptions/views.php:596
+msgid "Enter your email address to subscribe to this blog and receive notifications of new posts by email."
+msgstr "Voer uw e-mailadres in om zich in te schrijven op dit blog en e-mailmeldingen te ontvangen van nieuwe berichten."
+
+#: modules/subscriptions/views.php:698
+msgid "Optional text to display to your readers:"
+msgstr "Optionele tekst om te tonen aan uw lezers:"
+
+#: modules/theme-tools/featured-content.php:496
+msgid "Easily feature all posts with the <a href=\"%1$s\">\"featured\" tag</a> or a tag of your choice. Your theme supports up to %2$s posts in its featured content area."
+msgstr "Laat gemakkelijk al uw berichten opvallen met de <a href=\"%1$s\">'uitgelichte' tag</a> of een tag van uw keuze. Het thema ondersteunt maximaal %2$s berichten in het uitgelichte contentgebied."
+
+#: _inc/lib/class.core-rest-api-endpoints.php:2249
+#: modules/tiled-gallery/tiled-gallery.php:294
+msgid "Display all your gallery pictures in a cool mosaic."
+msgstr "Al uw galerie-afbeeldingen in een flitsend mozaïek weergeven."
+
+#: modules/videopress/class.videopress-player.php:252
+msgid "Please verify your birthday."
+msgstr "Controleer uw verjaardag."
+
+#: modules/stats.php:613
+msgid "Your Site Stats work better with JavaScript enabled."
+msgstr "Sitestatistieken werken beter als JavaScript is ingeschakeld."
+
+#: modules/stats.php:614
+msgid "View Site Stats without JavaScript"
+msgstr "Sitestatistieken zonder JavaScript weergeven"
+
+#: _inc/lib/class.core-rest-api-endpoints.php:2679
+msgid "Count the page views of registered users who are logged in."
+msgstr "De paginaweergaves van ingelogde geregistreerde bezoekers tellen."
+
+#: _inc/lib/class.core-rest-api-endpoints.php:2703
+msgid "Hide the stats smiley face image."
+msgstr "Verberg de statistieken-smiley."
+
+#: _inc/lib/class.core-rest-api-endpoints.php:2668
+msgid "Select the roles that will be able to view stats reports."
+msgstr "Selecteer de rollen die statistieken mogen bekijken."
+
+#: modules/stats.php:892 modules/stats.php:1621
+#: modules/masterbar/admin-menu/class-wpcom-admin-menu.php:181
+#: modules/masterbar/admin-menu/class-wpcom-admin-menu.php:191
+#: modules/masterbar/admin-menu/class-admin-menu.php:180
+#: modules/masterbar/masterbar/class-masterbar.php:916
+msgid "Stats"
+msgstr "Statistieken"
+
+#: modules/stats.php:894
+msgid "Views over 48 hours. Click for more Site Stats."
+msgstr "Weergaves over 48 uur. Klik voor meer websitestatistieken."
+
+#: modules/stats.php:1027
+msgid "day"
+msgstr "dag"
+
+#: modules/stats.php:1028
+msgid "week"
+msgstr "week"
+
+#: modules/stats.php:1029
+msgid "month"
+msgstr "maand"
+
+#: modules/stats.php:1032
+msgid "the past day"
+msgstr "de afgelopen dag"
+
+#: modules/stats.php:1033
+msgid "the past week"
+msgstr "afgelopen week"
+
+#: modules/stats.php:1034
+msgid "the past month"
+msgstr "de afgelopen maand"
+
+#: modules/stats.php:1035
+msgid "the past quarter"
+msgstr "het afgelopen kwartier"
+
+#: modules/stats.php:1036
+msgid "the past year"
+msgstr "vorig jaar"
+
+#: modules/stats.php:1059
+msgid "Chart stats by"
+msgstr "Statistiekgrafieken door"
+
+#: modules/stats.php:1072
+msgid "Show top posts over"
+msgstr "Toon topberichten over"
+
+#: modules/stats.php:1085
+msgid "Show top search terms over"
+msgstr "Toon top-zoektermen over"
+
+#: modules/videopress/class.videopress-player.php:305 modules/stats.php:1111
+#: modules/contact-form/grunion-contact-form.php:1962
+#: modules/contact-form/grunion-editor-view.php:92 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28
+msgid "Submit"
+msgstr "Vastleggen"
+
+#. Translators: Stats dashboard widget postviews list: "$post_title $views
+#. Views".
+#: modules/stats.php:1249
+msgid "%1$s %2$s Views"
+msgstr "%1$s %2$s Bekeken"
+
+#: modules/stats.php:1274
+msgid "Top Posts"
+msgstr "Populaire berichten"
+
+#: modules/stats.php:1278 modules/stats.php:1303
+msgid "Sorry, nothing to report."
+msgstr "Sorry, niets te melden"
+
+#: modules/stats.php:1299
+msgid "Top Searches"
+msgstr "Populairste zoekopdrachten"
+
+#: modules/stats.php:1349
+msgid "We were unable to get your stats just now. Please reload this page to try again."
+msgstr "Niet mogelijk op dit moment de statistieken te verkrijgen. Laad de pagina opnieuw en probeer het nogmaals."
+
+#: modules/subscriptions.php:149
+msgid "Jetpack Subscriptions:"
+msgstr "Jetpack-abonnementen:"
+
+#: modules/subscriptions.php:151
+msgid "Don&#8217;t send this to subscribers"
+msgstr "Verzend dit niet naar abonnees"
+
+#: modules/subscriptions.php:270
+msgid "Jetpack Subscriptions Settings"
+msgstr "Instellingen Jetpack-abonnement"
+
+#: modules/subscriptions.php:279 modules/subscriptions/views.php:40
+msgid "Follow Blog"
+msgstr "Blog volgen"
+
+#: modules/subscriptions.php:294
+msgid "Follow Comments"
+msgstr "Reacties volgen"
+
+#: modules/subscriptions.php:339
+msgid "Follower Settings"
+msgstr "Volger-instellingen"
+
+#: modules/subscriptions.php:346
+msgid "Blog follow email text"
+msgstr "E-mailtekst voor blogvolger"
+
+#: modules/subscriptions.php:354
+msgid "Comment follow email text"
+msgstr "E-mailtekst voor reactievolger"
+
+#: _inc/lib/class.core-rest-api-endpoints.php:2477
+#: modules/subscriptions.php:382
+msgid "Show a <em>'follow blog'</em> option in the comment form"
+msgstr "Toon een <em>'volg blog'</em>-optie in het reactieformulier"
+
+#: _inc/lib/class.core-rest-api-endpoints.php:2484
+#: modules/subscriptions.php:397
+msgid "Show a <em>'follow comments'</em> option in the comment form"
+msgstr "Toon een <em>'volg reacties'</em>-optie in het reactieformulier"
+
+#: modules/subscriptions.php:727
+msgid "Notify me of follow-up comments by email."
+msgstr "Stuur mij een e-mail als er vervolgreacties zijn."
+
+#: modules/subscriptions.php:746
+msgid "Notify me of new posts by email."
+msgstr "Stuur mij een e-mail als er nieuwe berichten zijn."
+
+#: modules/subscriptions/views.php:33
+msgid "Add an email signup form to allow people to subscribe to your blog."
+msgstr "Voeg een e-mailinschrijvingsformulier toe zodat mensen zich kunnen inschrijven op je blog."
+
+#: modules/subscriptions/views.php:39
+msgid "Blog Subscriptions"
+msgstr "Blog-abonnementen"
+
+#: modules/subscriptions/views.php:155
+msgid "The email you entered was invalid. Please check and try again."
+msgstr "Het ingevoerde e-mailadres is ongeldig. Controleer het adres en probeer het opnieuw."
+
+#: modules/subscriptions/views.php:206
+msgid "There was an error when subscribing. Please try again."
+msgstr "Er is een fout opgetreden bij het abonneren. Probeer het opnieuw."
+
+#: modules/subscriptions/views.php:320 modules/subscriptions/views.php:412
+#: modules/widgets/contact-info.php:311
+msgid "Email Address:"
+msgstr "E-mailadres"
+
+#: extensions/blocks/premium-content/_inc/legacy-buttons.php:55
+#: extensions/blocks/revue/revue.php:149 modules/subscriptions/views.php:598
+#: _inc/blocks/editor.js:28 _inc/blocks/editor-beta.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28
+msgid "Subscribe"
+msgstr "Abonneren"
+
+#: modules/subscriptions/views.php:690 modules/widgets/image-widget.php:226
+msgid "Widget title:"
+msgstr "Widgettitel:"
+
+#: modules/subscriptions/views.php:706
+msgid "Subscribe Placeholder:"
+msgstr "Plaatshouder voor abonneren:"
+
+#: modules/subscriptions/views.php:714
+msgid "Subscribe Button:"
+msgstr "Inschrijfknop:"
+
+#: modules/subscriptions/views.php:722
+msgid "Success Message Text:"
+msgstr "Tekst succesbericht:"
+
+#: modules/subscriptions/views.php:733
+msgid "Show total number of subscribers? (%s subscriber)"
+msgid_plural "Show total number of subscribers? (%s subscribers)"
+msgstr[0] "Het aantal inschrijvingen tonen? (%s inschrijving)"
+msgstr[1] "Het aantal inschrijvingen tonen? (%s inschrijvingen)"
+
+#: modules/theme-tools/featured-content.php:480
+#: modules/theme-tools/featured-content.php:495
+msgid "Featured Content"
+msgstr "Uitgelichte inhoud"
+
+#: modules/theme-tools/featured-content.php:536
+msgid "Tag name"
+msgstr "Tagnaam"
+
+#: modules/theme-tools/featured-content.php:575
+msgid "The settings for Featured Content have <a href=\"%s\">moved to Appearance &rarr; Customize</a>."
+msgstr "De instellingen voor uitgelichte inhoud zijn <a href=\"%s\"> verplaatst naar Uiterlijk; Aanpassen </a>."
+
+#: modules/theme-tools/site-logo/inc/class-site-logo-control.php:19
+msgid "Add logo"
+msgstr "Logo toevoegen"
+
+#: modules/theme-tools/site-logo/inc/class-site-logo-control.php:20
+msgid "Set as logo"
+msgstr "Instellen als logo"
+
+#: modules/theme-tools/site-logo/inc/class-site-logo-control.php:21
+msgid "Choose logo"
+msgstr "Logo kiezen"
+
+#: modules/theme-tools/site-logo/inc/class-site-logo-control.php:22
+msgid "Change logo"
+msgstr "Logo wijzigen"
+
+#: modules/theme-tools/site-logo/inc/class-site-logo-control.php:23
+msgid "Remove logo"
+msgstr "Logo verwijderen"
+
+#: modules/theme-tools/site-logo/inc/class-site-logo-control.php:24
+msgid "No logo set"
+msgstr "Geen logo ingesteld"
+
+#: modules/theme-tools/site-logo/inc/class-site-logo.php:98
+msgid "Display Header Text"
+msgstr "Headertekst weergeven"
+
+#: modules/theme-tools/site-logo/inc/class-site-logo.php:129
+msgid "Logo"
+msgstr "Logo"
+
+#: modules/theme-tools/site-logo/inc/class-site-logo.php:271
+msgid "Site Logo"
+msgstr "Sitelogo"
+
+#: modules/tiled-gallery/tiled-gallery.php:257
+msgid "Tiled Mosaic"
+msgstr "Mozaïek in tegels"
+
+#: modules/tiled-gallery/tiled-gallery.php:258 modules/widgets/gallery.php:371
+msgid "Square Tiles"
+msgstr "Vierkante tegels"
+
+#: modules/tiled-gallery/tiled-gallery.php:259 modules/widgets/gallery.php:372
+msgid "Circles"
+msgstr "Cirkels"
+
+#: modules/tiled-gallery/tiled-gallery.php:260
+msgid "Tiled Columns"
+msgstr "Kolommen in tegels"
+
+#: modules/verification-tools/blog-verification-tools.php:78
+msgid "Website Verification Services"
+msgstr "Website-verificatieservices"
+
+#: modules/videopress/class.videopress-player.php:215
+msgid "%s Error"
+msgstr "%s Fout"
+
+#: modules/videopress/class.videopress-player.php:252
+msgid "This video is intended for mature audiences."
+msgstr "Deze video is alleen geschikt voor volwassenen."
+
+#: modules/videopress/class.videopress-player.php:448
+msgctxt "watch a video title"
+msgid "Watch: %s"
+msgstr "Bekijk: %s"
+
+#: modules/videopress/class.videopress-player.php:560
+#: modules/videopress/class.videopress-player.php:585
+msgid "this video"
+msgstr "deze video"
+
+#: modules/videopress/class.videopress-player.php:593
+msgctxt "Play as in playback or view a movie"
+msgid "JavaScript required to play %s."
+msgstr "JavaScript vereist om %s af te spelen."
+
+#: modules/videopress/class.videopress-player.php:859
+msgid "Loading video..."
+msgstr "Video laden..."
+
+#: modules/videopress/class.videopress-video.php:357
+msgid "The VideoPress plugin could not communicate with the VideoPress servers. This error is most likely caused by a misconfigured plugin. Please reinstall or upgrade."
+msgstr "De VideoPress-plugin kon geen verbinding maken met de VideoPress-servers. Deze fout wordt waarschijnlijk veroorzaakt door een verkeerd geconfigureerde plugin. Installeer hem opnieuw of voer een upgrade uit."
+
+#: modules/videopress/class.videopress-video.php:359
+msgid "<strong>%s</strong> is not an allowed embed site."
+msgstr "<strong>%s</strong> is niet een toegestane embed-site."
+
+#: modules/videopress/class.videopress-video.php:359
+msgid "Publisher limits playback of video embeds."
+msgstr "De uitgever beperkt het afspelen van ingebedde video's."
+
+#: modules/videopress/class.videopress-video.php:361
+msgid "No data found for VideoPress identifier: <strong>%s</strong>."
+msgstr "Geen data gevonden voor de VideoPress-identificeerder: <strong>%s</strong>."
+
+#: modules/videopress/class.videopress-ajax.php:61
+#: modules/videopress/class.videopress-ajax.php:68
+msgid "Could not obtain a VideoPress upload token. Please try again later."
+msgstr "Geen VideoPress-uploadtoken verkregen. Probeer het later nogmaals."
+
+#: _inc/lib/core-api/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-external-media.php:303
+msgid "An unknown error has occurred. Please try again later."
+msgstr "Er heeft zich een onbekende fout voorgedaan. Probeer het later nogmaals."
+
+#: modules/videopress/class.videopress-edit-attachment.php:194
+msgid "Ogg File URL"
+msgstr "Ogg-bestands-URL"
+
+#: modules/videopress/class.videopress-edit-attachment.php:197
+msgid "Location of the Ogg video file."
+msgstr "Locatie van het Ogg-videobestand."
+
+#: modules/videopress/class.videopress-edit-attachment.php:354
+msgid "Display share menu and allow viewers to embed or download this video"
+msgstr "Toon het menu delen en sta de kijkers toe deze video in te bedden of te downloaden"
+
+#: modules/widget-visibility/widget-conditions.php:49
+msgid "All category pages"
+msgstr "Alle categoriepagina's"
+
+#: modules/widget-visibility/widget-conditions.php:74
+msgid "Logged In"
+msgstr "Ingelogd"
+
+#: modules/widget-visibility/widget-conditions.php:75
+msgid "Logged Out"
+msgstr "Uitgelogd"
+
+#: modules/widget-visibility/widget-conditions.php:78
+msgid "All author pages"
+msgstr "Alle auteurspagina's"
+
+#: modules/widget-visibility/widget-conditions.php:102
+msgid "All tag pages"
+msgstr "Alle tag-pagina's"
+
+#: modules/widget-visibility/widget-conditions.php:127
+msgid "All date archives"
+msgstr "Alle datumarchieven"
+
+#: modules/widget-visibility/widget-conditions.php:128
+msgid "Daily archives"
+msgstr "Dagarchieven"
+
+#: modules/widget-visibility/widget-conditions.php:129
+msgid "Monthly archives"
+msgstr "Maandarchieven"
+
+#: modules/widget-visibility/widget-conditions.php:130
+msgid "Yearly archives"
+msgstr "Jaararchieven"
+
+#: modules/widget-visibility/widget-conditions.php:135
+msgid "Archive page"
+msgstr "Pagina archiveren"
+
+#: modules/widget-visibility/widget-conditions.php:136
+msgid "404 error page"
+msgstr "404-foutpagina"
+
+#: modules/widget-visibility/widget-conditions.php:137
+#: _inc/build/instant-search/jp-search-main.bundle.js:9
+msgid "Search results"
+msgstr "Zoekresultaten"
+
+#: modules/widget-visibility/widget-conditions.php:149
+msgid "Post type:"
+msgstr "Berichttype:"
+
+#: modules/widget-visibility/widget-conditions.php:176
+msgid "Static page:"
+msgstr "Statische pagina:"
+
+#: modules/widget-visibility/widget-conditions.php:179
+msgid "All taxonomy pages"
+msgstr "Alle taxonomiepagina's"
+
+#: modules/stats.php:599
+msgid "Loading&hellip;"
+msgstr "Laden ..."
+
+#: modules/stats.php:612
+msgid "View stats on WordPress.com right now"
+msgstr "Bekijk nu de statistieken op WordPress.com"
+
+#: modules/sharedaddy/sharing-sources.php:1465
+#: modules/sitemaps/sitemap-stylist.php:68
+msgid "URL"
+msgstr "URL"
+
+#: extensions/blocks/eventbrite/eventbrite.php:196
+#: modules/sharedaddy/sharing-sources.php:621
+#: modules/wordads/php/class-wordads-california-privacy.php:261
+msgid "Close"
+msgstr "Sluiten"
+
+#: modules/sharedaddy/sharing.php:315
+msgid "Live Preview"
+msgstr "Live voorbeeld"
+
+#: modules/sharedaddy/sharing-sources.php:1250
+msgid "Print"
+msgstr "Afdrukken"
+
+#: modules/sharedaddy/sharing-sources.php:1285
+msgid "Press This"
+msgstr "Press This"
+
+#: modules/sharedaddy/sharing-sources.php:1565
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#. translators: included in email when post is shared via email. First item is
+#. sender's name. Second is sender's email address.
+#: modules/sharedaddy/sharedaddy.php:105
+msgid "%1$s (%2$s) thinks you may be interested in the following post:"
+msgstr "%1$s (%2$s) denkt dat u misschien geïnteresseerd bent in het volgende bericht:"
+
+#: modules/sharedaddy/sharedaddy.php:248
+msgid "Advanced.  If this option is checked, you must include these files in your theme manually for the sharing links to work."
+msgstr "Geavanceerd. Als deze optie aangevinkt is, moet u deze bestanden handmatig in het thema opnemen om ervoor te zorgen dat de deel-links het doen."
+
+#: modules/sharedaddy/sharing-sources.php:620
+msgid "You have shared this post with %s"
+msgstr "U hebt dit bericht gedeeld met %s"
+
+#: modules/sharedaddy/sharing-sources.php:674
+msgid "Your Name"
+msgstr "Uw naam"
+
+#: modules/sharedaddy/sharing-sources.php:677
+msgid "Your Email Address"
+msgstr "Uw e-mailadres"
+
+#: modules/sharedaddy/sharing-sources.php:702
+msgid "Post was not sent - check your email addresses!"
+msgstr "Bericht niet verstuurd - controleer uw e-mailadres."
+
+#: modules/sharedaddy/sharing-sources.php:710
+msgid "Sorry, your blog cannot share posts by email."
+msgstr "Helaas, uw blog kan geen berichten per e-mail delen."
+
+#: modules/sharedaddy/sharing.php:256
+msgid "Drag and drop the services you'd like to enable into the box below."
+msgstr "Versleep de diensten die u wilt activeren in de box hieronder."
+
+#: modules/sharedaddy/sharing.php:486
+msgid "You can add the following variables to your service sharing URL:"
+msgstr "U kunt de volgende variabelen gebruiken in de URL van het service-delen:"
+
+#: modules/sharedaddy/sharing.php:494
+msgid "Enter the URL of a 16x16px icon you want to use for this service."
+msgstr "Voer de URL in van een 16x16px-pictogram dat u wilt gebruiken voor deze service."
+
+#: modules/sharedaddy/sharing.php:530
+msgid "An error occurred creating your new sharing service - please check you gave valid details."
+msgstr "Er trad een fout bij het aanmaken van de nieuwe deelservice - controleer of u geldige gegevens hebt verstrekt."
+
+#: modules/shortcodes/archives.php:74
+msgid "Your blog does not currently have any published posts."
+msgstr "Uw blog heeft momenteel geen enkel gepubliceerd bericht."
+
+#: modules/related-posts/jetpack-related-posts.php:620 _inc/build/admin.js:52
+msgid "Show related content after posts"
+msgstr "Toon gerelateerde content na berichten"
+
+#: modules/related-posts/jetpack-related-posts.php:1259
+msgid "Untitled Post"
+msgstr "Bericht zonder titel"
+
+#: modules/related-posts/jetpack-related-posts.php:1550
+#: modules/related-posts/jetpack-related-posts.php:1573
+msgctxt "in {category/tag name}"
+msgid "In \"%s\""
+msgstr "In \"%s\""
+
+#: modules/related-posts/jetpack-related-posts.php:1594
+msgid "With 1 comment"
+msgid_plural "With %s comments"
+msgstr[0] "Met 1 reactie"
+msgstr[1] "Met %s reacties"
+
+#: modules/related-posts/jetpack-related-posts.php:1599
+msgid "Similar post"
+msgstr "Soortgelijk bericht"
+
+#: modules/sharedaddy/recaptcha.php:58
+msgid "The secret parameter is missing"
+msgstr "De geheime parameter ontbreekt"
+
+#: modules/sharedaddy/recaptcha.php:59
+msgid "The secret parameter is invalid or malformed"
+msgstr "De geheime parameter is ongeldig of heeft een verkeerde opmaak"
+
+#: modules/sharedaddy/recaptcha.php:60
+msgid "The response parameter is missing"
+msgstr "De reactieparameter ontbreekt"
+
+#: modules/sharedaddy/recaptcha.php:61
+msgid "The response parameter is invalid or malformed"
+msgstr "De reactieparameter is ongeldig of corrupt"
+
+#: modules/sharedaddy/recaptcha.php:62
+msgid "Invalid JSON"
+msgstr "Ongeldige JSON"
+
+#: modules/sharedaddy/recaptcha.php:63
+msgid "Unexpected response"
+msgstr "Onverwachte reactie"
+
+#: modules/sharedaddy/sharedaddy.php:63
+msgid "Shared Post"
+msgstr "Gedeeld bericht"
+
+#: _inc/lib/class.core-rest-api-endpoints.php:2433
+#: modules/sharedaddy/sharedaddy.php:246
+msgid "Disable CSS and JS"
+msgstr "Schakel CSS en JS uit"
+
+#: modules/sharedaddy/sharing-service.php:26 modules/sharedaddy/sharing.php:226
+msgid "Share this:"
+msgstr "Dit delen:"
+
+#: modules/sharedaddy/sharing-service.php:867
+#: modules/sharedaddy/sharing.php:330 modules/sharedaddy/sharing.php:366
+msgid "More"
+msgstr "Meer"
+
+#: modules/sharedaddy/sharing-service.php:869
+msgid "Share"
+msgstr "Delen"
+
+#: modules/sharedaddy/sharing-sources.php:101
+msgid " (Opens in new window)"
+msgstr " (Wordt in een nieuw venster geopend)"
+
+#: modules/sharedaddy/sharing-sources.php:539
+msgctxt "as sharing source"
+msgid "Email"
+msgstr "E-mail"
+
+#: modules/sharedaddy/sharing-sources.php:619
+msgid "This post has been shared!"
+msgstr "Dit bericht is gedeeld."
+
+#: modules/sharedaddy/sharing-sources.php:644
+msgctxt "share to"
+msgid "Email"
+msgstr "E-mail"
+
+#: modules/sharedaddy/sharing-sources.php:644
+msgid "Click to email this to a friend"
+msgstr "Klik om dit te e-mailen naar een vriend"
+
+#: modules/sharedaddy/sharing-sources.php:666
+msgid "Send to Email Address"
+msgstr "Stuur naar e-mailadres"
+
+#: modules/sharedaddy/sharing-sources.php:698
+msgid "Send Email"
+msgstr "E-mail versturen"
+
+#: modules/sharedaddy/sharing-sources.php:706
+msgid "Email check failed, please try again"
+msgstr "E-mail-controle mislukt, probeer het opnieuw"
+
+#: modules/sharedaddy/sharing-sources.php:735 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-experimental.js:28
+msgid "Twitter"
+msgstr "Twitter"
+
+#: modules/sharedaddy/sharing-sources.php:867
+msgctxt "share to"
+msgid "Twitter"
+msgstr "Twitter"
+
+#: modules/sharedaddy/sharing-sources.php:867
+msgid "Click to share on Twitter"
+msgstr "Klik om te delen met Twitter"
+
+#: modules/sharedaddy/sharing-sources.php:949
+msgid "Reddit"
+msgstr "Reddit"
+
+#: modules/sharedaddy/sharing-sources.php:956
+msgctxt "share to"
+msgid "Reddit"
+msgstr "Reddit"
+
+#: modules/sharedaddy/sharing-sources.php:956
+msgid "Click to share on Reddit"
+msgstr "Klik om te delen met Reddit"
+
+#: modules/sharedaddy/sharing-sources.php:999
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: modules/sharedaddy/sharing-sources.php:1013
+msgctxt "share to"
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: modules/sharedaddy/sharing-sources.php:1013
+msgid "Click to share on LinkedIn"
+msgstr "Klik om op LinkedIn te delen."
+
+#: modules/sharedaddy/sharing-sources.php:1107 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-experimental.js:28
+msgid "Facebook"
+msgstr "Facebook"
+
+#: modules/sharedaddy/sharing-sources.php:1174
+msgctxt "share to"
+msgid "Facebook"
+msgstr "Facebook"
+
+#: modules/sharedaddy/sharing-sources.php:1254
+msgctxt "share to"
+msgid "Print"
+msgstr "Print"
+
+#: modules/sharedaddy/sharing-sources.php:1254
+msgid "Click to print"
+msgstr "Klik om af te drukken"
+
+#: modules/sharedaddy/sharing-sources.php:1335
+msgctxt "share to"
+msgid "Press This"
+msgstr "Press this"
+
+#: modules/sharedaddy/sharing-sources.php:1335
+msgid "Click to Press This!"
+msgstr "Klik voor Press This."
+
+#. translators: placeholder is a service name, such as "Twitter" or "Facebook".
+#: modules/sharedaddy/sharing-sources.php:272
+#: modules/sharedaddy/sharing-sources.php:1396
+msgid "Click to share on %s"
+msgstr "Klik om te delen op %s"
+
+#: modules/sharedaddy/sharing-sources.php:1470
+msgid "Icon"
+msgstr "Icoon"
+
+#: modules/sharedaddy/sharing-sources.php:1478
+msgid "Remove Service"
+msgstr "Verwijder service"
+
+#: modules/sharedaddy/sharing-sources.php:1594
+msgid "Share on Tumblr"
+msgstr "Delen op Tumblr"
+
+#: modules/sharedaddy/sharing-sources.php:1598
+msgctxt "share to"
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: modules/sharedaddy/sharing-sources.php:1598
+msgid "Click to share on Tumblr"
+msgstr "Klik om op Tumblr te delen"
+
+#: modules/sharedaddy/sharing-sources.php:1635 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/build/admin.js:52
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: modules/sharedaddy/sharing-sources.php:1698
+msgctxt "share to"
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: modules/sharedaddy/sharing-sources.php:1698
+msgid "Click to share on Pinterest"
+msgstr "Klik om op Pinterest te delen"
+
+#: modules/sharedaddy/sharing-sources.php:1819
+#: modules/sharedaddy/sharing-sources.php:1837
+msgid "Pocket"
+msgstr "Pocket"
+
+#: modules/sharedaddy/sharing-sources.php:1842
+msgctxt "share to"
+msgid "Pocket"
+msgstr "Pocket"
+
+#: modules/sharedaddy/sharing-sources.php:1842
+msgid "Click to share on Pocket"
+msgstr "Klik om te delen op Pocket"
+
+#: modules/sharedaddy/sharing.php:217
+msgid "Warning! Multibyte support missing!"
+msgstr "Waarschuwing. Multibyte-support ontbreekt."
+
+#: modules/sharedaddy/sharing.php:249
+msgid "Add sharing buttons to your blog and allow your visitors to share posts with their friends."
+msgstr "Voeg deel-knoppen aan het blog toe en stel bezoekers zo in staat om berichten met hun vrienden te delen."
+
+#: modules/sharedaddy/sharing.php:255
+msgid "Available Services"
+msgstr "Beschikbare services"
+
+#: modules/sharedaddy/sharing.php:257
+msgid "Add a new service"
+msgstr "Voeg een nieuwe service toe"
+
+#: modules/sharedaddy/sharing.php:271
+msgid "Please note that your services have been restricted because your site is private."
+msgstr "Houd er rekening mee dat de services beperkt zijn omdat de site privé is."
+
+#: modules/sharedaddy/sharing.php:283
+msgid "Enabled Services"
+msgstr "Geactiveerde services"
+
+#: modules/sharedaddy/sharing.php:286
+msgid "Services dragged here will appear individually."
+msgstr "Services die hierheen gesleept worden, verschijnen afzonderlijk."
+
+#: modules/sharedaddy/sharing.php:289
+msgid "Drag and drop available services here."
+msgstr "Beschikbare services hierheen verslepen."
+
+#: modules/sharedaddy/sharing.php:300
+msgid "Services dragged here will be hidden behind a share button."
+msgstr "Services die hierheen gesleept worden, zullen verborgen zijn onder de share-knop."
+
+#: modules/sharedaddy/sharing.php:318
+msgid "Sharing is off. Add services above to enable."
+msgstr "Delen staat uit. Voeg hierboven in te schakelen services toe."
+
+#: modules/sharedaddy/sharing.php:387
+msgid "Button style"
+msgstr "Knopstijl"
+
+#: _inc/lib/class.core-rest-api-endpoints.php:2398
+#: modules/sharedaddy/sharing.php:390
+msgid "Icon + text"
+msgstr "Icoon + tekst"
+
+#: _inc/lib/class.core-rest-api-endpoints.php:2399
+#: modules/sharedaddy/sharing.php:391
+msgid "Icon only"
+msgstr "Alleen icoon"
+
+#: _inc/lib/class.core-rest-api-endpoints.php:2400
+#: modules/sharedaddy/sharing.php:392
+msgid "Text only"
+msgstr "Alleen tekst"
+
+#: _inc/lib/class.core-rest-api-endpoints.php:2401
+#: modules/sharedaddy/sharing.php:393
+msgid "Official buttons"
+msgstr "Officiële knoppen"
+
+#: modules/sharedaddy/sharing.php:398
+msgid "Sharing label"
+msgstr "Deel-label"
+
+#: modules/sharedaddy/sharing.php:476
+msgid "Service name"
+msgstr "Service-naam"
+
+#: modules/sharedaddy/sharing.php:482
+msgid "Sharing URL"
+msgstr "Deel-URL"
+
+#: modules/sharedaddy/sharing.php:491
+msgid "Icon URL"
+msgstr "Icoon-URL"
+
+#: modules/sharedaddy/sharing.php:500
+msgid "Create Share Button"
+msgstr "Creëer deel-knop"
+
+#: modules/shortcodes/crowdsignal.php:191
+#: modules/shortcodes/crowdsignal.php:501
+msgid "Take Our Survey"
+msgstr "Vul ons onderzoek in"
+
+#: modules/shortcodes/presentations.php:250
+msgid "This slideshow could not be started. Try refreshing the page or viewing it in another browser."
+msgstr "Deze diashow kon niet worden gestart. Probeer de pagina te verversen of bekijk het in een andere browser."
+
+#: modules/shortcodes/presentations.php:266
+msgid "Click to autoplay the presentation!"
+msgstr "Klik om de presentatie automatisch af te spelen."
+
+#: modules/widgets/milestone/class-milestone-widget.php:693
+#: _inc/blocks/editor.js:28 _inc/blocks/editor-beta.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28
+msgid "Time"
+msgstr "Tijd"
+
+#: modules/shortcodes/slideshow.php:74 modules/widgets/gallery.php:373
+#: _inc/blocks/editor.js:28 _inc/blocks/editor-beta.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28
+msgid "Slideshow"
+msgstr "Diashow"
+
+#: modules/shortcodes/slideshow.php:182
+msgid "Click to view slideshow."
+msgstr "Klik hier om de diashow te bekijken."
+
+#: modules/shortcodes/slideshow.php:228
+msgid "This slideshow requires JavaScript."
+msgstr "Deze diashow vereist JavaScript."
+
+#. Translators: placeholder is a Twitter username.
+#: modules/shortcodes/twitter-timeline.php:56
+msgid "Tweets by @%s"
+msgstr "Tweets van @%s"
+
+#: _inc/lib/class.core-rest-api-endpoints.php:2461 modules/sso.php:252
+msgid "Require Two-Step Authentication"
+msgstr "Tweestaps-authenticatie is vereist"
+
+#: _inc/lib/class.core-rest-api-endpoints.php:2468 modules/sso.php:282
+msgid "Match by Email"
+msgstr "Matchen per E-mail"
+
+#: modules/sso.php:422
+msgid "Cannot deal with cookie redirects, as headers are already sent."
+msgstr "Cookie-herverwijzingen niet gelukt, omdat de headers al verzonden zijn."
+
+#: modules/sso.php:535 modules/sso.php:887
+msgid "Log in with WordPress.com"
+msgstr "Inloggen met WordPress.com"
+
+#: modules/widgets/facebook-likebox.php:167
+#: modules/widgets/gravatar-profile.php:277
+#: modules/widgets/milestone/class-milestone-widget.php:656
+#: modules/sitemaps/sitemap-stylist.php:307
+#: modules/sitemaps/sitemap-stylist.php:447
+#: modules/sitemaps/sitemap-stylist.php:588
+msgid "Title"
+msgstr "Titel"
+
+#: modules/masterbar/admin-menu/class-jetpack-admin-menu.php:115
+#: modules/masterbar/admin-menu/class-admin-menu.php:424
+#: modules/masterbar/masterbar/class-masterbar.php:1194
+msgid "Themes"
+msgstr "Thema&#39;s"
+
+#: modules/sharedaddy/sharing-sources.php:1477
+#: modules/widgets/simple-payments/form.php:181 _inc/build/admin.js:52
+msgid "Save"
+msgstr "Opslaan"
+
+#. translators: %s: Number of pending plugin updates.
+#: modules/masterbar/admin-menu/class-admin-menu.php:509
+#: modules/masterbar/masterbar/class-masterbar.php:1278
+#: modules/calypsoify/class-jetpack-calypsoify.php:256
+msgid "Plugins"
+msgstr "Plugins"
+
+#: modules/masterbar/admin-menu/class-admin-menu.php:466
+msgid "Menus"
+msgstr "Menu&#39;s"
+
+#: modules/sitemaps/sitemap-stylist.php:69
+#: modules/sitemaps/sitemap-stylist.php:181
+#: modules/sitemaps/sitemap-stylist.php:308
+#: modules/sitemaps/sitemap-stylist.php:448
+msgid "Last Modified"
+msgstr "Laatst bijgewerkt"
+
+#: modules/publicize/publicize-jetpack.php:231
+msgid "Error code: %s"
+msgstr "Foutcode: %s"
+
+#: modules/masterbar/admin-menu/class-admin-menu.php:247 _inc/build/admin.js:52
+msgid "Media"
+msgstr "Media"
+
+#: _inc/lib/class.core-rest-api-endpoints.php:2340
+#: modules/subscriptions/views.php:597
+#: modules/post-by-email/class-jetpack-post-by-email.php:101
+#: _inc/blocks/editor.js:28 _inc/blocks/editor-beta.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28
+msgid "Email Address"
+msgstr "E-mailadres"
+
+#. translators: Placeholder is the site's name from WordPress settings.
+#: modules/post-by-email/class-jetpack-post-by-email.php:133
+msgid "To use Post By Email, you need to link your %s account to your WordPress.com account."
+msgstr "Om berichten per E-mail te gebruiken, moet u het %s-account linken met het WordPress.com-account."
+
+#: modules/publicize/publicize-jetpack.php:84
+#: modules/post-by-email/class-jetpack-post-by-email.php:138
+msgid "If you don't have a WordPress.com account yet, you can sign up for free in just a few seconds."
+msgstr "Als u nog geen WordPress.com-account heeft, kunt u zich in een paar seconden aanmelden voor een gratis account."
+
+#: views/admin/network-settings.php:8 modules/protect/shared-functions.php:143
+msgid "One of your IP addresses was not valid."
+msgstr "Een van uw IP-adressen is ongeldig."
+
+#: views/admin/network-settings.php:38 _inc/build/admin.js:52
+msgid "Your current IP: %s"
+msgstr "Uw huidige IP-adres: %s"
+
+#: modules/protect/math-fallback.php:60
+msgid "<strong>You failed to correctly answer the math problem.</strong>  This is used to combat spam when the Protect API is unavailable.  Please use your browser's back button to return to the login form, press the \"refresh\" button to generate a new math problem, and try to log in again."
+msgstr "<strong>U hebt niet het juiste antwoord gegeven op de rekenoefening.</strong> Deze wordt gebruikt om spam te bestrijden als de Protect-API niet beschikbaar is. Gebruik de terugknop van de browser om terug te keren naar het inlogformulier, klik op de knop ‘vernieuwen’ om een nieuwe rekenoefening te genereren en probeer nogmaals in te loggen."
+
+#: modules/protect/math-fallback.php:77
+msgid "Please solve this math problem to prove that you are not a bot.  Once you solve it, you will need to log in again."
+msgstr "Los de rekenoefening op om te bewijzen dat u geen robot bent. Als u de oefening hebt opgelost, moet u opnieuw inloggen."
+
+#: modules/protect/math-fallback.php:79
+msgid "Your answer was incorrect, please try again."
+msgstr "Uw antwoord was niet juist, probeer het opnieuw."
+
+#: modules/protect.php:229
+msgid "Your main blog is not connected to WordPress.com. Please connect to get an API key."
+msgstr "Uw hoofdblog is niet gekoppeld aan WordPress.com. Meldt u aan voor een API-sleutel."
+
+#. translators: %s is the name of the blog
+#: modules/publicize/publicize-jetpack.php:81
+msgid "To use Publicize, you'll need to link your %s account to your WordPress.com account using the link below."
+msgstr "Om Publicize te gebruiken, moet u het %s-account koppelen aan het WordPress.com-account via onderstaande link."
+
+#: modules/publicize/publicize-jetpack.php:204
+msgid "We could not verify that your server is making an authorized request. Please try again, and make sure there is nothing interfering with requests from your server to the Jetpack Server."
+msgstr "Er kon niet gecontroleerd worden of uw server een geautoriseerd verzoek indient. Probeer het nogmaals, en zorg dat er niets is dat de verzoeken van de server naar de Jetpack-server in de weg staat."
+
+#: modules/publicize/publicize-jetpack.php:207
+msgid "No blog_id was included in your request. Please try disconnecting Jetpack from WordPress.com and then reconnecting it. Once you have done that, try connecting Publicize again."
+msgstr "Er is geen blog_id in je verzoek opgenomen. Probeer de verbinding met Jetpack vanaf WordPress.com te verbreken en probeer dan opnieuw te verbinding te leggen. Als u dat gedaan heeft, probeer dan nogmaals met Publicize te verbinden."
+
+#: modules/publicize/publicize-jetpack.php:210
+msgid "No user information was included in your request. Please make sure that your user account has connected to Jetpack. Connect your user account by going to the <a href=\"%s\">Jetpack page</a> within wp-admin."
+msgstr "Er is geen gebruikersinformatie in uw verzoek opgenomen. Zorg dat uw gebruikersaccount verbonden is met Jetpack. Verbind het gebruikersaccount door naar de <a href=\"%s\">Jetpack-pagina</a> binnen wp-admin te gaan."
+
+#: modules/publicize/publicize-jetpack.php:213
+msgid "Something which should never happen, happened. Sorry about that. If you try again, maybe it will work."
+msgstr "Er is iets onverwachts gebeurd. Het spijt ons. Als u het opnieuw probeert, lukt het misschien wel."
+
+#: modules/publicize/ui.php:647
+msgid "Connect and share your posts on %s"
+msgstr "Verbinden en uw berichten delen op %s"
+
+#: modules/related-posts/class.related-posts-customize.php:50
+#: _inc/blocks/editor.js:28 _inc/blocks/editor-beta.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/build/admin.js:52
+msgid "Related Posts"
+msgstr "Gerelateerde berichten"
+
+#: modules/post-by-email/class-jetpack-post-by-email.php:113
+msgid "Enable Post By Email"
+msgstr "Activeer bericht per e-mail"
+
+#: modules/videopress/class.videopress-player.php:308
+#: modules/post-by-email/class-jetpack-post-by-email.php:117
+msgid "More information"
+msgstr "Meer informatie"
+
+#: modules/post-by-email/class-jetpack-post-by-email.php:120
+msgid "Regenerate Address"
+msgstr "Adres Regenereren"
+
+#: modules/post-by-email/class-jetpack-post-by-email.php:121
+msgid "Disable Post By Email"
+msgstr "Deactiveer bericht per e-mail"
+
+#: modules/publicize/publicize-jetpack.php:90
+#: modules/post-by-email/class-jetpack-post-by-email.php:141
+msgid "Link account with WordPress.com"
+msgstr "Koppel account met WordPress.com"
+
+#: modules/post-by-email/class-jetpack-post-by-email.php:217
+msgid "Unable to create your Post By Email address. Please try again later."
+msgstr "Bericht per E-mailadres kon niet aangemaakt worden. Probeer het later nogmaals."
+
+#: modules/post-by-email/class-jetpack-post-by-email.php:229
+msgid "Unable to regenerate your Post By Email address. Please try again later."
+msgstr "Bericht per E-mailadres kon niet hersteld worden. Probeer het later nogmaals."
+
+#: modules/post-by-email/class-jetpack-post-by-email.php:241
+msgid "Unable to disable your Post By Email address. Please try again later."
+msgstr "Bericht per E-mailadres kon niet uitgeschakeld worden. Probeer het later nogmaals."
+
+#: modules/protect/math-fallback.php:85
+msgid "Continue &rarr;"
+msgstr "Ga verder &rarr;"
+
+#: modules/protect/shared-functions.php:95
+msgid "Expecting an array"
+msgstr "Er wordt een array verwacht"
+
+#: modules/protect/shared-functions.php:98
+msgid "Cannot use global flag on non-multisites"
+msgstr "De globale vlag kan niet worden gebruikt op niet-multisites"
+
+#: modules/protect/shared-functions.php:101
+msgid "Only super admins can edit the global whitelist"
+msgstr "Alleen superbeheerders kunnen de globale whitelist bewerken"
+
+#: modules/protect.php:184
+msgid "View Network Admin"
+msgstr "Bekijk netwerkbeheer"
+
+#: modules/protect.php:257
+msgid "Error connecting to WordPress.com. Code: %1$s, %2$s"
+msgstr "Foutmelding bij het verbinden met WordPress.com; code: %1$s, %2$s"
+
+#: modules/protect.php:266
+msgid "No reply from Jetpack servers"
+msgstr "Geen reactie van de Jetpack-servers"
+
+#: modules/protect.php:622
+msgid "Login Blocked by Jetpack"
+msgstr "Inloggen geblokkeerd door Jetpack"
+
+#: modules/protect.php:691
+msgid "Your API key is invalid"
+msgstr "De API-sleutel is ongeldig"
+
+#: modules/protect.php:695
+msgid "No API key"
+msgstr "Geen API-sleutel"
+
+#: modules/protect.php:699
+msgid "There was an error contacting Jetpack servers."
+msgstr "Er is een fout opgetreden bij het verbinden met de Jetpack-servers."
+
+#: modules/publicize/enhanced-open-graph.php:118
+msgid "Video on %s"
+msgstr "Video op %s"
+
+#: modules/publicize/publicize-jetpack.php:195
+msgid "There was a problem connecting to %s to create an authorized connection. Please try again in a moment."
+msgstr "Er trad een probleem op bij het verbinden met %s om een geautoriseerde verbinding te creëren. Probeer over een minuutje nog een keer."
+
+#: modules/publicize/publicize-jetpack.php:201
+msgid "An invalid request was made. This normally means that something intercepted or corrupted the request from your server to the Jetpack Server. Try again and see if it works this time."
+msgstr "Er is een ongeldig verzoek gedaan. Dit betekent gewoonlijk dat iets het verzoek heeft onderschept of het verzoek tussen de server en de Jetpack-server verstoord heeft. Probeer het nogmaals om te kijken of het nu wel goed gaat."
+
+#: modules/publicize/publicize-jetpack.php:217
+msgid "There was a problem connecting with Publicize. Please try again in a moment."
+msgstr "Er trad een probleem op bij het verbinden met Publicize. Probeer het straks nogmaals."
+
+#: modules/publicize/publicize-jetpack.php:240
+msgid "That connection has been removed."
+msgstr "De verbinding is verbroken."
+
+#: modules/publicize/publicize-jetpack.php:368
+msgctxt "Refresh connection with {social media service}"
+msgid "Refresh connection with %s"
+msgstr "Verbinding met %s verversen"
+
+#: modules/publicize/publicize.php:503
+msgid "This connection is working correctly."
+msgstr "Deze verbinding werkt correct."
+
+#: class.jetpack-network-sites-list-table.php:105
+#: class.jetpack-network-sites-list-table.php:122 _inc/build/admin.js:71
+msgid "Disconnect"
+msgstr "Verbinding verbreken"
+
+#: extensions/blocks/premium-content/premium-content.php:94
+#: class.jetpack-network-sites-list-table.php:116
+#: class.jetpack-network-sites-list-table.php:121
+#: modules/theme-tools/social-links.php:125 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28
+msgid "Connect"
+msgstr "Verbinden"
+
+#: modules/publicize/ui.php:300 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-experimental.js:28
+msgid "Before you hit Publish, please refresh the following connection(s) to make sure we can Publicize your post:"
+msgstr "Ververs de volgende verbinding(en) voordat je op Publiceren klikt, om te garanderen dat we het bericht kunnen Publicizen:"
+
+#: modules/publicize/ui.php:471
+msgid "Publicize:"
+msgstr "Publicize:"
+
+#: modules/publicize/ui.php:622
+msgid "Custom Message:"
+msgstr "Aangepast bericht"
+
+#: modules/publicize/ui.php:524
+msgid "Not Connected"
+msgstr "Niet verbonden"
+
+#: modules/publicize/ui.php:642
+msgid "Connect to"
+msgstr "Verbinden met"
+
+#: modules/related-posts/jetpack-related-posts.php:104
+msgid "Related posts"
+msgstr "Gerelateerde berichten"
+
+#: modules/related-posts/class.related-posts-customize.php:178
+#: modules/related-posts/jetpack-related-posts.php:477
+#: modules/related-posts/jetpack-related-posts.php:537
+#: modules/related-posts/jetpack-related-posts.php:646 _inc/build/admin.js:52
+msgid "Related"
+msgstr "Gerelateerd"
+
+#: modules/related-posts/jetpack-related-posts.php:591
+msgid "Preview:"
+msgstr "Voorvertoning:"
+
+#: modules/related-posts/jetpack-related-posts.php:618
+msgid "Hide related content after posts"
+msgstr "Verberg gerelateerde content na berichten"
+
+#: modules/custom-css/custom-css-4.7.php:265
+msgid "Custom CSS"
+msgstr "Aangepast CSS"
+
+#: modules/post-by-email/class-jetpack-post-by-email.php:98
+msgid "Post by Email"
+msgstr "Bericht per e-mail"
+
+#: modules/tiled-gallery/tiled-gallery.php:287
+msgid "Tiled Galleries"
+msgstr "Galerijen in tegels"
+
+#: _inc/lib/class.core-rest-api-endpoints.php:2331
+msgid "Receive Monitor Email Notifications."
+msgstr "Ontvang monitor-mailmeldingen."
+
+#: modules/notes.php:199 modules/masterbar/masterbar/class-masterbar.php:413
+#: modules/masterbar/masterbar/class-masterbar.php:419
+#: modules/masterbar/masterbar/class-masterbar.php:723 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28
+msgid "Notifications"
+msgstr "Meldingen"
+
+#: modules/module-headings.php:163
+msgctxt "Module Name"
+msgid "Shortcode Embeds"
+msgstr "Shortcode-embeds"
+
+#: modules/module-headings.php:168
+msgctxt "Module Name"
+msgid "WP.me Shortlinks"
+msgstr "WP.me-shortlinks"
+
+#: modules/module-headings.php:183
+msgctxt "Module Name"
+msgid "Site Stats"
+msgstr "Sitestatistieken"
+
+#: modules/module-headings.php:188
+msgctxt "Module Name"
+msgid "Subscriptions"
+msgstr "Abonnementen"
+
+#: modules/module-headings.php:193
+msgctxt "Module Name"
+msgid "Tiled Galleries"
+msgstr "Galerijen in tegels"
+
+#: modules/module-headings.php:208
+msgctxt "Module Name"
+msgid "VideoPress"
+msgstr "VideoPress"
+
+#: modules/module-headings.php:213
+msgctxt "Module Name"
+msgid "Widget Visibility"
+msgstr "Widget-zichtbaarheid"
+
+#: modules/module-headings.php:218
+msgctxt "Module Name"
+msgid "Extra Sidebar Widgets"
+msgstr "Extra zijbalk-widgets"
+
+#: modules/module-headings.php:254
+msgctxt "Module Tag"
+msgid "Other"
+msgstr "Overige"
+
+#: modules/module-headings.php:288
+msgctxt "Module Tag"
+msgid "Writing"
+msgstr "Aan het typen"
+
+#: modules/module-headings.php:263
+msgctxt "Module Tag"
+msgid "Photos and Videos"
+msgstr "Foto's en video's"
+
+#: modules/module-headings.php:277
+msgctxt "Module Tag"
+msgid "Social"
+msgstr "Sociaal"
+
+#: modules/module-headings.php:302
+msgctxt "Module Tag"
+msgid "Appearance"
+msgstr "Weergave"
+
+#: modules/module-headings.php:307
+msgctxt "Module Tag"
+msgid "Developers"
+msgstr "Ontwikkelaars"
+
+#: modules/module-headings.php:321
+msgctxt "Module Tag"
+msgid "Recommended"
+msgstr "Aanbevolen"
+
+#: modules/module-headings.php:334
+msgctxt "Module Tag"
+msgid "Site Stats"
+msgstr "Sitestatistieken"
+
+#: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:163
+#: modules/stats.php:439 modules/stats.php:582 modules/stats.php:991
+#: _inc/build/admin.js:80
+msgid "Site Stats"
+msgstr "Site Stats"
+
+#: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:266
+#: modules/publicize/ui.php:97
+msgid "Publicize"
+msgstr "Publicize"
+
+#: modules/module-headings.php:33
+msgctxt "Module Name"
+msgid "Comments"
+msgstr "Reacties"
+
+#: modules/module-headings.php:38
+msgctxt "Module Name"
+msgid "Contact Form"
+msgstr "Contactformulier"
+
+#: modules/module-headings.php:53
+msgctxt "Module Name"
+msgid "Custom CSS"
+msgstr "Aangepast CSS"
+
+#: modules/module-headings.php:58
+msgctxt "Module Name"
+msgid "Enhanced Distribution"
+msgstr "Verbeterde distributie"
+
+#: modules/module-headings.php:59
+msgctxt "Module Description"
+msgid "Increase reach and traffic."
+msgstr "Verbeter het bereik en verkeer."
+
+#: modules/module-headings.php:68
+msgctxt "Module Name"
+msgid "Gravatar Hovercards"
+msgstr "Gravatar Hovercards"
+
+#: modules/module-headings.php:69
+msgctxt "Module Description"
+msgid "Enable pop-up business cards over commenters’ Gravatars."
+msgstr "Schakel pop-up-visitekaartjes in bij Gravatars van reagerende mensen."
+
+#: modules/module-headings.php:73
+msgctxt "Module Name"
+msgid "Infinite Scroll"
+msgstr "Oneindig scrollen"
+
+#: modules/module-headings.php:78
+msgctxt "Module Name"
+msgid "JSON API"
+msgstr "JSON API"
+
+#: modules/module-headings.php:83
+msgctxt "Module Name"
+msgid "Beautiful Math"
+msgstr "Beautiful Math"
+
+#: modules/module-headings.php:93
+msgctxt "Module Name"
+msgid "Likes"
+msgstr "Likes"
+
+#: modules/module-headings.php:98
+msgctxt "Module Name"
+msgid "Markdown"
+msgstr "Markdown"
+
+#: modules/module-headings.php:108
+msgctxt "Module Name"
+msgid "Monitor"
+msgstr "Monitor"
+
+#: modules/module-headings.php:113
+msgctxt "Module Name"
+msgid "Notifications"
+msgstr "Meldingen"
+
+#: modules/module-headings.php:128
+msgctxt "Module Name"
+msgid "Post by email"
+msgstr "Bericht per e-mail"
+
+#: modules/module-headings.php:133
+msgctxt "Module Name"
+msgid "Protect"
+msgstr "Protect"
+
+#: modules/module-headings.php:138
+msgctxt "Module Name"
+msgid "Publicize"
+msgstr "Publicize"
+
+#: modules/module-headings.php:143
+msgctxt "Module Name"
+msgid "Related posts"
+msgstr "Gerelateerde berichten"
+
+#: modules/module-headings.php:158
+msgctxt "Module Name"
+msgid "Sharing"
+msgstr "Delen"
+
+#. translators: Date and time
+#: _inc/lib/icalendar-reader.php:824
+msgid "%1$s at %2$s"
+msgstr "%1$s om %2$s"
+
+#: modules/theme-tools/compat/twentynineteen.php:203
+#: modules/theme-tools/compat/twentytwenty.php:268
+#: modules/infinite-scroll/infinity.php:840
+msgid "Older posts"
+msgstr "Oudere berichten"
+
+#: modules/masterbar/masterbar/class-masterbar.php:1356
+msgid "Menu"
+msgstr "Menu"
+
+#: modules/sharedaddy/sharing.php:465
+#: modules/likes/jetpack-likes-settings.php:227
+msgid "Save Changes"
+msgstr "Wijzigingen opslaan"
+
+#: modules/widgets/gallery.php:31
+msgid "Gallery"
+msgstr "Galerij"
+
+#: modules/theme-tools/content-options/customizer.php:291
+msgid "Featured Images"
+msgstr "Uitgelichte afbeeldingen"
+
+#: modules/infinite-scroll/infinity.php:429
+msgid "We&rsquo;ve changed this option to a click-to-scroll version for you since you have footer widgets in Appearance &rarr; Widgets, or your theme uses click-to-scroll as the default behavior."
+msgstr "We hebben deze optie voor u gewijzigd naar een 'klikken om te scrollen'-versie, omdat u footer-widgets hebt in Weergave → Widgets, of omdat het thema 'klikken om te scrollen' heeft als standaardgedrag."
+
+#: _inc/lib/class.core-rest-api-endpoints.php:2257
+#: modules/gravatar-hovercards.php:62
+msgid "View people's profiles when you mouse over their Gravatars"
+msgstr "Bekijk profielen van mensen als u met de muis over hun Gravatar gaat"
+
+#: modules/gravatar-hovercards.php:89
+msgid "Put your mouse over your Gravatar to check out your profile."
+msgstr "Ga met de muis over de Gravatar om uw profiel te controleren."
+
+#: modules/infinite-scroll/infinity.php:896
+msgid "Scroll back to top"
+msgstr "Scroll terug naar boven"
+
+#: modules/infinite-scroll/infinity.php:1654
+msgid "Proudly powered by WordPress"
+msgstr "Mogelijk gemaakt door WordPress"
+
+#. translators: %1$s is the name of a theme
+#: modules/infinite-scroll/infinity.php:1658
+msgid "Theme: %1$s."
+msgstr "Thema:%1$s."
+
+#: _inc/lib/class.core-rest-api-endpoints.php:2282
+#: modules/infinite-scroll.php:76
+msgid "Use Google Analytics with Infinite Scroll"
+msgstr "Gebruik Google Analytics met Oneindig Scrollen"
+
+#: modules/likes/jetpack-likes-settings.php:14
+msgid "Likes and Shares"
+msgstr "Likes en Delen"
+
+#: modules/likes.php:434 modules/likes/jetpack-likes-settings.php:46
+#: modules/widgets/top-posts.php:107
+msgid "Likes"
+msgstr "Likes"
+
+#: modules/likes/jetpack-likes-settings.php:80 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-experimental.js:28
+msgid "Show likes."
+msgstr "Likes tonen."
+
+#: modules/sharedaddy/sharedaddy.php:169
+#: modules/likes/jetpack-likes-settings.php:170 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-experimental.js:28
+msgid "Show sharing buttons."
+msgstr "Toon deel-knoppen."
+
+#: modules/likes.php:196
+msgid "Likes Notifications"
+msgstr "Likes-meldingen"
+
+#: modules/subscriptions.php:317 modules/likes.php:197
+msgid "Email me whenever"
+msgstr "Stuur mij een e-mail als"
+
+#: modules/likes.php:236
+msgid "Someone likes one of my posts"
+msgstr "Iemand één van mijn berichten liket"
+
+#: _inc/lib/class.core-rest-api-endpoints.php:2291
+#: modules/likes/jetpack-likes-settings.php:492
+msgid "WordPress.com Likes are"
+msgstr "WordPress.com-likes staan"
+
+#: _inc/lib/class.core-rest-api-endpoints.php:2299
+#: modules/likes/jetpack-likes-settings.php:498
+msgid "On for all posts"
+msgstr "Aan voor alle berichten"
+
+#: _inc/lib/class.core-rest-api-endpoints.php:2300
+#: modules/likes/jetpack-likes-settings.php:504
+msgid "Turned on per post"
+msgstr "Ingeschakeld per bericht"
+
+#: modules/likes/jetpack-likes-settings.php:512
+msgid "WordPress.com Reblog Button"
+msgstr "WordPress.com-reblog-knop"
+
+#: modules/likes/jetpack-likes-settings.php:518
+msgid "Show the Reblog button on posts"
+msgstr "Toon de Reblog-knop op berichten"
+
+#: modules/likes/jetpack-likes-settings.php:524
+msgid "Don't show the Reblog button on posts"
+msgstr "Toon de Reblog-knop niet bij berichten"
+
+#: modules/likes/jetpack-likes-settings.php:533
+msgid "Comment Likes are"
+msgstr "Reactie-likes staan"
+
+#: modules/likes/jetpack-likes-settings.php:539
+msgid "On for all comments"
+msgstr "Aan voor alle reacties"
+
+#: modules/sharedaddy/sharing.php:415
+#: modules/likes/jetpack-likes-settings.php:669
+msgid "Show buttons on"
+msgstr "Toon knoppen op"
+
+#: modules/sharedaddy/sharing.php:421
+#: modules/likes/jetpack-likes-settings.php:678
+msgid "Front Page, Archive Pages, and Search Results"
+msgstr "Voorpagina, archiefpagina's en zoekresultaten"
+
+#: modules/publicize/ui.php:55 modules/publicize/ui.php:73
+#: modules/sharedaddy/sharing.php:99 modules/sharedaddy/sharing.php:232
+#: modules/masterbar/admin-menu/class-wpcom-admin-menu.php:234
+#: modules/likes/jetpack-likes-settings.php:181
+#: modules/likes/jetpack-likes-settings.php:193
+msgid "Sharing Settings"
+msgstr "Deel-instellingen"
+
+#: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:277
+#: modules/publicize/ui.php:56 modules/sharedaddy/sharing.php:100
+#: modules/sharedaddy/sharedaddy.php:143
+#: modules/masterbar/admin-menu/class-wpcom-admin-menu.php:234
+#: modules/masterbar/masterbar/class-masterbar.php:1240
+#: modules/likes/jetpack-likes-settings.php:181 _inc/build/admin.js:52
+msgid "Sharing"
+msgstr "Delen"
+
+#: modules/sharedaddy/sharing.php:222
+#: modules/likes/jetpack-likes-settings.php:207
+msgid "Settings have been saved"
+msgstr "Instellingen zijn opgeslagen"
+
+#: modules/sharedaddy/sharing.php:248
+#: modules/likes/jetpack-likes-settings.php:215
+msgid "Sharing Buttons"
+msgstr "Deel-knoppen"
+
+#: modules/likes.php:470 modules/likes.php:471
+msgid "Like this:"
+msgstr "Vind ik leuk:"
+
+#: modules/likes.php:476
+msgid "Like"
+msgstr "Like"
+
+#: modules/likes.php:476 modules/comment-likes.php:188
+#: class.jetpack-connection-banner.php:200
+msgid "Loading..."
+msgstr "Laden&#8230;"
+
+#. translators: The value of %d is not available at the time of output
+#: modules/likes/jetpack-likes-master-iframe.php:33
+msgid "<span>%d</span> bloggers like this:"
+msgstr "<span>%d</span> bloggers liken dit:"
+
+#: modules/markdown/easy-markdown.php:256
+#: modules/markdown/easy-markdown.php:258 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28
+msgid "Markdown"
+msgstr "Markdown"
+
+#: modules/markdown/easy-markdown.php:281
+msgid "Use Markdown for posts and pages."
+msgstr "Markdown voor berichten en pagina's."
+
+#: modules/markdown/easy-markdown.php:282
+#: modules/markdown/easy-markdown.php:297
+msgid "Learn more about Markdown."
+msgstr "Meer informatie over Markdown."
+
+#: _inc/lib/class.core-rest-api-endpoints.php:2315
+#: modules/markdown/easy-markdown.php:296
+msgid "Use Markdown for comments."
+msgstr "Markdown gebruiken voor reacties."
+
+#: modules/markdown/easy-markdown.php:650
+msgid "Markdown content"
+msgstr "Markdown content"
+
+#: modules/module-headings.php:23
+msgctxt "Module Name"
+msgid "Carousel"
+msgstr "Carrousel"
+
+#: modules/masterbar/admin-menu/class-jetpack-admin-menu.php:118
+#: modules/masterbar/admin-menu/class-admin-menu.php:425
+#: modules/custom-post-types/testimonial.php:446
+msgid "Customize"
+msgstr "Aanpassen"
+
+#: modules/custom-post-types/testimonial.php:652
+msgid "Your Testimonial Archive currently has no entries. You can start creating them on your dashboard."
+msgstr "Uw beoordelingsarchief is op dit moment leeg. U kunt nieuwe maken op uw dashboard."
+
+#: modules/gravatar-hovercards.php:50
+msgid "Gravatar Hovercards"
+msgstr "Gravatar Hovercards"
+
+#: _inc/lib/class.core-rest-api-endpoints.php:2275
+msgid "To infinity and beyond"
+msgstr "Tot oneindig en verder"
+
+#: modules/infinite-scroll/infinity.php:436
+msgid "Shows %s post on each load."
+msgid_plural "Shows %s posts on each load."
+msgstr[0] "Toont na elke keer laden %s bericht."
+msgstr[1] "Toont na elke keer laden %s berichten."
+
+#: modules/custom-post-types/portfolios.php:873
+msgid "Tags"
+msgstr "Tags"
+
+#: modules/custom-css/custom-css.php:980
+msgid "Publish"
+msgstr "Publiceren"
+
+#: modules/custom-css/custom-css-4.7.php:757
+#: modules/custom-css/custom-css.php:1191
+#: modules/custom-css/custom-css.php:1196 modules/widgets/image-widget.php:243
+#: _inc/blocks/editor.js:28 _inc/blocks/editor-beta.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28
+msgid "None"
+msgstr "Geen"
+
+#: modules/theme-tools/content-options/customizer.php:74
+#: modules/custom-css/custom-css.php:1060
+#: modules/widgets/eu-cookie-law/form.php:19
+#: modules/widgets/eu-cookie-law/form.php:56
+msgid "Default"
+msgstr "Standaard"
+
+#: modules/custom-post-types/portfolios.php:354
+msgid "Add or remove tags"
+msgstr "Tags toevoegen of verwijderen"
+
+#: modules/custom-post-types/nova.php:863
+msgid "Uncategorized"
+msgstr "Geen categorie"
+
+#: modules/publicize/publicize-jetpack.php:531
+#: modules/publicize/publicize-jetpack.php:634 modules/publicize/ui.php:625
+#: modules/publicize/ui.php:653 modules/custom-css/custom-css.php:1116
+#: modules/custom-css/custom-css.php:1207
+#: modules/custom-css/custom-css.php:1248
+msgid "OK"
+msgstr "OK"
+
+#: views/admin/deactivation-dialog.php:53
+#: modules/sharedaddy/sharing-sources.php:699
+#: modules/custom-css/custom-css.php:1117
+#: modules/custom-css/custom-css.php:1208
+#: modules/custom-css/custom-css.php:1249
+#: modules/contact-form/grunion-editor-view.php:290
+#: modules/widgets/simple-payments/form.php:182 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/build/admin.js:52
+#: _inc/build/admin.js:71
+msgid "Cancel"
+msgstr "Annuleren"
+
+#. translators: this is about a food menu
+#: modules/custom-post-types/nova.php:225
+msgid "Search Menu Items"
+msgstr "Menu-items doorzoeken"
+
+#: modules/custom-post-types/portfolios.php:356
+msgid "No tags found."
+msgstr "Geen tags gevonden."
+
+#: modules/custom-post-types/portfolios.php:355
+msgid "Choose from the most used tags"
+msgstr "Kies uit de meest gebruikte tags"
+
+#: modules/custom-post-types/nova.php:527 modules/widgets/flickr/form.php:77
+#: modules/sitemaps/sitemap-stylist.php:306
+#: modules/sitemaps/sitemap-stylist.php:446
+msgid "Thumbnail"
+msgstr "Thumbnail"
+
+#: modules/custom-post-types/nova.php:530
+msgid "Order"
+msgstr "Volgorde"
+
+#. translators: this is about a food menu
+#: modules/custom-post-types/nova.php:219
+msgid "Edit Menu Item"
+msgstr "Menu-item bewerken"
+
+#: modules/custom-post-types/comics.php:120
+msgid "You are not allowed to make this change."
+msgstr "U heeft geen rechten voor deze wijziging."
+
+#: modules/custom-post-types/comics.php:196
+msgid "Sorry, your browser isn't supported. Upgrade at browsehappy.com."
+msgstr "Helaas, de browser wordt niet ondersteund. U kunt upgraden op browsehappy.com."
+
+#: modules/custom-post-types/comics.php:197
+msgid "Only images can be uploaded here."
+msgstr "Alleen afbeeldingen kunt u hier uploaden."
+
+#: modules/custom-post-types/nova.php:871
+msgid "Move menu section down"
+msgstr "Verplaats menusectie omlaag"
+
+#: modules/custom-post-types/portfolios.php:770
+msgid "Your Portfolio Archive currently has no entries. You can start creating them on your dashboard."
+msgstr "Het portfolioarchief is op dit moment leeg. U kunt een nieuwe aanmaken op het dashboard."
+
+#: modules/custom-post-types/testimonial.php:296
+msgid "Testimonial"
+msgstr "Beoordeling"
+
+#. translators: %s: date and time of the revision
+#: modules/custom-post-types/testimonial.php:351
+msgid "Testimonial restored to revision from %s"
+msgstr "Beoordeling hersteld voor revisie van %s"
+
+#: modules/custom-post-types/testimonial.php:346
+msgid "Testimonial updated. <a href=\"%s\">View testimonial</a>"
+msgstr "Beoordeling bijgewerkt.<a href=\"%s\">Zie beoordeling</a>"
+
+#: modules/custom-post-types/testimonial.php:352
+msgid "Testimonial published. <a href=\"%s\">View testimonial</a>"
+msgstr "Beoordeling gepubliceerd.  <a href=\"%s\">Bekijk beoordeling</a>"
+
+#. translators: Publish box date format, see https://php.net/date
+#: modules/custom-post-types/testimonial.php:358
+msgid "Testimonial draft updated. <a target=\"_blank\" href=\"%s\">Preview testimonial</a>"
+msgstr "Beoordeling draft bijgewerkt. <a target=\"_blank\" href=\"%s\">Bekijk beoordeling</a>"
+
+#: modules/custom-post-types/comics.php:90
+msgid "Convert to Comic"
+msgstr "Converteren naar een strip"
+
+#: modules/custom-post-types/comics.php:96
+msgid "Convert to Post"
+msgstr "Converteren naar een bericht"
+
+#: modules/custom-post-types/comics.php:167
+msgid "Post converted."
+msgid_plural "%s posts converted"
+msgstr[0] "Bericht geconverteerd."
+msgstr[1] "%s berichten geconverteerd"
+
+#: modules/custom-post-types/comics.php:193
+msgid "Drop images to upload"
+msgstr "Sleep afbeeldingen hierheen om ze te uploaden"
+
+#: modules/custom-post-types/comics.php:194
+msgid "Uploading..."
+msgstr "Aan het uploaden..."
+
+#: modules/custom-post-types/comics.php:195
+msgid "Processing..."
+msgstr "Bezig met verwerken..."
+
+#: modules/custom-post-types/comics.php:198
+msgid "Your upload didn't complete; try again later or cross your fingers and try again right now."
+msgstr "De upload is mislukt; probeer het later opnieuw of duim op de goede afloop en probeer het meteen nog een keer."
+
+#: modules/custom-post-types/comics.php:224
+#: modules/custom-post-types/comics.php:226
+#: modules/custom-post-types/comics.php:228
+msgid "Comics"
+msgstr "Strips"
+
+#: modules/custom-post-types/comics.php:227
+msgid "Comic"
+msgstr "Strip"
+
+#: modules/custom-post-types/comics.php:229
+msgid "All Comics"
+msgstr "Alle strips"
+
+#: modules/masterbar/admin-menu/class-admin-menu.php:541
+#: modules/custom-post-types/testimonial.php:299
+#: modules/custom-post-types/portfolios.php:269
+#: modules/custom-post-types/comics.php:230
+#: modules/widgets/simple-payments/form.php:46
+msgid "Add New"
+msgstr "Nieuwe toevoegen"
+
+#: modules/custom-post-types/comics.php:231
+msgid "Add New Comic"
+msgstr "Nieuwe strip toevoegen"
+
+#: modules/custom-post-types/comics.php:232
+msgid "Edit Comic"
+msgstr "Strip bewerken"
+
+#: modules/custom-post-types/comics.php:233
+msgid "New Comic"
+msgstr "Nieuwe strip"
+
+#: modules/custom-post-types/comics.php:234
+msgid "View Comic"
+msgstr "Strip bekijken"
+
+#: modules/custom-post-types/comics.php:235
+msgid "Search Comics"
+msgstr "Strips zoeken"
+
+#: modules/custom-post-types/comics.php:236
+msgid "No Comics found"
+msgstr "Geen strips gevonden"
+
+#: modules/custom-post-types/comics.php:237
+msgid "No Comics found in Trash"
+msgstr "Geen strips in prullenbak gevonden"
+
+#: modules/custom-post-types/comics.php:310
+msgid "Comic updated. <a href=\"%s\">View comic</a>"
+msgstr "Strip bijgewerkt. <a href=\"%s\">Strip bekijken</a>"
+
+#: modules/custom-post-types/testimonial.php:347
+#: modules/custom-post-types/portfolios.php:379
+#: modules/custom-post-types/nova.php:269
+#: modules/custom-post-types/comics.php:311
+msgid "Custom field updated."
+msgstr "Aangepast veld bijgewerkt."
+
+#: modules/custom-post-types/testimonial.php:348
+#: modules/custom-post-types/portfolios.php:380
+#: modules/custom-post-types/nova.php:270
+#: modules/custom-post-types/comics.php:312
+msgid "Custom field deleted."
+msgstr "Aangepast veld verwijderd."
+
+#: modules/custom-post-types/comics.php:313
+msgid "Comic updated."
+msgstr "Strip bijgewerkt."
+
+#. translators: %s: date and time of the revision
+#: modules/custom-post-types/comics.php:315
+msgid "Comic restored to revision from %s"
+msgstr "Strip teruggezet naar revisie van %s"
+
+#: modules/custom-post-types/comics.php:316
+msgid "Comic published. <a href=\"%s\">View comic</a>"
+msgstr "Strip gepubliceerd. <a href=\"%s\">Strip bekijken</a>"
+
+#: modules/custom-post-types/comics.php:317
+msgid "Comic saved."
+msgstr "Strip opgeslagen."
+
+#: modules/custom-post-types/comics.php:318
+msgid "Comic submitted. <a target=\"_blank\" href=\"%s\">Preview comic</a>"
+msgstr "Strip ingediend. <a target=\"_blank\" href=\"%s\">Strip voorvertonen</a>"
+
+#: modules/custom-post-types/comics.php:319
+msgid "Comic scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview comic</a>"
+msgstr "Strip ingepland voor: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Strip voorvertonen</a>"
+
+#. translators: Publish box date format, see https://php.net/date
+#: modules/custom-post-types/testimonial.php:357
+#: modules/custom-post-types/portfolios.php:389
+#: modules/custom-post-types/nova.php:284
+#: modules/custom-post-types/comics.php:321
+msgid "M j, Y @ G:i"
+msgstr "j F Y @ H:i"
+
+#. translators: Publish box date format, see https://php.net/date
+#: modules/custom-post-types/comics.php:322
+msgid "Comic draft updated. <a target=\"_blank\" href=\"%s\">Preview comic</a>"
+msgstr "Conceptstrip bijgewerkt. <a target=\"_blank\" href=\"%s\">Strip voorvertonen</a>"
+
+#: modules/custom-post-types/comics.php:409
+msgid "Invalid or expired nonce."
+msgstr "Ongeldige of verlopen nonce."
+
+#. translators: this is about a food menu
+#: modules/custom-post-types/nova.php:128
+msgid "Menu Item Labels"
+msgstr "Menu-itemlabels"
+
+#. translators: this is about a food menu
+#: modules/custom-post-types/nova.php:130
+msgid "Menu Item Label"
+msgstr "Menu-itemlabel"
+
+#. translators: this is about a food menu
+#: modules/custom-post-types/nova.php:132
+msgid "Search Menu Item Labels"
+msgstr "Zoek door menu-itemlabels"
+
+#: modules/custom-post-types/nova.php:133
+msgid "Popular Labels"
+msgstr "Populaire labels"
+
+#. translators: this is about a food menu
+#: modules/custom-post-types/nova.php:135
+msgid "All Menu Item Labels"
+msgstr "Alle menu-itemlabels"
+
+#. translators: this is about a food menu
+#: modules/custom-post-types/nova.php:137
+msgid "Edit Menu Item Label"
+msgstr "Menu-itemlabel bewerken"
+
+#. translators: this is about a food menu
+#: modules/custom-post-types/nova.php:139
+msgid "View Menu Item Label"
+msgstr "Menu-itemlabel bekijken"
+
+#. translators: this is about a food menu
+#: modules/custom-post-types/nova.php:141
+msgid "Update Menu Item Label"
+msgstr "Menu-itemlabel bijwerken"
+
+#. translators: this is about a food menu
+#: modules/custom-post-types/nova.php:143
+msgid "Add New Menu Item Label"
+msgstr "Nieuw menu-itemlabel toevoegen"
+
+#. translators: this is about a food menu
+#: modules/custom-post-types/nova.php:145
+msgid "New Menu Item Label Name"
+msgstr "Naam nieuw menu-itemlabel "
+
+#: modules/custom-post-types/nova.php:146
+msgid "For example, spicy, favorite, etc. <br /> Separate Labels with commas"
+msgstr "Bijvoorbeeld kruidig, favoriet enz. <br /> Scheid labels door komma's"
+
+#: modules/custom-post-types/nova.php:147
+msgid "Add or remove Labels"
+msgstr "Labels toevoegen of verwijderen"
+
+#: modules/custom-post-types/nova.php:148
+msgid "Choose from the most used Labels"
+msgstr "Kies uit de meest gebruikte labels"
+
+#: modules/custom-post-types/nova.php:152
+msgid "No Labels found"
+msgstr "Geen labels gevonden"
+
+#. translators: this is about a food menu
+#: modules/custom-post-types/nova.php:161
+msgid "Menu Sections"
+msgstr "Menusecties"
+
+#. translators: this is about a food menu
+#: modules/custom-post-types/nova.php:163
+msgid "Menu Section"
+msgstr "Menusectie"
+
+#. translators: this is about a food menu
+#: modules/custom-post-types/nova.php:165
+msgid "Search Menu Sections"
+msgstr "Zoek door Menusecties"
+
+#. translators: this is about a food menu
+#: modules/custom-post-types/nova.php:167
+msgid "All Menu Sections"
+msgstr "Alle Menusecties"
+
+#. translators: this is about a food menu
+#: modules/custom-post-types/nova.php:169
+msgid "Parent Menu Section"
+msgstr "Hoofd-menusectie"
+
+#. translators: this is about a food menu
+#: modules/custom-post-types/nova.php:171
+msgid "Parent Menu Section:"
+msgstr "Hoofd-menusectie:"
+
+#. translators: this is about a food menu
+#: modules/custom-post-types/nova.php:173
+msgid "Edit Menu Section"
+msgstr "Menusectie bewerken"
+
+#. translators: this is about a food menu
+#: modules/custom-post-types/nova.php:175
+msgid "View Menu Section"
+msgstr "Menusectie bekijken"
+
+#. translators: this is about a food menu
+#: modules/custom-post-types/nova.php:177
+msgid "Update Menu Section"
+msgstr "Menusectie bijwerken"
+
+#. translators: this is about a food menu
+#: modules/custom-post-types/nova.php:179
+msgid "Add New Menu Section"
+msgstr "Nieuwe Menusectie toevoegen"
+
+#. translators: this is about a food menu
+#: modules/custom-post-types/nova.php:181
+msgid "New Menu Sections Name"
+msgstr "Nieuwe Menusectienaam"
+
+#: modules/custom-post-types/nova.php:203
+msgid "Items on your restaurant's menu"
+msgstr "Items op het restaurantmenu"
+
+#. translators: this is about a food menu
+#: modules/custom-post-types/nova.php:207
+#: modules/custom-post-types/nova.php:213
+msgid "Menu Items"
+msgstr "Menu-items"
+
+#. translators: this is about a food menu
+#: modules/custom-post-types/nova.php:209
+msgid "Menu Item"
+msgstr "Menu-item"
+
+#. translators: this is about a food menu
+#: modules/custom-post-types/nova.php:211
+msgid "Food Menus"
+msgstr "Voedselmenu's"
+
+#. translators: this is about a food menu
+#: modules/custom-post-types/nova.php:215
+msgid "Add One Item"
+msgstr "Een item toevoegen"
+
+#. translators: this is about a food menu
+#: modules/custom-post-types/nova.php:217
+msgid "Add Menu Item"
+msgstr "Menu-item toevoegen"
+
+#. translators: this is about a food menu
+#: modules/custom-post-types/nova.php:221
+msgid "New Menu Item"
+msgstr "Nieuw menu-item"
+
+#. translators: this is about a food menu
+#: modules/custom-post-types/nova.php:223
+msgid "View Menu Item"
+msgstr "Menu-item bekijken"
+
+#. translators: this is about a food menu
+#: modules/custom-post-types/nova.php:227
+msgid "No Menu Items found"
+msgstr "Geen menu-items gevonden"
+
+#. translators: this is about a food menu
+#: modules/custom-post-types/nova.php:229
+msgid "No Menu Items found in Trash"
+msgstr "Geen menu-items in prullenbak gevonden"
+
+#. translators: this is about a food menu
+#: modules/custom-post-types/nova.php:268
+msgid "Menu item updated. <a href=\"%s\">View item</a>"
+msgstr "Menu-item bijgewerkt. <a href=\"%s\">Item bekijken</a>"
+
+#. translators: this is about a food menu
+#: modules/custom-post-types/nova.php:272
+msgid "Menu item updated."
+msgstr "Menu-item bijgewerkt."
+
+#. translators: %s: date and time of the revision
+#: modules/custom-post-types/nova.php:274
+msgid "Menu item restored to revision from %s"
+msgstr "Menu-item hersteld naar revisie van %s"
+
+#. translators: this is about a food menu
+#: modules/custom-post-types/nova.php:276
+msgid "Menu item published. <a href=\"%s\">View item</a>"
+msgstr "Menu-item gepubliceerd. <a href=\"%s\">Item bekijken</a>"
+
+#. translators: this is about a food menu
+#: modules/custom-post-types/nova.php:278
+msgid "Menu item saved."
+msgstr "Menu-item opgeslagen."
+
+#. translators: this is about a food menu
+#: modules/custom-post-types/nova.php:280
+msgid "Menu item submitted. <a target=\"_blank\" href=\"%s\">Preview item</a>"
+msgstr "Menu-item ingediend. <a target=\"_blank\" href=\"%s\">Item bekijken</a>"
+
+#. translators: this is about a food menu
+#: modules/custom-post-types/nova.php:282
+msgid "Menu item scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview item</a>"
+msgstr "Menu-item gepland voor: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Item bekijken</a>"
+
+#. translators: this is about a food menu
+#: modules/custom-post-types/nova.php:286
+msgid "Menu item draft updated. <a target=\"_blank\" href=\"%s\">Preview item</a>"
+msgstr "Concept-menu-item bijgewerkt. <a target=\"_blank\" href=\"%s\">Item bekijken</a>"
+
+#. translators: this is about a food menu
+#: modules/custom-post-types/nova.php:314
+msgid "Enter the menu item's name here"
+msgstr "Voer de naam van het menu-item hier in"
+
+#. translators: Placehoder is a number of items.
+#: modules/custom-post-types/nova.php:338
+#: modules/custom-post-types/nova.php:352
+msgid "%1$d Food Menu Item"
+msgid_plural "%1$d Food Menu Items"
+msgstr[0] "%1$d menukaartitem"
+msgstr[1] "%1$d menukaartitems"
+
+#: modules/custom-post-types/nova.php:445
+#: modules/custom-post-types/nova.php:446
+#: modules/custom-post-types/nova.php:961
+msgid "Add Many Items"
+msgstr "Veel items toevoegen"
+
+#. translators: this is about a food menu
+#: modules/custom-post-types/nova.php:508
+msgid "Menu Items re-ordered."
+msgstr "Menu-items opnieuw geordend."
+
+#: modules/custom-post-types/nova.php:528
+msgid "Labels"
+msgstr "Labels"
+
+#: modules/custom-post-types/nova.php:529
+#: modules/custom-post-types/nova.php:978
+#: modules/custom-post-types/nova.php:1023
+#: modules/custom-post-types/nova.php:1029
+#: modules/widgets/simple-payments/form.php:113 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28
+msgid "Price"
+msgstr "Prijs"
+
+#: modules/custom-post-types/nova.php:596
+#: modules/custom-post-types/nova.php:657
+msgid "Save New Order"
+msgstr "Nieuwe ordening opslaan"
+
+#: modules/custom-post-types/nova.php:860
+msgid "edit"
+msgstr "bewerken"
+
+#: modules/custom-post-types/nova.php:869
+msgid "Move menu section up"
+msgstr "Verplaats menusectie omhoog"
+
+#: modules/custom-post-types/nova.php:869
+msgid "UP"
+msgstr "OMHOOG"
+
+#: modules/custom-post-types/nova.php:871
+msgid "DOWN"
+msgstr "OMLAAG"
+
+#: modules/custom-post-types/nova.php:963
+msgid "Use the <kbd>TAB</kbd> key on your keyboard to move between colums and the <kbd>ENTER</kbd> or <kbd>RETURN</kbd> key to save each row and move on to the next."
+msgstr "Gebruik de <kbd>TAB</kbd>-toets op het toetsenbord om van kolom te wisselen en gebruik de <kbd>ENTER</kbd>- of <kbd>RETURN</kbd>-toets om iedere rij op te slaan en naar de volgende te gaan."
+
+#: modules/custom-post-types/nova.php:966
+msgid "Add to section:"
+msgstr "Toevoegen aan sectie:"
+
+#: modules/custom-post-types/nova.php:979
+msgid "Labels: <small>spicy, favorite, etc. <em>Separate Labels with commas</em></small>"
+msgstr "Labels: <small>gepeperd, favoriet etc. <em>Scheid labels door komma's</em></small>"
+
+#: modules/custom-post-types/nova.php:1001
+msgid "New Row"
+msgstr "Nieuwe rij"
+
+#: modules/custom-post-types/nova.php:1010
+msgid "Add These New Menu Items"
+msgstr "Deze nieuwe menu-items toevoegen"
+
+#: modules/custom-post-types/nova.php:1097
+#: modules/custom-post-types/nova.php:1116
+msgctxt "Nova label separator"
+msgid ", "
+msgstr ", "
+
+#: modules/custom-post-types/nova.php:1118
+msgid "No Labels"
+msgstr "Geen labels"
+
+#: modules/custom-post-types/portfolios.php:106
+msgid "Portfolio Projects"
+msgstr "Portfolioprojecten"
+
+#. translators: %s is the name of a custom post type such as
+#. "jetpack-portfolio"
+#: modules/custom-post-types/portfolios.php:135
+msgid "Your theme supports <strong>%s</strong>"
+msgstr "Het thema ondersteunt <strong>%s</strong>"
+
+#: modules/custom-post-types/portfolios.php:139
+msgid "Enable Portfolio Projects for this site."
+msgstr "Portfolioprojecten inschakelen voor deze site."
+
+#. translators: %1$s is replaced with an input field for numbers
+#: modules/custom-post-types/portfolios.php:147
+msgid "Portfolio pages display at most %1$s projects"
+msgstr "Portfoliopagina’s geven maximaal %1$s projecten weer"
+
+#: modules/custom-post-types/portfolios.php:265
+#: modules/custom-post-types/portfolios.php:452
+msgid "Projects"
+msgstr "Projecten"
+
+#: modules/custom-post-types/portfolios.php:266
+#: modules/custom-post-types/portfolios.php:402
+msgid "Project"
+msgstr "Project"
+
+#: modules/masterbar/masterbar/class-masterbar.php:1115
+#: modules/masterbar/masterbar/class-masterbar.php:1128
+#: modules/custom-post-types/portfolios.php:267
+#: modules/custom-post-types/portfolios.php:445
+msgid "Portfolio"
+msgstr "Portfolio"
+
+#: modules/custom-post-types/portfolios.php:268
+msgid "All Projects"
+msgstr "Alle projecten"
+
+#: modules/custom-post-types/portfolios.php:270
+msgid "Add New Project"
+msgstr "Nieuw project toevoegen"
+
+#: modules/custom-post-types/portfolios.php:271
+msgid "Edit Project"
+msgstr "Project bewerken"
+
+#: modules/custom-post-types/portfolios.php:272
+msgid "New Project"
+msgstr "Nieuw project"
+
+#: modules/custom-post-types/portfolios.php:273
+msgid "View Project"
+msgstr "Project bekijken"
+
+#: modules/custom-post-types/portfolios.php:274
+msgid "Search Projects"
+msgstr "Projecten doorzoeken"
+
+#: modules/custom-post-types/portfolios.php:275
+msgid "No Projects found"
+msgstr "Geen projecten gevonden"
+
+#: modules/custom-post-types/portfolios.php:276
+msgid "No Projects found in Trash"
+msgstr "Geen berichten gevonden in de prullenbak."
+
+#: modules/custom-post-types/portfolios.php:315
+#: modules/custom-post-types/portfolios.php:317
+msgid "Project Types"
+msgstr "Projecttypes"
+
+#: modules/custom-post-types/portfolios.php:316
+msgid "Project Type"
+msgstr "Projecttype"
+
+#: modules/custom-post-types/portfolios.php:318
+msgid "All Project Types"
+msgstr "Alle projecttypes"
+
+#: modules/custom-post-types/portfolios.php:319
+msgid "Edit Project Type"
+msgstr "Projecttype bewerken"
+
+#: modules/custom-post-types/portfolios.php:320
+msgid "View Project Type"
+msgstr "Projecttype bekijken"
+
+#: modules/custom-post-types/portfolios.php:321
+msgid "Update Project Type"
+msgstr "Projecttype bijwerken"
+
+#: modules/custom-post-types/portfolios.php:322
+msgid "Add New Project Type"
+msgstr "Nieuw projecttype toevoegen"
+
+#: modules/custom-post-types/portfolios.php:323
+msgid "New Project Type Name"
+msgstr "Naam nieuw projecttype"
+
+#: modules/custom-post-types/portfolios.php:324
+msgid "Parent Project Type"
+msgstr "Hoofdprojecttype"
+
+#: modules/custom-post-types/portfolios.php:325
+msgid "Parent Project Type:"
+msgstr "Hoofdprojecttype:"
+
+#: modules/custom-post-types/portfolios.php:326
+msgid "Search Project Types"
+msgstr "Projecttypes doorzoeken"
+
+#: modules/custom-post-types/portfolios.php:342
+#: modules/custom-post-types/portfolios.php:344
+msgid "Project Tags"
+msgstr "Project-tags"
+
+#: modules/custom-post-types/portfolios.php:343
+msgid "Project Tag"
+msgstr "Project-tag"
+
+#: modules/custom-post-types/portfolios.php:345
+msgid "All Project Tags"
+msgstr "Alle project-tags"
+
+#: modules/custom-post-types/portfolios.php:346
+msgid "Edit Project Tag"
+msgstr "Project-tag bewerken"
+
+#: modules/custom-post-types/portfolios.php:347
+msgid "View Project Tag"
+msgstr "Project-tag bekijken"
+
+#: modules/custom-post-types/portfolios.php:348
+msgid "Update Project Tag"
+msgstr "Project-tag bijwerken"
+
+#: modules/custom-post-types/portfolios.php:349
+msgid "Add New Project Tag"
+msgstr "Nieuwe project-tag toevoegen"
+
+#: modules/custom-post-types/portfolios.php:350
+msgid "New Project Tag Name"
+msgstr "Naam nieuwe project-tag"
+
+#: modules/custom-post-types/portfolios.php:351
+msgid "Search Project Tags"
+msgstr "Project-tags doorzoeken"
+
+#: modules/custom-post-types/portfolios.php:352
+msgid "Popular Project Tags"
+msgstr "Populaire project-tags"
+
+#: modules/custom-post-types/portfolios.php:353
+msgid "Separate tags with commas"
+msgstr "Scheid meerdere tags door komma&#39;s"
+
+#: modules/custom-post-types/portfolios.php:378
+msgid "Project updated. <a href=\"%s\">View item</a>"
+msgstr "Project bijgewerkt. <a href=\"%s\">Item bekijken</a>"
+
+#: modules/custom-post-types/portfolios.php:381
+msgid "Project updated."
+msgstr "Project bijgewerkt."
+
+#. translators: %s: date and time of the revision
+#: modules/custom-post-types/portfolios.php:383
+msgid "Project restored to revision from %s"
+msgstr "Project teruggezet naar revisie van %s"
+
+#: modules/custom-post-types/portfolios.php:384
+msgid "Project published. <a href=\"%s\">View project</a>"
+msgstr "Project gepubliceerd. <a href=\"%s\">Project bekijken</a>"
+
+#: modules/custom-post-types/portfolios.php:385
+msgid "Project saved."
+msgstr "Project opgeslagen."
+
+#: modules/custom-post-types/portfolios.php:386
+msgid "Project submitted. <a target=\"_blank\" href=\"%s\">Preview project</a>"
+msgstr "Project ingediend. <a target=\"_blank\" href=\"%s\">Projectvoorbeeld bekijken</a>"
+
+#: modules/custom-post-types/portfolios.php:387
+msgid "Project scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview project</a>"
+msgstr "Project gepland voor: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Projectvoorbeeld bekijken</a>"
+
+#. translators: Publish box date format, see https://php.net/date
+#: modules/custom-post-types/portfolios.php:390
+msgid "Project item draft updated. <a target=\"_blank\" href=\"%s\">Preview project</a>"
+msgstr "Projectitemconcept bijgewerkt. <a target=\"_blank\" href=\"%s\">Projectvoorbeeld bekijken</a>"
+
+#: modules/custom-post-types/portfolios.php:842
+msgid "Types"
+msgstr "Types"
+
+#: modules/masterbar/masterbar/class-masterbar.php:1079
+#: modules/masterbar/masterbar/class-masterbar.php:1092
+#: modules/custom-post-types/testimonial.php:120
+#: modules/custom-post-types/testimonial.php:295
+#: modules/custom-post-types/testimonial.php:297
+#: modules/custom-post-types/testimonial.php:462
+#: modules/custom-post-types/testimonial.php:468 _inc/build/admin.js:52
+msgid "Testimonials"
+msgstr "Beoordelingen"
+
+#: modules/custom-post-types/testimonial.php:150
+msgid "Your theme supports Testimonials"
+msgstr "Het thema ondersteunt Beoordelingen"
+
+#: modules/custom-post-types/testimonial.php:154
+msgid "Enable Testimonials for this site."
+msgstr "Beoordelingen inschakelen voor deze site."
+
+#. translators: %1$s is replaced with an input field for numbers
+#: modules/custom-post-types/testimonial.php:163
+msgid "Testimonial pages display at most %1$s testimonials"
+msgstr "Beoordelingspagina’s geven maximaal %1$s beoordeling weer"
+
+#: modules/custom-post-types/testimonial.php:293
+msgid "Customer Testimonials"
+msgstr "Klantbeoordeling"
+
+#: modules/custom-post-types/testimonial.php:298
+msgid "All Testimonials"
+msgstr "Alle Beoordelingen"
+
+#: modules/custom-post-types/testimonial.php:300
+msgid "Add New Testimonial"
+msgstr "Nieuwe Beoordeling toevoegen"
+
+#: modules/custom-post-types/testimonial.php:301
+msgid "Edit Testimonial"
+msgstr "Beoordeling bewerken"
+
+#: modules/custom-post-types/testimonial.php:302
+msgid "New Testimonial"
+msgstr "Nieuwe Beoordeling"
+
+#: modules/custom-post-types/testimonial.php:303
+msgid "View Testimonial"
+msgstr "Beoordeling bekijken"
+
+#: modules/custom-post-types/testimonial.php:304
+msgid "Search Testimonials"
+msgstr "Zoek Beoordelingen"
+
+#: modules/custom-post-types/testimonial.php:305
+msgid "No Testimonials found"
+msgstr "Geen Beoordelingen aangetroffen"
+
+#: modules/custom-post-types/testimonial.php:306
+msgid "No Testimonials found in Trash"
+msgstr "Geen Beoordelingen aangetroffen in Prullenbak"
+
+#: modules/custom-post-types/testimonial.php:349
+msgid "Testimonial updated."
+msgstr "Beoordeling bijgewerkt."
+
+#: modules/custom-post-types/testimonial.php:353
+msgid "Testimonial saved."
+msgstr "Beoordeling opgeslagen"
+
+#: modules/custom-post-types/testimonial.php:354
+msgid "Testimonial submitted. <a target=\"_blank\" href=\"%s\">Preview testimonial</a>"
+msgstr "Beoordeling ingediend. <a target=\"_blank\" href=\"%s\">Voorbeeld beoordeling</a>"
+
+#: modules/custom-post-types/testimonial.php:355
+msgid "Testimonial scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview testimonial</a>"
+msgstr "Beoordeling gepland voor: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Bekijk beoordeling</a>"
+
+#: modules/custom-post-types/testimonial.php:369
+msgid "Enter the customer's name here"
+msgstr "Voer de naam van de klant hier in."
+
+#: modules/custom-post-types/testimonial.php:379
+msgid "Customer Name"
+msgstr "Klantnaam"
+
+#: modules/custom-post-types/testimonial.php:445
+msgid "Customize Testimonials Archive"
+msgstr "Beoordelingen Archief Aanpassen"
+
+#: modules/contact-form/grunion-form-view.php:262
+msgid "What should the subject line be?"
+msgstr "Wat moet er in de onderwerpregel staan?"
+
+#: modules/contact-form/grunion-form-view.php:265
+msgid "Save and go back to form builder"
+msgstr "Opslaan en teruggaan naar formulierbouwer"
+
+#: modules/custom-content-types.php:30
+msgid "Your Custom Content Types"
+msgstr "De aangepaste contenttypes"
+
+#: modules/custom-content-types.php:43
+msgid "Use these settings to display different types of content on your site."
+msgstr "Gebruik deze instellingen om verschillende contenttypes weer te geven op de site."
+
+#: modules/custom-css/custom-css.php:857
+msgid "Preview: changes must be saved or they will be lost"
+msgstr "Voorvertoning: sla de wijzigingen eerst op anders gaan ze verloren "
+
+#: modules/custom-css/custom-css-4.7.php:138
+#: modules/custom-css/custom-css-4.7.php:141
+#: modules/custom-css/custom-css.php:904
+msgid "Edit CSS"
+msgstr "CSS bewerken"
+
+#: modules/custom-css/custom-css-4.7.php:138
+#: modules/custom-css/custom-css-4.7.php:141
+#: modules/custom-css/custom-css-4.7.php:181
+#: modules/custom-css/custom-css-4.7.php:279
+#: modules/custom-css/custom-css.php:917
+msgid "CSS"
+msgstr "CSS"
+
+#: modules/custom-css/custom-css.php:937
+msgid "Custom CSS Stylesheet"
+msgstr "Aangepaste CSS-stylesheet"
+
+#: modules/custom-css/custom-css.php:976
+msgid "Stylesheet saved."
+msgstr "Stylesheet opgeslagen."
+
+#: modules/custom-css/custom-css.php:986
+msgid "CSS Revisions"
+msgstr "CSS-revisies"
+
+#: modules/custom-css/custom-css.php:1001
+msgid "CSS Stylesheet Editor"
+msgstr "CSS-stylesheeteditor"
+
+#: modules/custom-css/custom-css.php:1022
+msgid "Note: Custom CSS will be reset when changing themes."
+msgstr "Opmerking: aangepast CSS wordt gereset bij het wisselen van thema."
+
+#: modules/custom-css/custom-css.php:1059
+msgid "Media Width:"
+msgstr "Mediabreedte:"
+
+#: modules/custom-css/custom-css.php:1060
+msgid "%s px"
+msgstr "%s px"
+
+#: modules/custom-css/custom-css.php:1190
+msgid "Preprocessor:"
+msgstr "Prepocessor:"
+
+#: modules/custom-css/custom-css.php:1220
+msgid "Mode:"
+msgstr "Modus:"
+
+#: modules/custom-css/custom-css.php:1221
+msgid "Add-on"
+msgstr "Add-on"
+
+#: modules/custom-css/custom-css.php:1221
+msgid "Replacement"
+msgstr "Vervanging"
+
+#: modules/custom-css/custom-css.php:1228
+msgid "Add-on CSS <b>(Recommended)</b>"
+msgstr "Add-on-CSS <b>(Aanbevolen)</b>"
+
+#: modules/custom-css/custom-css.php:1234
+msgid "Replace <a href=\"%s\">theme's CSS</a> <b>(Advanced)</b>"
+msgstr "Vervang <a href=\"%s\">thema-CSS</a> <b>(Geavanceerd)</b>"
+
+#: modules/custom-css/custom-css.php:1267
+#: modules/custom-post-types/comics.php:272 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28
+msgid "Preview"
+msgstr "Voorvertoning"
+
+#: modules/custom-css/custom-css.php:1269
+msgid "Save &amp; Buy Upgrade"
+msgstr "Bespaar & koop upgrade"
+
+#: modules/custom-css/custom-css.php:1269
+msgid "Save Stylesheet"
+msgstr "Stylesheet opslaan"
+
+#: _inc/lib/icalendar-reader.php:775 modules/custom-post-types/nova.php:980
+#: modules/widgets/simple-payments/form.php:103
+#: modules/widgets/milestone/class-milestone-widget.php:661
+#: modules/sitemaps/sitemap-stylist.php:449
+msgid "Description"
+msgstr "Beschrijving"
+
+#: modules/contact-form/grunion-form-view.php:35
+msgctxt "noun"
+msgid "Comment"
+msgstr "Reactie"
+
+#: modules/carousel/jetpack-carousel.php:792
+#: modules/masterbar/admin-menu/class-admin-menu.php:389
+#: modules/masterbar/masterbar/class-masterbar.php:1064
+#: modules/comments/admin.php:72 modules/widgets/rsslinks-widget.php:102
+#: modules/widgets/rsslinks-widget.php:180 _inc/build/admin.js:52
+msgid "Comments"
+msgstr "Reacties"
+
+#: modules/contact-form/grunion-contact-form.php:3593
+#: modules/contact-form/grunion-contact-form.php:3613
+#: modules/contact-form/grunion-contact-form.php:3615
+#: modules/contact-form/grunion-editor-view.php:156 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28
+msgid "Yes"
+msgstr "Ja"
+
+#: _inc/lib/class.core-rest-api-endpoints.php:2195
+#: modules/comments/admin.php:50 modules/comments/comments.php:247
+msgid "Leave a Reply"
+msgstr "Geef een reactie"
+
+#: modules/comments/comments.php:257
+msgid "Leave a Reply to %s"
+msgstr "Laat een reactie achter bij %s"
+
+#: modules/carousel/jetpack-carousel.php:786
+msgid "Background color"
+msgstr "Achtergrondkleur"
+
+#: modules/contact-form/admin.php:112 modules/contact-form/admin.php:327
+#: modules/contact-form/admin.php:426
+msgid "Delete Permanently"
+msgstr "Permanent verwijderen"
+
+#: modules/contact-form/grunion-contact-form.php:2467
+#: modules/contact-form/grunion-form-view.php:218
+#: modules/contact-form/grunion-editor-view.php:218 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28
+msgid "Text"
+msgstr "Tekst"
+
+#: modules/carousel/jetpack-carousel.php:261
+msgid "Post Comment"
+msgstr "Reactie plaatsen"
+
+#: modules/comments/comments.php:335
+msgid "Cancel reply"
+msgstr "Reactie annuleren"
+
+#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:1080
+#: modules/carousel/jetpack-carousel.php:299
+#: modules/contact-form/grunion-contact-form.php:1983
+#: modules/contact-form/grunion-contact-form.php:2476
+#: modules/contact-form/grunion-form-view.php:220
+#: modules/contact-form/grunion-editor-view.php:89
+#: modules/contact-form/grunion-editor-view.php:221 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28
+msgid "Website"
+msgstr "Website"
+
+#: extensions/blocks/revue/revue.php:72
+#: modules/contact-form/grunion-contact-form.php:3708
+#: modules/contact-form/grunion-editor-view.php:94 _inc/blocks/editor.js:14
+#: _inc/blocks/editor-beta.js:14 _inc/blocks/editor-no-post-editor.js:14
+#: _inc/blocks/editor-experimental.js:14
+msgid "(required)"
+msgstr "(verplicht)"
+
+#: modules/contact-form/admin.php:238
+#: modules/contact-form/grunion-contact-form.php:2479
+#: modules/contact-form/grunion-editor-view.php:227
+#: modules/widgets/search.php:939 modules/widgets/search.php:977
+#: modules/widgets/milestone/class-milestone-widget.php:666
+#: _inc/blocks/editor.js:28 _inc/blocks/editor-beta.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28
+msgid "Date"
+msgstr "Datum"
+
+#: modules/contact-form/admin.php:365 modules/contact-form/admin.php:367
+#: modules/contact-form/admin.php:731
+msgid "Trash"
+msgstr "Prullenbak"
+
+#: modules/carousel/jetpack-carousel.php:260
+msgid "Comment"
+msgstr "Reactie"
+
+#: _inc/lib/class.core-rest-api-endpoints.php:2210
+#: modules/comments/admin.php:55
+#: modules/search/class-jetpack-search-customize.php:72
+#: modules/widgets/twitter-timeline.php:574
+#: modules/widgets/eu-cookie-law/form.php:237
+msgid "Dark"
+msgstr "Donker"
+
+#: modules/contact-form/grunion-contact-form.php:1987
+msgid "Subject"
+msgstr "Onderwerp"
+
+#: _inc/lib/class.core-rest-api-endpoints.php:2171
+#: modules/carousel/jetpack-carousel.php:891
+msgid "White"
+msgstr "Wit"
+
+#: _inc/lib/class.core-rest-api-endpoints.php:2170
+#: modules/carousel/jetpack-carousel.php:890
+msgid "Black"
+msgstr "Zwart"
+
+#: modules/widget-visibility/widget-conditions.php:435
+msgid "Add"
+msgstr "Toevoegen"
+
+#: modules/contact-form/admin.php:322
+msgid "Restore"
+msgstr "Herstellen"
+
+#: _inc/lib/class.core-rest-api-endpoints.php:2209
+#: modules/comments/admin.php:54
+#: modules/search/class-jetpack-search-customize.php:71
+#: modules/widgets/twitter-timeline.php:571
+#: modules/widgets/eu-cookie-law/form.php:226
+msgid "Light"
+msgstr "Licht"
+
+#: modules/contact-form/admin.php:687
+msgid "Error in restoring from Trash."
+msgstr "Fout tijdens herstellen vanuit de prullenbak."
+
+#: modules/contact-form/admin.php:320
+msgid "Restore this item from the Trash"
+msgstr "Dit item herstellen vanuit de prullenbak"
+
+#: modules/contact-form/admin.php:325 modules/contact-form/admin.php:424
+msgid "Delete this item permanently"
+msgstr "Dit item permanent verwijderen"
+
+#: modules/contact-form/admin.php:683
+msgid "You are not allowed to move this item out of the Trash."
+msgstr "U bent niet geautoriseerd om dit item uit de prullenbak terug te halen."
+
+#: modules/carousel/jetpack-carousel.php:265
+msgid "Please be sure to submit some text with your comment."
+msgstr "Zorg ervoor dat u de reactie van tekst voorziet."
+
+#: modules/carousel/jetpack-carousel.php:267
+msgid "Please provide your name to comment."
+msgstr "Gelieve uw naam op te geven om te kunnen reageren."
+
+#: modules/carousel/jetpack-carousel.php:268
+msgid "Sorry, but there was an error posting your comment. Please try again later."
+msgstr "Helaas, er trad een probleem op bij het plaatsen van uw reactie. Probeer het later nog een keer."
+
+#: modules/carousel/jetpack-carousel.php:269
+msgid "Your comment was approved."
+msgstr "Uw reactie is goedgekeurd."
+
+#: modules/carousel/jetpack-carousel.php:270
+msgid "Your comment is in moderation."
+msgstr "Uw reactie is in behandeling."
+
+#: modules/carousel/jetpack-carousel.php:291
+msgid "You must be <a href=\"#\" class=\"jp-carousel-comment-login\">logged in</a> to post a comment."
+msgstr "U moet <a href=\"#\" class=\"jp-carousel-comment-login\">ingelogd zijn</a> om een reactie te plaatsen."
+
+#: modules/carousel/jetpack-carousel.php:666
+msgid "Missing target blog ID."
+msgstr "ID van doelblog ontbreekt."
+
+#: modules/carousel/jetpack-carousel.php:705
+msgid "Sorry, but we could not authenticate your request."
+msgstr "Sorry, maar we konden uw aanvraag niet verifiëren."
+
+#: modules/carousel/jetpack-carousel.php:718
+msgid "Please provide your name."
+msgstr "Gelieve uw naam op te geven."
+
+#: modules/comments/comments.php:222
+msgid "You must <a href=\"%s\">log in</a> to post a comment."
+msgstr "U moet <a href=\"%s\">inloggen</a> om een reactie te plaatsen."
+
+#: modules/contact-form/admin.php:163 modules/contact-form/admin.php:597
+msgid "You are not allowed to manage this item."
+msgstr "U hebt niet het recht dit item te beheren."
+
+#: modules/contact-form/grunion-form-view.php:40
+msgctxt "error message in contact form builder"
+msgid "Oops, there was a problem generating your form.  You'll likely need to try again."
+msgstr "Oeps, er trad een probleem op bij het genereren van het formulier. U moet het waarschijnlijk nogmaals proberen."
+
+#: modules/contact-form/grunion-form-view.php:46
+msgid "Are you sure you want to exit the form editor without saving?  Any changes you have made will be lost."
+msgstr "Weet u zeker dat u de formuliereditor wilt afsluiten zonder op te slaan? Veranderingen die u hebt gemaakt zullen verloren gaan."
+
+#: modules/contact-form/grunion-form-view.php:176
+msgid "By adding a contact form, your readers will be able to submit feedback to you. All feedback is automatically scanned for spam, and the legitimate feedback will be emailed to you."
+msgstr "Door een contactformulier toe te voegen kunnen de lezers feedback aan u geven. Alle feedback wordt automatisch gescand op spam en legitieme feedback zal naar u gemaild worden."
+
+#: modules/contact-form/grunion-form-view.php:190
+msgctxt "%1$s = \"Feedback\" in an HTML link"
+msgid "Yep, you can read your feedback at any time by clicking the \"%1$s\" link in the admin menu."
+msgstr "Jazeker, u kunt op elk gewenst moment uw feedback lezen door de  \"%1$s\"-link in het beheerdersmenu aan te klikken."
+
+#: modules/contact-form/grunion-form-view.php:199
+msgid "Nope.  However, if you&#8217;d like to modify where your feedback is sent, or the subject line you can.  If you don&#8217;t make any changes here, feedback will be sent to the author of the page/post and the subject will be the name of this page/post."
+msgstr "Nee. Echter, als u wilt aanpassen waar uw feedback heen wordt verzonden of het onderwerpveld wilt wijzigen, dan kan dat. Als u hier geen wijzigingen aanbrengt, zal feedback worden verzonden naar de auteur van de pagina/het bericht en zal het onderwerp de naam van deze pagina/dit bericht hebben."
+
+#: modules/contact-form/grunion-form-view.php:201
+msgid "Yep. You can enter multiple email addresses in the Email address field, and separate them with commas. A notification email will then be sent to each email address."
+msgstr "Zeker. U kunt verschillende e-mailadressen in het veld e-mailadres invoeren en ze scheiden door komma's. Een bericht zal dan naar elk e-mailadres gestuurd worden."
+
+#: extensions/blocks/revue/revue.php:151 modules/subscriptions/views.php:342
+#: modules/contact-form/grunion-form-view.php:259 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28
+msgid "Enter your email address"
+msgstr "Voer uw e-mailadres in"
+
+#: modules/carousel/jetpack-carousel.php:262
+msgid "Write a Comment..."
+msgstr "Laat een reactie achter..."
+
+#: modules/carousel/jetpack-carousel.php:263
+msgid "Loading Comments..."
+msgstr "Reacties laden...."
+
+#: modules/carousel/jetpack-carousel.php:264
+msgid "View full size <span class=\"photo-size\">%1$s<span class=\"photo-size-times\">&times;</span>%2$s</span>"
+msgstr "Bekijk volledige grootte <span class=\"photo-size\">%1$s<span class=\"photo-size-times\">&times;</span>%2$s</span>"
+
+#: modules/carousel/jetpack-carousel.php:266
+msgid "Please provide an email address to comment."
+msgstr "Gelieve een e-mailadres te geven om te kunnen reageren."
+
+#: modules/carousel/jetpack-carousel.php:271
+msgid "Camera"
+msgstr "Camera"
+
+#: modules/carousel/jetpack-carousel.php:272
+msgid "Aperture"
+msgstr "Opening"
+
+#: modules/carousel/jetpack-carousel.php:273
+msgid "Shutter Speed"
+msgstr "Sluitersnelheid"
+
+#: modules/carousel/jetpack-carousel.php:274
+msgid "Focal Length"
+msgstr "Focuslengte"
+
+#: modules/carousel/jetpack-carousel.php:288
+msgid "Commenting as %s"
+msgstr "Reageert als %s"
+
+#: modules/carousel/jetpack-carousel.php:293
+msgid "%s (Required)"
+msgstr "%s (Vereist)"
+
+#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:1080
+#: modules/carousel/jetpack-carousel.php:295
+#: modules/contact-form/grunion-contact-form.php:1982
+#: modules/contact-form/grunion-contact-form.php:2473
+#: modules/contact-form/grunion-form-view.php:215
+#: modules/contact-form/grunion-editor-view.php:88
+#: modules/contact-form/grunion-editor-view.php:220
+#: modules/widgets/simple-payments/form.php:147
+#: modules/widgets/social-icons.php:556 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28
+msgid "Email"
+msgstr "E-mailadres"
+
+#: modules/carousel/jetpack-carousel.php:613
+msgid "Missing attachment ID."
+msgstr "Bijlage-ID ontbreekt."
+
+#: modules/carousel/jetpack-carousel.php:658
+msgid "Nonce verification failed."
+msgstr "Nonce-verificatie mislukt."
+
+#: modules/carousel/jetpack-carousel.php:670
+msgid "Missing target post ID."
+msgstr "ID van doelbericht ontbreekt."
+
+#: modules/carousel/jetpack-carousel.php:674
+msgid "No comment text was submitted."
+msgstr "Geen reactietekst ingediend."
+
+#: modules/carousel/jetpack-carousel.php:691
+msgid "Comments on this post are closed."
+msgstr "Reacties op dit bericht zijn gesloten."
+
+#: modules/carousel/jetpack-carousel.php:725
+msgid "Please provide an email address."
+msgstr "Gelieve een e-mailadres op te geven."
+
+#: modules/carousel/jetpack-carousel.php:732
+msgid "Please provide a valid email address."
+msgstr "Gelieve een geldig e-mailadres op te geven."
+
+#: modules/carousel/jetpack-carousel.php:779
+msgid "Image Gallery Carousel"
+msgstr "Afbeeldingengalerie-carrousel"
+
+#: modules/carousel/jetpack-carousel.php:782
+msgid "Enable carousel"
+msgstr "Carrousel inschakelen"
+
+#: modules/carousel/jetpack-carousel.php:789
+msgid "Metadata"
+msgstr "Metagegevens"
+
+#: modules/carousel/jetpack-carousel.php:880
+msgid "Show map of photo location in carousel, when available."
+msgstr "Kaart van fotolocatie in carrousel weergeven, indien beschikbaar."
+
+#: modules/carousel/jetpack-carousel.php:901
+msgid "Display images in full-size carousel slideshow."
+msgstr "Afbeeldingen weergeven in carrousel-diavoorstelling op volledig formaat."
+
+#: _inc/lib/class.core-rest-api-endpoints.php:2211
+#: modules/comments/admin.php:56
+msgid "Transparent"
+msgstr "Transparant"
+
+#: _inc/lib/class.core-rest-api-endpoints.php:2193
+#: modules/comments/admin.php:81
+msgid "Greeting Text"
+msgstr "Begroetingstekst"
+
+#: modules/comments/admin.php:97 modules/comments/admin.php:170
+msgid "Color Scheme"
+msgstr "Kleurenschema"
+
+#: modules/comments/admin.php:118
+msgid "Adjust your Comments form with a clever greeting and color-scheme."
+msgstr "Pas het reactie-formulier aan met een leuke groet en een kleurenschema."
+
+#: modules/comments/admin.php:135
+msgid "A few catchy words to motivate your readers to comment"
+msgstr "Een paar pakkende worden om de lezers tot reactie te motiveren"
+
+#: modules/comments/base.php:83
+msgid "Invalid request"
+msgstr "Ongeldig verzoek"
+
+#: modules/comments/base.php:239
+msgid "Error: please fill the required fields (name, email)."
+msgstr "Fout: vul de verplichte velden in (naam, e-mailadres)."
+
+#: modules/comments/base.php:241
+msgid "Error: please enter a valid email address."
+msgstr "Fout: vul een geldig e-mailadres in."
+
+#: modules/comments/comments.php:524
+msgid "Invalid security token."
+msgstr "Ongeldig beveiligingstoken."
+
+#: modules/comments/comments.php:600 modules/comments/comments.php:651
+msgid "Submitting Comment%s"
+msgstr "Reactie %s wordt ingediend"
+
+#: modules/contact-form/admin.php:17
+#: modules/contact-form/grunion-editor-view.php:32
+msgid "Add Contact Form"
+msgstr "Contactformulier toevoegen"
+
+#: modules/contact-form/admin.php:118
+msgid "Mark as Spam"
+msgstr "Markeren als spam"
+
+#: modules/contact-form/admin.php:820
+msgid "Empty Spam"
+msgstr "Spambox leegmaken"
+
+#: modules/contact-form/admin.php:194
+msgid "Feedback(s) marked as spam"
+msgstr "Feedback gemarkeerd als spam"
+
+#: modules/contact-form/admin.php:226 modules/contact-form/admin.php:720
+msgid "Messages"
+msgstr "Berichten"
+
+#: modules/contact-form/admin.php:236
+msgid "From"
+msgstr "Van"
+
+#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:1080
+#: modules/contact-form/admin.php:237
+#: modules/contact-form/grunion-contact-form.php:1991
+#: modules/contact-form/grunion-contact-form.php:2485
+#: modules/contact-form/grunion-editor-view.php:90 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28
+msgid "Message"
+msgstr "Bericht"
+
+#: modules/contact-form/admin.php:358
+msgid "Mark this message as spam"
+msgstr "Dit bericht als spam markeren"
+
+#: modules/contact-form/admin.php:418
+msgid "Mark this message as NOT spam"
+msgstr "Markeer dit bericht als GEEN spam"
+
+#: modules/contact-form/admin.php:457
+#: modules/contact-form/grunion-contact-form.php:2867
+msgctxt "{$date_format} \\a\\t {$time_format}"
+msgid "%1$s \\a\\t %2$s"
+msgstr "%1$s \\a\\t %2$s"
+
+#: modules/contact-form/admin.php:691
+msgid "You are not allowed to move this item to the Trash."
+msgstr "U bent niet geautoriseerd dit item naar de prullenbak te verplaatsen."
+
+#: modules/contact-form/admin.php:695
+msgid "Error in moving to Trash."
+msgstr "Fout bij het verplaatsen naar de prullenbak."
+
+#: modules/contact-form/admin.php:746
+msgid "Spam"
+msgstr "Spam"
+
+#: modules/contact-form/admin.php:836
+msgid "Check for Spam"
+msgstr "Controleer op spam"
+
+#: modules/contact-form/grunion-contact-form.php:176
+msgid "Search Feedback"
+msgstr "Doorzoek feedback"
+
+#: modules/contact-form/grunion-contact-form.php:177
+#: modules/contact-form/grunion-contact-form.php:178
+msgid "No feedback found"
+msgstr "Geen feedback gevonden"
+
+#: modules/contact-form/grunion-contact-form.php:215
+msgid "Spam <span class=\"count\">(%s)</span>"
+msgid_plural "Spam <span class=\"count\">(%s)</span>"
+msgstr[0] "Spam <span class=\"count\">(%s)</span>"
+msgstr[1] "Spam <span class=\"count\">(%s)</span>"
+
+#: _inc/lib/core-api/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-instagram-gallery.php:115
+#: modules/contact-form/grunion-contact-form.php:592 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28
+msgid "An error occurred. Please try again later."
+msgstr "Er ging iets fout. Probeer het later opnieuw."
+
+#: modules/contact-form/grunion-contact-form.php:600
+#: modules/contact-form/grunion-contact-form.php:2112
+msgid "Message Sent"
+msgstr "Bericht verzonden"
+
+#: modules/contact-form/grunion-contact-form.php:839
+msgid "Feedback discarded."
+msgstr "Feedback verwijderd"
+
+#: modules/contact-form/grunion-contact-form.php:442
+#: modules/contact-form/grunion-contact-form.php:903
+msgid "Export feedback as CSV"
+msgstr "Feedback exporteren als CSV-bestand"
+
+#: modules/contact-form/grunion-contact-form.php:909
+msgid "Select feedback to download"
+msgstr "Selecteer te downloaden feedback"
+
+#: modules/contact-form/grunion-contact-form.php:911
+msgid "All posts"
+msgstr "Alle berichten"
+
+#: modules/contact-form/grunion-contact-form.php:916
+msgid "Download"
+msgstr "Downloaden"
+
+#: modules/contact-form/grunion-contact-form.php:1005
+#: modules/contact-form/grunion-contact-form.php:1689
+#: modules/contact-form/grunion-form-view.php:56 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28
+msgid "Contact Form"
+msgstr "Contactformulier"
+
+#: modules/contact-form/grunion-contact-form.php:1945
+msgctxt "%1$s = blog name"
+msgid "%1$s Sidebar"
+msgstr "%1$s Zijbalk"
+
+#: modules/contact-form/grunion-contact-form.php:1948
+msgctxt "%1$s = blog name, %2$s = post title"
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#: modules/contact-form/grunion-contact-form.php:2094
+msgid "Error!"
+msgstr "Fout."
+
+#: modules/contact-form/grunion-contact-form.php:2113
+msgid "go back"
+msgstr "ga terug"
+
+#: modules/contact-form/grunion-contact-form.php:2950
+msgid "Time:"
+msgstr "Tijd:"
+
+#: modules/contact-form/grunion-contact-form.php:2951
+msgid "IP Address:"
+msgstr "IP-adres:"
+
+#: modules/contact-form/grunion-contact-form.php:2952
+msgid "Contact Form URL:"
+msgstr "Contactformulier-URL:"
+
+#: modules/contact-form/grunion-contact-form.php:2959
+msgid "Sent by a verified %s user."
+msgstr "Verzonden door een geverifieerde %s-gebruiker."
+
+#: modules/contact-form/grunion-contact-form.php:2965
+msgid "Sent by an unverified visitor to your site."
+msgstr "Naar de site gestuurd door een ongeverifieerde bezoeker."
+
+#. translators: %s is the name of a form field
+#: modules/contact-form/grunion-contact-form.php:3386
+msgid "%s requires a valid email address"
+msgstr "%s vereist een geldig e-mailadres"
+
+#. translators: %s is the name of a form field
+#: modules/contact-form/grunion-contact-form.php:3400
+msgid "%s is required"
+msgstr "%s is verplicht"
+
+#: modules/contact-form/grunion-form-view.php:32
+msgctxt "Label for HTML form \"Name\" field in contact form builder"
+msgid "Name"
+msgstr "Naam"
+
+#: modules/contact-form/grunion-form-view.php:33
+msgctxt "Label for HTML form \"Email\" field in contact form builder"
+msgid "Email"
+msgstr "E-mailadres"
+
+#: modules/contact-form/grunion-form-view.php:34
+msgctxt "Label for HTML form \"URL/Website\" field in contact form builder"
+msgid "Website"
+msgstr "Website"
+
+#: modules/contact-form/grunion-form-view.php:36
+msgctxt "Default label for new HTML form field in contact form builder"
+msgid "New Field"
+msgstr "Nieuw veld"
+
+#: modules/contact-form/grunion-form-view.php:37
+msgctxt "Label for the set of options to be included in a user-created dropdown in contact form builder"
+msgid "Options"
+msgstr "Opties"
+
+#: modules/contact-form/grunion-form-view.php:38
+msgctxt "Label for an option to be included in a user-created dropdown in contact form builder"
+msgid "Option"
+msgstr "Optie"
+
+#: modules/contact-form/grunion-form-view.php:39
+msgctxt "Default label for the first option to be included in a user-created dropdown in contact form builder"
+msgid "First option"
+msgstr "Eerste optie"
+
+#: modules/contact-form/grunion-form-view.php:41
+msgid ""
+"Drag up or down\n"
+"to re-arrange"
+msgstr ""
+"Sleep naar boven of naar beneden\n"
+"om te herschikken"
+
+#: modules/contact-form/grunion-form-view.php:42
+msgctxt "Label to drag HTML form fields around to change their order in contact form builder"
+msgid "move"
+msgstr "verplaatsen"
+
+#: modules/contact-form/grunion-form-view.php:43
+msgctxt "Link to edit an HTML form field in contact form builder"
+msgid "edit"
+msgstr "bewerken"
+
+#: modules/contact-form/grunion-form-view.php:44
+msgid "Saved successfully"
+msgstr "Opgeslagen"
+
+#: modules/contact-form/grunion-form-view.php:45
+msgctxt "This HTML form field is marked as required by the user in contact form builder"
+msgid "(required)"
+msgstr "(verplicht)"
+
+#: modules/contact-form/grunion-form-view.php:167
+msgid "Your new field was saved successfully"
+msgstr "Het nieuwe veld werd succesvol opgeslagen"
+
+#: modules/contact-form/grunion-form-view.php:169
+msgid "Form builder"
+msgstr "Formulierbouwer"
+
+#: modules/contact-form/grunion-form-view.php:170
+msgid "Email notifications"
+msgstr "E-mailmeldingen"
+
+#: modules/contact-form/grunion-form-view.php:175
+msgid "How does this work?"
+msgstr "Hoe werkt dit?"
+
+#: modules/contact-form/grunion-form-view.php:177
+msgid "Can I add more fields?"
+msgstr "Kan ik meer velden toevoegen?"
+
+#: modules/contact-form/grunion-form-view.php:181
+msgctxt "%1$s = \"Click here\" in an HTML link"
+msgid "Sure thing. %1$s to add a new text box, textarea, radio, checkbox, or dropdown field."
+msgstr "Zeker weten. %1$s om een nieuw tekstveld, tekstgebied, radioknop, keuzevak of uitklapmenu-veld toe te voegen."
+
+#: modules/contact-form/grunion-form-view.php:182
+msgid "Click here"
+msgstr "Klik hier"
+
+#: modules/contact-form/grunion-form-view.php:186
+msgid "Can I view my feedback within WordPress?"
+msgstr "Kan ik mijn feedback binnen WordPress bekijken?"
+
+#: modules/contact-form/grunion-form-view.php:198
+msgid "Do I need to fill this out?"
+msgstr "Moet ik dit invullen?"
+
+#: modules/contact-form/grunion-form-view.php:200
+msgid "Can I send a notification to more than one person?"
+msgstr "Kan ik een bericht naar meer dan één persoon sturen?"
+
+#: modules/contact-form/grunion-form-view.php:205
+msgid "Edit this new field"
+msgstr "Dit nieuwe veld bewerken"
+
+#: modules/sharedaddy/sharing-sources.php:1460
+#: modules/contact-form/grunion-form-view.php:207
+#: modules/contact-form/grunion-editor-view.php:213
+msgid "Label"
+msgstr "Label"
+
+#: modules/contact-form/grunion-form-view.php:208
+msgid "New field"
+msgstr "Nieuw veld"
+
+#: modules/contact-form/grunion-form-view.php:210
+msgid "Field type"
+msgstr "Veldtype"
+
+#: modules/contact-form/grunion-contact-form.php:2488
+#: modules/contact-form/grunion-form-view.php:212
+#: modules/contact-form/grunion-editor-view.php:223 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28
+msgid "Checkbox"
+msgstr "Selectievak"
+
+#: modules/contact-form/grunion-form-view.php:214
+#: modules/contact-form/grunion-editor-view.php:225
+msgid "Drop down"
+msgstr "Uitklaplijst"
+
+#: modules/contact-form/grunion-form-view.php:217
+#: modules/contact-form/grunion-editor-view.php:226 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28
+msgid "Radio"
+msgstr "Radioknop"
+
+#: modules/contact-form/grunion-form-view.php:219
+#: modules/contact-form/grunion-editor-view.php:222 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28
+msgid "Textarea"
+msgstr "Tekstgebied"
+
+#: modules/contact-form/grunion-form-view.php:226
+#: modules/contact-form/grunion-editor-view.php:249
+msgid "Options"
+msgstr "Opties"
+
+#: modules/contact-form/grunion-form-view.php:227
+msgid "First option"
+msgstr "Eerste optie"
+
+#: modules/contact-form/grunion-form-view.php:230
+msgid "Add another option"
+msgstr "Voeg een andere optie toe"
+
+#: modules/contact-form/grunion-form-view.php:237
+#: modules/contact-form/grunion-editor-view.php:244
+msgid "Required?"
+msgstr "Verplicht?"
+
+#: modules/contact-form/grunion-form-view.php:242
+msgid "Save this field"
+msgstr "Sla dit veld op"
+
+#: modules/contact-form/grunion-form-view.php:247
+msgid "Here&#8217;s what your form will look like"
+msgstr "Zo zal het formulier eruit zien"
+
+#: modules/contact-form/grunion-form-view.php:252
+msgid "Add a new field"
+msgstr "Een nieuw veld toevoegen"
+
+#: modules/contact-form/grunion-form-view.php:254
+msgid "Add this form to my post"
+msgstr "Voeg dit formulier aan mijn bericht toe"
+
+#: modules/contact-form/grunion-form-view.php:257
+msgid "Email settings"
+msgstr "E-mailinstellingen"
+
+#. translators: combined name for locales: 1: name in English, 2: native name
+#: locales.php:60
+msgctxt "locales"
+msgid "%1$s/%2$s"
+msgstr "%1$s/%2$s"
+
+#: modules/carousel/jetpack-carousel.php:149
+msgid "Jetpack's Carousel has been disabled, because another plugin or your theme is overriding the [gallery] shortcode."
+msgstr "De carrousel van Jetpack is uitgeschakeld, omdat een andere plugin of het thema de shortcode [gallery] overschrijft."
+
+#: _inc/lib/class-jetpack-podcast-helper.php:344 functions.opengraph.php:204
+msgid "(no title)"
+msgstr "(geen titel)"
+
+#: json-endpoints/class.wpcom-json-api-update-media-v1-1-endpoint.php:113
+msgid "Album"
+msgstr "Album"
+
+#: json-endpoints/class.wpcom-json-api-update-media-v1-1-endpoint.php:112
+msgid "Artist"
+msgstr "Artiest"
+
+#: class.jetpack.php:3925 modules/theme-tools/site-breadcrumbs.php:58
+msgid "Home"
+msgstr "Home"
+
+#: functions.gallery.php:92 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28
+msgid "Type"
+msgstr "Type"
+
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-install-endpoint.php:82
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-endpoint.php:109
+msgid "No plugins found."
+msgstr "Geen plugins gevonden."
+
+#: json-endpoints/jetpack/class.jetpack-json-api-themes-install-endpoint.php:82
+msgid "No themes found."
+msgstr "Geen thema's gevonden."
+
+#: class.jetpack.php:3955
+msgid "For more information:"
+msgstr "Voor meer informatie:"
+
+#. translators: %s is a URL
+#: class.jetpack.php:1802
+msgid "You are currently running a development version of Jetpack. <a href=\"%s\" target=\"_blank\">Submit your feedback</a>"
+msgstr "U werkt op dit moment in de ontwikkelingsversie van Jetpack. <a href=\"%s\" target=\"_blank\">Verzend uw feedback</a>"
+
+#: class.jetpack.php:3928
+msgid "Jetpack supercharges your self-hosted WordPress site with the awesome cloud power of WordPress.com."
+msgstr "Jetpack geeft uw zelfgehoste WordPress-site een oppepper met de uitgebreide mogelijkheden van de WordPress.com-cloud."
+
+#: class.jetpack.php:3929
+msgid "On this page, you are able to view the modules available within Jetpack, learn more about them, and activate or deactivate them as needed."
+msgstr "Op deze pagina kunt u de beschikbare modules zien in Jetpack, komt u er meer over te weten en kunt u ze naar believen aan- of uitschakelen."
+
+#: class.jetpack.php:3941
+msgid "You can activate or deactivate individual Jetpack modules to suit your needs."
+msgstr "Afhankelijk van uw wensen kunt u individuele Jetpack-modules activeren of deactiveren."
+
+#: class.jetpack.php:3943
+msgid "Each module has an Activate or Deactivate link so you can toggle one individually."
+msgstr "Iedere module heeft een link Inschakelen of Uitschakelen, zodat u per module kunt in- of uitschakelen."
+
+#: class.jetpack.php:3944
+msgid "Using the checkboxes next to each module, you can select multiple modules to toggle via the Bulk Actions menu at the top of the list."
+msgstr "Met de selectievakjes naast iedere module kunt u meerdere modules selecteren om in- of uit- te schakelen m.b.v. het menu Bulkhandelingen bovenaan de lijst."
+
+#: class.jetpack.php:3946
+msgid "Using the tools on the right, you can search for specific modules, filter by module categories or which are active, or change the sorting order."
+msgstr "Met de tools aan de rechterkant kunt u zoeken naar specifieke modules, filteren op modulecategorieën of op actieve modules, of de sorteervolgorde wijzigen."
+
+#. translators: %s is the URL to the "Sites" panel on wordpress.com.
+#: class.jetpack.php:4433
+msgid "You are all set! Your site can now be managed from <a href=\"%s\" target=\"_blank\">wordpress.com/sites</a>."
+msgstr "U bent er helemaal klaar voor. U kunt nu de site beheren op <a href=\"%s\" target=\"_blank\">wordpress.com/sites</a>."
+
+#: class.jetpack.php:4435
+msgid "Manage has been activated for you!"
+msgstr "Beheren is voor u geactiveerd."
+
+#: class.jetpack.php:4460
+msgid "Jetpack contains the most recent version of the old %l plugin."
+msgid_plural "Jetpack contains the most recent versions of the old %l plugins."
+msgstr[0] "Jetpack bevat de meest recente versie van de oude %l plugin."
+msgstr[1] "Jetpack bevat de meest recente versies van de oude %l plugins."
+
+#: class.jetpack.php:4564
+msgctxt "%l = list of Jetpack module/feature names"
+msgid "Like your site's RSS feeds, %l allows access to your posts and other content to third parties."
+msgid_plural "Like your site's RSS feeds, %l allow access to your posts and other content to third parties."
+msgstr[0] "Net als de RSS-feeds van uw website geeft %l toegang aan derden tot berichten en andere content."
+msgstr[1] "Net als de RSS-feeds van uw website geven %l toegang aan derden tot berichten en andere content."
+
+#: class.jetpack.php:4581
+msgctxt "%1$s = deactivation URL, %2$s = \"Deactivate {list of Jetpack module/feature names}"
+msgid "If your site is not publicly accessible, consider <a href=\"%1$s\" title=\"%2$s\">deactivating this feature</a>."
+msgid_plural "If your site is not publicly accessible, consider <a href=\"%1$s\" title=\"%2$s\">deactivating these features</a>."
+msgstr[0] "Als uw site niet publiek toegankelijk is, overweeg dan de functie <a href=\"%1$s\" title=\"%2$s\">te deactiveren</a>."
+msgstr[1] "Als uw site niet publiek toegankelijk is, overweeg dan de functies <a href=\"%1$s\" title=\"%2$s\">te deactiveren</a>."
+
+#: class.jetpack.php:5906
+msgid "You must connect your Jetpack plugin to WordPress.com to use this feature."
+msgstr "U moet de Jetpack-plugin verbinden met WordPress.com om deze functie te kunnen gebruiken."
+
+#: class.jetpack.php:5909
+msgid "Someone may be trying to trick you into giving them access to your site.  Or it could be you just encountered a bug :).  Either way, please close this window."
+msgstr "Mogelijk probeert iemand u te verleiden hem toegang tot de site te verlenen. Of het kan zijn dat u tegen een bug bent aangelopen ;). Hoe dan ook, sluit dit venster."
+
+#: class.jetpack.php:7031
+msgid "Protect helps to keep you secure from brute-force login attacks."
+msgstr "Protect beveiligt u tegen zware inlogaanvallen."
+
+#: json-endpoints/jetpack/class.jetpack-json-api-check-capabilities-endpoint.php:15
+msgid "You are required to specify a capability to check."
+msgstr "U dient een recht (capability) op te geven om te controleren."
+
+#: json-endpoints/jetpack/class.jetpack-json-api-endpoint.php:50
+msgid "You must specify a valid action"
+msgstr "U moet een geldige actie opgeven"
+
+#: json-endpoints/jetpack/class.jetpack-json-api-modules-endpoint.php:49
+msgid "You are required to specify a module."
+msgstr "U moet een module opgeven."
+
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-endpoint.php:84
+msgid "You are required to specify a plugin."
+msgstr "U moet een plugin opgeven."
+
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-endpoint.php:310
+msgid "You are required to specify a plugin to activate."
+msgstr "U moet een in te schakelen plugin opgeven."
+
+#: json-endpoints/jetpack/class.jetpack-json-api-themes-active-endpoint.php:23
+msgid "You are required to specify a theme to switch to."
+msgstr "U moet een thema opgeven waarnaar overgeschakeld moet worden."
+
+#: json-endpoints/jetpack/class.jetpack-json-api-themes-active-endpoint.php:39
+msgid "You are not allowed to switch to this theme"
+msgstr "U mag niet naar dit thema overschakelen"
+
+#: json-endpoints/jetpack/class.jetpack-json-api-themes-endpoint.php:55
+msgid "You are required to specify a theme to update."
+msgstr "U moet een bij te werken thema opgeven."
+
+#. translators: %s is the post author
+#: class.jetpack-twitter-cards.php:172
+msgid "Post by %s."
+msgstr "Bericht van %s."
+
+#: class.jetpack-twitter-cards.php:285
+msgid "Twitter Site Tag"
+msgstr "Twitter-websitetag"
+
+#: _inc/lib/class.core-rest-api-endpoints.php:2425
+#: class.jetpack-twitter-cards.php:325
+msgid "The Twitter username of the owner of this site's domain."
+msgstr "De Twitter-gebruikersnaam van de eigenaar van het websitedomein."
+
+#: class.jetpack.php:3205
+msgid "Jetpack requires WordPress version %s or later."
+msgstr "Jetpack vereist WordPress-versie %s of nieuwer."
+
+#: class.jetpack.php:3488
+msgid "First param must be string or empty"
+msgstr "De eerste parameter moet een tekenreeks zijn of leeg"
+
+#: class.jetpack.php:3492
+msgid "Second param must be numeric or empty"
+msgstr "De tweede parameter moet numeriek zijn of leeg"
+
+#: class.jetpack.php:3669 class.jetpack.php:3685
+msgid "Jetpack contains the most recent version of the old &#8220;%1$s&#8221; plugin."
+msgstr "Jetpack bevat de meest recente versie van de oude plugin &#8220;%1$s&#8221;."
+
+#. Plugin Name of the plugin
+#: class.jetpack.php:3927 class.jetpack.php:3940
+msgid "Jetpack by WordPress.com"
+msgstr "Jetpack door WordPress.com"
+
+#: class.jetpack.php:3956
+msgid "Jetpack FAQ"
+msgstr "Jetpack-FAQ"
+
+#: class.jetpack.php:3957
+msgid "Jetpack Support"
+msgstr "Jetpack-support"
+
+#: class.jetpack-connection-banner.php:508
+msgid "<strong>Jetpack is activated!</strong> Each site on your network must be connected individually by an admin on that site."
+msgstr "<strong>Jetpack is geactiveerd.</strong> Elke site in het netwerk moet apart verbonden worden door een beheerder op die site."
+
+#: class.jetpack.php:4471
+msgid "The old version has been deactivated and can be removed from your site."
+msgid_plural "The old versions have been deactivated and can be removed from your site."
+msgstr[0] "Een oudere versie is gedeactiveerd en kan nu verwijderd worden van de site."
+msgstr[1] "De oudere versies zijn gedeactiveerd en kunnen nu verwijderd worden van de site."
+
+#: class.jetpack.php:4558
+msgid "Is this site private?"
+msgstr "Is deze website privé?"
+
+#: class.jetpack.php:4598
+msgctxt "%l = list of Jetpack module/feature names"
+msgid "Deactivate %l"
+msgstr "Deactiveer %l"
+
+#: class.jetpack.php:5982
+msgid "The authorization process expired.  Please go back and try again."
+msgstr "Het autorisatieproces is verlopen. Ga terug en probeer het opnieuw."
+
+#: class.jetpack.php:6022
+msgid "%s wants to access your site&#8217;s data.  Log in to authorize that access."
+msgstr "%s wil toegang tot de sitedata. Log in om die toegang te autoriseren."
+
+#: class.jetpack.php:4074
+msgid "Deactivate Jetpack"
+msgstr "Jetpack deactiveren"
+
+#: class.jetpack.php:7015
+msgctxt "{#} Blocked malicious login attempts -- number is on a prior line, text is a caption."
+msgid "Blocked malicious login attempts"
+msgstr "Geblokkeerde kwaadaardige inlogpogingen"
+
+#: functions.gallery.php:24
+msgid "Thumbnail Grid"
+msgstr "Thumbnail-raster"
+
+#: json-endpoints/class.wpcom-json-api-autosave-post-v1-1-endpoint.php:112
+msgid "Autosave encountered an unexpected error"
+msgstr "Er is een onverwachte fout opgetreden bij automatisch opslaan "
+
+#: json-endpoints/class.wpcom-json-api-get-post-counts-v1-1-endpoint.php:102
+msgid "An active access token must be used to retrieve post counts."
+msgstr "Om berichttellingen op te halen is een actief toegangstoken nodig."
+
+#: json-endpoints/class.wpcom-json-api-get-post-counts-v1-1-endpoint.php:116
+msgid "Unknown post type requested."
+msgstr "Onbekend berichttype gevraagd."
+
+#: sal/class.json-api-post-base.php:400
+#: json-endpoints/class.wpcom-json-api-post-endpoint.php:69
+msgid "This post is password protected."
+msgstr "Dit bericht is met een wachtwoord beveiligd."
+
+#: json-endpoints/class.wpcom-json-api-update-comment-endpoint.php:275
+msgid "Comment cache problem?"
+msgstr "Probleem met de reactiecache?"
+
+#: json-endpoints/jetpack/class.jetpack-json-api-endpoint.php:85
+msgid "Full management mode is off for this site."
+msgstr "Volledige beheermodus is uitgeschakeld voor deze site."
+
+#. translators: %s: comma-separated list of capabilities
+#: json-endpoints/jetpack/class.jetpack-json-api-endpoint.php:123
+#: json-endpoints/jetpack/class.jetpack-json-api-endpoint.php:129
+msgid "This user is not authorized to %s on this blog."
+msgstr "Deze gebruiker mag niet %s op dit blog."
+
+#: json-endpoints/jetpack/class.jetpack-json-api-modules-endpoint.php:75
+msgid "Module not found: `%s`."
+msgstr "Module niet gevonden: `%s`."
+
+#: json-endpoints/jetpack/class.jetpack-json-api-modules-modify-endpoint.php:27
+msgid "The Jetpack Module is already activated."
+msgstr "De Jetpack-module is al geactiveerd."
+
+#: json-endpoints/jetpack/class.jetpack-json-api-modules-modify-endpoint.php:32
+msgid "There was an error while activating the module."
+msgstr "Er trad een fout op bij het activeren van de module."
+
+#: json-endpoints/jetpack/class.jetpack-json-api-modules-modify-endpoint.php:46
+msgid "The Jetpack Module is already deactivated."
+msgstr "De Jetpack-module is al uitgeschakeld."
+
+#: json-endpoints/jetpack/class.jetpack-json-api-modules-modify-endpoint.php:51
+msgid "There was an error while deactivating the module."
+msgstr "Er trad een fout op bij het deactiveren van de module."
+
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-endpoint.php:301
+msgid "This user is not authorized to manage plugins network wide."
+msgstr "De gebruiker is niet gemachtigd om plugins netwerkbreed te beheren."
+
+#: _inc/lib/plugins.php:80
+msgid "There was an error installing your plugin"
+msgstr "Er trad een fout op bij het installeren van de plugin"
+
+#: _inc/lib/plugins.php:86
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-new-endpoint.php:114
+#: json-endpoints/jetpack/class.jetpack-json-api-themes-install-endpoint.php:61
+#: json-endpoints/jetpack/class.jetpack-json-api-themes-new-endpoint.php:61
+msgid "An unknown error occurred during installation"
+msgstr "Er is een onbekende fout opgetreden tijdens de installatie"
+
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-install-endpoint.php:89
+msgid "The plugin is already installed"
+msgstr "De plugin is al geïnstalleerd"
+
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:208
+msgid "The Plugin is already active."
+msgstr "De plugin is al geactiveerd."
+
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-v1-2-endpoint.php:120
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:214
+msgid "Plugin can only be Network Activated"
+msgstr "De plugin kan alleen in het netwerk worden geactiveerd"
+
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-v1-2-endpoint.php:143
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:237
+msgid "Plugin activated."
+msgstr "Plugin geactiveerd."
+
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:268
+msgid "The Plugin is already deactivated."
+msgstr "De plugin is al gedeactiveerd."
+
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-v1-2-endpoint.php:178
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:280
+msgid "There was an error deactivating your plugin"
+msgstr "Er trad een fout op bij het deactiveren van de plugin"
+
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-v1-2-endpoint.php:181
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:283
+msgid "Plugin deactivated."
+msgstr "Plugin gedeactiveerd."
+
+#: json-endpoints/jetpack/class.jetpack-json-api-themes-modify-endpoint.php:101
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:326
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:387
+msgid "No update needed"
+msgstr "Geen update nodig"
+
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:360
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:414
+msgid "There was an error updating your plugin"
+msgstr "Er trad een fout op bij het updaten van de plugin"
+
+#: json-endpoints/jetpack/class.jetpack-json-api-themes-active-endpoint.php:29
+msgid "Theme is empty."
+msgstr "Thema is leeg."
+
+#: json-endpoints/jetpack/class.jetpack-json-api-themes-active-endpoint.php:35
+msgid "The specified theme was not found."
+msgstr "Het opgegeven thema is niet gevonden."
+
+#: json-endpoints/jetpack/class.jetpack-json-api-themes-endpoint.php:151
+msgid "Offset must be greater than or equal to 0."
+msgstr "Offset moet groter of gelijk aan 0 zijn."
+
+#: json-endpoints/jetpack/class.jetpack-json-api-themes-endpoint.php:153
+msgid "Limit must be greater than or equal to 0."
+msgstr "Limiet moet groter of gelijk aan 0 zijn."
+
+#: json-endpoints/jetpack/class.jetpack-json-api-themes-install-endpoint.php:65
+msgid "There was an error installing your theme"
+msgstr "Er trad een fout op bij het installeren van het thema"
+
+#: json-endpoints/jetpack/class.jetpack-json-api-themes-install-endpoint.php:87
+msgid "The theme is already installed"
+msgstr "Het thema is al geïnstalleerd"
+
+#: json-endpoints/jetpack/class.jetpack-json-api-themes-modify-endpoint.php:80
+#: json-endpoints/jetpack/class.jetpack-json-api-themes-modify-endpoint.php:124
+msgid "There was an error updating your theme"
+msgstr "Er trad een fout op bij het updaten van het thema"
+
+#: json-endpoints/jetpack/class.jetpack-json-api-updates-status-endpoint.php:14
+msgid "There was an error while getting the update data for this site."
+msgstr "Er trad een fout op bij het ophalen van updategegevens voor deze site."
+
+#: class.jetpack-network-sites-list-table.php:62 modules/publicize/ui.php:517
+#: modules/publicize/ui.php:525 modules/custom-css/custom-css.php:1061
+#: modules/custom-css/custom-css.php:1192
+#: modules/custom-css/custom-css.php:1222 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/build/admin.js:52
+msgid "Edit"
+msgstr "Bewerken"
+
+#: class.jetpack-modules-list-table.php:115
+#: class.jetpack-modules-list-table.php:215
+#: class.jetpack-modules-list-table.php:284
+#: _inc/lib/admin-pages/class-jetpack-about-page.php:352 _inc/build/admin.js:52
+msgid "Activate"
+msgstr "Activeren"
+
+#: class.jetpack-modules-list-table.php:208
+#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:1080
+#: modules/carousel/jetpack-carousel.php:297
+#: modules/contact-form/grunion-contact-form.php:1981
+#: modules/contact-form/grunion-contact-form.php:2470
+#: modules/contact-form/grunion-form-view.php:216
+#: modules/contact-form/grunion-editor-view.php:87
+#: modules/contact-form/grunion-editor-view.php:219
+#: modules/custom-post-types/nova.php:977 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28
+msgid "Name"
+msgstr "Naam"
+
+#: class.jetpack-network.php:298
+#: _inc/lib/admin-pages/class.jetpack-settings-page.php:22
+#: _inc/lib/admin-pages/class.jetpack-react-page.php:70
+#: _inc/lib/admin-pages/class.jetpack-admin-page.php:337 class.jetpack.php:3938
+#: class.jetpack.php:4015 modules/publicize/ui.php:517
+#: modules/sharedaddy/sharedaddy.php:217 modules/sharedaddy/sharedaddy.php:224
+#: modules/masterbar/admin-menu/class-admin-menu.php:621
+#: modules/masterbar/masterbar/class-masterbar.php:1329
+#: _inc/blocks/editor.js:28 _inc/blocks/editor-beta.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/build/admin.js:52
+msgid "Settings"
+msgstr "Instellingen"
+
+#. translators: Jetpack sidebar menu item.
+#: _inc/lib/admin-pages/class.jetpack-settings-page.php:92
+#: class.jetpack.php:7467 modules/masterbar/admin-menu/class-admin-menu.php:699
+#: modules/masterbar/masterbar/class-masterbar.php:508
+#: modules/widgets/search.php:70 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/build/admin.js:80
+#: _inc/build/instant-search/jp-search-main.bundle.js:9
+msgid "Search"
+msgstr "Zoeken"
+
+#: _inc/lib/admin-pages/class.jetpack-settings-page.php:99
+msgid "Sort by:"
+msgstr "Sorteren op:"
+
+#: class.jetpack-network.php:297 class.jetpack-network.php:593
+msgid "Sites"
+msgstr "Sites"
+
+#: class.jetpack-admin.php:207 modules/stats.php:591 modules/stats.php:1114
+#: modules/plugin-search.php:241 modules/plugin-search.php:549
+msgid "Configure"
+msgstr "Configureren"
+
+#: class.jetpack-cli.php:770
+msgid "Value"
+msgstr "Waarde"
+
+#: class.jetpack-modules-list-table.php:143
+#: _inc/lib/admin-pages/class.jetpack-settings-page.php:95
+#: modules/widgets/upcoming-events.php:60 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28
+msgid "All"
+msgstr "Alles"
+
+#: class.jetpack-modules-list-table.php:113
+#: class.jetpack-modules-list-table.php:216
+#: class.jetpack-modules-list-table.php:296
+msgid "Deactivate"
+msgstr "Deactiveren"
+
+#: class.jetpack-cli.php:242
+msgid "Please specify if you would like to disconnect a blog or user."
+msgstr "Geef aan of u de verbinding van een blog of gebruiker wilt verbreken."
+
+#: class.jetpack-cli.php:792
+msgctxt "'get', 'delete', and 'update' are commands - do not translate."
+msgid "Above are your options. You may 'get', 'delete', and 'update' them."
+msgstr "Hierboven staan uw opties. 'get', 'delete', en 'update' je comics."
+
+#: class.jetpack-cli.php:2058
+msgid "Action cancelled. Have a question?"
+msgstr "Actie geannuleerd. Heeft u nog vragen?"
+
+#: _inc/lib/debugger/class-jetpack-debugger.php:98
+msgid "It may be caused by one of these issues, which you can diagnose yourself:"
+msgstr "Dat kan veroorzaakt woorden door een van deze problemen, die u zelf kunt diagnosticeren:"
+
+#: _inc/lib/debugger/class-jetpack-debugger.php:124
+msgid "An incompatible plugin."
+msgstr "Een niet compatible plugin."
+
+#: _inc/lib/debugger/class-jetpack-debugger.php:124
+msgid "Find out by disabling all plugins except Jetpack. If the problem persists, it's not a plugin issue. If the problem is solved, turn your plugins on one by one until the problem pops up again – there's the culprit! Let us know, and we'll try to help."
+msgstr "Kom erachter door alle plugins behalve Jetpack uit te schakelen. Als het probleem aanhoudt, is het geen plugin-probleem. Als het probleem opgelost is, schakel dan één voor één de plugins in totdat het probleem weer verschijnt - daar hebt u de dader. Laat het ons weten en we proberen u te helpen."
+
+#: _inc/lib/debugger/class-jetpack-debugger.php:152
+msgid "If you get a 404 message, contact your web host. Their security may block XMLRPC."
+msgstr "Als u een 404-bericht krijgt, neem dan contact op met de webhost. Zijn beveiliging zou XMLRPC kunnen blokkeren."
+
+#: class.jetpack-modules-list-table.php:72
+msgid "Search Modules…"
+msgstr "Modules doorzoeken..."
+
+#: class.jetpack-modules-list-table.php:125
+msgid "No Modules Found"
+msgstr "Geen modules gevonden"
+
+#: class.jetpack-network-sites-list-table.php:14
+msgid "Site Name"
+msgstr "Naam site"
+
+#: class.jetpack-network-sites-list-table.php:15
+msgid "Path"
+msgstr "Pad"
+
+#: class.jetpack-network-sites-list-table.php:16 _inc/build/admin.js:52
+msgid "Connected"
+msgstr "Verbonden"
+
+#: class.jetpack-network.php:297
+msgid "Jetpack Sites"
+msgstr "Jetpack-websites"
+
+#. translators: %s is the post author
+#: functions.opengraph.php:509 class.jetpack-twitter-cards.php:165
+#: class.jetpack-twitter-cards.php:172 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-experimental.js:28
+msgid "Visit the post for more."
+msgstr "Bezoek het bericht voor meer."
+
+#. translators: %s is the post author
+#: class.jetpack-twitter-cards.php:169
+msgid "Video post by %s."
+msgstr "Videobericht per %s."
+
+#. translators: %s is the post author
+#: class.jetpack-twitter-cards.php:169
+msgid "Video post."
+msgstr "Videobericht."
+
+#: class.jetpack.php:4016 modules/sharedaddy/sharedaddy.php:225
+msgid "Support"
+msgstr "Support"
+
+#: class.jetpack.php:7438 class.jetpack.php:7459 class.jetpack.php:7480
+#: modules/protect.php:187 modules/custom-content-types.php:44
+#: modules/custom-post-types/testimonial.php:155
+#: modules/custom-post-types/portfolios.php:140 _inc/build/admin.js:80
+msgid "Learn More"
+msgstr "Kom meer te weten"
+
+#: _inc/lib/debugger/class-jetpack-cxn-test-base.php:427
+#: _inc/lib/debugger/class-jetpack-debug-data.php:105
+#: _inc/lib/debugger/debug-functions.php:88
+#: modules/masterbar/admin-menu/class-admin-menu.php:684
+msgid "Jetpack"
+msgstr "Jetpack"
+
+#: modules/contact-form/grunion-contact-form.php:174
+#: modules/contact-form/grunion-contact-form.php:175
+#: modules/contact-form/grunion-contact-form.php:1036
+#: modules/contact-form/grunion-contact-form.php:1054
+#: modules/contact-form/grunion-contact-form.php:1124
+#: modules/contact-form/grunion-form-view.php:191
+#: modules/calypsoify/class-jetpack-calypsoify.php:191
+#: modules/calypsoify/class-jetpack-calypsoify.php:256
+msgid "Feedback"
+msgstr "Feedback"
+
+#: _inc/lib/admin-pages/class.jetpack-settings-page.php:21
+msgid "Jetpack Settings"
+msgstr "Jetpack-instellingen"
+
+#: _inc/lib/admin-pages/class.jetpack-settings-page.php:93
+msgid "View:"
+msgstr "Bekijken:"
+
+#: class.jetpack-cli.php:523
+#: _inc/lib/admin-pages/class.jetpack-settings-page.php:96
+#: modules/vaultpress.php:27 _inc/build/admin.js:52 _inc/build/admin.js:60
+msgid "Active"
+msgstr "Actief"
+
+#: class.jetpack-cli.php:524
+#: _inc/lib/admin-pages/class.jetpack-settings-page.php:97
+msgid "Inactive"
+msgstr "Inactief"
+
+#: _inc/lib/admin-pages/class.jetpack-settings-page.php:101
+msgid "Alphabetical"
+msgstr "Alfabetisch"
+
+#: _inc/lib/admin-pages/class.jetpack-settings-page.php:102
+#: _inc/build/instant-search/jp-search-main.bundle.js:9
+msgid "Newest"
+msgstr "Nieuwste"
+
+#: _inc/lib/admin-pages/class.jetpack-settings-page.php:103
+msgid "Popular"
+msgstr "Populair"
+
+#: _inc/lib/admin-pages/class.jetpack-settings-page.php:105
+msgid "Show:"
+msgstr "Tonen:"
+
+#: class.jetpack.php:3958
+msgid "Jetpack Debugging Center"
+msgstr "Jetpack-foutopsporingscentrum"
+
+#: class.jetpack-cli.php:136 class.jetpack-cli.php:1245
+#: class.jetpack-cli.php:1341 class.jetpack-cli.php:1440
+#: class.jetpack-cli.php:1620
+msgid "Jetpack is not currently connected to WordPress.com"
+msgstr "Jetpack is op dit moment niet verbonden met WordPress.com"
+
+#. translators: %s is a command like "prompt"
+#: class.jetpack-cli.php:47 class.jetpack-cli.php:196 class.jetpack-cli.php:273
+#: class.jetpack-cli.php:582 class.jetpack-cli.php:714
+msgid "%s is not a valid command."
+msgstr "%s is geen geldig commando."
+
+#: class.jetpack-cli.php:57
+msgid "Jetpack is currently connected to WordPress.com"
+msgstr "Jetpack is verbonden met WordPress.com"
+
+#. translators: %s is current version of Jetpack, for example 7.3
+#: class.jetpack-cli.php:71
+msgid "The Jetpack Version is %s"
+msgstr "Jetpack-versie is %s"
+
+#. translators: %d is WP.com ID of this blog
+#: class.jetpack-cli.php:73
+msgid "The WordPress.com blog_id is %d"
+msgstr "WordPress.com-blog_id is %d"
+
+#: class.jetpack-cli.php:85
+msgid "Additional data: "
+msgstr "Aanvullende gegevens: "
+
+#: class.jetpack-cli.php:115
+msgctxt "\"wp jetpack status full\" is a command - do not translate"
+msgid "View full status with 'wp jetpack status full'"
+msgstr "Bekijk de volledige status met de opdracht 'wp jetpack status full'"
+
+#: class.jetpack-cli.php:213
+msgid "Please specify a valid user."
+msgstr "Geef een geldige gebruiker op."
+
+#: class.jetpack-cli.php:216
+msgid "Please specify a user by either ID, username, or email."
+msgstr "Specificeer een gebruiker met ID, gebruikersnaam of e-mailadres."
+
+#. translators: This is the result of an action. The option named %s was reset
+#: class.jetpack-cli.php:308 class.jetpack-cli.php:320
+msgid "%s option reset"
+msgstr "%s optiereset"
+
+#: class.jetpack-cli.php:312
+msgid "Resetting the jetpack options stored in wp_options...\n"
+msgstr "De Jetpack-opties opgeslagen in wp_options worden gereset...\n"
+
+#: class.jetpack-cli.php:324
+msgid "Resetting default modules...\n"
+msgstr "Standaardmodules worden gereset...\n"
+
+#: class.jetpack-cli.php:330 class.jetpack-cli.php:338
+#: _inc/lib/class.core-rest-api-endpoints.php:2111
+msgid "Modules reset to default."
+msgstr "Modules zijn gereset naar standaard."
+
+#. translators: %s is a module slug like "stats"
+#: class.jetpack-cli.php:494
+msgid "%s is not a valid module."
+msgstr "%s is geen geldige module."
+
+#: class.jetpack-cli.php:507
+msgid "Please specify a valid module."
+msgstr "Geef een geldige module op."
+
+#. translators: %s is the name of a Jetpack module
+#: class.jetpack-cli.php:534 _inc/build/admin.js:80
+msgid "%s has been activated."
+msgstr "%s is geactiveerd."
+
+#: class.jetpack-cli.php:543
+msgid "All modules activated!"
+msgstr "Alle modules zijn geactiveerd."
+
+#. translators: %s is the name of a Jetpack module
+#: class.jetpack-cli.php:550
+msgid "%s has been deactivated."
+msgstr "%s is gedeactiveerd."
+
+#: class.jetpack-cli.php:554
+msgid "All modules deactivated!"
+msgstr "Alle modules zijn gedeactiveerd."
+
+#: class.jetpack-cli.php:675
+msgid "No command found."
+msgstr "Geen opdracht gevonden."
+
+#: class.jetpack-cli.php:732
+msgid "Option not found or is empty.  Use \"list\" to list option names"
+msgstr "Optie is niet gevonden of is leeg. Gebruik 'list' om een lijst met opties weer te geven"
+
+#. translators: %s is the option name
+#: class.jetpack-cli.php:748
+msgid "Deleted option: %s"
+msgstr "Verwijderde optie: %s"
+
+#: class.jetpack-cli.php:756
+msgid "Sorry, no updating arrays at this time"
+msgstr "Er worden deze keer helaas geen lijsten bijgewerkt"
+
+#: class.jetpack-cli.php:770 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28
+msgid "Option"
+msgstr "Optie"
+
+#: class.jetpack-cli.php:788
+msgctxt "a variable command that a user can write, provided in the printed instructions"
+msgid "option"
+msgstr "optie"
+
+#: class.jetpack-cli.php:789
+msgctxt "the value that they want to update the option to"
+msgid "value"
+msgstr "waarde"
+
+#: class.jetpack-cli.php:796
+msgctxt "'wp jetpack options' is a command - do not translate."
+msgid "Type 'wp jetpack options' for more info."
+msgstr "Typ 'wp jetpack options' voor meer informatie"
+
+#: _inc/lib/debugger/class-jetpack-debugger.php:56
+msgid "You do not have sufficient permissions to access this page."
+msgstr "U heeft onvoldoende rechten voor toegang tot deze pagina."
+
+#: _inc/lib/debugger/class-jetpack-debugger.php:67
+msgid "Testing your site's compatibility with Jetpack..."
+msgstr "Compatibiliteit van de site met Jetpack testen..."
+
+#: _inc/lib/debugger/class-jetpack-debugger.php:71
+msgid "Your Jetpack setup looks a-okay!"
+msgstr "De Jetpack-instellingen zien er prima uit."
+
+#: _inc/lib/debugger/class-jetpack-debugger.php:97
+msgid "Trouble with Jetpack?"
+msgstr "Problemen met Jetpack?"
+
+#: _inc/lib/debugger/class-jetpack-debugger.php:102
+msgid "A known issue."
+msgstr "Een bekend probleem"
+
+#: _inc/lib/debugger/class-jetpack-debugger.php:126
+msgid "A theme conflict."
+msgstr "Een themaconflict."
+
+#: _inc/lib/debugger/class-jetpack-debugger.php:139
+msgid "A problem with your XMLRPC file."
+msgstr "Een probleem met het XMLRPC-bestand."
+
+#. translators: The URL to the site's xmlrpc.php file.
+#: _inc/lib/debugger/class-jetpack-debugger.php:144
+msgid "Load your <a href=\"%s\">XMLRPC file</a>. It should say “XML-RPC server accepts POST requests only.” on a line by itself."
+msgstr "Laad het <a href=\"%s\">XMLRPC-bestand </a>. Het zou op een aparte regel moeten melden 'XML-RPC-server accepteert alleen POST-verzoeken.'."
+
+#: _inc/lib/debugger/class-jetpack-debugger.php:151
+msgid "If it's not by itself, a theme or plugin is displaying extra characters. Try steps 2 and 3."
+msgstr "Als het dit niet zelf doet, geeft een thema of plugin extra karakters weer. Probeer stappen 2 en 3."
+
+#. translators: %s is an e-mail address
+#: _inc/lib/debugger/class-jetpack-debugger.php:213
+msgid "The primary connection is owned by <strong>%s</strong>'s WordPress.com account."
+msgstr "De hoofdverbinding wordt beheerd door het WordPress.com-account van <strong>%s</strong>."
+
+#: _inc/lib/admin-pages/class.jetpack-admin-page.php:392
+msgid "Test your site's compatibility with Jetpack."
+msgstr "Test de compatibiliteit van uw site met Jetpack."
+
+#. translators: %s is the site URL
+#: class.jetpack-cli.php:227
+msgid "Jetpack has been successfully disconnected for %s."
+msgstr "Jetpack is succesvol verbroken voor %s."

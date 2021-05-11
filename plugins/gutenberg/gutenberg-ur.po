@@ -1,0 +1,273 @@
+# Translation of Plugins - Gutenberg - Development (trunk) in Urdu
+# This file is distributed under the same license as the Plugins - Gutenberg - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-01-15 15:47:42+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ur_PK\n"
+"Project-Id-Version: Plugins - Gutenberg - Development (trunk)\n"
+
+#: lib/client-assets.php:101 build/i18n/index.js:1
+msgctxt "text direction"
+msgid "ltr"
+msgstr "rtl"
+
+#: lib/editor-settings.php:31 build/block-editor/index.js:1
+msgid "Full Size"
+msgstr "مکمل سائز"
+
+#: lib/editor-settings.php:28 build/block-editor/index.js:1
+msgid "Thumbnail"
+msgstr "تھمب نیل"
+
+#: lib/full-site-editing/default-template-types.php:69
+#: build/block-editor/index.js:66 build/blocks/index.js:1
+#: build/core-data/index.js:1
+msgid "Media"
+msgstr "میڈیا"
+
+#: lib/class-wp-theme-json-resolver.php:261 lib/block-patterns.php:30
+#: lib/editor-settings.php:29 build/block-editor/index.js:1
+#: build/block-editor/index.js:9 build/components/index.js:10
+msgid "Medium"
+msgstr "درمیانہ"
+
+#: build/block-library/blocks/archives.php:97
+msgid "No archives to show."
+msgstr "دکھانے کے لیے کوئی آرکائیو موجود نہیں"
+
+#: post-content.php:41
+msgid "Beautiful landscape"
+msgstr "خوبصورت نظارہ"
+
+#: post-content.php:185
+msgid "Thanks for testing Gutenberg!"
+msgstr "Gutenberg کو آزمانے کا شکریہ!"
+
+#: post-content.php:177
+msgid "Help build Gutenberg"
+msgstr "Gutenberg بنانے میں مدد کریں"
+
+#: post-content.php:159 build/block-library/index.js:8
+msgid "Code is Poetry"
+msgstr "کوڈ شاعری ہے"
+
+#: post-content.php:159
+msgid "The WordPress community"
+msgstr "WordPress کمیونٹی"
+
+#: post-content.php:116
+msgid "Media Rich"
+msgstr "سیر حاصل میڈیا"
+
+#: post-content.php:89
+msgid "Matt Mullenweg, 2017"
+msgstr "Matt Mullenweg، 2017"
+
+#: post-content.php:79
+msgid "Visual Editing"
+msgstr "بصری ترمیم"
+
+#: post-content.php:66
+msgid "Images &amp; Videos"
+msgstr "تصاویر اور ویڈیوز"
+
+#: post-content.php:65
+msgid "Text &amp; Headings"
+msgstr "متن اور عنوانات"
+
+#: post-content.php:67
+msgid "Galleries"
+msgstr "گیلریز"
+
+#: post-content.php:52
+msgid "The <em>Inserter</em> Tool"
+msgstr "<em>انسرٹر</em> ٹول"
+
+#: post-content.php:32
+msgid "A Picture is Worth a Thousand Words"
+msgstr "ایک تصویر ہزار الفاظ کئ برابر ہے"
+
+#: post-content.php:69
+msgid "Layout blocks, like Buttons, Hero Images, Separators, etc."
+msgstr "لے آؤٹ بلاکس، لائیک بٹن، ہیرو تصاویر، سپریٹر وغیرہ"
+
+#: post-content.php:68
+msgid "Embeds, like YouTube, Tweets, or other WordPress posts."
+msgstr "یوٹیوب، ٹویٹس، یا دیگرWordPress پوسٹوں کی طرح ایمبیڈ کر سکتے ہیں"
+
+#: post-content.php:70
+msgid "And <em>Lists</em> like this one of course :)"
+msgstr "اور <em>فہرستیں</em> کی طرح کورس میں سے ایک :)"
+
+#: post-content.php:128
+msgid "Sure, the full-wide image can be pretty big. But sometimes the image is worth it."
+msgstr "یقینا، مکمل وسیع تصویر بہت بڑی ہو سکتی ہے۔ لیکن کبھی کبھی تصویر اس کے قابل ہے۔"
+
+#: lib/demo.php:59
+msgid "Welcome to the Gutenberg Editor"
+msgstr "Gutenberg ایڈیٹر میں خوش آمدید"
+
+#: lib/class-wp-rest-menu-items-controller.php:862
+msgid "The title for the object."
+msgstr "آبجیکٹ کا عنوان"
+
+#: lib/class-wp-rest-menu-items-controller.php:68
+#: lib/class-wp-rest-menu-items-controller.php:887
+msgid "Unique identifier for the object."
+msgstr "اعتراض کے لیے منفرد شناخت۔"
+
+#: gutenberg.php:73 gutenberg.php:74
+msgid "Support"
+msgstr "معاونت"
+
+#: build/block-library/blocks/latest-comments.php:141
+msgid "No comments to show."
+msgstr "دکھانے کے لئے کوئی تبصرہ نہیں۔"
+
+#. translators: 1: author name (inside <a> or <span> tag, based on if they have
+#. a URL), 2: post title related to this comment
+#: build/block-library/blocks/latest-comments.php:99
+msgid "%1$s on %2$s"
+msgstr "%1$s از %2$s"
+
+#: build/block-library/blocks/archives.php:45
+msgid "Select Year"
+msgstr "سال منتخب کریں۔"
+
+#: build/block-library/blocks/archives.php:51
+msgid "Select Day"
+msgstr "دن منتخب کریں۔"
+
+#: build/block-library/blocks/archives.php:54
+msgid "Select Week"
+msgstr "ہفتہ منتخب کریں۔"
+
+#: build/block-library/blocks/archives.php:57
+msgid "Select Post"
+msgstr "پوسٹ منتخب کریں"
+
+#: build/block-library/blocks/archives.php:48
+msgid "Select Month"
+msgstr "مہینہ منتخب کریں"
+
+#: build/block-library/blocks/archives.php:27
+msgid "Archives"
+msgstr "آرکائیوز"
+
+#: lib/class-wp-theme-json-resolver.php:220 build/block-editor/index.js:1
+msgid "Cyan bluish gray"
+msgstr "سبزی مائل آسمانی سرمئی"
+
+#: lib/class-wp-theme-json-resolver.php:229 build/block-editor/index.js:1
+msgid "Vivid cyan blue"
+msgstr "شوخ سبزی مائل نیلا"
+
+#: lib/class-wp-theme-json-resolver.php:228 build/block-editor/index.js:1
+msgid "Pale cyan blue"
+msgstr "پرانا سبزی مائل نیلا"
+
+#: lib/class-wp-theme-json-resolver.php:227 build/block-editor/index.js:1
+msgid "Vivid green cyan"
+msgstr "شوخ سبزی مائل نیلا"
+
+#: lib/class-wp-theme-json-resolver.php:226 build/block-editor/index.js:1
+msgid "Light green cyan"
+msgstr "ہلکا سبزی مائل"
+
+#: lib/class-wp-theme-json-resolver.php:225 build/block-editor/index.js:1
+msgid "Luminous vivid amber"
+msgstr "چمکیلا شوخ آسمانی"
+
+#: lib/class-wp-theme-json-resolver.php:224 build/block-editor/index.js:1
+msgid "Luminous vivid orange"
+msgstr "چمکیلا شوخ نارنجی"
+
+#: lib/class-wp-theme-json-resolver.php:223 build/block-editor/index.js:1
+msgid "Vivid red"
+msgstr "شوخ لال"
+
+#: lib/class-wp-theme-json-resolver.php:222 build/block-editor/index.js:1
+msgid "Pale pink"
+msgstr "ہلکا گلابی"
+
+#: lib/class-wp-theme-json-resolver.php:262 lib/block-patterns.php:12
+#: lib/editor-settings.php:30 build/block-editor/index.js:1
+#: build/block-library/index.js:68 build/components/index.js:10
+msgid "Large"
+msgstr "بڑا"
+
+#: gutenberg.php:112
+msgid "beta"
+msgstr "بِیٹا"
+
+#: lib/class-wp-rest-menu-items-controller.php:919
+msgid "The ID for the parent of the object."
+msgstr "اوبجیکٹ کے پیرنٹ کے لیے آئی ڈی۔"
+
+#: lib/full-site-editing/templates-utils.php:17 build/editor/index.js:5
+msgid "Status"
+msgstr "اسٹیٹس"
+
+#. translators: ARIA label for the Block Settings Sidebar tab, not selected.
+#. translators: Text label for the Block Settings Sidebar tab.
+#. translators: Text label for the Template Settings Sidebar tab.
+#: lib/class-wp-widget-block.php:40 lib/navigation.php:91 lib/navigation.php:96
+#: build/edit-widgets/index.js:23 build/edit-post/index.js:37
+#: build/edit-post/index.js:38 build/edit-site/index.js:28
+#: build/edit-site/index.js:29 build/edit-site/index.js:30
+msgid "Block"
+msgstr "واحد: بلاک"
+
+#: gutenberg.php:49 gutenberg.php:50 lib/experiments-page.php:56
+#: build/edit-widgets/index.js:24 build/blocks/index.js:1
+#: build/core-data/index.js:1
+msgid "Widgets"
+msgstr "ویجٹس"
+
+#: build/block-library/blocks/rss.php:31
+#: build/block-library/blocks/latest-comments.php:31
+#: build/block-library/blocks/latest-posts.php:102 build/editor/index.js:21
+#: build/editor/index.js:35 build/block-library/index.js:30
+#: build/block-library/index.js:48 build/edit-navigation/index.js:6
+#: build/edit-post/index.js:40 build/edit-site/index.js:30
+msgid "(no title)"
+msgstr "(بلاعنوان)"
+
+#. Description of the plugin
+msgid "Printing since 1440. This is the development plugin for the new block editor in core."
+msgstr "1440 کے بعد سے پرنٹنگ. یہ کور میں نئے بلاک ایڈیٹر کے لئے ترقیاتی پلگ ان ہے."
+
+#. translators: button label text should, if possible, be under 16 characters.
+#: lib/full-site-editing/templates-utils.php:15 build/editor/index.js:25
+#: build/components/index.js:5
+msgid "Slug"
+msgstr "سلگ"
+
+#: gutenberg.php:80 gutenberg.php:81
+msgid "Documentation"
+msgstr "دستاویزات"
+
+#: build/block-library/blocks/categories.php:30
+msgid "Select Category"
+msgstr "زمرہ منتخب کریں"
+
+#: gutenberg.php:41 gutenberg.php:42
+msgid "Demo"
+msgstr "ڈیمو"
+
+#. Plugin Name of the plugin
+msgid "Gutenberg"
+msgstr "Gutenberg"
+
+#. Plugin URI of the plugin
+msgid "https://github.com/WordPress/gutenberg"
+msgstr "https://github.com/WordPress/gutenberg"
+
+#. Author of the plugin
+msgid "Gutenberg Team"
+msgstr "Gutenberg ٹیم"

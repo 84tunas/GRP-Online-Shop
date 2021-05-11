@@ -1,0 +1,802 @@
+# Translation of Plugins - Gutenberg - Development (trunk) in Czech
+# This file is distributed under the same license as the Plugins - Gutenberg - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-03-03 11:27:52+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: cs_CZ\n"
+"Project-Id-Version: Plugins - Gutenberg - Development (trunk)\n"
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:536
+msgid "Description of template."
+msgstr "Popis šablony."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:530
+msgid "Title of template."
+msgstr "Název šablony."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:524
+msgid "Content of template."
+msgstr "Šablony obsahu"
+
+#: lib/full-site-editing/default-template-types.php:77
+msgid "Privacy Policy"
+msgstr "Zásady ochrany osobních údajů"
+
+#: lib/full-site-editing/templates.php:98
+msgid "Themes"
+msgstr "Šablony"
+
+#: lib/class-wp-rest-menu-items-controller.php:58
+msgid "The password for the post if it is password protected."
+msgstr "Heslo pro příspěvek, pokud je chráněn heslem."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:89
+#: lib/class-wp-rest-menu-items-controller.php:92
+msgid "Whether to bypass Trash and force deletion."
+msgstr "Informace o tom, jestli lze obejít koš vynutit smazání."
+
+#: lib/class-wp-rest-batch-controller.php:143
+#: lib/class-wp-rest-batch-controller.php:249
+msgid "The requested route does not support batch requests."
+msgstr "Vyžádaná cesta nepodporuje dávkové požadavky."
+
+#: lib/class-wp-rest-batch-controller.php:89
+msgid "Could not parse the path."
+msgstr "Nelze analyzovat cestu."
+
+#: lib/class-wp-rest-batch-controller.php:216
+msgid "The handler for the route is invalid"
+msgstr "Obslužnou rutinu pro trasu je neplatná"
+
+#: lib/full-site-editing/templates-utils.php:16 build/block-library/index.js:46
+msgid "Description"
+msgstr "Popis"
+
+#: lib/compat.php:190
+msgid "Reusable block scheduled."
+msgstr "Opakovaně používaný bloky byl naplánovaný."
+
+#: lib/compat.php:189
+msgid "Reusable block reverted to draft."
+msgstr "Znovu použitelné bloky byly převedeny do konceptu."
+
+#: lib/compat.php:188
+msgid "Reusable block published privately."
+msgstr "Znovu použitelné bloky byly publikovány soukromě."
+
+#: lib/compat.php:187
+msgid "Reusable block published."
+msgstr "Znovu použitelné bloky byly publikovány."
+
+#: lib/compat.php:186
+msgid "Reusable blocks list"
+msgstr "Seznam znovu použitelných bloků"
+
+#: lib/compat.php:185
+msgid "Reusable blocks list navigation"
+msgstr "Navigace v seznamu opakovaně používaných bloků"
+
+#: lib/compat.php:184
+msgid "Filter reusable blocks list"
+msgstr "Filtrovat seznam opakovaně použitelných bloků"
+
+#: lib/compat.php:183
+msgid "No reusable blocks found in Trash."
+msgstr "V koši nebyly nalezeny žádné znovu použitelné bloky."
+
+#: lib/compat.php:182
+msgid "No reusable blocks found."
+msgstr "Nebyly nalezeny žádné znovu použitelné bloky."
+
+#: lib/compat.php:181
+msgid "Search Reusable blocks"
+msgstr "Vyhledat znovu použitelné bloky"
+
+#: lib/compat.php:180
+msgid "All Reusable blocks"
+msgstr "Všechny znovu použitelné bloky"
+
+#: lib/compat.php:179
+msgid "View Reusable block"
+msgstr "Zobrazit znovu použitelné bloky"
+
+#: lib/compat.php:178
+msgid "Edit Reusable block"
+msgstr "Upravit znovu použitelný blok"
+
+#: lib/compat.php:177
+msgid "New Reusable block"
+msgstr "Nový znovu použitelný blok"
+
+#: lib/compat.php:176
+msgid "Add new Reusable block"
+msgstr "Přidat nový znovu použitelný blok"
+
+#: lib/compat.php:175
+msgctxt "Reusable block"
+msgid "Add New"
+msgstr "Přidat nový"
+
+#: lib/compat.php:174
+msgctxt "add new on admin bar"
+msgid "Reusable block"
+msgstr "Opakovatelný blok"
+
+#: lib/compat.php:173
+msgctxt "admin menu"
+msgid "Reusable blocks"
+msgstr "Opakovaně používané bloky"
+
+#: lib/compat.php:172
+msgctxt "post type singular name"
+msgid "Reusable block"
+msgstr "Opakovaně používaný blok"
+
+#: lib/compat.php:171
+msgctxt "post type general name"
+msgid "Reusable blocks"
+msgstr "Opakovaně používané bloky"
+
+#. translators: %s: the author.
+#. translators: byline. %s: current author.
+#: build/block-library/blocks/rss.php:60
+#: build/block-library/blocks/latest-posts.php:114
+#: build/block-library/index.js:50
+msgid "by %s"
+msgstr "Autor: %s"
+
+#: lib/class-wp-theme-json-resolver.php:221 build/block-editor/index.js:1
+msgid "White"
+msgstr "Bílá"
+
+#: lib/class-wp-theme-json-resolver.php:219 build/block-editor/index.js:1
+#: build/block-editor/index.js:9
+msgid "Black"
+msgstr "Černá"
+
+#. translators: accessibility text for the content landmark region.
+#: lib/navigation.php:338 build/edit-widgets/index.js:7
+#: build/edit-post/index.js:7 build/edit-site/index.js:7
+#: build/edit-site/index.js:30
+msgid "Content"
+msgstr "Obsah"
+
+#: lib/class-wp-rest-menu-items-controller.php:606
+msgid "Invalid URL."
+msgstr "Neplatná URL."
+
+#: lib/class-wp-rest-menu-items-controller.php:1093
+msgid "Limit result set to posts with a specific menu_order value."
+msgstr "Omezit sadu výsledků na příspěvky s konkrétní hodnotou menu_order."
+
+#. translators: %s: taxonomy name
+#: lib/class-wp-rest-menu-items-controller.php:1059
+msgid "The terms assigned to the object in the %s taxonomy."
+msgstr "Položky přiřazené k objektu v taxonomii %s."
+
+#: lib/class-wp-rest-menu-items-controller.php:878
+msgid "HTML title for the object, transformed for display."
+msgstr "HTML název objektu, pro zobrazení."
+
+#: lib/class-wp-rest-menu-items-controller.php:873
+msgid "Title for the object, as it exists in the database."
+msgstr "Název daného objektu tak, jak existuje v databázi."
+
+#: lib/class-wp-rest-menu-items-controller.php:911
+msgid "A named status for the object."
+msgstr "Pojmenovaný stav objektu."
+
+#: lib/class-wp-rest-menu-items-controller.php:174
+msgid "Cannot create existing post."
+msgstr "Nelze vytvořit již existující příspěvek."
+
+#: lib/class-wp-rest-menu-items-controller.php:1105
+msgid "Sort collection by object attribute."
+msgstr "Řadit kolekci podle atributu objektu."
+
+#: lib/class-wp-rest-menu-items-controller.php:1098
+msgid "Order sort attribute ascending or descending."
+msgstr "Nastavte typ řazení - vzestupně nebo sestupně."
+
+#: lib/class-wp-rest-menu-items-controller.php:531
+msgid "Invalid menu ID."
+msgstr "Neplatné ID menu."
+
+#: lib/class-wp-rest-menu-items-controller.php:348
+msgid "The post cannot be deleted."
+msgstr "Příspěvek nemůže být smazán."
+
+#: lib/class-wp-rest-menu-items-controller.php:495
+msgid "Invalid post ID."
+msgstr "Neplatné ID příspěvku."
+
+#: lib/class-wp-rest-menus-controller.php:458
+msgid "The term cannot be deleted."
+msgstr "Položku nelze smazat."
+
+#: lib/class-wp-rest-menus-controller.php:262
+#: lib/class-wp-rest-menus-controller.php:371
+msgid "Cannot set parent term, taxonomy is not hierarchical."
+msgstr "Nelze nastavit nadřazený výraz. Taxonomie nemá hierarchickou strukturu."
+
+#. translators: %s: force=true
+#: lib/class-wp-rest-menus-controller.php:448
+msgid "Terms do not support trashing. Set '%s' to delete."
+msgstr "Položky nepodporují přesunutí do koše. Pro smazání nastavte &#8222;%s&#8220;."
+
+#: lib/class-wp-rest-menus-controller.php:58
+msgid "Sorry, you are not allowed to edit this term."
+msgstr "Nemáte dostatečné oprávnění pro úpravy této položky."
+
+#: lib/class-wp-rest-menus-controller.php:268
+#: lib/class-wp-rest-menus-controller.php:377
+msgid "Parent term does not exist."
+msgstr "Nadřazená položka neexistuje."
+
+#: lib/class-wp-rest-customizer-nonces.php:51
+#: lib/class-wp-rest-menu-items-controller.php:158
+msgid "Sorry, you are not allowed to edit posts in this post type."
+msgstr "Nemáte dostatečné oprávnění pro úpravy příspěvků u tohoto typu obsahu."
+
+#: lib/class-wp-rest-menus-controller.php:38
+msgid "Sorry, you are not allowed to edit terms in this taxonomy."
+msgstr "Nemáte dostatečné oprávnění pro úpravy položek v rámci této taxonomie."
+
+#: lib/full-site-editing/template-parts.php:19
+msgctxt "Admin Menu text"
+msgid "Template Parts"
+msgstr "Části šablony"
+
+#: lib/experiments-page.php:45 build/edit-navigation/index.js:6
+msgid "Navigation"
+msgstr "Navigace"
+
+#: lib/full-site-editing/template-loader.php:164
+msgid "No matching template found"
+msgstr "Nebyly nalezeny odpovídající šablony"
+
+#: lib/full-site-editing/templates.php:41
+msgid "New Template"
+msgstr "Nová šablona"
+
+#: lib/full-site-editing/templates.php:43
+msgid "View Template"
+msgstr "Zobrazit šablonu"
+
+#: lib/full-site-editing/templates.php:38
+msgctxt "Admin Menu text"
+msgid "Templates"
+msgstr "Šablony"
+
+#: lib/full-site-editing/templates.php:39
+msgctxt "Template"
+msgid "Add New"
+msgstr "Vytvořit novou"
+
+#: lib/full-site-editing/templates.php:40
+msgid "Add New Template"
+msgstr "Přidat novou šablonu"
+
+#: lib/full-site-editing/templates.php:42
+msgid "Edit Template"
+msgstr "Upravit šablonu"
+
+#: lib/full-site-editing/templates.php:44
+msgid "All Templates"
+msgstr "Všechny šablony"
+
+#: lib/full-site-editing/templates.php:45
+msgid "Search Templates"
+msgstr "Hledat šablony"
+
+#: lib/full-site-editing/templates.php:46
+msgid "Parent Template:"
+msgstr "Nadřazená šablona:"
+
+#: lib/full-site-editing/templates.php:47
+msgid "No templates found."
+msgstr "Nebyla nalezena žádná šablona."
+
+#: lib/full-site-editing/templates.php:48
+msgid "No templates found in Trash."
+msgstr "V koši nebyly nalezeny žádné šablony."
+
+#: lib/full-site-editing/templates.php:49
+msgid "Template archives"
+msgstr "Archiv šablon"
+
+#: lib/full-site-editing/templates.php:50
+msgid "Insert into template"
+msgstr "Vložit do šablony"
+
+#: lib/full-site-editing/templates.php:51
+msgid "Uploaded to this template"
+msgstr "Nahráno do této šablony"
+
+#: lib/full-site-editing/templates.php:52
+msgid "Filter templates list"
+msgstr "Filtrovat seznam šablon"
+
+#: lib/full-site-editing/templates.php:53
+msgid "Templates list navigation"
+msgstr "Navigace v seznamu šablon"
+
+#: lib/full-site-editing/templates.php:54
+msgid "Templates list"
+msgstr "Seznam šablon"
+
+#. translators: ARIA label for the Template Settings Sidebar tab, not selected.
+#. translators: Text label for the Template Settings Sidebar tab.
+#: lib/full-site-editing/templates.php:37 build/edit-post/index.js:38
+#: build/edit-site/index.js:26 build/edit-site/index.js:28
+#: build/edit-site/index.js:29
+msgid "Template"
+msgstr "Šablona stránky"
+
+#: lib/class-wp-theme-json-resolver.php:250 build/block-editor/index.js:1
+msgid "Midnight"
+msgstr "Půlnoc"
+
+#: lib/class-wp-theme-json-resolver.php:249 build/block-editor/index.js:1
+msgid "Electric grass"
+msgstr "Elektrizující tráva"
+
+#: lib/class-wp-theme-json-resolver.php:248 build/block-editor/index.js:1
+msgid "Pale ocean"
+msgstr "Bledý oceán"
+
+#: lib/class-wp-theme-json-resolver.php:247 build/block-editor/index.js:1
+msgid "Luminous dusk"
+msgstr "Světélkující prach"
+
+#: lib/class-wp-theme-json-resolver.php:246 build/block-editor/index.js:1
+msgid "Blush bordeaux"
+msgstr "Purpurově červená"
+
+#: lib/class-wp-theme-json-resolver.php:245 build/block-editor/index.js:1
+msgid "Blush light purple"
+msgstr "Pastelově světle fialová"
+
+#: lib/class-wp-theme-json-resolver.php:244 build/block-editor/index.js:1
+msgid "Cool to warm spectrum"
+msgstr "Studené až teplé barvy"
+
+#: lib/class-wp-theme-json-resolver.php:243 build/block-editor/index.js:1
+msgid "Very light gray to cyan bluish gray"
+msgstr "Velice světle šedá až azurově-modro-šedá"
+
+#: lib/class-wp-theme-json-resolver.php:241 build/block-editor/index.js:1
+msgid "Luminous vivid amber to luminous vivid orange"
+msgstr "Světlá sytě žlutá až světlá sytě oranžová"
+
+#: lib/class-wp-theme-json-resolver.php:242 build/block-editor/index.js:1
+msgid "Luminous vivid orange to vivid red"
+msgstr "Světlá sytě oranžová až sytě červená"
+
+#: lib/class-wp-theme-json-resolver.php:240 build/block-editor/index.js:1
+msgid "Light green cyan to vivid green cyan"
+msgstr "Světlá azurově-zelená až sytě azurově-zelená"
+
+#: lib/class-wp-theme-json-resolver.php:239 build/block-editor/index.js:1
+msgid "Vivid cyan blue to vivid purple"
+msgstr "Sytě azurově-modrá až sytě azurově-fialová"
+
+#: lib/full-site-editing/templates.php:36 build/edit-site/index.js:30
+msgid "Templates"
+msgstr "Šablony"
+
+#: lib/full-site-editing/templates.php:59
+msgid "Templates to include in your theme."
+msgstr "Šablony (stránek), které mají být obsaženy v šabloně."
+
+#: lib/experiments-page.php:19
+msgid "Experimental settings"
+msgstr "Nastavení experimentů"
+
+#: gutenberg.php:89
+msgid "Experiments Settings"
+msgstr "Nastavení experimentálních funkcí"
+
+#: lib/class-wp-theme-json-resolver.php:230 build/block-editor/index.js:1
+msgid "Vivid purple"
+msgstr "Sytě fialová"
+
+#. translators: %s: taxonomy name
+#: build/block-library/blocks/tag-cloud.php:28
+msgid "Your site doesn&#8217;t have any %s, so there&#8217;s nothing to display here at the moment."
+msgstr "Tento web nemá žádné %s, aktuálně zde proto není nic k zobrazení."
+
+#: build/block-library/blocks/search.php:25
+#: build/block-library/blocks/search.php:26
+#: build/block-library/blocks/search.php:52 build/block-editor/index.js:42
+#: build/block-library/index.js:59
+msgid "Search"
+msgstr "Hledat"
+
+#: build/block-library/blocks/rss.php:19
+msgid "RSS Error:"
+msgstr "Chyba RSS:"
+
+#: build/block-library/blocks/rss.php:23
+msgid "An error has occurred, which probably means the feed is down. Try again later."
+msgstr "Objevila se nečekaná chyba, RSS zdroj je pravděpodobně mimo provoz. Zkuste to prosím později."
+
+#: lib/editor-settings.php:28 build/block-editor/index.js:1
+msgid "Thumbnail"
+msgstr "Náhled"
+
+#: lib/editor-settings.php:31 build/block-editor/index.js:1
+msgid "Full Size"
+msgstr "Původní velikost"
+
+#: lib/full-site-editing/default-template-types.php:69
+#: build/block-editor/index.js:66 build/blocks/index.js:1
+#: build/core-data/index.js:1
+msgid "Media"
+msgstr "Média"
+
+#: lib/class-wp-theme-json-resolver.php:261 lib/block-patterns.php:30
+#: lib/editor-settings.php:29 build/block-editor/index.js:1
+#: build/block-editor/index.js:9 build/components/index.js:10
+msgid "Medium"
+msgstr "Střední"
+
+#: build/block-library/blocks/archives.php:97
+msgid "No archives to show."
+msgstr "Žádné archivy k zobrazení. "
+
+#: post-content.php:41
+msgid "Beautiful landscape"
+msgstr "Nádherné hory"
+
+#: post-content.php:185
+msgid "Thanks for testing Gutenberg!"
+msgstr "Děkujeme za testování Gutenbergu!"
+
+#: post-content.php:159 build/block-library/index.js:8
+msgid "Code is Poetry"
+msgstr "Code is Poetry"
+
+#: post-content.php:79
+msgid "Visual Editing"
+msgstr "Vizuální úpravy"
+
+#: post-content.php:67
+msgid "Galleries"
+msgstr "Galerie"
+
+#: post-content.php:11
+msgid "Of Mountains &amp; Printing Presses"
+msgstr "Z hor a knihtisku"
+
+#: post-content.php:89
+msgid "Matt Mullenweg, 2017"
+msgstr "Matt Mullenweg, 2017"
+
+#: post-content.php:116
+msgid "Media Rich"
+msgstr "Bohaté na média"
+
+#: post-content.php:94
+msgid "The information corresponding to the source of the quote is a separate text field, similar to captions under images, so the structure of the quote is protected even if you select, modify, or remove the source. It&#8217;s always easy to add it back."
+msgstr "Informace příslušné ke zdroji citace jsou v odděleném textovém poli, podobně jako jsou odděleny popisky obrázků. Struktura citace je tak chráněna i když vyberete, upravíte nebo odstraníte zdroj. Je vždy jednoduché jej přidat zpět."
+
+#: post-content.php:32
+msgid "A Picture is Worth a Thousand Words"
+msgstr "Obrázek je lepší než tisíc slov"
+
+#: post-content.php:28
+msgid "Headings are separate blocks as well, which helps with the outline and organization of your content."
+msgstr "Nadpisy jsou také samostatné bloky, které zlepšují přehlednost a uspořádání vašeho obsahu."
+
+#: post-content.php:83
+msgid "A huge benefit of blocks is that you can edit them in place and manipulate your content directly. Instead of having fields for editing things like the source of a quote, or the text of a button, you can directly change the content. Try editing the following quote:"
+msgstr "Obrovská výhoda bloků spočívá v tom, že je můžete upravit na místě a manipulovat s obsahem přímo. Namísto toho abyste měli pole na úpravu věcí jako je zdroj citace nebo text tlačítka, můžete přímo změnit obsah. Zkuste upravit následující citaci:"
+
+#: post-content.php:69
+msgid "Layout blocks, like Buttons, Hero Images, Separators, etc."
+msgstr "Bloky zobrazení jako jsou tlačítka, hlavní obrázky, oddělovače, atd."
+
+#: post-content.php:65
+msgid "Text &amp; Headings"
+msgstr "Text a nadpisy"
+
+#: post-content.php:42
+msgid "If your theme supports it, you&#8217;ll see the \"wide\" button on the image toolbar. Give it a try."
+msgstr "Pokud vaše šablona podporuje nové rozložení, v nástrojové liště obrázku uvidíte tlačítko „Velká šířka“. Vyzkoušejte ho."
+
+#: post-content.php:52
+msgid "The <em>Inserter</em> Tool"
+msgstr "Nástroj pro <em>přidávání</em> bloků"
+
+#: post-content.php:88
+msgid "The editor will endeavor to create a new page and post building experience that makes writing rich posts effortless, and has “blocks” to make it easy what today might take shortcodes, custom HTML, or “mystery meat” embed discovery."
+msgstr "Editor se pokusí vytvářet lepší zkušenosti při tvorbě nových stránek a příspěvků, což zjednoduší psaní formátovaného textu. Bude používat „bloky“, aby šlo jednodušeji používat zkrácený zápis, vlastní HTML nebo vkládat „mystery meat“."
+
+#: post-content.php:48
+msgid "Try selecting and removing or editing the caption, now you don&#8217;t have to be careful about selecting the image or other text by mistake and ruining the presentation."
+msgstr "Zkuste vybrat a odstranit, nebo upravit titulek, nyní se nebudete muset bát, že omylem vyberete obrázek, nebo jiný text a zkazíte si tak celou prezentaci."
+
+#: post-content.php:20
+msgid "What you are reading now is a <strong>text block</strong> the most basic block of all. The text block has its own controls to be moved freely around the post..."
+msgstr "Nyní čtete <strong>odstavec</strong>, nejzákladnější blok ze všech. Odstavec má vlastní ovládací prvky, které umožňují volné umístění kdekoliv v příspěvku..."
+
+#: post-content.php:155
+msgid "You can build any block you like, static or dynamic, decorative or plain. Here&#8217;s a pullquote block:"
+msgstr "Můžete vytvořit jakýkoliv blok vás jen napadne - statický, nebo dynamický; formátovaný, nebo neformátovaný. Zde je blok stručného výpisu:"
+
+#: post-content.php:56
+msgid "Imagine everything that WordPress can do is available to you quickly and in the same place on the interface. No need to figure out HTML tags, classes, or remember complicated shortcode syntax. That&#8217;s the spirit behind the inserter—the <code>(+)</code> button you&#8217;ll see around the editor—which allows you to browse all available content blocks and add them into your post. Plugins and themes are able to register their own, opening up all sort of possibilities for rich editing and publishing."
+msgstr "Představte si, že vše, co WordPress dokáže, je k dispozici jednoduše a stále na stejném místě. Není třeba zjišťovat HTML značky, třídy nebo si pamatovat komplikovanou syntaxi zkráceného zápisu. To je cílem přidávání bloků - tlačítko <code>(+)</code>, které uvidíte v editoru - umožní vám procházet všechny dostupné bloky obsahu a přidat je do příspěvku. Pluginy a šablony mohou zaregistrovat své vlastní, čímž se otevírají veškeré možnosti pro formátovanou úpravu a publikování."
+
+#: post-content.php:177
+msgid "Help build Gutenberg"
+msgstr "Pomozte vyvíjet plugin Gutenberg"
+
+#: post-content.php:159
+msgid "The WordPress community"
+msgstr "Komunita WordPressu"
+
+#: post-content.php:66
+msgid "Images &amp; Videos"
+msgstr "Obrázky a Videa"
+
+#: post-content.php:124
+msgid "Accessibility is important &mdash; don&#8217;t forget image alt attribute"
+msgstr "Dostupnost je důležitá &mdash; nezapomeň na atribut alt u obrázků"
+
+#. translators: %s: Gutenberg GitHub repository URL
+#: post-content.php:168
+msgid "If you want to learn more about how to build additional blocks, or if you are interested in helping with the project, head over to the <a href=\"%s\">GitHub repository</a>."
+msgstr "Pokud se chcete dozvědět více o tom, jak vytvořit další bloky nebo máte-li zájem o pomoc s tímto projektem, přejděte do <a href=\"%s\">GitHub úložiště</a>."
+
+#: post-content.php:145
+msgid "Any block can opt into these alignments. The embed block has them also, and is responsive out of the box:"
+msgstr "Jakýkoliv blok můžete takto zarovnat. Vložený blok je také zarovnaný, a je ihned responzivní:"
+
+#: post-content.php:141
+msgid "The above is a gallery with just two images. It&#8217;s an easier way to create visually appealing layouts, without having to deal with floats. You can also easily convert the gallery back to individual images again, by using the block switcher."
+msgstr "Výše je galerie jen se dvěma obrázky. Je to jednoduchý způsob, jak vytvořit vizuálně příjemné rozvržení, aniž byste museli řešit obtékání textu. Galerii můžete také snadno převést zpět na jednotlivé obrázky pomocí přepínače bloků."
+
+#: post-content.php:128
+msgid "Sure, the full-wide image can be pretty big. But sometimes the image is worth it."
+msgstr "Jistě, obrázek na celou šířku může být někdy hodně veliký. Ale občas to za to stojí."
+
+#: post-content.php:120
+msgid "If you combine the new <strong>wide</strong> and <strong>full-wide</strong> alignments with galleries, you can create a very media rich layout, very quickly:"
+msgstr "Pokud kombinujete nové uspořádání (<strong>velmi široké</strong> a <strong>na plnou šířku</strong>) s galeriemi, můžete velmi rychle vytvořit formátovaný vzhled:"
+
+#: post-content.php:70
+msgid "And <em>Lists</em> like this one of course :)"
+msgstr "A jistě <em>seznamy</em> jako je tenhle :)"
+
+#: post-content.php:24
+msgid "... like this one, which is right aligned."
+msgstr "... jako tento, který je zarovnaný vpravo."
+
+#: post-content.php:112
+msgid "You can change the amount of columns in your galleries by dragging a slider in the block inspector in the sidebar."
+msgstr "Množství sloupců v galeriích můžete změnit přetažením posuvníku v nastavení bloku, v postranním panelu."
+
+#: post-content.php:98
+msgid "Blocks can be anything you need. For instance, you may want to add a subdued quote as part of the composition of your text, or you may prefer to display a giant stylized one. All of these options are available in the inserter."
+msgstr "Bloky mohou být vše, co potřebujete. Například můžete chtít přidat decentní citaci jako součást kompozice textu. Nebo byste radši zobrazovali obří stylizovanou citaci? Všechny tyto možnosti teď jsou k dispozici."
+
+#: post-content.php:60
+msgid "Go give it a try, you may discover things WordPress can already add into your posts that you didn&#8217;t know about. Here&#8217;s a short list of what you can currently find there:"
+msgstr "Vyzkoušejte to, můžete objevit funkce, které WordPress může již dlouho přidávat do vašich příspěvků. Tady je krátký seznam toho, co můžete najít:"
+
+#: post-content.php:36
+msgid "Handling images and media with the utmost care is a primary focus of the new editor. Hopefully, you&#8217;ll find aspects of adding captions or going full-width with your pictures much easier and robust than before."
+msgstr "Velmi pečlivé zacházení s obrázky a médii je primárním cílem nového editoru. Doufáme, že některé aspekty přidání titulků nebo plné šířky obrázků budou mnohem lepší a jednodušší než dříve."
+
+#: post-content.php:16
+msgid "The goal of this new editor is to make adding rich content to WordPress simple and enjoyable. This whole post is composed of <em>pieces of content</em>—somewhat similar to LEGO bricks—that you can move around and interact with. Move your cursor around and you&#8217;ll notice the different blocks light up with outlines and arrows. Press the arrows to reposition blocks quickly, without fearing about losing things in the process of copying and pasting."
+msgstr "Cílem tohoto nového editoru je přidat do WordPressu formátovaný obsah jednoduše a příjemně. Celý tento příspěvek se skládá z <em>částí obsahu</em> (jako LEGO z kostiček), které můžete přesouvat a ovlivňovat je. Pohybujte kurzorem a zjistěte, jak se různé bloky zvýrazní pomocí obrysů a šipek. Stiskněte šipky pro rychlé přesunutí bloků, aniž byste se museli bát, že něco ztratíte při kopírování a vkládání."
+
+#: post-content.php:68
+msgid "Embeds, like YouTube, Tweets, or other WordPress posts."
+msgstr "Vložené prvky, jako YouTube, Tweety, nebo jiné WordPress příspěvky."
+
+#: lib/demo.php:59
+msgid "Welcome to the Gutenberg Editor"
+msgstr "Vítejte v editoru Gutenberg"
+
+#: lib/class-wp-rest-menu-items-controller.php:862
+msgid "The title for the object."
+msgstr "Název objektu."
+
+#: lib/class-wp-rest-menu-items-controller.php:68
+#: lib/class-wp-rest-menu-items-controller.php:887
+msgid "Unique identifier for the object."
+msgstr "Jedinečný identifikátor objektu."
+
+#: lib/class-wp-theme-json-resolver.php:259 lib/block-patterns.php:50
+#: build/block-library/index.js:68 build/components/index.js:10
+msgid "Small"
+msgstr "Malé"
+
+#: build/block-library/blocks/archives.php:57
+msgid "Select Post"
+msgstr "Vybrat příspěvek"
+
+#: build/block-library/blocks/archives.php:54
+msgid "Select Week"
+msgstr "Vybrat týden"
+
+#: build/block-library/blocks/archives.php:51
+msgid "Select Day"
+msgstr "Vybrat den"
+
+#: build/block-library/blocks/archives.php:48
+msgid "Select Month"
+msgstr "Vybrat měsíc"
+
+#: build/block-library/blocks/archives.php:45
+msgid "Select Year"
+msgstr "Vybrat rok"
+
+#: build/block-library/blocks/archives.php:27
+msgid "Archives"
+msgstr "Archivy"
+
+#: build/block-library/blocks/latest-comments.php:141
+msgid "No comments to show."
+msgstr "Žádné komentáře."
+
+#. translators: 1: author name (inside <a> or <span> tag, based on if they have
+#. a URL), 2: post title related to this comment
+#: build/block-library/blocks/latest-comments.php:99
+msgid "%1$s on %2$s"
+msgstr "%1$s: %2$s"
+
+#: gutenberg.php:76
+msgid "https://wordpress.org/support/plugin/gutenberg/"
+msgstr "https://wordpress.org/support/plugin/gutenberg/"
+
+#: gutenberg.php:73 gutenberg.php:74
+msgid "Support"
+msgstr "Rozcestník podpory"
+
+#: lib/class-wp-theme-json-resolver.php:220 build/block-editor/index.js:1
+msgid "Cyan bluish gray"
+msgstr "Modrošedá"
+
+#: lib/class-wp-theme-json-resolver.php:262 lib/block-patterns.php:12
+#: lib/editor-settings.php:30 build/block-editor/index.js:1
+#: build/block-library/index.js:68 build/components/index.js:10
+msgid "Large"
+msgstr "Velká"
+
+#: lib/class-wp-theme-json-resolver.php:226 build/block-editor/index.js:1
+msgid "Light green cyan"
+msgstr "Světle zelená"
+
+#: lib/class-wp-theme-json-resolver.php:222 build/block-editor/index.js:1
+msgid "Pale pink"
+msgstr "Bledě růžová"
+
+#: lib/class-wp-theme-json-resolver.php:225 build/block-editor/index.js:1
+msgid "Luminous vivid amber"
+msgstr "Světle žlutá"
+
+#: lib/class-wp-theme-json-resolver.php:224 build/block-editor/index.js:1
+msgid "Luminous vivid orange"
+msgstr "Světle oranžová"
+
+#: lib/class-wp-theme-json-resolver.php:228 build/block-editor/index.js:1
+msgid "Pale cyan blue"
+msgstr "Bleděmodrá"
+
+#: lib/class-wp-theme-json-resolver.php:229 build/block-editor/index.js:1
+msgid "Vivid cyan blue"
+msgstr "Sytě modrá"
+
+#: lib/class-wp-theme-json-resolver.php:227 build/block-editor/index.js:1
+msgid "Vivid green cyan"
+msgstr "Sytě tyrkysová zelená"
+
+#: lib/class-wp-theme-json-resolver.php:223 build/block-editor/index.js:1
+msgid "Vivid red"
+msgstr "Sytě červená"
+
+#: gutenberg.php:112
+msgid "beta"
+msgstr "beta"
+
+#: lib/class-wp-rest-menu-items-controller.php:919
+msgid "The ID for the parent of the object."
+msgstr "ID nadřazeného objektu."
+
+#: lib/class-wp-rest-menu-items-controller.php:487
+msgid "Invalid term ID."
+msgstr "Neplatné ID položky."
+
+#: build/block-library/blocks/rss.php:31
+#: build/block-library/blocks/latest-comments.php:31
+#: build/block-library/blocks/latest-posts.php:102 build/editor/index.js:21
+#: build/editor/index.js:35 build/block-library/index.js:30
+#: build/block-library/index.js:48 build/edit-navigation/index.js:6
+#: build/edit-post/index.js:40 build/edit-site/index.js:30
+msgid "(no title)"
+msgstr "(bez názvu)"
+
+#: lib/full-site-editing/templates-utils.php:17 build/editor/index.js:5
+msgid "Status"
+msgstr "Stav"
+
+#: gutenberg.php:49 gutenberg.php:50 lib/experiments-page.php:56
+#: build/edit-widgets/index.js:24 build/blocks/index.js:1
+#: build/core-data/index.js:1
+msgid "Widgets"
+msgstr "Widgety"
+
+#. translators: ARIA label for the Block Settings Sidebar tab, not selected.
+#. translators: Text label for the Block Settings Sidebar tab.
+#. translators: Text label for the Template Settings Sidebar tab.
+#: lib/class-wp-widget-block.php:40 lib/navigation.php:91 lib/navigation.php:96
+#: build/edit-widgets/index.js:23 build/edit-post/index.js:37
+#: build/edit-post/index.js:38 build/edit-site/index.js:28
+#: build/edit-site/index.js:29 build/edit-site/index.js:30
+msgid "Block"
+msgstr "Blok"
+
+#: gutenberg.php:90
+msgid "Experiments"
+msgstr "Experimenty"
+
+#. Description of the plugin
+msgid "Printing since 1440. This is the development plugin for the new block editor in core."
+msgstr "Tisk od roku 1440. Jedná se o vývojový plugin pro nový editor bloků v jádře."
+
+#: gutenberg.php:186
+msgid "Gutenberg development mode requires files to be built. Run <code>npm install</code> to install dependencies, <code>npm run build</code> to build the files or <code>npm run dev</code> to build the files and watch for changes. Read the <a href=\"https://github.com/WordPress/gutenberg/blob/HEAD/docs/contributors/getting-started.md\">contributing</a> file for more information."
+msgstr "Gutenberg režim pro vývojáře vyžaduje sestavení souborů. Spusťte příkaz <code>npm install</code> pro instalaci závislostí, <code>npm run build</code> pro sestavení souborů, nebo <code>npm run dev</code> pro sestavení souborů a pro sledování změn. Více informací naleznete v dokumentu pro <a href=\"https://github.com/WordPress/gutenberg/blob/master/docs/contributors/getting-started.md\">přispívání</a> (anglicky)."
+
+#: lib/class-wp-rest-widgets-controller.php:756
+msgid "Unique identifier for the widget."
+msgstr "Unikátní identifikátor pro tento widget."
+
+#. translators: button label text should, if possible, be under 16 characters.
+#: lib/full-site-editing/templates-utils.php:15 build/editor/index.js:25
+#: build/components/index.js:5
+msgid "Slug"
+msgstr "Název v URL"
+
+#: gutenberg.php:80 gutenberg.php:81
+msgid "Documentation"
+msgstr "Manuál (anglicky)"
+
+#: build/block-library/blocks/categories.php:30
+msgid "Select Category"
+msgstr "Vybrat rubriku"
+
+#: lib/class-wp-rest-menu-items-controller.php:506
+msgid "Invalid post type."
+msgstr "Neplatný typ obsahu."
+
+#. translators: %s: Minimum required version
+#: gutenberg.php:173
+msgid "Gutenberg requires WordPress %s or later to function properly. Please upgrade WordPress before activating Gutenberg."
+msgstr "Pro správnou funkčnost Gutenbergu potřebujete alespoň WordPress %s. Před aktivací Gutenbergu proveďte aktualizaci WordPressu."
+
+#. Plugin URI of the plugin
+msgid "https://github.com/WordPress/gutenberg"
+msgstr "https://github.com/WordPress/gutenberg"
+
+#. Plugin Name of the plugin
+msgid "Gutenberg"
+msgstr "Gutenberg"
+
+#: gutenberg.php:41 gutenberg.php:42
+msgid "Demo"
+msgstr "Demo"
+
+#. Author of the plugin
+msgid "Gutenberg Team"
+msgstr "Tým Gutenberg"

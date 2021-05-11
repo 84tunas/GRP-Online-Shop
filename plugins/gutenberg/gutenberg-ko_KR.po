@@ -1,0 +1,1345 @@
+# Translation of Plugins - Gutenberg - Development (trunk) in Korean
+# This file is distributed under the same license as the Plugins - Gutenberg - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-03-12 01:08:20+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ko_KR\n"
+"Project-Id-Version: Plugins - Gutenberg - Development (trunk)\n"
+
+#: lib/class-wp-rest-pattern-directory-controller.php:279
+msgid "Limit results to those matching a category ID."
+msgstr "카테고리 ID와 일치하는 결과로 제한"
+
+#: lib/class-wp-rest-pattern-directory-controller.php:251
+msgid "The preferred width of the viewport when previewing a pattern, in pixels."
+msgstr "픽셀 단위의 패턴 미리보기시 뷰포트의 추천 너비"
+
+#: lib/class-wp-rest-pattern-directory-controller.php:244
+msgid "A description of the pattern."
+msgstr "패턴 설명"
+
+#: lib/class-wp-rest-pattern-directory-controller.php:236
+msgid "The pattern's keyword slugs."
+msgstr "패턴의 키워드 슬러그"
+
+#: lib/class-wp-rest-pattern-directory-controller.php:228
+msgid "The pattern's category slugs."
+msgstr "패턴의 카테고리 슬러그"
+
+#: lib/class-wp-rest-pattern-directory-controller.php:221
+msgid "The pattern content."
+msgstr "패턴 내용."
+
+#: lib/class-wp-rest-pattern-directory-controller.php:207
+msgid "The pattern ID."
+msgstr "패턴 아이디"
+
+#: lib/class-wp-rest-pattern-directory-controller.php:129
+msgid "https://wordpress.org/support/forums/"
+msgstr "https://wordpress.org/support/forums/"
+
+#. translators: %s: Support forums URL.
+#: lib/class-wp-rest-pattern-directory-controller.php:128
+msgid "An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href=\"%s\">support forums</a>."
+msgstr "예상치 못한 오류가 발생했습니다. WordPress.org나 서버의 서버 설정 오류일 수 있습니다. 오류가 계속 발생되면  <a href=\"%s\">지원 포럼</a> 을 이용하시기 바랍니다."
+
+#: lib/class-wp-rest-pattern-directory-controller.php:72
+msgid "Sorry, you are not allowed to browse the local block pattern directory."
+msgstr "죄송합니다. 로컬 블록 패턴 디렉터리를 탐색할 권한이 없습니다."
+
+#: build/block-library/blocks/query-pagination-previous.php:22
+msgid "&laquo; Previous Page"
+msgstr "&laquo; 이전 페이지"
+
+#: build/block-library/blocks/query-pagination-next.php:23
+msgid "Next Page &raquo;"
+msgstr "다음 페이지 &raquo;"
+
+#. translators: Visible only in the front end, this warning takes the place of
+#. a faulty block.
+#: build/block-library/blocks/block.php:46
+#: build/block-library/blocks/template-part.php:90
+msgid "[block rendering halted]"
+msgstr "[블록 렌더링 정지]"
+
+#: lib/full-site-editing/block-templates.php:224
+msgid "No theme is defined for this template."
+msgstr "이 템플릿에 대한 테마가 없습니다."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:548
+msgid "Post ID."
+msgstr "글 ID입니다."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:542
+msgid "Status of template."
+msgstr "템플릿의 상태입니다."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:536
+msgid "Description of template."
+msgstr "템플릿의 설명입니다."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:530
+msgid "Title of template."
+msgstr "템플릿의 제목입니다."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:524
+msgid "Content of template."
+msgstr "템플릿의 콘텐츠입니다."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:518
+msgid "Whether the template is customized."
+msgstr "템플릿을 사용자 정의했는지 여부입니다."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:513
+msgid "Theme identifier for the template."
+msgstr "템플릿에 대한 테마 식별자입니다."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:505
+msgid "Unique slug identifying the template."
+msgstr "템플릿을 식별하는 고유한 슬러그입니다."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:499
+msgid "ID of template."
+msgstr "템플릿의 ID입니다."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:477
+msgid "Limit to the specified post id."
+msgstr "특정 글 id로 제한합니다."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:312
+msgid "The template has already been deleted."
+msgstr "템플릿을 이미 지웠습니다."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:287
+msgid "Templates based on theme files can't be removed."
+msgstr "테마 파일에 기반한 템플릿을 제거할 수 없습니다."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:174
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:199
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:250
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:284
+msgid "No templates exist with that id."
+msgstr "그 id의 템플릿이 존재하지 않습니다."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:109
+msgid "Sorry, you are not allowed to access the templates on this site."
+msgstr "죄송합니다. 이 사이트의 템플릿에 접근하도록 허용하지 않았습니다."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:70
+msgid "The id of a template"
+msgstr "템플릿의 id"
+
+#: lib/client-assets.php:101 build/i18n/index.js:1
+msgctxt "text direction"
+msgid "ltr"
+msgstr "왼쪽에서 오른쪽으로 쓰기"
+
+#: lib/full-site-editing/default-template-types.php:29
+msgctxt "Template name"
+msgid "Singular"
+msgstr "단수"
+
+#: lib/full-site-editing/full-site-editing.php:83
+msgid "Edit site"
+msgstr "사이트 편집하기"
+
+#: lib/full-site-editing/templates.php:98
+msgid "Themes"
+msgstr "테마"
+
+#. translators: %s: Number of auto-draft posts.
+#: lib/full-site-editing/templates-utils.php:91
+msgctxt "Post status"
+msgid "Auto-Draft <span class=\"count\">(%s)</span>"
+msgid_plural "Auto-Drafts <span class=\"count\">(%s)</span>"
+msgstr[0] "자동-임시글 <span class=\"count\">(%s)</span>"
+
+#: lib/full-site-editing/templates-utils.php:47
+msgctxt "Post status"
+msgid "Auto-Draft"
+msgstr "자동-임시글"
+
+#: lib/full-site-editing/default-template-types.php:81
+msgctxt "Template name"
+msgid "404"
+msgstr "404"
+
+#: lib/full-site-editing/default-template-types.php:77
+msgid "Privacy Policy"
+msgstr "개인정보 보호정책"
+
+#: lib/full-site-editing/default-template-types.php:41
+msgctxt "Template name"
+msgid "Page"
+msgstr "패이지"
+
+#: lib/full-site-editing/default-template-types.php:37
+msgctxt "Template name"
+msgid "Post"
+msgstr "글"
+
+#: lib/full-site-editing/default-template-types.php:21
+msgctxt "Template name"
+msgid "Home"
+msgstr "홈"
+
+#: lib/full-site-editing/full-site-editing.php:26
+msgid "You're using an experimental Full Site Editing theme. Full Site Editing is an experimental feature and potential API changes are to be expected!"
+msgstr "실험용 전체 사이트 편집 테마를 사용하고 있습니다. 전체 사이트 편집은 실험 기능이며 잠재적으로 API를 변경할 수 있습니다!"
+
+#. translators: %s: "beta" label.
+#: gutenberg.php:111
+msgid "Site Editor %s"
+msgstr "사이트 편집기 %s"
+
+#: lib/full-site-editing/default-template-types.php:17
+msgctxt "Template name"
+msgid "Index"
+msgstr "색인"
+
+#: lib/full-site-editing/default-template-types.php:33
+msgctxt "Template name"
+msgid "Single"
+msgstr "단일"
+
+#: lib/full-site-editing/default-template-types.php:45
+msgctxt "Template name"
+msgid "Archive"
+msgstr "보관함"
+
+#: lib/full-site-editing/default-template-types.php:25
+msgctxt "Template name"
+msgid "Front Page"
+msgstr "프론트 패이지"
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:89
+#: lib/class-wp-rest-menu-items-controller.php:92
+msgid "Whether to bypass Trash and force deletion."
+msgstr "휴지통을 무시하고 강제로 지울 것인지 여부입니다."
+
+#: lib/class-wp-rest-menu-items-controller.php:58
+msgid "The password for the post if it is password protected."
+msgstr "글을 비밀번호로 보호하면 글에 대한 비밀번호입니다."
+
+#: lib/class-wp-rest-sidebars-controller.php:430
+msgid "HTML content to append to the sidebar title when displayed. Default is a closing h2 element."
+msgstr "사이드바 제목이 표시될 때 추가되는 HTML 콘텐츠입니다. 기본은 h2 요소 닫기입니다."
+
+#: lib/class-wp-rest-sidebars-controller.php:423
+msgid "HTML content to prepend to the sidebar title when displayed. Default is an opening h2 element."
+msgstr "사이드바 제목을 보일 때 앞에 추가하는 HTML 콘텐츠입니다. 기본은 h2 요소 열기입니다."
+
+#: lib/class-wp-rest-sidebars-controller.php:416
+msgid "HTML content to append to each widget's HTML output when assigned to this sidebar. Default is a closing list item element."
+msgstr "각 위젯의 HTML 출력을 이 사이드바에 지정할 때 추가하는 HTML 콘텐츠입니다. 기본은 목록 항목 요소 닫기입니다."
+
+#: lib/class-wp-rest-sidebars-controller.php:409
+msgid "HTML content to prepend to each widget's HTML output when assigned to this sidebar. Default is an opening list item element."
+msgstr "각 위젯의 HTML 출력을 이 사이드바에 지정할 때 앞에 추가하는 HTML 콘텐츠입니다. 기본은 목록 항목 요소 열기입니다."
+
+#: lib/class-wp-rest-sidebars-controller.php:403
+msgid "Extra CSS class to assign to the sidebar in the Widgets interface."
+msgstr "위젯 인터패이스의 사이드바에 지정하는 추가 CSS 클래스입니다."
+
+#: lib/class-wp-rest-sidebars-controller.php:159
+msgid "No sidebar exists with that id."
+msgstr "해당 ID가 있는 사이드바가 없습니다."
+
+#: lib/class-wp-rest-batch-controller.php:216
+msgid "The handler for the route is invalid"
+msgstr "라우트의 처리자가 유효하지 않습니다"
+
+#: lib/class-wp-rest-batch-controller.php:143
+#: lib/class-wp-rest-batch-controller.php:249
+msgid "The requested route does not support batch requests."
+msgstr "요청한 경로에서는 요청 일괄 처리를 지원하지 않습니다."
+
+#: lib/class-wp-rest-batch-controller.php:89
+msgid "Could not parse the path."
+msgstr "경로를 구문 분석할 수 없습니다."
+
+#: lib/class-wp-rest-widgets-controller.php:766
+msgid "The sidebar the widget belongs to."
+msgstr "위젯이 속하는 사이드바입니다."
+
+#: lib/class-wp-rest-widgets-controller.php:732
+msgid "The sidebar to return widgets for."
+msgstr "해당하는 위젯을 보이는 사이드바입니다."
+
+#: lib/class-wp-rest-widgets-controller.php:501
+msgid "The requested widget is invalid."
+msgstr "요청한 위젯이 유효하지 않습니다."
+
+#: lib/class-wp-rest-widgets-controller.php:373
+msgid "No widget was found with that id."
+msgstr "해당 ID를 찾을 수 있는 위젯이 없습니다."
+
+#: lib/class-wp-rest-widget-types-controller.php:162
+#: lib/class-wp-rest-widgets-controller.php:346
+#: lib/class-wp-rest-sidebars-controller.php:228
+msgid "Sorry, you are not allowed to manage widgets on this site."
+msgstr "죄송합니다. 이 사이트에서 위젯을 관리하도록 허용하지 않았습니다."
+
+#: lib/class-wp-rest-widgets-controller.php:80
+msgid "Whether to force removal of the widget, or move it to the inactive sidebar."
+msgstr "위젯을 강제로 제거하거나 활성 해제 사이드바로 이동하세요."
+
+#: lib/class-wp-rest-widget-types-controller.php:379
+msgid "Customize selective refresh."
+msgstr "선택적 새로 고침을 사용자 정의합니다."
+
+#: lib/class-wp-rest-widget-types-controller.php:372
+msgid "Widget class name."
+msgstr "위젯 클래스 이름입니다."
+
+#: lib/class-wp-rest-widget-types-controller.php:365
+msgid "Option name."
+msgstr "옵션 이름입니다."
+
+#: lib/class-wp-rest-widget-types-controller.php:358
+msgid "Class name"
+msgstr "클래스 이름"
+
+#: lib/class-wp-rest-widget-types-controller.php:187
+msgid "Invalid widget type."
+msgstr "유효하지 않은 위젯 유형입니다."
+
+#: build/edit-widgets/blocks/legacy-widget.php:32
+msgid "Rendering legacy widget block using widgetId is unsupported."
+msgstr "위젯ID를 사용하는 레거시 위젯 블록 렌더링을 지원하지 않습니다."
+
+#: lib/class-wp-rest-menu-items-controller.php:980
+msgid "HTML content to display for this block menu item."
+msgstr "이 블록 메뉴 항목용으로 보일 HTML 콘텐츠입니다."
+
+#: lib/class-wp-rest-widgets-controller.php:799
+msgid "HTML representation of the widget admin form."
+msgstr "위젯 관리 양식의 HTML 표현입니다."
+
+#: lib/class-wp-rest-sidebars-controller.php:258
+msgid "Inactive widgets"
+msgstr "활성 해제 위젯"
+
+#: lib/class-wp-rest-widgets-controller.php:805
+msgid "Settings of the widget."
+msgstr "위젯의 설정입니다."
+
+#: lib/class-wp-rest-widgets-controller.php:793
+msgid "HTML representation of the widget."
+msgstr "위젯의 HTML 표현입니다."
+
+#: lib/class-wp-rest-widgets-controller.php:788
+msgid "Number of the widget."
+msgstr "위젯의 수입니다."
+
+#: lib/class-wp-rest-widget-types-controller.php:352
+#: lib/class-wp-rest-widgets-controller.php:783
+msgid "Description of the widget."
+msgstr "위젯의 설명입니다."
+
+#: lib/class-wp-rest-widgets-controller.php:778
+msgid "Name of the widget."
+msgstr "위젯의 이름입니다."
+
+#: lib/class-wp-rest-widgets-controller.php:773
+msgid "Class name of the widget implementation."
+msgstr "위젯 구현의 클래스 이름입니다."
+
+#: lib/class-wp-rest-widgets-controller.php:761
+msgid "Type of widget for the object."
+msgstr "개체에 대한 위젯의 유형입니다."
+
+#: lib/class-wp-rest-sidebars-controller.php:444
+msgid "Nested widgets."
+msgstr "중첩 위젯입니다."
+
+#: lib/class-wp-rest-sidebars-controller.php:437
+msgid "Status of sidebar."
+msgstr "사이드바의 상태입니다."
+
+#: lib/class-wp-rest-sidebars-controller.php:397
+msgid "Description of sidebar."
+msgstr "사이드바의 설명입니다."
+
+#: lib/class-wp-rest-sidebars-controller.php:391
+msgid "Unique name identifying the sidebar."
+msgstr "사이드바를 식별하는 고유한 이름입니다."
+
+#: lib/class-wp-rest-sidebars-controller.php:385
+msgid "ID of sidebar."
+msgstr "사이드바의 ID입니다."
+
+#: lib/class-wp-rest-sidebars-controller.php:81
+msgid "The id of a registered sidebar"
+msgstr "등록한 사이드바의 ID입니다"
+
+#: lib/class-wp-widget-block.php:33
+msgid "Gutenberg block."
+msgstr "구텐베르그 블록입니다."
+
+#: lib/full-site-editing/templates-utils.php:16 build/block-library/index.js:46
+msgid "Description"
+msgstr "설명"
+
+#: lib/full-site-editing/edit-site-page.php:204
+msgid "The ID of the page that should be displayed on the front page"
+msgstr "프론트 패이지에 보여야 하는 패이지의 ID입니다"
+
+#: lib/full-site-editing/edit-site-page.php:194
+msgid "What to show on the front page"
+msgstr "프론트 패이지에 보일 내용"
+
+#: lib/compat.php:184
+msgid "Filter reusable blocks list"
+msgstr "다시 사용할 수 있는 블록 목록 필터하기"
+
+#: lib/compat.php:183
+msgid "No reusable blocks found in Trash."
+msgstr "휴지통에서 다시 사용할 수 있는 블록을 찾을 수 없습니다."
+
+#: lib/compat.php:182
+msgid "No reusable blocks found."
+msgstr "다시 사용할 수 있는 블록을 찾을 수 없습니다."
+
+#: build/block-library/blocks/site-logo.php:95
+msgid "Site logo."
+msgstr "사이트 로고입니다."
+
+#: lib/class-wp-rest-menus-controller.php:589
+msgid "Whether to automatically add top level pages to this menu."
+msgstr "이 메뉴에 최상위 패이지를 자동으로 추가할지 여부입니다."
+
+#: lib/class-wp-rest-menus-controller.php:171
+msgid "Sorry, you are not allowed to set auto add pages."
+msgstr "죄송합니다. 자동 패이지 추가를 설정하도록 허용하지 않았습니다."
+
+#: lib/class-wp-rest-menu-items-controller.php:1000
+msgid "Version of the block format used in the HTML content."
+msgstr "HTML 콘텐츠에서 사용하는 블록 형식의 버전입니다."
+
+#: lib/class-wp-rest-menu-items-controller.php:994
+msgid "HTML content, transformed for display."
+msgstr "보이기 위해 변환한 HTML 콘텐츠입니다."
+
+#: lib/class-wp-rest-menu-items-controller.php:989
+msgid "HTML content, as it exists in the database."
+msgstr "대이터배이스에 존재하는 것과 같은 HTML 콘텐츠입니다."
+
+#: lib/class-wp-rest-menu-items-controller.php:523
+msgid "Content required if menu item of type block."
+msgstr "유형 블록의 메뉴 항목이면 콘텐츠가 필요합니다."
+
+#. translators: %s: the author.
+#. translators: byline. %s: current author.
+#: build/block-library/blocks/rss.php:60
+#: build/block-library/blocks/latest-posts.php:114
+#: build/block-library/index.js:50
+msgid "by %s"
+msgstr "%s이(가) 썼습니다"
+
+#: lib/class-wp-theme-json-resolver.php:221 build/block-editor/index.js:1
+msgid "White"
+msgstr "흰색"
+
+#: lib/class-wp-theme-json-resolver.php:219 build/block-editor/index.js:1
+#: build/block-editor/index.js:9
+msgid "Black"
+msgstr "검정"
+
+#. translators: accessibility text for the content landmark region.
+#: lib/navigation.php:338 build/edit-widgets/index.js:7
+#: build/edit-post/index.js:7 build/edit-site/index.js:7
+#: build/edit-site/index.js:30
+msgid "Content"
+msgstr "콘텐츠"
+
+#: lib/experiments-page.php:50
+msgid "Enable Navigation screen"
+msgstr "탐색 사용 화면"
+
+#: gutenberg.php:62 gutenberg.php:63
+msgid "Navigation (beta)"
+msgstr "탐색(베타)"
+
+#: lib/class-wp-rest-menu-items-controller.php:1105
+msgid "Sort collection by object attribute."
+msgstr "콜렉션을 객체 속성으로 정렬합니다."
+
+#: lib/class-wp-rest-menu-items-controller.php:1098
+msgid "Order sort attribute ascending or descending."
+msgstr "오름차순 또는 내림차순으로 정렬 속성의 순서를 정합니다."
+
+#: lib/class-wp-rest-menu-items-controller.php:1093
+msgid "Limit result set to posts with a specific menu_order value."
+msgstr "결과 모음을 특정 menu_order 값이 있는 글에 제한합니다."
+
+#. translators: %s: taxonomy name
+#: lib/class-wp-rest-menu-items-controller.php:1059
+msgid "The terms assigned to the object in the %s taxonomy."
+msgstr "%s 텍소노미에 있는 객체에 배정한 용어입니다."
+
+#: lib/class-wp-rest-menu-items-controller.php:1047
+msgid "Whether the menu item represents an object that no longer exists."
+msgstr "이제 존재하지 않는 개체를 메뉴 항목에서 나타내는지 여부입니다."
+
+#: lib/class-wp-rest-menu-items-controller.php:1033
+msgid "The XFN relationship expressed in the link of this menu item."
+msgstr "XFN 관계를 이 메뉴 항목의 링크에 표현했습니다."
+
+#: lib/class-wp-rest-menu-items-controller.php:1026
+msgid "The URL to which this menu item points."
+msgstr "이 메뉴 항목이 가리키는 URL입니다."
+
+#: lib/class-wp-rest-menu-items-controller.php:1019
+msgid "The singular label used to describe this type of menu item."
+msgstr "메뉴 항목의 이 유형 설명에 사용하는 단수형 래이블입니다."
+
+#: lib/class-wp-rest-menu-items-controller.php:1009
+msgid "The target attribute of the link element for this menu item."
+msgstr "이 메뉴 항목에 대한 링크 요소의 타겟 속성입니다."
+
+#: lib/class-wp-rest-menu-items-controller.php:972
+msgid "The DB ID of the original object this menu item represents, e . g . ID for posts and term_id for categories."
+msgstr "이 메뉴 항목에서 나타내는 원래 개체의 DB ID입니다. 예: 글의 경우 ID, 카테고리의 경우 term_id)."
+
+#: lib/class-wp-rest-menu-items-controller.php:966
+msgid "The type of object originally represented, such as \"category,\" \"post\", or \"attachment.\""
+msgstr "“카테고리”, “글” 또는 “첨부”와 같은 원래 나타낸 개체의 유형입니다."
+
+#: lib/class-wp-rest-menu-items-controller.php:959
+msgid "The DB ID of the nav_menu_item that is this item's menu parent, if any, otherwise 0."
+msgstr "이 항목의 메뉴 상위 항목인 nav_menu_item의 DB ID이며, 없으면 0입니다."
+
+#: lib/class-wp-rest-menu-items-controller.php:950
+msgid "The description of this menu item."
+msgstr "이 메뉴 항목의 설명입니다."
+
+#: lib/class-wp-rest-menu-items-controller.php:936
+msgid "Class names for the link element of this menu item."
+msgstr "이 메뉴 항목의 링크 요소용 클래스 이름입니다."
+
+#: lib/class-wp-rest-menu-items-controller.php:927
+msgid "Text for the title attribute of the link element for this menu item."
+msgstr "이 메뉴 항목용 링크 요소의 제목 속성의 문자입니다."
+
+#: lib/class-wp-rest-menu-items-controller.php:911
+msgid "A named status for the object."
+msgstr "객체에 대한 이름이 있는 상태입니다."
+
+#: lib/class-wp-rest-menu-items-controller.php:903
+msgid "The family of objects originally represented, such as \"post_type\" or \"taxonomy\"."
+msgstr "원래 나타낸 개체의 가족입니다(예: “post_type” 또는 “taxonomy”)."
+
+#: lib/class-wp-rest-menu-items-controller.php:896
+msgid "Name of type."
+msgstr "유형의 이름입니다."
+
+#: lib/class-wp-rest-menu-items-controller.php:878
+msgid "HTML title for the object, transformed for display."
+msgstr "보이기 위해 변환한 객체에 대한 HTML 제목입니다."
+
+#: lib/class-wp-rest-menu-items-controller.php:873
+msgid "Title for the object, as it exists in the database."
+msgstr "데이터베이스에 있는 것과 같은 객체에 대한 제목입니다."
+
+#: lib/class-wp-rest-menu-items-controller.php:834
+msgid "Get linked object."
+msgstr "연결한 개체를 가져옵니다."
+
+#: lib/class-wp-rest-menu-items-controller.php:606
+msgid "Invalid URL."
+msgstr "유효하지 않은 URL입니다."
+
+#: lib/class-wp-rest-menu-items-controller.php:564
+#: lib/class-wp-rest-menu-items-controller.php:567
+msgid "Invalid menu item parent."
+msgstr "유효하지 않은 메뉴 항목 상위 항목입니다."
+
+#: lib/class-wp-rest-menu-items-controller.php:556
+msgid "Invalid menu position."
+msgstr "유효하지 않은 메뉴 위치입니다."
+
+#: lib/class-wp-rest-menu-items-controller.php:531
+msgid "Invalid menu ID."
+msgstr "유효하지 않은 메뉴 ID입니다."
+
+#: lib/class-wp-rest-menu-items-controller.php:516
+msgid "URL required if menu item of type custom."
+msgstr "유형 사용자 정의의 메뉴 항목이면 URL이 필요합니다."
+
+#: lib/class-wp-rest-menu-items-controller.php:513
+msgid "Title required if menu item of type custom."
+msgstr "유형 사용자 정의의 메뉴 항목이면 제목이 필요합니다."
+
+#: lib/class-wp-rest-menu-items-controller.php:495
+msgid "Invalid post ID."
+msgstr "유효하지 않은 글 ID입니다."
+
+#: lib/class-wp-rest-menu-items-controller.php:348
+msgid "The post cannot be deleted."
+msgstr "글을 지울 수 없습니다."
+
+#. translators: %s: force=true
+#: lib/class-wp-rest-menu-items-controller.php:340
+msgid "Menu items do not support trashing. Set '%s' to delete."
+msgstr "메뉴 항목은 휴지통에 버릴 수 없습니다. 지울 ‘%s’을(를) 설정하세요."
+
+#: lib/class-wp-rest-menu-items-controller.php:174
+msgid "Cannot create existing post."
+msgstr "기존 글을 만들 수 없습니다."
+
+#: lib/class-wp-rest-menu-items-controller.php:160
+msgid "Sorry, you cannot view these menu items, unless you have access to permission edit them. "
+msgstr "죄송합니다. 이러한 메뉴 항목은 편집하는 접근을 가지고 있지 않으면 볼 수 없습니다. "
+
+#: lib/class-wp-rest-customizer-nonces.php:51
+#: lib/class-wp-rest-menu-items-controller.php:158
+msgid "Sorry, you are not allowed to edit posts in this post type."
+msgstr "죄송합니다. 이 글 유형의 글을 편집하도록 허용하지 않았습니다."
+
+#: lib/class-wp-rest-menu-items-controller.php:142
+msgid "Sorry, you cannot view this menu item, unless you have access to permission edit it. "
+msgstr "죄송합니다. 이 메뉴 항목은 편집하는 접근을 가지고 있지 않으면 볼 수 없습니다. "
+
+#: lib/class-wp-rest-menus-controller.php:580
+msgid "The locations assigned to the menu."
+msgstr "메뉴에 지정한 위치입니다."
+
+#: lib/class-wp-rest-menus-controller.php:552
+msgid "Menu location does not exist."
+msgstr "메뉴 위치가 존재하지 않습니다."
+
+#: lib/class-wp-rest-menus-controller.php:458
+msgid "The term cannot be deleted."
+msgstr "용어를 지울 수 없습니다."
+
+#. translators: %s: force=true
+#: lib/class-wp-rest-menus-controller.php:448
+msgid "Terms do not support trashing. Set '%s' to delete."
+msgstr "용어는 휴지통 기능을 지원하지 않습니다. 지우려면 '%s'을(를) 설정하세요."
+
+#: lib/class-wp-rest-menus-controller.php:268
+#: lib/class-wp-rest-menus-controller.php:377
+msgid "Parent term does not exist."
+msgstr "부모 용어가 존재하지 않습니다."
+
+#: lib/class-wp-rest-menus-controller.php:262
+#: lib/class-wp-rest-menus-controller.php:371
+msgid "Cannot set parent term, taxonomy is not hierarchical."
+msgstr "부모 용어를 설정할 수 없습니다. 택소노미가 계층 구조가 아닙니다."
+
+#: lib/class-wp-rest-menus-controller.php:139
+msgid "Sorry, you are not allowed to assign the provided locations."
+msgstr "죄송합니다. 제공한 위치를 지정하도록 허용하지 않았습니다."
+
+#: lib/class-wp-rest-menus-controller.php:60
+msgid "Sorry, you cannot view this menu, unless you have access to permission edit it. "
+msgstr "죄송합니다. 이 메뉴를 편집하는 접근을 가지고 있지 않으면 볼 수 없습니다. "
+
+#: lib/class-wp-rest-menus-controller.php:58
+msgid "Sorry, you are not allowed to edit this term."
+msgstr "죄송합니다. 이 용어를 편집하도록 허용하지 않았습니다."
+
+#: lib/class-wp-rest-menus-controller.php:40
+msgid "Sorry, you cannot view these menus, unless you have access to permission edit them. "
+msgstr "죄송합니다. 이러한 메뉴를 편집하는 접근을 가지고 있지 않으면 볼 수 없습니다. "
+
+#: lib/class-wp-rest-menus-controller.php:38
+msgid "Sorry, you are not allowed to edit terms in this taxonomy."
+msgstr "죄송합니다. 이 택소노미의 용어를 편집하도록 허용하지 않았습니다."
+
+#: lib/class-wp-rest-menu-locations-controller.php:206
+msgid "The ID of the assigned menu."
+msgstr "배정한 메뉴의 ID입니다."
+
+#: lib/class-wp-rest-menu-locations-controller.php:200
+msgid "The description of the menu location."
+msgstr "메뉴 위치의 설명입니다."
+
+#: lib/class-wp-rest-menu-locations-controller.php:194
+msgid "The name of the menu location."
+msgstr "메뉴 위치의 이름입니다."
+
+#: lib/class-wp-rest-menus-controller.php:146
+#: lib/class-wp-rest-menu-locations-controller.php:116
+#: lib/class-wp-rest-menu-locations-controller.php:132
+msgid "Invalid menu location."
+msgstr "유효하지 않은 메뉴 위치입니다."
+
+#: lib/class-wp-rest-menu-locations-controller.php:76
+#: lib/class-wp-rest-menu-locations-controller.php:113
+msgid "Sorry, you are not allowed to view menu locations."
+msgstr "죄송합니다. 메뉴 위치를 볼 수 없습니다."
+
+#: lib/class-wp-rest-menu-locations-controller.php:50
+msgid "An alphanumeric identifier for the menu location."
+msgstr "메뉴 위치에 대한 영숫자 식별자입니다."
+
+#: lib/class-wp-theme-json-resolver.php:440 build/edit-site/index.js:30
+msgid "Global Styles"
+msgstr "전체 스타일"
+
+#: lib/full-site-editing/template-loader.php:69
+msgid "Empty template."
+msgstr "빈 템플릿입니다."
+
+#: lib/full-site-editing/template-loader.php:77
+msgid "No matching template found."
+msgstr "일치하는 템플릿을 찾을 수 없습니다."
+
+#: lib/full-site-editing/templates-utils.php:18
+#: lib/full-site-editing/templates.php:99 build/edit-site/index.js:30
+msgid "Theme"
+msgstr "테마"
+
+#: lib/experiments-page.php:98
+msgid "The block editor includes experimental features that are useable while they're in development. Select the ones you'd like to enable. These features are likely to change, so avoid using them in production."
+msgstr "블록 편집기에는 개발 중인 동안에도 사용할 수 있는 실험적 기능이 포함되어 있습니다. 사용하려는 기능을 선택합니다. 이러한 기능은 변경될 수 있으니 상품화 중에는 사용하지 마세요."
+
+#: gutenberg.php:108
+msgid "Site Editor (beta)"
+msgstr "사이트 편집기(베타)"
+
+#: lib/class-wp-rest-widget-types-controller.php:82
+msgid "Current widget instance"
+msgstr "현재 위젯 인스턴스"
+
+#: lib/full-site-editing/template-parts.php:40
+msgid "Template parts to include in your templates."
+msgstr "템플릿에 포함할 템플릿 일부입니다."
+
+#: lib/full-site-editing/template-parts.php:35
+msgid "Template parts list"
+msgstr "템플릿 일부 목록"
+
+#: lib/full-site-editing/template-parts.php:34
+msgid "Template parts list navigation"
+msgstr "템플릿 일부 목록 탐색"
+
+#: lib/full-site-editing/template-parts.php:33
+msgid "Filter template parts list"
+msgstr "템플릿 일부 목록 필터하기"
+
+#: lib/full-site-editing/template-parts.php:32
+msgid "Uploaded to this template part"
+msgstr "이 템플릿 일부에 업로드했습니다"
+
+#: lib/full-site-editing/template-parts.php:31
+msgid "Insert into template part"
+msgstr "템플릿 일부에 삽입하기"
+
+#: lib/full-site-editing/template-parts.php:30
+msgid "Template part archives"
+msgstr "템플릿 일부 보관함"
+
+#: lib/full-site-editing/template-parts.php:29
+msgid "No template parts found in Trash."
+msgstr "휴지통에 템플릿 일부가 없습니다."
+
+#: lib/full-site-editing/template-parts.php:28
+msgid "No template parts found."
+msgstr "템플릿 일부를 찾을 수 없습니다."
+
+#: lib/full-site-editing/template-parts.php:27
+msgid "Parent Template Part:"
+msgstr "부모 템플릿 일부:"
+
+#: lib/full-site-editing/template-parts.php:26
+msgid "Search Template Parts"
+msgstr "템플릿 일부 검색하기"
+
+#: lib/full-site-editing/template-parts.php:25
+msgid "All Template Parts"
+msgstr "모든 템플릿 일부"
+
+#: lib/full-site-editing/template-parts.php:24
+msgid "View Template Part"
+msgstr "템플릿 일부 보기"
+
+#: lib/full-site-editing/template-parts.php:23
+msgid "Edit Template Part"
+msgstr "템플릿 일부 편집하기"
+
+#: lib/full-site-editing/template-parts.php:22
+msgid "New Template Part"
+msgstr "새 템플릿 일부"
+
+#: lib/full-site-editing/template-parts.php:21
+msgid "Add New Template Part"
+msgstr "새 템플릿 일부 추가하기"
+
+#: lib/full-site-editing/template-parts.php:20
+msgctxt "Template Part"
+msgid "Add New"
+msgstr "새로 추가하기"
+
+#: lib/full-site-editing/template-parts.php:19
+msgctxt "Admin Menu text"
+msgid "Template Parts"
+msgstr "템플릿 일부"
+
+#: lib/full-site-editing/template-parts.php:18 build/block-library/index.js:73
+msgid "Template Part"
+msgstr "템플릿 일부"
+
+#: lib/full-site-editing/template-parts.php:17 build/edit-site/index.js:30
+msgid "Template Parts"
+msgstr "템플릿 일부"
+
+#: lib/experiments-page.php:45 build/edit-navigation/index.js:6
+msgid "Navigation"
+msgstr "탐색"
+
+#: lib/full-site-editing/templates.php:54
+msgid "Templates list"
+msgstr "템플릿 목록"
+
+#: lib/full-site-editing/templates.php:53
+msgid "Templates list navigation"
+msgstr "템플릿 목록 탐색"
+
+#: lib/full-site-editing/templates.php:52
+msgid "Filter templates list"
+msgstr "템플릿 목록 필터하기"
+
+#: lib/full-site-editing/templates.php:51
+msgid "Uploaded to this template"
+msgstr "이 템플릿에 업로드했습니다"
+
+#: lib/full-site-editing/templates.php:50
+msgid "Insert into template"
+msgstr "템플릿에 삽입하기"
+
+#: lib/full-site-editing/templates.php:49
+msgid "Template archives"
+msgstr "템플릿 보관함"
+
+#: lib/full-site-editing/templates.php:48
+msgid "No templates found in Trash."
+msgstr "휴지통에서 템플릿을 찾을 수 없습니다."
+
+#: lib/full-site-editing/templates.php:47
+msgid "No templates found."
+msgstr "템플릿을 찾을 수 없습니다."
+
+#: lib/full-site-editing/templates.php:46
+msgid "Parent Template:"
+msgstr "부모 템플릿:"
+
+#: lib/full-site-editing/templates.php:45
+msgid "Search Templates"
+msgstr "템플릿 검색하기"
+
+#: lib/full-site-editing/templates.php:44
+msgid "All Templates"
+msgstr "모든 템플릿"
+
+#: lib/full-site-editing/templates.php:43
+msgid "View Template"
+msgstr "템플릿 보기"
+
+#: lib/full-site-editing/templates.php:42
+msgid "Edit Template"
+msgstr "템플릿 편집하기"
+
+#: lib/full-site-editing/templates.php:41
+msgid "New Template"
+msgstr "새 템플릿"
+
+#: lib/full-site-editing/templates.php:40
+msgid "Add New Template"
+msgstr "새 템플릿 추가하기"
+
+#: lib/full-site-editing/templates.php:39
+msgctxt "Template"
+msgid "Add New"
+msgstr "새로 추가하기"
+
+#: lib/full-site-editing/templates.php:38
+msgctxt "Admin Menu text"
+msgid "Templates"
+msgstr "템플릿"
+
+#. translators: ARIA label for the Template Settings Sidebar tab, not selected.
+#. translators: Text label for the Template Settings Sidebar tab.
+#: lib/full-site-editing/templates.php:37 build/edit-post/index.js:38
+#: build/edit-site/index.js:26 build/edit-site/index.js:28
+#: build/edit-site/index.js:29
+msgid "Template"
+msgstr "템플릿"
+
+#: lib/full-site-editing/template-loader.php:164
+msgid "No matching template found"
+msgstr "일치하는 템플릿을 찾을 수 없습니다"
+
+#: lib/class-wp-theme-json-resolver.php:250 build/block-editor/index.js:1
+msgid "Midnight"
+msgstr "한밤중"
+
+#: lib/class-wp-theme-json-resolver.php:249 build/block-editor/index.js:1
+msgid "Electric grass"
+msgstr "전기 잔디"
+
+#: lib/class-wp-theme-json-resolver.php:248 build/block-editor/index.js:1
+msgid "Pale ocean"
+msgstr "옅은 바다색"
+
+#: lib/class-wp-theme-json-resolver.php:247 build/block-editor/index.js:1
+msgid "Luminous dusk"
+msgstr "빛나는 황혼색"
+
+#: lib/class-wp-theme-json-resolver.php:246 build/block-editor/index.js:1
+msgid "Blush bordeaux"
+msgstr "붉으스름한 보르도"
+
+#: lib/class-wp-theme-json-resolver.php:245 build/block-editor/index.js:1
+msgid "Blush light purple"
+msgstr "붉으스름한 밝은 보라색"
+
+#: lib/class-wp-theme-json-resolver.php:244 build/block-editor/index.js:1
+msgid "Cool to warm spectrum"
+msgstr "차가움에서 따뜻함으로 스팩트럼"
+
+#: lib/class-wp-theme-json-resolver.php:243 build/block-editor/index.js:1
+msgid "Very light gray to cyan bluish gray"
+msgstr "매우 밝은 회색에서 청록 푸르스름한 회색으로"
+
+#: lib/class-wp-theme-json-resolver.php:242 build/block-editor/index.js:1
+msgid "Luminous vivid orange to vivid red"
+msgstr "야광의 선명한 주황색에서 선명한 빨간색으로"
+
+#: lib/class-wp-theme-json-resolver.php:241 build/block-editor/index.js:1
+msgid "Luminous vivid amber to luminous vivid orange"
+msgstr "빛나고 선명한 호박색에서 빛나고 선명한 주황색으로"
+
+#: lib/class-wp-theme-json-resolver.php:240 build/block-editor/index.js:1
+msgid "Light green cyan to vivid green cyan"
+msgstr "밝은 녹청록에서 선명한 녹청록색으로"
+
+#: lib/class-wp-theme-json-resolver.php:239 build/block-editor/index.js:1
+msgid "Vivid cyan blue to vivid purple"
+msgstr "선명한 청록 파란색에서 선명한 보라색으로"
+
+#: lib/full-site-editing/templates.php:59
+msgid "Templates to include in your theme."
+msgstr "테마에 포함할 템플릿입니다."
+
+#: lib/full-site-editing/templates.php:36 build/edit-site/index.js:30
+msgid "Templates"
+msgstr "템플릿"
+
+#: lib/class-wp-theme-json-resolver.php:230 build/block-editor/index.js:1
+msgid "Vivid purple"
+msgstr "강렬한 보라색"
+
+#: gutenberg.php:89
+msgid "Experiments Settings"
+msgstr "실험 설정"
+
+#: lib/experiments-page.php:19
+msgid "Experimental settings"
+msgstr "실험적 설정"
+
+#. translators: %s: taxonomy name
+#: build/block-library/blocks/tag-cloud.php:28
+msgid "Your site doesn&#8217;t have any %s, so there&#8217;s nothing to display here at the moment."
+msgstr "사이트가 어떤 %s도 가지고 있지 않기에, 지금 여기에 보여드릴 것이 없습니다."
+
+#: build/block-library/blocks/search.php:25
+#: build/block-library/blocks/search.php:26
+#: build/block-library/blocks/search.php:52 build/block-editor/index.js:42
+#: build/block-library/index.js:59
+msgid "Search"
+msgstr "검색하기"
+
+#: build/block-library/blocks/rss.php:23
+msgid "An error has occurred, which probably means the feed is down. Try again later."
+msgstr "오류가 발생했습니다, 아마도 피드가 다운된 것 같습니다. 잠시후에 다시 시도하세요."
+
+#: build/block-library/blocks/rss.php:19
+msgid "RSS Error:"
+msgstr "RSS 오류:"
+
+#: lib/editor-settings.php:28 build/block-editor/index.js:1
+msgid "Thumbnail"
+msgstr "썸네일"
+
+#: lib/editor-settings.php:31 build/block-editor/index.js:1
+msgid "Full Size"
+msgstr "전체 크기"
+
+#: lib/full-site-editing/default-template-types.php:69
+#: build/block-editor/index.js:66 build/blocks/index.js:1
+#: build/core-data/index.js:1
+msgid "Media"
+msgstr "미디어"
+
+#: lib/class-wp-theme-json-resolver.php:263 build/block-library/index.js:68
+msgid "Huge"
+msgstr "매우 큼"
+
+#: lib/class-wp-theme-json-resolver.php:261 lib/block-patterns.php:30
+#: lib/editor-settings.php:29 build/block-editor/index.js:1
+#: build/block-editor/index.js:9 build/components/index.js:10
+msgid "Medium"
+msgstr "중간"
+
+#: lib/class-wp-theme-json-resolver.php:260 build/block-library/index.js:68
+msgid "Normal"
+msgstr "보통"
+
+#: build/block-library/blocks/archives.php:97
+msgid "No archives to show."
+msgstr "보여줄 보관함 자료가 없습니다."
+
+#: post-content.php:41
+msgid "Beautiful landscape"
+msgstr "아름다운 풍경"
+
+#: post-content.php:185
+msgid "Thanks for testing Gutenberg!"
+msgstr "구텐베르그를 시험해 주어 감사합니다!"
+
+#: post-content.php:177
+msgid "Help build Gutenberg"
+msgstr "구텐베르그 구축 도움말"
+
+#. translators: %s: Gutenberg GitHub repository URL
+#: post-content.php:168
+msgid "If you want to learn more about how to build additional blocks, or if you are interested in helping with the project, head over to the <a href=\"%s\">GitHub repository</a>."
+msgstr "추가 블록을 구축하는 방법을 자세히 알아보려는 경우 또는 프로젝트 도움말에 관심이 있는 경우 <a href=\"%s\">깃허브 저장소</a>로 향하세요."
+
+#: post-content.php:159
+msgid "The WordPress community"
+msgstr "워드프레스 커뮤니티"
+
+#: post-content.php:159 build/block-library/index.js:8
+msgid "Code is Poetry"
+msgstr "코드는 시다"
+
+#: post-content.php:155
+msgid "You can build any block you like, static or dynamic, decorative or plain. Here&#8217;s a pullquote block:"
+msgstr "정적이든 동적이든, 화려하든 평범하든 관계없이 좋아하는 블록을 모두 구축할 수 있습니다. 다음은 요약 글 블록입니다:"
+
+#: post-content.php:145
+msgid "Any block can opt into these alignments. The embed block has them also, and is responsive out of the box:"
+msgstr "모든 블록에 이러한 정렬을 선택할 수 있습니다. 임베드 블록에도 이러한 기능이 있으며, 즉시 반응합니다:"
+
+#: post-content.php:141
+msgid "The above is a gallery with just two images. It&#8217;s an easier way to create visually appealing layouts, without having to deal with floats. You can also easily convert the gallery back to individual images again, by using the block switcher."
+msgstr "위는 이미지가 단 2개 있는 갤러리입니다. 래이아웃을 다루지 않고 시각적으로 매력적인 래이아웃을 만드는 더 쉬운 방법입니다. 블록 전환 도구를 사용하여 쉽게 갤러리를 개별 이미지로 다시 되돌릴 수도 있습니다."
+
+#: post-content.php:128
+msgid "Sure, the full-wide image can be pretty big. But sometimes the image is worth it."
+msgstr "물론, 전체 넓게 이미지는 꽤 클 수 있습니다. 그러나 때로는 이미지에 그만한 가치가 있습니다."
+
+#: post-content.php:124
+msgid "Accessibility is important &mdash; don&#8217;t forget image alt attribute"
+msgstr "접근성이 중요하니 이미지 대체 속성을 잊지 마세요"
+
+#: post-content.php:120
+msgid "If you combine the new <strong>wide</strong> and <strong>full-wide</strong> alignments with galleries, you can create a very media rich layout, very quickly:"
+msgstr "새 <strong>넓이</strong> 그리고 <strong>전체 넓이</strong> 정렬을 갤러리와 결합하면 미디어가 매우 풍부한 래이아웃을 아주 빠르게 만들 수 있습니다."
+
+#: post-content.php:116
+msgid "Media Rich"
+msgstr "리치 미디어"
+
+#: post-content.php:112
+msgid "You can change the amount of columns in your galleries by dragging a slider in the block inspector in the sidebar."
+msgstr "슬라이더를 사이드바의 블록 점검도구로 끌어서 갤러리의 컬럼 수를 변경할 수 있습니다."
+
+#: post-content.php:98
+msgid "Blocks can be anything you need. For instance, you may want to add a subdued quote as part of the composition of your text, or you may prefer to display a giant stylized one. All of these options are available in the inserter."
+msgstr "블록은 필요한 것일 수 있습니다. 예를 들면, 문자 구성의 일부로 부드러운 인용을 추가하는 것을 원할 수도 있고 거대한 스타일의 인용을 표시하는 것을 선호할 수도 있습니다. 이러한 옵션을 삽입 도구에서 모두 사용할 수 있습니다."
+
+#: post-content.php:94
+msgid "The information corresponding to the source of the quote is a separate text field, similar to captions under images, so the structure of the quote is protected even if you select, modify, or remove the source. It&#8217;s always easy to add it back."
+msgstr "인용 출처에 해당하는 정보가 이미지 아래 캡션과 비슷한 개별 문자 필드여서 출처를 선택, 수정 또는 제거하는 경우에도 인용 구조를 보호합니다. 항상 쉽게 다시 추가할 수 있습니다."
+
+#: post-content.php:89
+msgid "Matt Mullenweg, 2017"
+msgstr "맷 뮬렌웨그, 2017년"
+
+#: post-content.php:88
+msgid "The editor will endeavor to create a new page and post building experience that makes writing rich posts effortless, and has “blocks” to make it easy what today might take shortcodes, custom HTML, or “mystery meat” embed discovery."
+msgstr "편집기에서는 힘들이지 않고 풍부한 글을 쓸 수 있도록 새 패이지와 글 작성 환경 만들기를 시도합니다. 그리고 지금은 쇼트코드, 사용자 정의 HTML 또는 “정체불명의” 임베드 검색이 필요할 수도 있는 작업이 쉬워지는 “블록”이 편집기에 있습니다."
+
+#: post-content.php:83
+msgid "A huge benefit of blocks is that you can edit them in place and manipulate your content directly. Instead of having fields for editing things like the source of a quote, or the text of a button, you can directly change the content. Try editing the following quote:"
+msgstr "블록을 그 자리에서 편집하고 콘텐츠를 직접 조정할 수 있다는 것은 엄청난 혜택입니다. 인용 출처와 같은 것을 편집하는 항목 또는 버튼의 문자 없이 콘텐츠를 직접 변경할 수 있습니다. 다음 인용을 편집해 보세요."
+
+#: post-content.php:79
+msgid "Visual Editing"
+msgstr "비주얼 편집하기"
+
+#: post-content.php:70
+msgid "And <em>Lists</em> like this one of course :)"
+msgstr "그리고 이 목록과 같은 <em>목록</em>도 당연히 포함합니다 :)"
+
+#: post-content.php:69
+msgid "Layout blocks, like Buttons, Hero Images, Separators, etc."
+msgstr "버튼, 히어로 이미지, 분리자 등과 같은 래이아웃 블록입니다."
+
+#: post-content.php:68
+msgid "Embeds, like YouTube, Tweets, or other WordPress posts."
+msgstr "유튜브, 트윗 또는 워드프레스 글과 같은 임베드입니다."
+
+#: post-content.php:67
+msgid "Galleries"
+msgstr "갤러리"
+
+#: post-content.php:66
+msgid "Images &amp; Videos"
+msgstr "이미지 &amp; 비디오"
+
+#: post-content.php:65
+msgid "Text &amp; Headings"
+msgstr "본문 &amp; 헤딩요소"
+
+#: post-content.php:60
+msgid "Go give it a try, you may discover things WordPress can already add into your posts that you didn&#8217;t know about. Here&#8217;s a short list of what you can currently find there:"
+msgstr "사용해 보세요. 워드프레스에서는 이미 글에 추가할 수 있는 알지 못했던 것을 발견할 수 있습니다. 다음은 현재 찾을 수 있는 내용의 간단한 목록입니다:"
+
+#: post-content.php:56
+msgid "Imagine everything that WordPress can do is available to you quickly and in the same place on the interface. No need to figure out HTML tags, classes, or remember complicated shortcode syntax. That&#8217;s the spirit behind the inserter—the <code>(+)</code> button you&#8217;ll see around the editor—which allows you to browse all available content blocks and add them into your post. Plugins and themes are able to register their own, opening up all sort of possibilities for rich editing and publishing."
+msgstr "워드프레스에서 수행할 수 있는 모든 것을 인터패이스의 같은 곳에서 빠르게 제공한다는 것을 상상해 보세요. HTML 태그, 클래스를 이해하거나 복잡한 쇼트코드 구문을 기억할 필요가 없습니다. 이것이 바로 편집기 주변에 보여 사용 할 수 있는 모든 콘텐츠 블록을 찾아서 글에 추가할 수 있는 <code>(+)</code> 버튼인 삽입 도구 이면의 정신입니다. 플러그인과 테마를 자체적으로 등록할 수 있어 풍부한 편집과 발행에 대한 모든 종류의 가능성을 활짝 엽니다."
+
+#: post-content.php:52
+msgid "The <em>Inserter</em> Tool"
+msgstr "<em>삽입</em> 도구"
+
+#: post-content.php:48
+msgid "Try selecting and removing or editing the caption, now you don&#8217;t have to be careful about selecting the image or other text by mistake and ruining the presentation."
+msgstr "캡션을 선택하고 제거하거나 편집할 때 이제는 실수로 프레젠테이션을 망칠지 몰라서 이미지 또는 기타 문자를 신중하게 선택하지 않아도 됩니다."
+
+#: post-content.php:42
+msgid "If your theme supports it, you&#8217;ll see the \"wide\" button on the image toolbar. Give it a try."
+msgstr "“넓게” 버튼을 테마에서 지원하면 이미지 도구 모음에 보입니다. 사용해 보세요."
+
+#: post-content.php:36
+msgid "Handling images and media with the utmost care is a primary focus of the new editor. Hopefully, you&#8217;ll find aspects of adding captions or going full-width with your pictures much easier and robust than before."
+msgstr "지극히 신중하게 이미지와 미디어를 처리하는 것이 새 편집기의 기본 주목입니다. 캡션 추가의 화면 비율이 표시되며 이전보다 훨씬 쉽고 안정적으로 사진을 전체 폭으로 이동할 수 있습니다."
+
+#: post-content.php:32
+msgid "A Picture is Worth a Thousand Words"
+msgstr "천 마디 말보다 한 번 보는 게 더 낫다"
+
+#: post-content.php:28
+msgid "Headings are separate blocks as well, which helps with the outline and organization of your content."
+msgstr "헤딩요소도 콘텐츠 개요와 구성을 제공하는 개별 블록입니다."
+
+#: post-content.php:24
+msgid "... like this one, which is right aligned."
+msgstr "…자체 컨트롤이 있습니다."
+
+#: post-content.php:20
+msgid "What you are reading now is a <strong>text block</strong> the most basic block of all. The text block has its own controls to be moved freely around the post..."
+msgstr "지금 읽고 있는 내용은 모든 블록 중에서 가장 기본적인 블록인 <strong>문자 블록</strong>입니다. 문자 블록에는 오른쪽 정렬된 이 글과 같은 글 주변을 자유롭게 이동할 수 있는…"
+
+#: post-content.php:16
+msgid "The goal of this new editor is to make adding rich content to WordPress simple and enjoyable. This whole post is composed of <em>pieces of content</em>—somewhat similar to LEGO bricks—that you can move around and interact with. Move your cursor around and you&#8217;ll notice the different blocks light up with outlines and arrows. Press the arrows to reposition blocks quickly, without fearing about losing things in the process of copying and pasting."
+msgstr "이 편집기의 목표는 풍부한 콘텐츠를 간단하고 재미있게 워드프레스에 추가하는 것입니다. 이 전체 글을 원하는 대로 이동하고 상호 작용할 수 있는 <em>콘텐츠 조각</em>(레고 블록과 유사)으로 구성됩니다. 커서를 원하는 대로 이동하면 여러 가지 블록이 개요와 화살표와 함께 점등합니다. 복사와 붙여넣기 과정에서 내용이 잃을까 걱정하지 말고 화살표를 눌러 빠르게 위치를 변경하세요."
+
+#: post-content.php:11
+msgid "Of Mountains &amp; Printing Presses"
+msgstr "산중 &amp; 인쇄기"
+
+#: lib/demo.php:59
+msgid "Welcome to the Gutenberg Editor"
+msgstr "구텐베르그 편집기에 온 것을 환영합니다"
+
+#: lib/class-wp-rest-menu-items-controller.php:862
+msgid "The title for the object."
+msgstr "객체에 대한 제목입니다."
+
+#: lib/class-wp-rest-menu-items-controller.php:68
+#: lib/class-wp-rest-menu-items-controller.php:887
+msgid "Unique identifier for the object."
+msgstr "객체에 대한 고유한 식별자입니다."
+
+#: lib/class-wp-theme-json-resolver.php:259 lib/block-patterns.php:50
+#: build/block-library/index.js:68 build/components/index.js:10
+msgid "Small"
+msgstr "작음"
+
+#: gutenberg.php:76
+msgid "https://wordpress.org/support/plugin/gutenberg/"
+msgstr "https://wordpress.org/support/plugin/gutenberg"
+
+#: gutenberg.php:73 gutenberg.php:74
+msgid "Support"
+msgstr "지원"
+
+#: build/block-library/blocks/latest-comments.php:141
+msgid "No comments to show."
+msgstr "보여줄 댓글이 없습니다."
+
+#. translators: 1: author name (inside <a> or <span> tag, based on if they have
+#. a URL), 2: post title related to this comment
+#: build/block-library/blocks/latest-comments.php:99
+msgid "%1$s on %2$s"
+msgstr "%2$s의 %1$s"
+
+#: build/block-library/blocks/archives.php:57
+msgid "Select Post"
+msgstr "글 선택하기"
+
+#: build/block-library/blocks/archives.php:54
+msgid "Select Week"
+msgstr "주 선택하기"
+
+#: build/block-library/blocks/archives.php:51
+msgid "Select Day"
+msgstr "날 선택하기"
+
+#: build/block-library/blocks/archives.php:48
+msgid "Select Month"
+msgstr "월 선택하기"
+
+#: build/block-library/blocks/archives.php:45
+msgid "Select Year"
+msgstr "년도 선택"
+
+#: build/block-library/blocks/archives.php:27
+msgid "Archives"
+msgstr "보관함"
+
+#: lib/class-wp-theme-json-resolver.php:220 build/block-editor/index.js:1
+msgid "Cyan bluish gray"
+msgstr "청록 푸르스름한 회색"
+
+#: lib/class-wp-theme-json-resolver.php:229 build/block-editor/index.js:1
+msgid "Vivid cyan blue"
+msgstr "선명한 청록 파란색"
+
+#: lib/class-wp-theme-json-resolver.php:228 build/block-editor/index.js:1
+msgid "Pale cyan blue"
+msgstr "옅은 청록 파란색"
+
+#: lib/class-wp-theme-json-resolver.php:227 build/block-editor/index.js:1
+msgid "Vivid green cyan"
+msgstr "선명한 초록 청록색"
+
+#: lib/class-wp-theme-json-resolver.php:226 build/block-editor/index.js:1
+msgid "Light green cyan"
+msgstr "밝은 초록 청록색"
+
+#: lib/class-wp-theme-json-resolver.php:225 build/block-editor/index.js:1
+msgid "Luminous vivid amber"
+msgstr "빛나고 선명한 호박색"
+
+#: lib/class-wp-theme-json-resolver.php:224 build/block-editor/index.js:1
+msgid "Luminous vivid orange"
+msgstr "빛나고 선명한 주황색"
+
+#: lib/class-wp-theme-json-resolver.php:223 build/block-editor/index.js:1
+msgid "Vivid red"
+msgstr "선명한 빨간색"
+
+#: lib/class-wp-theme-json-resolver.php:222 build/block-editor/index.js:1
+msgid "Pale pink"
+msgstr "옅은 분홍색"
+
+#: lib/class-wp-theme-json-resolver.php:262 lib/block-patterns.php:12
+#: lib/editor-settings.php:30 build/block-editor/index.js:1
+#: build/block-library/index.js:68 build/components/index.js:10
+msgid "Large"
+msgstr "큼"
+
+#: lib/class-wp-rest-menu-items-controller.php:487
+msgid "Invalid term ID."
+msgstr "유효하지 않은 용어 ID입니다."
+
+#: lib/class-wp-rest-menu-items-controller.php:919
+msgid "The ID for the parent of the object."
+msgstr "객체의 부모에 대한 ID입니다."
+
+#: gutenberg.php:112
+msgid "beta"
+msgstr "베타"
+
+#: lib/full-site-editing/templates-utils.php:17 build/editor/index.js:5
+msgid "Status"
+msgstr "상태"
+
+#. translators: ARIA label for the Block Settings Sidebar tab, not selected.
+#. translators: Text label for the Block Settings Sidebar tab.
+#. translators: Text label for the Template Settings Sidebar tab.
+#: lib/class-wp-widget-block.php:40 lib/navigation.php:91 lib/navigation.php:96
+#: build/edit-widgets/index.js:23 build/edit-post/index.js:37
+#: build/edit-post/index.js:38 build/edit-site/index.js:28
+#: build/edit-site/index.js:29 build/edit-site/index.js:30
+msgid "Block"
+msgstr "블록"
+
+#: build/block-library/blocks/rss.php:31
+#: build/block-library/blocks/latest-comments.php:31
+#: build/block-library/blocks/latest-posts.php:102 build/editor/index.js:21
+#: build/editor/index.js:35 build/block-library/index.js:30
+#: build/block-library/index.js:48 build/edit-navigation/index.js:6
+#: build/edit-post/index.js:40 build/edit-site/index.js:30
+msgid "(no title)"
+msgstr "(제목이 없습니다)"
+
+#: gutenberg.php:90
+msgid "Experiments"
+msgstr "실험적"
+
+#: gutenberg.php:49 gutenberg.php:50 lib/experiments-page.php:56
+#: build/edit-widgets/index.js:24 build/blocks/index.js:1
+#: build/core-data/index.js:1
+msgid "Widgets"
+msgstr "위젯"
+
+#. Description of the plugin
+msgid "Printing since 1440. This is the development plugin for the new block editor in core."
+msgstr "1440년부터 인쇄가 있었습니다. 이것은 코어의 새로운 블록 편집기를 위한 개발 플러그인입니다."
+
+#: lib/class-wp-rest-widgets-controller.php:756
+msgid "Unique identifier for the widget."
+msgstr "위젯에 대한 고유한 식별자입니다."
+
+#. translators: button label text should, if possible, be under 16 characters.
+#: lib/full-site-editing/templates-utils.php:15 build/editor/index.js:25
+#: build/components/index.js:5
+msgid "Slug"
+msgstr "슬러그"
+
+#: gutenberg.php:80 gutenberg.php:81
+msgid "Documentation"
+msgstr "문서"
+
+#: build/block-library/blocks/categories.php:30
+msgid "Select Category"
+msgstr "카테고리 선택하기"
+
+#: lib/class-wp-rest-menu-items-controller.php:506
+msgid "Invalid post type."
+msgstr "유효하지 않은 글 유형입니다."
+
+#. translators: %s: Minimum required version
+#: gutenberg.php:173
+msgid "Gutenberg requires WordPress %s or later to function properly. Please upgrade WordPress before activating Gutenberg."
+msgstr "구텐베르그는 워드프레스 %s 이상 버전에서만 정상적으로 동작합니다. 구텐베르그를 활성화하기 전에 워드프레스를 업그레이드하기 바랍니다."
+
+#. Author of the plugin
+msgid "Gutenberg Team"
+msgstr "구텐베르그 팀"
+
+#. Plugin URI of the plugin
+msgid "https://github.com/WordPress/gutenberg"
+msgstr "https://github.com/WordPress/gutenberg"
+
+#. Plugin Name of the plugin
+msgid "Gutenberg"
+msgstr "구텐베르그"
+
+#: gutenberg.php:41 gutenberg.php:42
+msgid "Demo"
+msgstr "데모"

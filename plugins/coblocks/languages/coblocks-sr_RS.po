@@ -1,0 +1,196 @@
+# Translation of Plugins - Page Builder Gutenberg Blocks – CoBlocks - Stable (latest release) in Serbian
+# This file is distributed under the same license as the Plugins - Page Builder Gutenberg Blocks – CoBlocks - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-01-20 10:13:25+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: sr_RS\n"
+"Project-Id-Version: Plugins - Page Builder Gutenberg Blocks – CoBlocks - Stable (latest release)\n"
+
+#: src/extensions/layout-selector/index.php:25 dist/coblocks.js:58
+msgid "Contact"
+msgstr "Контакт"
+
+#: includes/class-coblocks-form.php:1036 dist/coblocks.js:58
+msgid "name"
+msgstr "име"
+
+#. translators: placeholder for email shortcode.
+#: includes/class-coblocks-form.php:51
+msgid "Form submission from [%1$s]"
+msgstr "Пријем образаца из [%1$s]"
+
+#: includes/class-coblocks-form.php:1048 dist/coblocks.js:58
+msgid "email"
+msgstr "е-пошта"
+
+#: includes/class-coblocks-form.php:382 dist/coblocks.js:58
+msgid "Text"
+msgstr "Текст"
+
+#: includes/class-coblocks-form.php:688 dist/coblocks.js:58
+msgid "Website"
+msgstr "Веб место"
+
+#: includes/class-coblocks-form.php:722 dist/coblocks.js:58
+msgid "Hidden"
+msgstr "Сакривено"
+
+#: class-coblocks.php:81 class-coblocks.php:93
+msgid "Something went wrong."
+msgstr "Нешто је кренуло по злу."
+
+#: includes/class-coblocks-form.php:557 includes/class-coblocks-form.php:606
+#: dist/coblocks.js:58
+msgid "Select"
+msgstr "Одабери"
+
+#: includes/class-coblocks-form.php:423 dist/coblocks.js:58
+msgid "Date"
+msgstr "Датум"
+
+#: includes/class-coblocks-form.php:454 dist/coblocks.js:58
+msgid "Phone"
+msgstr "Телефон"
+
+#: includes/class-coblocks-form.php:493 dist/coblocks.js:58
+msgid "Choose one"
+msgstr "Изабери једно"
+
+#: src/blocks/posts/index.php:171 src/blocks/post-carousel/index.php:184
+msgctxt "placeholder when a post has no title"
+msgid "(no title)"
+msgstr "(нема наслова)"
+
+#: src/blocks/posts/index.php:51 src/blocks/post-carousel/index.php:51
+msgid "An error has occurred, which probably means the feed is down. Try again later."
+msgstr "Дошло је до грешке пошто је довод вероватно недоступан. Покушајте касније."
+
+#. Author of the plugin
+msgid "GoDaddy"
+msgstr "GoDaddy"
+
+#. Author URI of the plugin
+msgid "https://www.godaddy.com"
+msgstr "https://www.godaddy.com"
+
+#: includes/class-coblocks-form.php:89
+msgid "Google reCaptcha site key for form spam protection"
+msgstr "Google reCaptcha кључ сајта ѕа заштиту од непожељних порука"
+
+#: includes/class-coblocks-form.php:101
+msgid "Google reCaptcha secret key for form spam protection"
+msgstr "Google reCaptcha тајни кључ ѕа заштиту од непожељних порука"
+
+#: includes/class-coblocks-form.php:229 includes/class-coblocks-form.php:321
+#: dist/coblocks.js:58
+msgid "Email"
+msgstr "Електронска пошта"
+
+#: includes/class-coblocks-form.php:258 dist/coblocks.js:58
+msgid "Name"
+msgstr "Пуно име"
+
+#: includes/class-coblocks-form.php:262 dist/coblocks.js:58
+msgid "First"
+msgstr "Име"
+
+#: includes/class-coblocks-form.php:263 dist/coblocks.js:58
+msgid "Last"
+msgstr "Презиме"
+
+#: includes/class-coblocks-form.php:351 dist/coblocks.js:58
+msgid "Message"
+msgstr "Порука"
+
+#: includes/class-coblocks-form.php:803 dist/coblocks.js:58
+msgid "Submit"
+msgstr "Пошаљи"
+
+#: includes/class-coblocks-form.php:63 dist/coblocks.js:58
+msgid "Your message was sent:"
+msgstr "Ваша порука је послата:"
+
+#: includes/class-coblocks-google-map-block.php:120
+msgid "Google Map API key for map rendering"
+msgstr "Google Map API кључ ѕа приказ мапе"
+
+#: src/blocks/share/index.php:152 dist/coblocks.js:58
+msgid "Share on Tumblr"
+msgstr "Поделите на Тамблеру"
+
+#: src/blocks/share/index.php:156 dist/coblocks.js:58
+msgid "Share on Google"
+msgstr "Поделите на Google"
+
+#: src/blocks/share/index.php:144
+msgid "Share on Linkedin"
+msgstr "Поделите на Linkedin"
+
+#: src/blocks/share/index.php:148 dist/coblocks.js:58
+msgid "Share via Email"
+msgstr "Поделите путем е-поште"
+
+#: src/blocks/share/index.php:140 dist/coblocks.js:58
+msgid "Share on Pinterest"
+msgstr "Поделите на Pinterest"
+
+#: src/blocks/share/index.php:136 dist/coblocks.js:58
+msgid "Share on Twitter"
+msgstr "Поделите на Twitter"
+
+#: src/blocks/share/index.php:160 dist/coblocks.js:58
+msgid "Share on Reddit"
+msgstr "Поделите на Reddit"
+
+#: src/blocks/social-profiles/index.php:68 dist/coblocks.js:58
+msgid "Facebook"
+msgstr "Фејсбук"
+
+#: src/blocks/social-profiles/index.php:72 dist/coblocks.js:58
+msgid "Twitter"
+msgstr "Twitter"
+
+#: src/blocks/social-profiles/index.php:76 dist/coblocks.js:58
+msgid "Instagram"
+msgstr "Instagram"
+
+#: src/blocks/social-profiles/index.php:80 dist/coblocks.js:58
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: src/blocks/social-profiles/index.php:84
+msgid "Linkedin"
+msgstr "Linkedin"
+
+#: src/blocks/social-profiles/index.php:89 dist/coblocks.js:58
+msgid "YouTube"
+msgstr "YouTube"
+
+#: src/blocks/social-profiles/index.php:93 dist/coblocks.js:58
+msgid "Yelp"
+msgstr "Yelp"
+
+#: src/blocks/social-profiles/index.php:97 dist/coblocks.js:58
+msgid "Houzz"
+msgstr "Houzz"
+
+#: includes/admin/class-coblocks-action-links.php:41
+msgid "Leave a Review"
+msgstr "Оставите рецензију"
+
+#: includes/admin/class-coblocks-action-links.php:41
+msgid "Review CoBlocks on WordPress.org"
+msgstr "Оставите рецензију за CoBlocks на WordPress.org"
+
+#: src/blocks/share/index.php:132 dist/coblocks.js:58
+msgid "Share on Facebook"
+msgstr "Подели на Фејсбуку"
+
+#. Description of the plugin
+msgid "CoBlocks is a suite of professional <strong>page building content blocks</strong> for the WordPress Gutenberg block editor. Our blocks are hyper-focused on empowering makers to build beautifully rich pages in WordPress."
+msgstr "Коблокс је колекција професионалних <strong>блокова садржаја ѕа прављење страница</strong> у уређивачу блокова Гутенберг. Наши блокови су јако фокусирани на охрабривање креатора да граде прелепе стране у Вордпресу."

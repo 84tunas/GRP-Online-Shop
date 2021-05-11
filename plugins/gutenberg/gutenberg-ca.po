@@ -1,0 +1,371 @@
+# Translation of Plugins - Gutenberg - Development (trunk) in Catalan
+# This file is distributed under the same license as the Plugins - Gutenberg - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-03-08 19:55:20+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ca\n"
+"Project-Id-Version: Plugins - Gutenberg - Development (trunk)\n"
+
+#: lib/editor-settings.php:31 build/block-editor/index.js:1
+msgid "Full Size"
+msgstr "Mida completa"
+
+#: lib/editor-settings.php:28 build/block-editor/index.js:1
+msgid "Thumbnail"
+msgstr "Miniatura"
+
+#: lib/full-site-editing/default-template-types.php:69
+#: build/block-editor/index.js:66 build/blocks/index.js:1
+#: build/core-data/index.js:1
+msgid "Media"
+msgstr "Multimèdia"
+
+#: lib/class-wp-theme-json-resolver.php:261 lib/block-patterns.php:30
+#: lib/editor-settings.php:29 build/block-editor/index.js:1
+#: build/block-editor/index.js:9 build/components/index.js:10
+msgid "Medium"
+msgstr "Mitjà"
+
+#: build/block-library/blocks/archives.php:97
+msgid "No archives to show."
+msgstr "No hi ha arxius per a mostrar."
+
+#: post-content.php:41
+msgid "Beautiful landscape"
+msgstr "Paisatge bonic"
+
+#: post-content.php:70
+msgid "And <em>Lists</em> like this one of course :)"
+msgstr "I <em>llistes</em> com aquesta, és clar :)"
+
+#: post-content.php:24
+msgid "... like this one, which is right aligned."
+msgstr "...com aquesta, que està alineada a la dreta."
+
+#: post-content.php:32
+msgid "A Picture is Worth a Thousand Words"
+msgstr "Una imatge val més que mil paraules"
+
+#: post-content.php:159 build/block-library/index.js:8
+msgid "Code is Poetry"
+msgstr "El codi es poesia"
+
+#: post-content.php:67
+msgid "Galleries"
+msgstr "Galeries"
+
+#: post-content.php:89
+msgid "Matt Mullenweg, 2017"
+msgstr "Matt Mullenweg, 2017"
+
+#: post-content.php:159
+msgid "The WordPress community"
+msgstr "La comunitat de WordPress"
+
+#: post-content.php:128
+msgid "Sure, the full-wide image can be pretty big. But sometimes the image is worth it."
+msgstr "La imatge en mida completa potser molt gran però, de vegades, la imatge val la pena.  "
+
+#. translators: %s: Gutenberg GitHub repository URL
+#: post-content.php:168
+msgid "If you want to learn more about how to build additional blocks, or if you are interested in helping with the project, head over to the <a href=\"%s\">GitHub repository</a>."
+msgstr "Si voleu aprendre més sobre com construir blocs addicionals o si esteu interessats en ajudar amb el projecte, adreceu-vos al <a href=\"%s\">repositori GitHub</a>."
+
+#: post-content.php:124
+msgid "Accessibility is important &mdash; don&#8217;t forget image alt attribute"
+msgstr "L'accessibilitat és important; no oblideu l'atribut alt de la imatge."
+
+#: post-content.php:68
+msgid "Embeds, like YouTube, Tweets, or other WordPress posts."
+msgstr "Elements incrustats, com YouTube, tuits, o altres entrades del WordPress."
+
+#: post-content.php:177
+msgid "Help build Gutenberg"
+msgstr "Ajudeu a construir el Gutenberg"
+
+#: post-content.php:66
+msgid "Images &amp; Videos"
+msgstr "Imatges i videos"
+
+#: post-content.php:69
+msgid "Layout blocks, like Buttons, Hero Images, Separators, etc."
+msgstr "Plantilla de blocs, botons de m'agrada, imatges de capçalera, separadors, etc."
+
+#: post-content.php:116
+msgid "Media Rich"
+msgstr "Ric en mèdia"
+
+#: post-content.php:145
+msgid "Any block can opt into these alignments. The embed block has them also, and is responsive out of the box:"
+msgstr "Qualsevol bloc pot fer ús d'aquestes alineacions. El bloc incrustat també les té i és totalment responsiu:"
+
+#: post-content.php:65
+msgid "Text &amp; Headings"
+msgstr "Text i encapçalaments"
+
+#: post-content.php:185
+msgid "Thanks for testing Gutenberg!"
+msgstr "Gràcies per provar el Gutenberg!"
+
+#: post-content.php:48
+msgid "Try selecting and removing or editing the caption, now you don&#8217;t have to be careful about selecting the image or other text by mistake and ruining the presentation."
+msgstr "Proveu a seleccionar i eliminar o editar la llegenda, ara no hey d'anar en compte amb seleccionar una imatge o un altre text per error i arruinar la presentació."
+
+#: post-content.php:141
+msgid "The above is a gallery with just two images. It&#8217;s an easier way to create visually appealing layouts, without having to deal with floats. You can also easily convert the gallery back to individual images again, by using the block switcher."
+msgstr "Això és una galeria amb dues imatges. És una manera més fàcil de crear dissenys d'una manera visual sense haver de fer servir elements flotants. També podeu fàcilment tornar a convertir la galeria a imatges individuals una altra vegada usant l'intercanviador de blocs."
+
+#: post-content.php:79
+msgid "Visual Editing"
+msgstr "Edició visual"
+
+#: post-content.php:155
+msgid "You can build any block you like, static or dynamic, decorative or plain. Here&#8217;s a pullquote block:"
+msgstr "Podeu construir qualsevol tipus de bloc, estàtic o dinàmic, decoratiu o simple. Aquí hi ha un bloc de contraportada. "
+
+#: post-content.php:112
+msgid "You can change the amount of columns in your galleries by dragging a slider in the block inspector in the sidebar."
+msgstr "Podeu canviar la quantitat de columnes en la galeria arrossegant un desplaçador situat a l'inspector de blocs de la barra lateral."
+
+#: post-content.php:20
+msgid "What you are reading now is a <strong>text block</strong> the most basic block of all. The text block has its own controls to be moved freely around the post..."
+msgstr "El que esteu llegint és un <strong>bloc de text</strong>. Aquest és el bloc més bàsic de tots. El bloc de text té els seus propis controls per moure'l lliurement per l'entrada..."
+
+#: post-content.php:52
+msgid "The <em>Inserter</em> Tool"
+msgstr "L'eina d'<em>inserció</em>"
+
+#: post-content.php:42
+msgid "If your theme supports it, you&#8217;ll see the \"wide\" button on the image toolbar. Give it a try."
+msgstr "SI el tema és compatible, veureu el botó «ample» a la barra d'eines de la imatge. Proveu-ho!"
+
+#: post-content.php:120
+msgid "If you combine the new <strong>wide</strong> and <strong>full-wide</strong> alignments with galleries, you can create a very media rich layout, very quickly:"
+msgstr "Si combineu els nous alineaments <strong>ample</strong> i <strong>amplada completa</strong> amb les galeries, podeu crear una disposició mèdia molt rica, molt ràpidament:"
+
+#: post-content.php:98
+msgid "Blocks can be anything you need. For instance, you may want to add a subdued quote as part of the composition of your text, or you may prefer to display a giant stylized one. All of these options are available in the inserter."
+msgstr "Els blocs poden ser qualsevol cosa que necessiteu. Per exemple, podeu afegir una citació subtil com a part de la composicio del text, o potser preferiu mostrar-ne una gran i estilitzada. Totes aquestes opcions estan disponibles a l'eina d'inserció."
+
+#: post-content.php:94
+msgid "The information corresponding to the source of the quote is a separate text field, similar to captions under images, so the structure of the quote is protected even if you select, modify, or remove the source. It&#8217;s always easy to add it back."
+msgstr "La informació corresponent a la font de la citació és un camp de text diferent, semblant a les llegendes baix de les imatges, de manera que l'estructura de la citació està protegida fins i tot si seleccioneu, modifiqueu o elimineu la font. Sempre és fàcil tornar-la a afegir."
+
+#: post-content.php:88
+msgid "The editor will endeavor to create a new page and post building experience that makes writing rich posts effortless, and has “blocks” to make it easy what today might take shortcodes, custom HTML, or “mystery meat” embed discovery."
+msgstr "L'editor us guiarà a crear una nova experiència de creació de pàgines i entrades, que fa l'escriptura d'entrades riques sense esforç, i té «blocs» per a fer més fàcil el que avuí es fa mitjançat codis de substitució, HTML personalitzat o \"misteriosos\" descobriments d'elements incrustats."
+
+#: post-content.php:83
+msgid "A huge benefit of blocks is that you can edit them in place and manipulate your content directly. Instead of having fields for editing things like the source of a quote, or the text of a button, you can directly change the content. Try editing the following quote:"
+msgstr "Un benefici molt gran dels blocs és que podeu editar-los en lloc i manipular el contingut directament. Enlloc de tindre camps per a editar coses com el codi d'una citació o el text d'un botó, podeu canviar el continngut directament. Proveu a editar la citació següent:"
+
+#: post-content.php:60
+msgid "Go give it a try, you may discover things WordPress can already add into your posts that you didn&#8217;t know about. Here&#8217;s a short list of what you can currently find there:"
+msgstr "Proveu-lo, podeu descubrir coses que no sabíeu que el WordPress ja pot afegir a les vostres entrades. Aquí teniu una llista de què podeu trobar a hores d'ara:"
+
+#: post-content.php:28
+msgid "Headings are separate blocks as well, which helps with the outline and organization of your content."
+msgstr "Les capçaleres també són blocs separats, que us ajuda a esquematitzar i organitzar el contingut."
+
+#: post-content.php:11
+msgid "Of Mountains &amp; Printing Presses"
+msgstr "de muntanyes i impremtes"
+
+#: post-content.php:56
+msgid "Imagine everything that WordPress can do is available to you quickly and in the same place on the interface. No need to figure out HTML tags, classes, or remember complicated shortcode syntax. That&#8217;s the spirit behind the inserter—the <code>(+)</code> button you&#8217;ll see around the editor—which allows you to browse all available content blocks and add them into your post. Plugins and themes are able to register their own, opening up all sort of possibilities for rich editing and publishing."
+msgstr "Imagine-vos que tot el que pot fer el WordPress està disponible ràpidament des del mateix lloc a la interfície. Sense necessitat d'encertar etiquetes HTML, classes, o recordar l'estranya sintaxi dels codis de substitució. Eixe és l'esperit de l'eina d'inserció — el botó <code>(+)</code> que veureu a l'editor — que us permetrà navegar per tots els blocs de contingut disponible i afegir-los a la vostra entrada. Extensions i temes poden registrar-ne de nous, obrint tot un ventall de possibilitats per a l'edició rica i la publicació."
+
+#: post-content.php:36
+msgid "Handling images and media with the utmost care is a primary focus of the new editor. Hopefully, you&#8217;ll find aspects of adding captions or going full-width with your pictures much easier and robust than before."
+msgstr "La gestió d'imatges i mèdia amb la màxima cura és una de les prioritats del nou editor. Trobareu formes d'afegir llegendes o posar imatges a pantalla completa molt més fàcils i robustes que abans."
+
+#: post-content.php:16
+msgid "The goal of this new editor is to make adding rich content to WordPress simple and enjoyable. This whole post is composed of <em>pieces of content</em>—somewhat similar to LEGO bricks—that you can move around and interact with. Move your cursor around and you&#8217;ll notice the different blocks light up with outlines and arrows. Press the arrows to reposition blocks quickly, without fearing about losing things in the process of copying and pasting."
+msgstr "L'objectiu de l'editor nou és fer l'addició de contingut ric al WordPress simple i entretingut. Aquesta entrada està tota escrita amb <em>peces de contingut</em> — una cosa semblant a peces de LEGO — amb què podeu moure i interactuar. Moveu el cursos per la pantalla i veureu com diferents blocs s'iluminen amb vores i fletxes. Premeu les fletxes per a reposicionar ràpidament els blocs, sense por a perdre res en el procés de copiar i enganxar."
+
+#: lib/demo.php:59
+msgid "Welcome to the Gutenberg Editor"
+msgstr "Benvingut a l'editor Gutenberg"
+
+#: lib/class-wp-rest-menu-items-controller.php:862
+msgid "The title for the object."
+msgstr "El títol del objecte."
+
+#: lib/class-wp-rest-menu-items-controller.php:68
+#: lib/class-wp-rest-menu-items-controller.php:887
+msgid "Unique identifier for the object."
+msgstr "Identificador únic per a l'objecte."
+
+#: lib/class-wp-theme-json-resolver.php:259 lib/block-patterns.php:50
+#: build/block-library/index.js:68 build/components/index.js:10
+msgid "Small"
+msgstr "Petit"
+
+#: build/block-library/blocks/archives.php:27
+msgid "Archives"
+msgstr "Arxius"
+
+#: build/block-library/blocks/latest-comments.php:141
+msgid "No comments to show."
+msgstr "No s'han trobat comentaris."
+
+#: build/block-library/blocks/archives.php:51
+msgid "Select Day"
+msgstr "Selecciona el dia"
+
+#: build/block-library/blocks/archives.php:48
+msgid "Select Month"
+msgstr "Selecciona el mes"
+
+#: build/block-library/blocks/archives.php:57
+msgid "Select Post"
+msgstr "Selecciona un post"
+
+#: build/block-library/blocks/archives.php:45
+msgid "Select Year"
+msgstr "Selecciona l'any"
+
+#: build/block-library/blocks/archives.php:54
+msgid "Select Week"
+msgstr "Selecciona la setmana"
+
+#: gutenberg.php:73 gutenberg.php:74
+msgid "Support"
+msgstr "Suport"
+
+#. translators: 1: author name (inside <a> or <span> tag, based on if they have
+#. a URL), 2: post title related to this comment
+#: build/block-library/blocks/latest-comments.php:99
+msgid "%1$s on %2$s"
+msgstr "%1$s a %2$s"
+
+#: lib/class-wp-theme-json-resolver.php:262 lib/block-patterns.php:12
+#: lib/editor-settings.php:30 build/block-editor/index.js:1
+#: build/block-library/index.js:68 build/components/index.js:10
+msgid "Large"
+msgstr "Gran"
+
+#: lib/class-wp-theme-json-resolver.php:229 build/block-editor/index.js:1
+msgid "Vivid cyan blue"
+msgstr "Blau cian viu"
+
+#: lib/class-wp-theme-json-resolver.php:227 build/block-editor/index.js:1
+msgid "Vivid green cyan"
+msgstr "Verd cian viu"
+
+#: lib/class-wp-theme-json-resolver.php:223 build/block-editor/index.js:1
+msgid "Vivid red"
+msgstr "Vermell viu"
+
+#: lib/class-wp-theme-json-resolver.php:220 build/block-editor/index.js:1
+msgid "Cyan bluish gray"
+msgstr "Gris blavós"
+
+#: lib/class-wp-theme-json-resolver.php:226 build/block-editor/index.js:1
+msgid "Light green cyan"
+msgstr "Turquesa verdós clar"
+
+#: lib/class-wp-theme-json-resolver.php:225 build/block-editor/index.js:1
+msgid "Luminous vivid amber"
+msgstr "Àmbar viu i lluminós"
+
+#: lib/class-wp-theme-json-resolver.php:224 build/block-editor/index.js:1
+msgid "Luminous vivid orange"
+msgstr "Taronja viu i lluminós"
+
+#: lib/class-wp-theme-json-resolver.php:228 build/block-editor/index.js:1
+msgid "Pale cyan blue"
+msgstr "Blau cel pàl·lid"
+
+#: lib/class-wp-theme-json-resolver.php:222 build/block-editor/index.js:1
+msgid "Pale pink"
+msgstr "Rosa pàl·lid"
+
+#: lib/class-wp-rest-menu-items-controller.php:919
+msgid "The ID for the parent of the object."
+msgstr "L'identificador per al pare de l'objecte."
+
+#: gutenberg.php:112
+msgid "beta"
+msgstr "beta"
+
+#: build/block-library/blocks/rss.php:31
+#: build/block-library/blocks/latest-comments.php:31
+#: build/block-library/blocks/latest-posts.php:102 build/editor/index.js:21
+#: build/editor/index.js:35 build/block-library/index.js:30
+#: build/block-library/index.js:48 build/edit-navigation/index.js:6
+#: build/edit-post/index.js:40 build/edit-site/index.js:30
+msgid "(no title)"
+msgstr "(sense títol)"
+
+#: gutenberg.php:49 gutenberg.php:50 lib/experiments-page.php:56
+#: build/edit-widgets/index.js:24 build/blocks/index.js:1
+#: build/core-data/index.js:1
+msgid "Widgets"
+msgstr "Ginys"
+
+#: lib/full-site-editing/templates-utils.php:17 build/editor/index.js:5
+msgid "Status"
+msgstr "Estat"
+
+#. translators: ARIA label for the Block Settings Sidebar tab, not selected.
+#. translators: Text label for the Block Settings Sidebar tab.
+#. translators: Text label for the Template Settings Sidebar tab.
+#: lib/class-wp-widget-block.php:40 lib/navigation.php:91 lib/navigation.php:96
+#: build/edit-widgets/index.js:23 build/edit-post/index.js:37
+#: build/edit-post/index.js:38 build/edit-site/index.js:28
+#: build/edit-site/index.js:29 build/edit-site/index.js:30
+msgid "Block"
+msgstr "Bloc"
+
+#: gutenberg.php:90
+msgid "Experiments"
+msgstr "Experiments"
+
+#. Description of the plugin
+msgid "Printing since 1440. This is the development plugin for the new block editor in core."
+msgstr "S'està imprimint des de 1440. Aquesta és una extensió en desenvolupament per a l'editor de blocs nou del nucli."
+
+#. translators: button label text should, if possible, be under 16 characters.
+#: lib/full-site-editing/templates-utils.php:15 build/editor/index.js:25
+#: build/components/index.js:5
+msgid "Slug"
+msgstr "Resum"
+
+#: gutenberg.php:80 gutenberg.php:81
+msgid "Documentation"
+msgstr "Documentació (en anglès)"
+
+#: build/block-library/blocks/categories.php:30
+msgid "Select Category"
+msgstr "Selecciona la categoria"
+
+#: lib/class-wp-rest-menu-items-controller.php:506
+msgid "Invalid post type."
+msgstr "Tipus d'entrada invàlid."
+
+#. translators: %s: Minimum required version
+#: gutenberg.php:173
+msgid "Gutenberg requires WordPress %s or later to function properly. Please upgrade WordPress before activating Gutenberg."
+msgstr "El Gutenberg necessita el WordPress %s o superior per a funcionar correctament. Actualitzeu el WordPress abans d'activar el Gutenberg."
+
+#. Author of the plugin
+msgid "Gutenberg Team"
+msgstr "Equip del Gutenberg"
+
+#. Plugin URI of the plugin
+msgid "https://github.com/WordPress/gutenberg"
+msgstr "https://github.com/WordPress/gutenberg"
+
+#. Plugin Name of the plugin
+msgid "Gutenberg"
+msgstr "Gutenberg"
+
+#: gutenberg.php:41 gutenberg.php:42
+msgid "Demo"
+msgstr "Demo"

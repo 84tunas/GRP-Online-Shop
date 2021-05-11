@@ -1,0 +1,1461 @@
+# Translation of Plugins - Gutenberg - Development (trunk) in Upper Sorbian
+# This file is distributed under the same license as the Plugins - Gutenberg - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-03-17 23:39:45+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 100 == 1) ? 0 : ((n % 100 == 2) ? 1 : ((n % 100 == 3 || n % 100 == 4) ? 2 : 3));\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: hsb_DE\n"
+"Project-Id-Version: Plugins - Gutenberg - Development (trunk)\n"
+
+#: lib/full-site-editing/default-template-types.php:82
+msgid "Template shown when no content is found."
+msgstr "Předłoha so pokazuje, hdyž žadyn wobsah namakany njeje."
+
+#: lib/full-site-editing/default-template-types.php:74
+msgid "Template used to display search results."
+msgstr "Předłoha, kotraž so wužiwa, zo by pytanske wuslědki pokazowała."
+
+#: lib/full-site-editing/default-template-types.php:73
+msgctxt "Template name"
+msgid "Search"
+msgstr "Pytać"
+
+#: lib/full-site-editing/default-template-types.php:65
+msgctxt "Template name"
+msgid "Tag"
+msgstr "Značka"
+
+#: lib/full-site-editing/default-template-types.php:61
+msgctxt "Template name"
+msgid "Date"
+msgstr "Datum"
+
+#: lib/full-site-editing/default-template-types.php:57
+msgctxt "Template name"
+msgid "Taxonomy"
+msgstr "Taksonomija"
+
+#: lib/full-site-editing/default-template-types.php:53
+msgctxt "Template name"
+msgid "Category"
+msgstr "Kategorija"
+
+#: lib/full-site-editing/default-template-types.php:49
+msgctxt "Template name"
+msgid "Author"
+msgstr "Awtor"
+
+#: lib/full-site-editing/default-template-types.php:18
+msgid "The default template used when no other template is available. This is a required template in WordPress."
+msgstr "Standardna předłoha so wužiwa, hdyž druha předłoha k dispoziciji njeje. To je trěbna předłoha we WordPress."
+
+#: build/block-library/blocks/template-part.php:69
+msgid "Template Part not found."
+msgstr "Dźěl předłohi njeje so namakał."
+
+#: lib/compat.php:191
+msgid "Reusable block updated."
+msgstr "Zasowužiwajomny blok je so zaktualizował."
+
+#: lib/class-wp-rest-widget-types-controller.php:57
+#: lib/class-wp-rest-widget-types-controller.php:77
+msgid "The widget type id."
+msgstr "ID asistentoweho typa."
+
+#: lib/full-site-editing/template-parts.php:79
+msgid "Template Part Area"
+msgstr "Wobłuk dźěla předłohi"
+
+#: lib/full-site-editing/template-parts.php:78
+msgid "Template Part Areas"
+msgstr "Wobłuki dźělow předłohi"
+
+#: build/block-library/blocks/post-navigation-link.php:35
+msgctxt "label for previous post link"
+msgid "Previous"
+msgstr "Předchadny"
+
+#: build/block-library/blocks/post-navigation-link.php:35
+msgctxt "label for next post link"
+msgid "Next"
+msgstr "Přichodny"
+
+#: lib/experiments-page.php:61
+msgid "Enable Widgets screen in Customizer"
+msgstr "Wobrazowku asistentow w Customizer zmóžnić"
+
+#: lib/class-wp-rest-pattern-directory-controller.php:285
+msgid "Limit results to those matching a keyword ID."
+msgstr "Wuslědki na te wobmjezować, kotrež ID klučoweho słowa wotpowěduja."
+
+#: lib/class-wp-rest-url-details-controller.php:198
+msgid "Unable to retrieve body from response at this URL."
+msgstr "Njeje móžno, wobsah z wotmołwy na tutym URL wotwołać."
+
+#: lib/class-wp-rest-url-details-controller.php:192
+msgid "URL not found. Response returned a non-200 status code for this URL."
+msgstr "URL njeje so namakał. Wotmołwa je statusowy kod za tutón URL wróćił, kotryž 200 njeje."
+
+#: lib/class-wp-rest-url-details-controller.php:158
+msgid "Sorry, you are not allowed to process remote urls."
+msgstr "Bohužel njesměće zdalene URL předźěłać."
+
+#: lib/class-wp-rest-url-details-controller.php:96
+msgid "Invalid URL"
+msgstr "Njepłaćiwy URL"
+
+#: lib/class-wp-rest-url-details-controller.php:71
+msgid "The contents of the <title> tag from the URL."
+msgstr "Wobsah znački <title> z URL."
+
+#: lib/class-wp-rest-url-details-controller.php:40
+msgid "The URL to process."
+msgstr "URL, kotryž so ma předźěłać."
+
+#: lib/class-wp-rest-pattern-directory-controller.php:279
+msgid "Limit results to those matching a category ID."
+msgstr "Wuslědki na te wobmjezować, kotrež ID kategorije wotpowěduja."
+
+#: lib/class-wp-rest-pattern-directory-controller.php:251
+msgid "The preferred width of the viewport when previewing a pattern, in pixels."
+msgstr "Preferowana šěrokosć wokna za přehlad předłohi w pikselach."
+
+#: lib/class-wp-rest-pattern-directory-controller.php:244
+msgid "A description of the pattern."
+msgstr "Wopisanje předłohi."
+
+#: lib/class-wp-rest-pattern-directory-controller.php:236
+msgid "The pattern's keyword slugs."
+msgstr "Titulne formy klučoweho słowa předłohi."
+
+#: lib/class-wp-rest-pattern-directory-controller.php:228
+msgid "The pattern's category slugs."
+msgstr "Titulne formy kategorije předłohi."
+
+#: lib/class-wp-rest-pattern-directory-controller.php:221
+msgid "The pattern content."
+msgstr "Wobsah předłohi."
+
+#: lib/class-wp-rest-pattern-directory-controller.php:207
+msgid "The pattern ID."
+msgstr "ID předłohi"
+
+#: lib/class-wp-rest-pattern-directory-controller.php:129
+msgid "https://wordpress.org/support/forums/"
+msgstr "https://wordpress.org/support/forums/"
+
+#. translators: %s: Support forums URL.
+#: lib/class-wp-rest-pattern-directory-controller.php:128
+msgid "An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href=\"%s\">support forums</a>."
+msgstr "Njewočakowany zmylk je nastał. Něšto z WordPress.org abo konfiguraciju tutoho serwera njetrjechi. Jeli problemy dale maće, wopytajće prošu <a href=\"%s\">forumy pomoc</a>."
+
+#: lib/class-wp-rest-pattern-directory-controller.php:72
+msgid "Sorry, you are not allowed to browse the local block pattern directory."
+msgstr "Bohužel njesměće lokalny zapis blokowych předłohow přepytować."
+
+#: build/block-library/blocks/query-pagination-previous.php:22
+msgid "&laquo; Previous Page"
+msgstr "&laquo; Předchadna strona"
+
+#: build/block-library/blocks/query-pagination-next.php:23
+msgid "Next Page &raquo;"
+msgstr "Přichodna strona &raquo;"
+
+#. translators: Visible only in the front end, this warning takes the place of
+#. a faulty block.
+#: build/block-library/blocks/block.php:46
+#: build/block-library/blocks/template-part.php:90
+msgid "[block rendering halted]"
+msgstr "[blokowe rysowanje zastajene]"
+
+#: lib/full-site-editing/block-templates.php:224
+msgid "No theme is defined for this template."
+msgstr "Za tutu předłohu drasta wubrana njeje."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:548
+msgid "Post ID."
+msgstr "Přinoškowy ID."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:542
+msgid "Status of template."
+msgstr "Status předłohi."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:536
+msgid "Description of template."
+msgstr "Wopisanje předłohi."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:530
+msgid "Title of template."
+msgstr "Titul předłohi."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:524
+msgid "Content of template."
+msgstr "Wobsah předłohi."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:518
+msgid "Whether the template is customized."
+msgstr "Hač předłoha je přiměrjena."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:513
+msgid "Theme identifier for the template."
+msgstr "Drastowy identifikator za předłohu."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:505
+msgid "Unique slug identifying the template."
+msgstr "Jednozmyslna titulna forma, kotraž předłohu identifikuje."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:499
+msgid "ID of template."
+msgstr "ID předłohi."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:477
+msgid "Limit to the specified post id."
+msgstr "Na podaty přinoškowy ID wobmjezować"
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:312
+msgid "The template has already been deleted."
+msgstr "Předłoha je so hižo zhašała."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:287
+msgid "Templates based on theme files can't be removed."
+msgstr "Předłohi, kotrež na drastowych datajach bazuja, njedadźa so wotstronić."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:174
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:199
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:250
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:284
+msgid "No templates exist with that id."
+msgstr "Předłohi z tym ID njeeksistuja."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:109
+msgid "Sorry, you are not allowed to access the templates on this site."
+msgstr "Bohužel nimaće přistup k předłoham na tutym sydle."
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:70
+msgid "The id of a template"
+msgstr "ID předłohi"
+
+#: lib/client-assets.php:101 build/i18n/index.js:1
+msgctxt "text direction"
+msgid "ltr"
+msgstr "ltr"
+
+#: lib/full-site-editing/default-template-types.php:29
+msgctxt "Template name"
+msgid "Singular"
+msgstr "Singular"
+
+#: lib/full-site-editing/full-site-editing.php:83
+msgid "Edit site"
+msgstr "Sydło wobdźěłać"
+
+#: lib/full-site-editing/templates.php:98
+msgid "Themes"
+msgstr "Drasty"
+
+#. translators: %s: Number of auto-draft posts.
+#: lib/full-site-editing/templates-utils.php:91
+msgctxt "Post status"
+msgid "Auto-Draft <span class=\"count\">(%s)</span>"
+msgid_plural "Auto-Drafts <span class=\"count\">(%s)</span>"
+msgstr[0] "Awtomatisce składowany naćisk <span class=\"count\">(%s)</span>"
+msgstr[1] "Awtomatisce składowanej naćiskaj <span class=\"count\">(%s)</span>"
+msgstr[2] "Awtomatisce składowane naćiski <span class=\"count\">(%s)</span>"
+msgstr[3] "Awtomatisce składowane naćiski <span class=\"count\">(%s)</span>"
+
+#: lib/full-site-editing/templates-utils.php:47
+msgctxt "Post status"
+msgid "Auto-Draft"
+msgstr "Awtomatiski naćisk"
+
+#: lib/full-site-editing/default-template-types.php:81
+msgctxt "Template name"
+msgid "404"
+msgstr "404"
+
+#: lib/full-site-editing/default-template-types.php:77
+msgid "Privacy Policy"
+msgstr "Prawidła priwatnosće"
+
+#: lib/full-site-editing/default-template-types.php:41
+msgctxt "Template name"
+msgid "Page"
+msgstr "Strona"
+
+#: lib/full-site-editing/default-template-types.php:37
+msgctxt "Template name"
+msgid "Post"
+msgstr "Přinošk"
+
+#: lib/full-site-editing/default-template-types.php:21
+msgctxt "Template name"
+msgid "Home"
+msgstr "Startowa strona"
+
+#: lib/full-site-editing/full-site-editing.php:26
+msgid "You're using an experimental Full Site Editing theme. Full Site Editing is an experimental feature and potential API changes are to be expected!"
+msgstr "Wužiwaće eksperimentelnu drastu z móžnosću, kompletne sydło wobdźěłać. Wobdźěłowanje kompletnych sydłow je eksperimentelna funkcija a potencielne API-změny su wočakujomne!"
+
+#. translators: %s: "beta" label.
+#: gutenberg.php:111
+msgid "Site Editor %s"
+msgstr "Sydłowy editor %s"
+
+#: lib/full-site-editing/default-template-types.php:17
+msgctxt "Template name"
+msgid "Index"
+msgstr "Indeks"
+
+#: lib/full-site-editing/default-template-types.php:33
+msgctxt "Template name"
+msgid "Single"
+msgstr "Jednotliwy"
+
+#: lib/full-site-editing/default-template-types.php:45
+msgctxt "Template name"
+msgid "Archive"
+msgstr "Archiw"
+
+#: lib/full-site-editing/default-template-types.php:25
+msgctxt "Template name"
+msgid "Front Page"
+msgstr "Prědnja strona"
+
+#: lib/full-site-editing/class-wp-rest-templates-controller.php:89
+#: lib/class-wp-rest-menu-items-controller.php:92
+msgid "Whether to bypass Trash and force deletion."
+msgstr "Hač ma so papjernik wobeńć a zhašenje wunuzować."
+
+#: lib/class-wp-rest-menu-items-controller.php:58
+msgid "The password for the post if it is password protected."
+msgstr "Hesło za přinošk, jeli je přez hesło škitany."
+
+#: lib/class-wp-rest-sidebars-controller.php:430
+msgid "HTML content to append to the sidebar title when displayed. Default is a closing h2 element."
+msgstr "HTML-wobsah, kotryž so ma k titulej bóčnicy připowěsnyć, hdyž so pokazuje. Standard je wotzamkujucy element h2."
+
+#: lib/class-wp-rest-sidebars-controller.php:423
+msgid "HTML content to prepend to the sidebar title when displayed. Default is an opening h2 element."
+msgstr "HTML-wobsah, z kotrymž so ma titul bóčnicy započeć, hdyž so pokazuje. Standard je wotewěracy element h2."
+
+#: lib/class-wp-rest-sidebars-controller.php:416
+msgid "HTML content to append to each widget's HTML output when assigned to this sidebar. Default is a closing list item element."
+msgstr "HTML-wobsah, kotryž so ma k HTML-wudaću kóždeho asistenta připowěsnyć, hdyž so tutej bóčnicy připokazuje. Standard je wotzamkowacy element lisćinoweho zapiska."
+
+#: lib/class-wp-rest-sidebars-controller.php:409
+msgid "HTML content to prepend to each widget's HTML output when assigned to this sidebar. Default is an opening list item element."
+msgstr "HTML-wobsah, z kotrymž so ma HTML-wudaće kóždeho asistenta započeć, hdyž so tutej bóčnicy připokazuje. Standard je wotewěracy element lisćinoweho zapiska."
+
+#: lib/class-wp-rest-sidebars-controller.php:403
+msgid "Extra CSS class to assign to the sidebar in the Widgets interface."
+msgstr "Přidatna CSS-klasa, kotraž so ma bóčnicy w powjerchu asistentow připokazać."
+
+#: lib/class-wp-rest-sidebars-controller.php:159
+msgid "No sidebar exists with that id."
+msgstr "Bóčnica z tym ID njeeksistuje."
+
+#: lib/class-wp-rest-batch-controller.php:216
+msgid "The handler for the route is invalid"
+msgstr "Rutina za rutu je njepłaćiwa"
+
+#: lib/class-wp-rest-batch-controller.php:143
+#: lib/class-wp-rest-batch-controller.php:249
+msgid "The requested route does not support batch requests."
+msgstr "Požadana ruta masowe naprašowanja njepodpěruje."
+
+#: lib/class-wp-rest-batch-controller.php:89
+msgid "Could not parse the path."
+msgstr "Šćežka njeda so analyzować."
+
+#: lib/class-wp-rest-widgets-controller.php:766
+msgid "The sidebar the widget belongs to."
+msgstr "Bóčnica, ke kotrejž asistent słuša."
+
+#: lib/class-wp-rest-widgets-controller.php:732
+msgid "The sidebar to return widgets for."
+msgstr "Bóčnica, za kotruž so maja asistenty wróćić."
+
+#: lib/class-wp-rest-widgets-controller.php:501
+msgid "The requested widget is invalid."
+msgstr "Požadany asistent płaćiwy njeje."
+
+#: lib/class-wp-rest-widgets-controller.php:373
+msgid "No widget was found with that id."
+msgstr "Asistent z tym ID njeje so namakał."
+
+#: lib/class-wp-rest-widget-types-controller.php:162
+#: lib/class-wp-rest-widgets-controller.php:346
+#: lib/class-wp-rest-sidebars-controller.php:228
+msgid "Sorry, you are not allowed to manage widgets on this site."
+msgstr "Bohužel njesměće asistenty na tutym sydle rjadować."
+
+#: lib/class-wp-rest-widgets-controller.php:80
+msgid "Whether to force removal of the widget, or move it to the inactive sidebar."
+msgstr "Hač so ma wotstronjenje asistenta wunuzować abo hač so ma do inaktiwneje bóčnicy přesunyć."
+
+#: lib/class-wp-rest-widget-types-controller.php:379
+msgid "Customize selective refresh."
+msgstr "Selektiwne aktualizowanje přiměrić."
+
+#: lib/class-wp-rest-widget-types-controller.php:372
+msgid "Widget class name."
+msgstr "Klasowe mjeno asistenta."
+
+#: lib/class-wp-rest-widget-types-controller.php:365
+msgid "Option name."
+msgstr "Mjeno nastajenja."
+
+#: lib/class-wp-rest-widget-types-controller.php:358
+msgid "Class name"
+msgstr "Klasowe mjeno"
+
+#: lib/class-wp-rest-widget-types-controller.php:187
+msgid "Invalid widget type."
+msgstr "Njepłaćiwy asistentowy typ."
+
+#: build/edit-widgets/blocks/legacy-widget.php:32
+msgid "Rendering legacy widget block using widgetId is unsupported."
+msgstr "Rysowanje bloka zestarjeneho asistenta z pomocu widgetid so njepodpěruje."
+
+#: lib/class-wp-rest-menu-items-controller.php:980
+msgid "HTML content to display for this block menu item."
+msgstr "HTML-wobsah, kotryž so ma za tutón zapisk blokoweho menija pokazać."
+
+#: lib/class-wp-rest-widgets-controller.php:799
+msgid "HTML representation of the widget admin form."
+msgstr "HTML-zwobraznjenje formulara asistentoweho administratora."
+
+#: lib/class-wp-rest-sidebars-controller.php:258
+msgid "Inactive widgets"
+msgstr "Inaktiwne asistenty"
+
+#: lib/class-wp-rest-widgets-controller.php:805
+msgid "Settings of the widget."
+msgstr "Nastajenja asistenta."
+
+#: lib/class-wp-rest-widgets-controller.php:793
+msgid "HTML representation of the widget."
+msgstr "HTML-zwobraznjenje asistenta."
+
+#: lib/class-wp-rest-widgets-controller.php:788
+msgid "Number of the widget."
+msgstr "Čisło asistenta."
+
+#: lib/class-wp-rest-widget-types-controller.php:352
+#: lib/class-wp-rest-widgets-controller.php:783
+msgid "Description of the widget."
+msgstr "Wopisanje asistenta."
+
+#: lib/class-wp-rest-widgets-controller.php:778
+msgid "Name of the widget."
+msgstr "Mjeno asistenta."
+
+#: lib/class-wp-rest-widgets-controller.php:773
+msgid "Class name of the widget implementation."
+msgstr "Klasowe mjeno asistentoweje implementacije."
+
+#: lib/class-wp-rest-widgets-controller.php:761
+msgid "Type of widget for the object."
+msgstr "Asistentowy typ za objekt."
+
+#: lib/class-wp-rest-sidebars-controller.php:444
+msgid "Nested widgets."
+msgstr "Zakašćikowane asistenty."
+
+#: lib/class-wp-rest-sidebars-controller.php:437
+msgid "Status of sidebar."
+msgstr "Status bóčnicy."
+
+#: lib/class-wp-rest-sidebars-controller.php:397
+msgid "Description of sidebar."
+msgstr "Wopisanje bóčnicy."
+
+#: lib/class-wp-rest-sidebars-controller.php:391
+msgid "Unique name identifying the sidebar."
+msgstr "Jednozmyslne mjeno, kotrež bóčnicu identifikuje."
+
+#: lib/class-wp-rest-sidebars-controller.php:385
+msgid "ID of sidebar."
+msgstr "ID bóčnicy."
+
+#: lib/class-wp-rest-sidebars-controller.php:81
+msgid "The id of a registered sidebar"
+msgstr "ID zregistrowaneje bóčnicy"
+
+#: lib/class-wp-widget-block.php:33
+msgid "Gutenberg block."
+msgstr "Blok Gutenberg."
+
+#: lib/full-site-editing/templates-utils.php:16 build/block-library/index.js:46
+msgid "Description"
+msgstr "Wopisanje"
+
+#: lib/full-site-editing/edit-site-page.php:204
+msgid "The ID of the page that should be displayed on the front page"
+msgstr "ID strony, kotraž so ma na startowej stronje pokazać."
+
+#: lib/full-site-editing/edit-site-page.php:194
+msgid "What to show on the front page"
+msgstr "Štož so ma na startowej stronje pokazać"
+
+#: lib/compat.php:184
+msgid "Filter reusable blocks list"
+msgstr "Lisćinu zasowužiwajomnych blokow filtrować"
+
+#: lib/compat.php:183
+msgid "No reusable blocks found in Trash."
+msgstr "Žane zasowužiwajomne bloki w papjerniku namakane."
+
+#: lib/compat.php:182
+msgid "No reusable blocks found."
+msgstr "Žane zasowužiwajomne bloki namakane."
+
+#: build/block-library/blocks/site-logo.php:95
+msgid "Site logo."
+msgstr "Logo sydła."
+
+#: lib/class-wp-rest-menus-controller.php:589
+msgid "Whether to automatically add top level pages to this menu."
+msgstr "Hač so maja strony prěnjeje runiny tutomu menijej awtomatisce přidać."
+
+#: lib/class-wp-rest-menus-controller.php:171
+msgid "Sorry, you are not allowed to set auto add pages."
+msgstr "Bohužel njesměće awtomatiske přidawanje stronow zmóžnić."
+
+#: lib/class-wp-rest-menu-items-controller.php:1000
+msgid "Version of the block format used in the HTML content."
+msgstr "Wersija blokoweho formata, kotryž so w HTML-wobsahu wužiwa."
+
+#: lib/class-wp-rest-menu-items-controller.php:994
+msgid "HTML content, transformed for display."
+msgstr "HTML-wobsah, přetworjeny za zwobraznjenje."
+
+#: lib/class-wp-rest-menu-items-controller.php:989
+msgid "HTML content, as it exists in the database."
+msgstr "HTML-wobsah kaž w datowej bance eksistuje."
+
+#: lib/class-wp-rest-menu-items-controller.php:523
+msgid "Content required if menu item of type block."
+msgstr "Wobsah trěbny, jeli menijowy zapisk typ blok ma."
+
+#: lib/class-wp-rest-pattern-directory-controller.php:214
+msgid "The pattern title, in human readable format."
+msgstr "Mustrowy titul we wot čłowjeka čitajomnym formaće."
+
+#. translators: %s: the author.
+#. translators: byline. %s: current author.
+#: build/block-library/blocks/rss.php:60
+#: build/block-library/blocks/latest-posts.php:114
+#: build/block-library/index.js:50
+msgid "by %s"
+msgstr "wot %s"
+
+#: lib/class-wp-theme-json-resolver.php:221 build/block-editor/index.js:1
+msgid "White"
+msgstr "Běły"
+
+#: lib/class-wp-theme-json-resolver.php:219 build/block-editor/index.js:1
+#: build/block-editor/index.js:9
+msgid "Black"
+msgstr "Čorny"
+
+#. translators: accessibility text for the content landmark region.
+#: lib/navigation.php:338 build/edit-widgets/index.js:7
+#: build/edit-post/index.js:7 build/edit-site/index.js:7
+#: build/edit-site/index.js:30
+msgid "Content"
+msgstr "Wobsah"
+
+#: lib/experiments-page.php:50
+msgid "Enable Navigation screen"
+msgstr "Nawigacisku wobrazowku zmóžnić"
+
+#: gutenberg.php:62 gutenberg.php:63
+msgid "Navigation (beta)"
+msgstr "Nawigacija (beta)"
+
+#: lib/class-wp-rest-menu-items-controller.php:1105
+msgid "Sort collection by object attribute."
+msgstr "Zběrku po objektowym atribuće sortěrować."
+
+#: lib/class-wp-rest-menu-items-controller.php:1098
+msgid "Order sort attribute ascending or descending."
+msgstr "Atribut za postupowace abo spadowace sortěrowanje."
+
+#: lib/class-wp-rest-menu-items-controller.php:1093
+msgid "Limit result set to posts with a specific menu_order value."
+msgstr "Wuslědkowu sadźbu na přinoški z wěstej hódnotu menu_value wobmjezować."
+
+#. translators: %s: taxonomy name
+#: lib/class-wp-rest-menu-items-controller.php:1059
+msgid "The terms assigned to the object in the %s taxonomy."
+msgstr "Zapřijeća, kotrež su objektej w taksonomiji %s připokazane."
+
+#: lib/class-wp-rest-menu-items-controller.php:1047
+msgid "Whether the menu item represents an object that no longer exists."
+msgstr "Hač menijowy zapisk objekt prezentuje, kotryž hižo njeeksistuje."
+
+#: lib/class-wp-rest-menu-items-controller.php:1033
+msgid "The XFN relationship expressed in the link of this menu item."
+msgstr "XFN-poćah, kotryž so we wotkazu tutoho menijoweho zapiska zwuraznja."
+
+#: lib/class-wp-rest-menu-items-controller.php:1026
+msgid "The URL to which this menu item points."
+msgstr "URL, na kotryž tutón menijowy zapisk wotkazuje."
+
+#: lib/class-wp-rest-menu-items-controller.php:1019
+msgid "The singular label used to describe this type of menu item."
+msgstr "Jónkróćny popis, kotryž so wužiwa, zo by tutón typ menijoweho zapiska wopisał."
+
+#: lib/class-wp-rest-menu-items-controller.php:1009
+msgid "The target attribute of the link element for this menu item."
+msgstr "Cilowy atribut wotkazoweho elementa za tutón menijowy zapisk."
+
+#: lib/class-wp-rest-menu-items-controller.php:972
+msgid "The DB ID of the original object this menu item represents, e . g . ID for posts and term_id for categories."
+msgstr "ID datoweje banki originalneho objekta, kotryž tutón menijowy zapisk reprezentuje, na př. ID za přinoški a term_ide za kategorije."
+
+#: lib/class-wp-rest-menu-items-controller.php:966
+msgid "The type of object originally represented, such as \"category,\" \"post\", or \"attachment.\""
+msgstr "Typ objekta, kotryž je so prěnjotnje reprezentował, na přikład „kategorija“, „přinošk“ abo „přiwěšk“."
+
+#: lib/class-wp-rest-menu-items-controller.php:959
+msgid "The DB ID of the nav_menu_item that is this item's menu parent, if any, otherwise 0."
+msgstr "ID datoweje banki Nav_menu_item je zapiskej menijowy nadrjadowany, jeli eksistuje. Hewak 0."
+
+#: lib/class-wp-rest-menu-items-controller.php:950
+msgid "The description of this menu item."
+msgstr "Wopisanje tutoho menijoweho zapiska."
+
+#: lib/class-wp-rest-menu-items-controller.php:936
+msgid "Class names for the link element of this menu item."
+msgstr "Klasowe mjena za wotkazowy element tutoho menijoweho zapiska."
+
+#: lib/class-wp-rest-menu-items-controller.php:927
+msgid "Text for the title attribute of the link element for this menu item."
+msgstr "Tekst za atribut „title“ wotkazoweho elementa za tutón menijowy zapisk."
+
+#: lib/class-wp-rest-menu-items-controller.php:911
+msgid "A named status for the object."
+msgstr "Pomjenjowany status za objekt."
+
+#: lib/class-wp-rest-menu-items-controller.php:903
+msgid "The family of objects originally represented, such as \"post_type\" or \"taxonomy\"."
+msgstr "Swójba objektow, kotraž je so prěnjotnje reprezentowała, na přikład „post_type“ abo „taksonomija“."
+
+#: lib/class-wp-rest-menu-items-controller.php:896
+msgid "Name of type."
+msgstr "Mjeno typa."
+
+#: lib/class-wp-rest-menu-items-controller.php:878
+msgid "HTML title for the object, transformed for display."
+msgstr "HTML-titul za objekt, přetworjeny za zwobraznjenje."
+
+#: lib/class-wp-rest-menu-items-controller.php:873
+msgid "Title for the object, as it exists in the database."
+msgstr "Titul za objekt, kaž w datowej bance eksistuje."
+
+#: lib/class-wp-rest-menu-items-controller.php:834
+msgid "Get linked object."
+msgstr "Zwjazany objekt wobstarać."
+
+#: lib/class-wp-rest-menu-items-controller.php:606
+msgid "Invalid URL."
+msgstr "Njepłaćiwy URL."
+
+#: lib/class-wp-rest-menu-items-controller.php:564
+#: lib/class-wp-rest-menu-items-controller.php:567
+msgid "Invalid menu item parent."
+msgstr "Njepłaćiwy nadrjadowany menijoweho zapiska."
+
+#: lib/class-wp-rest-menu-items-controller.php:556
+msgid "Invalid menu position."
+msgstr "Njepłaćiwa menijowa pozicija."
+
+#: lib/class-wp-rest-menu-items-controller.php:531
+msgid "Invalid menu ID."
+msgstr "Njepłaćiwy menijowy ID."
+
+#: lib/class-wp-rest-menu-items-controller.php:516
+msgid "URL required if menu item of type custom."
+msgstr "URL trěbny, jeli menijowy zapisk swójski typ ma."
+
+#: lib/class-wp-rest-menu-items-controller.php:513
+msgid "Title required if menu item of type custom."
+msgstr "Titul trěbny, jeli menijowy zapisk swójski typ ma."
+
+#: lib/class-wp-rest-menu-items-controller.php:495
+msgid "Invalid post ID."
+msgstr "Njepłaćiwy přinoškowy ID."
+
+#: lib/class-wp-rest-menu-items-controller.php:348
+msgid "The post cannot be deleted."
+msgstr "Přinošk njeda so zhašeć."
+
+#. translators: %s: force=true
+#: lib/class-wp-rest-menu-items-controller.php:340
+msgid "Menu items do not support trashing. Set '%s' to delete."
+msgstr "Menijowe zapiski njedadźa so do papjernika přesunyć. Stajće ‚%s‘, zo byšće zhašał."
+
+#: lib/class-wp-rest-menu-items-controller.php:174
+msgid "Cannot create existing post."
+msgstr "Eksistowacy přinošk njeda so wutworić."
+
+#: lib/class-wp-rest-menu-items-controller.php:160
+msgid "Sorry, you cannot view these menu items, unless you have access to permission edit them. "
+msgstr "Bohužel njemóžeće sej tute menijowe zapiski wobhladać, chibazo maće přistup k dowolnosći, zo byšće je wobdźěłował."
+
+#: lib/class-wp-rest-customizer-nonces.php:51
+#: lib/class-wp-rest-menu-items-controller.php:158
+msgid "Sorry, you are not allowed to edit posts in this post type."
+msgstr "Bohužel njesměće přinoški w tutym přinoškowym typje wobdźěłać. "
+
+#: lib/class-wp-rest-menu-items-controller.php:142
+msgid "Sorry, you cannot view this menu item, unless you have access to permission edit it. "
+msgstr "Bohužel njemóžeće sej tutón menijowy zapisk wobhladać, chibazo maće přistup k dowolnosći, zo byšće jón wobdźěłował."
+
+#: lib/class-wp-rest-menus-controller.php:580
+msgid "The locations assigned to the menu."
+msgstr "Menijej připokazane městna."
+
+#: lib/class-wp-rest-menus-controller.php:552
+msgid "Menu location does not exist."
+msgstr "Menijowe městno njeeksistuje."
+
+#: lib/class-wp-rest-menus-controller.php:458
+msgid "The term cannot be deleted."
+msgstr "Zapřijeće njeda so zhašeć."
+
+#. translators: %s: force=true
+#: lib/class-wp-rest-menus-controller.php:448
+msgid "Terms do not support trashing. Set '%s' to delete."
+msgstr "Zapřijeća njedadźa so do papjernika přesunyć. Stajće ‚%s‘, zo byšće zhašał."
+
+#: lib/class-wp-rest-menus-controller.php:268
+#: lib/class-wp-rest-menus-controller.php:377
+msgid "Parent term does not exist."
+msgstr "Nadrjadowane zapřijeće njeeksistuje."
+
+#: lib/class-wp-rest-menus-controller.php:262
+#: lib/class-wp-rest-menus-controller.php:371
+msgid "Cannot set parent term, taxonomy is not hierarchical."
+msgstr "Nadrjadowane zapřijeće njeda so nastajić, taksonomija hierarchiska njeje."
+
+#: lib/class-wp-rest-menus-controller.php:139
+msgid "Sorry, you are not allowed to assign the provided locations."
+msgstr "Bohužel njesměće podate městna připokazać."
+
+#: lib/class-wp-rest-menus-controller.php:60
+msgid "Sorry, you cannot view this menu, unless you have access to permission edit it. "
+msgstr "Bohužel njemóžeće sej tutón meni wobhladać, chibazo maće přistup k dowolnosći, zo byšće jón wobdźěłował."
+
+#: lib/class-wp-rest-menus-controller.php:58
+msgid "Sorry, you are not allowed to edit this term."
+msgstr "Bohužel njesměće tute zapřijeće wobdźěłać."
+
+#: lib/class-wp-rest-menus-controller.php:40
+msgid "Sorry, you cannot view these menus, unless you have access to permission edit them. "
+msgstr "Bohužel njemóžeće sej tute menije wobhladać, chibazo maće přistup k dowolnosći, zo byšće je wobdźěłował."
+
+#: lib/class-wp-rest-menus-controller.php:38
+msgid "Sorry, you are not allowed to edit terms in this taxonomy."
+msgstr "Bohužel njesměće zapřijeća w tutej taksonomiji wobdźěłać."
+
+#: lib/class-wp-rest-menu-locations-controller.php:206
+msgid "The ID of the assigned menu."
+msgstr "ID připokazaneho menija."
+
+#: lib/class-wp-rest-menu-locations-controller.php:200
+msgid "The description of the menu location."
+msgstr "Wopisanje menijoweho městna."
+
+#: lib/class-wp-rest-menu-locations-controller.php:194
+msgid "The name of the menu location."
+msgstr "Mjeno menijoweho městna."
+
+#: lib/class-wp-rest-menus-controller.php:146
+#: lib/class-wp-rest-menu-locations-controller.php:116
+#: lib/class-wp-rest-menu-locations-controller.php:132
+msgid "Invalid menu location."
+msgstr "Njepłaćiwe menijowe městno."
+
+#: lib/class-wp-rest-menu-locations-controller.php:76
+#: lib/class-wp-rest-menu-locations-controller.php:113
+msgid "Sorry, you are not allowed to view menu locations."
+msgstr "Bohužel njesměće sej menijowe městna wobhladać."
+
+#: lib/class-wp-rest-menu-locations-controller.php:50
+msgid "An alphanumeric identifier for the menu location."
+msgstr "Alfanumeriski identifikator za menijowe městno."
+
+#: lib/class-wp-theme-json-resolver.php:440 build/edit-site/index.js:30
+msgid "Global Styles"
+msgstr "Globalne stile"
+
+#: lib/full-site-editing/template-loader.php:69
+msgid "Empty template."
+msgstr "Prózdna předłoha."
+
+#: lib/full-site-editing/template-loader.php:77
+msgid "No matching template found."
+msgstr "Žana wotpowědna předłoha namakana."
+
+#: lib/full-site-editing/templates-utils.php:18
+#: lib/full-site-editing/templates.php:99 build/edit-site/index.js:30
+msgid "Theme"
+msgstr "Drasta"
+
+#: lib/experiments-page.php:98
+msgid "The block editor includes experimental features that are useable while they're in development. Select the ones you'd like to enable. These features are likely to change, so avoid using them in production."
+msgstr "Blokowy editor eksperimentelne funkcije wobsahuje, kotrež so wužiwajomne, hdyž su we wuwiću. Wubjerće te, kotrež chceće zmóžnić. Tute funkcije so najskerje změnja, njewužiwaće je potajkim w produktiwnym dźěle."
+
+#: gutenberg.php:108
+msgid "Site Editor (beta)"
+msgstr "Sydłowy editor (beta)"
+
+#: lib/class-wp-rest-widget-types-controller.php:82
+msgid "Current widget instance"
+msgstr "Aktualna asistentowa instanca"
+
+#: lib/full-site-editing/template-parts.php:40
+msgid "Template parts to include in your templates."
+msgstr "Dźěle předłohi, kotrež maja waše předłohi wobsahować."
+
+#: lib/full-site-editing/template-parts.php:35
+msgid "Template parts list"
+msgstr "Lisćina předłohowych dźělow"
+
+#: lib/full-site-editing/template-parts.php:34
+msgid "Template parts list navigation"
+msgstr "Nawigacija přez lisćinu předłohowych dźělow"
+
+#: lib/full-site-editing/template-parts.php:33
+msgid "Filter template parts list"
+msgstr "Lisćinu předłohowych dźělow filtrować"
+
+#: lib/full-site-editing/template-parts.php:32
+msgid "Uploaded to this template part"
+msgstr "K tutomu předłohowemu dźělej nahraty"
+
+#: lib/full-site-editing/template-parts.php:31
+msgid "Insert into template part"
+msgstr "Do předłohoweho dźěla zasadźić"
+
+#: lib/full-site-editing/template-parts.php:30
+msgid "Template part archives"
+msgstr "Archiwy předłohowych dźělow"
+
+#: lib/full-site-editing/template-parts.php:29
+msgid "No template parts found in Trash."
+msgstr "Žane předłohowe dźěle w papjerniku namakane."
+
+#: lib/full-site-editing/template-parts.php:28
+msgid "No template parts found."
+msgstr "Žane předłohowe dźěle namakane."
+
+#: lib/full-site-editing/template-parts.php:27
+msgid "Parent Template Part:"
+msgstr "Nadrjadowany předłohowy dźěl:"
+
+#: lib/full-site-editing/template-parts.php:26
+msgid "Search Template Parts"
+msgstr "Předłohowe dźěle pytać"
+
+#: lib/full-site-editing/template-parts.php:25
+msgid "All Template Parts"
+msgstr "Wšě předłohowe dźěle"
+
+#: lib/full-site-editing/template-parts.php:24
+msgid "View Template Part"
+msgstr "Předłohowy dźěl pokazać"
+
+#: lib/full-site-editing/template-parts.php:23
+msgid "Edit Template Part"
+msgstr "Předłohowy dźěl wobdźěłać"
+
+#: lib/full-site-editing/template-parts.php:22
+msgid "New Template Part"
+msgstr "Nowy předłohowy dźěl"
+
+#: lib/full-site-editing/template-parts.php:21
+msgid "Add New Template Part"
+msgstr "Nowy předłohowy dźěl přidać"
+
+#: lib/full-site-editing/template-parts.php:20
+msgctxt "Template Part"
+msgid "Add New"
+msgstr "Nowy přidać"
+
+#: lib/full-site-editing/template-parts.php:19
+msgctxt "Admin Menu text"
+msgid "Template Parts"
+msgstr "Předłohowe dźěle"
+
+#: lib/full-site-editing/template-parts.php:18 build/block-library/index.js:73
+msgid "Template Part"
+msgstr "Předłohowy dźěl"
+
+#: lib/full-site-editing/template-parts.php:17 build/edit-site/index.js:30
+msgid "Template Parts"
+msgstr "Předłohowe dźěle"
+
+#: lib/experiments-page.php:45 build/edit-navigation/index.js:6
+msgid "Navigation"
+msgstr "Nawigacija"
+
+#: lib/full-site-editing/templates.php:54
+msgid "Templates list"
+msgstr "Lisćina předłohow"
+
+#: lib/full-site-editing/templates.php:53
+msgid "Templates list navigation"
+msgstr "Nawigacija lisćiny předłohow"
+
+#: lib/full-site-editing/templates.php:52
+msgid "Filter templates list"
+msgstr "Lisćinu předłohow filtrować"
+
+#: lib/full-site-editing/templates.php:51
+msgid "Uploaded to this template"
+msgstr "K tutej předłoze nahraty"
+
+#: lib/full-site-editing/templates.php:50
+msgid "Insert into template"
+msgstr "Do předłohi zasadźić"
+
+#: lib/full-site-editing/templates.php:49
+msgid "Template archives"
+msgstr "Archiwy předłohow"
+
+#: lib/full-site-editing/templates.php:48
+msgid "No templates found in Trash."
+msgstr "Žane předłohi w papjerniku namakane."
+
+#: lib/full-site-editing/templates.php:47
+msgid "No templates found."
+msgstr "Žane předłohi namakane."
+
+#: lib/full-site-editing/templates.php:46
+msgid "Parent Template:"
+msgstr "Nadrjadowana předłoha:"
+
+#: lib/full-site-editing/templates.php:45
+msgid "Search Templates"
+msgstr "Předłohi pytać"
+
+#: lib/full-site-editing/templates.php:44
+msgid "All Templates"
+msgstr "Wšě předłohi"
+
+#: lib/full-site-editing/templates.php:43
+msgid "View Template"
+msgstr "Předłohu pokazać"
+
+#: lib/full-site-editing/templates.php:42
+msgid "Edit Template"
+msgstr "Předłohu wobdźěłać"
+
+#: lib/full-site-editing/templates.php:41
+msgid "New Template"
+msgstr "Nowa předłoha"
+
+#: lib/full-site-editing/templates.php:40
+msgid "Add New Template"
+msgstr "Nowu předłohu přidać"
+
+#: lib/full-site-editing/templates.php:39
+msgctxt "Template"
+msgid "Add New"
+msgstr "Nowu přidać"
+
+#: lib/full-site-editing/templates.php:38
+msgctxt "Admin Menu text"
+msgid "Templates"
+msgstr "Předłohi"
+
+#. translators: ARIA label for the Template Settings Sidebar tab, not selected.
+#. translators: Text label for the Template Settings Sidebar tab.
+#: lib/full-site-editing/templates.php:37 build/edit-post/index.js:38
+#: build/edit-site/index.js:26 build/edit-site/index.js:28
+#: build/edit-site/index.js:29
+msgid "Template"
+msgstr "Předłoha"
+
+#: lib/full-site-editing/template-loader.php:164
+msgid "No matching template found"
+msgstr "Žana wotpowědna předłoha namakana"
+
+#: lib/class-wp-theme-json-resolver.php:250 build/block-editor/index.js:1
+msgid "Midnight"
+msgstr "Połnóc"
+
+#: lib/class-wp-theme-json-resolver.php:249 build/block-editor/index.js:1
+msgid "Electric grass"
+msgstr "Elektriska trawa"
+
+#: lib/class-wp-theme-json-resolver.php:248 build/block-editor/index.js:1
+msgid "Pale ocean"
+msgstr "Blědy ocean"
+
+#: lib/class-wp-theme-json-resolver.php:247 build/block-editor/index.js:1
+msgid "Luminous dusk"
+msgstr "Swěćaca ćmička"
+
+#: lib/class-wp-theme-json-resolver.php:246 build/block-editor/index.js:1
+msgid "Blush bordeaux"
+msgstr "Blush bordeaux"
+
+#: lib/class-wp-theme-json-resolver.php:245 build/block-editor/index.js:1
+msgid "Blush light purple"
+msgstr "Čerwjenojty swětłowioletny"
+
+#: lib/class-wp-theme-json-resolver.php:244 build/block-editor/index.js:1
+msgid "Cool to warm spectrum"
+msgstr "Chłódny do ćopłeho spektruma"
+
+#: lib/class-wp-theme-json-resolver.php:243 build/block-editor/index.js:1
+msgid "Very light gray to cyan bluish gray"
+msgstr "Jara swětłošěry hač cyanowy módrojtošěry"
+
+#: lib/class-wp-theme-json-resolver.php:242 build/block-editor/index.js:1
+msgid "Luminous vivid orange to vivid red"
+msgstr "Swěćaty swětłooranžowy hač swětłočerwjeny"
+
+#: lib/class-wp-theme-json-resolver.php:241 build/block-editor/index.js:1
+msgid "Luminous vivid amber to luminous vivid orange"
+msgstr "Swěćaty swětłojantarojty hač swěćaty swětłooranžowy"
+
+#: lib/class-wp-theme-json-resolver.php:240 build/block-editor/index.js:1
+msgid "Light green cyan to vivid green cyan"
+msgstr "Swětłozeleny cyanowy hač swětły zelenocyanowy"
+
+#: lib/class-wp-theme-json-resolver.php:239 build/block-editor/index.js:1
+msgid "Vivid cyan blue to vivid purple"
+msgstr "Swětły cyanomódry hač swětłowioletny"
+
+#: lib/full-site-editing/templates.php:59
+msgid "Templates to include in your theme."
+msgstr "Předłohi, kotrež ma swoja drasta wobsahować."
+
+#: lib/full-site-editing/templates.php:36 build/edit-site/index.js:30
+msgid "Templates"
+msgstr "Předłohi"
+
+#: lib/class-wp-theme-json-resolver.php:230 build/block-editor/index.js:1
+msgid "Vivid purple"
+msgstr "Jaskrawy wioletny"
+
+#: gutenberg.php:89
+msgid "Experiments Settings"
+msgstr "Nastajenja za eksperimenty"
+
+#: lib/experiments-page.php:19
+msgid "Experimental settings"
+msgstr "Eksperimentelne nastajenja"
+
+#. translators: %s: taxonomy name
+#: build/block-library/blocks/tag-cloud.php:28
+msgid "Your site doesn&#8217;t have any %s, so there&#8217;s nothing to display here at the moment."
+msgstr "Waše sydło %s nima, tohodla tuchwilu ničo njeje, kotrež so da tu pokazać."
+
+#: build/block-library/blocks/search.php:25
+#: build/block-library/blocks/search.php:26
+#: build/block-library/blocks/search.php:52 build/block-editor/index.js:42
+#: build/block-library/index.js:59
+msgid "Search"
+msgstr "Pytać"
+
+#: build/block-library/blocks/rss.php:23
+msgid "An error has occurred, which probably means the feed is down. Try again later."
+msgstr "Zmylk je nastał, kotryž najskerje woznamjenja, zo kanal je spadnył. Spytajće pozdźišo hišće raz."
+
+#: build/block-library/blocks/rss.php:19
+msgid "RSS Error:"
+msgstr "RSS-zmylk:"
+
+#: lib/editor-settings.php:28 build/block-editor/index.js:1
+msgid "Thumbnail"
+msgstr "Miniaturka"
+
+#: lib/editor-settings.php:31 build/block-editor/index.js:1
+msgid "Full Size"
+msgstr "Połna wulkosć"
+
+#: lib/full-site-editing/default-template-types.php:69
+#: build/block-editor/index.js:66 build/blocks/index.js:1
+#: build/core-data/index.js:1
+msgid "Media"
+msgstr "Medije"
+
+#: lib/class-wp-theme-json-resolver.php:263 build/block-library/index.js:68
+msgid "Huge"
+msgstr "Hoberski"
+
+#: lib/class-wp-theme-json-resolver.php:261 lib/block-patterns.php:30
+#: lib/editor-settings.php:29 build/block-editor/index.js:1
+#: build/block-editor/index.js:9 build/components/index.js:10
+msgid "Medium"
+msgstr "Srěni"
+
+#: lib/class-wp-theme-json-resolver.php:260 build/block-library/index.js:68
+msgid "Normal"
+msgstr "Normalne"
+
+#: build/block-library/blocks/archives.php:97
+msgid "No archives to show."
+msgstr "Žane archiwy."
+
+#: post-content.php:41
+msgid "Beautiful landscape"
+msgstr "Rjana krajina"
+
+#: post-content.php:185
+msgid "Thanks for testing Gutenberg!"
+msgstr "Dźakujemy so, zo Gutenberg testujeće!"
+
+#: post-content.php:177
+msgid "Help build Gutenberg"
+msgstr "Pomhajće Gutenberg testować"
+
+#. translators: %s: Gutenberg GitHub repository URL
+#: post-content.php:168
+msgid "If you want to learn more about how to build additional blocks, or if you are interested in helping with the project, head over to the <a href=\"%s\">GitHub repository</a>."
+msgstr "Jeli chceće wjace wo tym zhonić, kak móžeće přidatne bloki tworić, abo jeli chceće při projekće sobu pomhać, wopytajće <a href=\"%s\">repozitorij GitHub</a>."
+
+#: post-content.php:159
+msgid "The WordPress community"
+msgstr "Zhromadźenstwo WordPress"
+
+#: post-content.php:159 build/block-library/index.js:8
+msgid "Code is Poetry"
+msgstr "Kod je poezija"
+
+#: post-content.php:155
+msgid "You can build any block you like, static or dynamic, decorative or plain. Here&#8217;s a pullquote block:"
+msgstr "Móžeće kóždyžkuli blok tworić, kotryž chceće, statiski abo dynamiski, dekoratiwny abo jednory. Tu je blok z wuzběhnjenym citatom:"
+
+#: post-content.php:145
+msgid "Any block can opt into these alignments. The embed block has them also, and is responsive out of the box:"
+msgstr "Kóždy blok móže so tutym wusměrjenjam přiměrić. Zasadźenski blok ma je tež, a je po standardźe responsiwny:"
+
+#: post-content.php:141
+msgid "The above is a gallery with just two images. It&#8217;s an easier way to create visually appealing layouts, without having to deal with floats. You can also easily convert the gallery back to individual images again, by using the block switcher."
+msgstr "Horjeka je galerija z jenož dwěmaj wobrazomaj. Je lóša móžnosć, zo bychu so wizuelnje spodobne wuhotowanja wutworili, bjeztoho zo byšće dyrbjał wisate elementy wužiwać. Móžeće tež galeriju lochko do jednotliwych wobrazow wróćo konwertować, hdyž blokowy přepinak wužiwaće."
+
+#: post-content.php:128
+msgid "Sure, the full-wide image can be pretty big. But sometimes the image is worth it."
+msgstr "Jasnje, wobraz z połnej šěrokosću móže chětro wulki być. Ale druhdy wobraz to je hódny."
+
+#: post-content.php:124
+msgid "Accessibility is important &mdash; don&#8217;t forget image alt attribute"
+msgstr "Bjezbarjernosć je wažna &ndash; njezabywajće wobrazowy atribut „alt“"
+
+#: post-content.php:120
+msgid "If you combine the new <strong>wide</strong> and <strong>full-wide</strong> alignments with galleries, you can create a very media rich layout, very quickly:"
+msgstr "Jeli nowe wusměrjenja <strong>šěroke</strong> a <strong>połnošěroke</strong> z galerijemi kombinujeće, móžeće jara spěšnje nimoměry multimedialne wuhotowanje wutworić:"
+
+#: post-content.php:116
+msgid "Media Rich"
+msgstr "Multimedialny"
+
+#: post-content.php:112
+msgid "You can change the amount of columns in your galleries by dragging a slider in the block inspector in the sidebar."
+msgstr "Móžeće ličbu špaltow w swojich galerijach změnić, hdyž suwak w blokowym inspektorje w bóčnicy ćehnjeće."
+
+#: post-content.php:98
+msgid "Blocks can be anything you need. For instance, you may want to add a subdued quote as part of the composition of your text, or you may prefer to display a giant stylized one. All of these options are available in the inserter."
+msgstr "Bloki móža wšitko być, štož trjebaće. Chceće snano decentny citat jako dźěl swojeje tekstoweje kompozicije přidać abo chceće radšo hoberski stil. Wšě tute nastajenja su w zasadźaku k dispozicji."
+
+#: post-content.php:94
+msgid "The information corresponding to the source of the quote is a separate text field, similar to captions under images, so the structure of the quote is protected even if you select, modify, or remove the source. It&#8217;s always easy to add it back."
+msgstr "Informacije, kotrež k žórłu citata słušeja, je separatne tekstowe polo, podobne na popisy pod wobrazami, zo by strukturu citata škitało, samo hdyž žórło wuběraće, měnjeće abo wotstronjeće. Da so kóždy čas zaso přidać."
+
+#: post-content.php:89
+msgid "Matt Mullenweg, 2017"
+msgstr "Matt Mullenweg, 2017"
+
+#: post-content.php:88
+msgid "The editor will endeavor to create a new page and post building experience that makes writing rich posts effortless, and has “blocks” to make it easy what today might take shortcodes, custom HTML, or “mystery meat” embed discovery."
+msgstr "Editor budźe so prócować, lěpše nazhonjenje při tworjenju nowych stronow a přinoškow wutworić, kotraž pisanje wobšěrnych přinoški wosnadnja, a ma „bloki“, zo by so zasadźenje wosnadniło, štož je so dotal z krótkimi kodami, swójskim HTML abo kodom njeznateho pochada sčiniło."
+
+#: post-content.php:83
+msgid "A huge benefit of blocks is that you can edit them in place and manipulate your content directly. Instead of having fields for editing things like the source of a quote, or the text of a button, you can directly change the content. Try editing the following quote:"
+msgstr "Wulka lěpšina blokow je, zo móžeće je na městnje wobdźěłać a jich wobsah direktnje manipulować. Město toho zo byšće pola za wobdźěłowanje wěcow kaž žórło citata abo tekst tłóčatka wužiwał, móžeće wobsah direktnje změnić. Spytajće slědowacy citat wobdźěłować:"
+
+#: post-content.php:79
+msgid "Visual Editing"
+msgstr "Wizuelne wobdźěłowanje"
+
+#: post-content.php:70
+msgid "And <em>Lists</em> like this one of course :)"
+msgstr "A <em>lisćiny</em> kaž tuta, wězo :)"
+
+#: post-content.php:69
+msgid "Layout blocks, like Buttons, Hero Images, Separators, etc."
+msgstr "Wuhotowanske bloki kaž tłóčatka, rjekowobrazy, dźělatka atd."
+
+#: post-content.php:68
+msgid "Embeds, like YouTube, Tweets, or other WordPress posts."
+msgstr "Zasadźenja kaž YouTube, ćikoty abo druhe přinoški WordPress."
+
+#: post-content.php:67
+msgid "Galleries"
+msgstr "Galerije"
+
+#: post-content.php:66
+msgid "Images &amp; Videos"
+msgstr "Wobrazy a wideja"
+
+#: post-content.php:65
+msgid "Text &amp; Headings"
+msgstr "Tekst a nadpisma"
+
+#: post-content.php:60
+msgid "Go give it a try, you may discover things WordPress can already add into your posts that you didn&#8217;t know about. Here&#8217;s a short list of what you can currently find there:"
+msgstr "Syptajće, wotkryjeće snano wěcy, kotrež WordPressmóže hižo do wašich přinoškow zasadźić, wo kotrychž dotal njejsće wědźał. Tu je krótka lisćina wo tym, štož tuchwilu tam namakaće:"
+
+#: post-content.php:56
+msgid "Imagine everything that WordPress can do is available to you quickly and in the same place on the interface. No need to figure out HTML tags, classes, or remember complicated shortcode syntax. That&#8217;s the spirit behind the inserter—the <code>(+)</code> button you&#8217;ll see around the editor—which allows you to browse all available content blocks and add them into your post. Plugins and themes are able to register their own, opening up all sort of possibilities for rich editing and publishing."
+msgstr "Předstajće sej, wšitko, štož WordPress móže činić, je wam spěšnje a na samsnym městnje na wužiwarskim powjerchu k dispoziciji. Njetrjebaće ničo wo HTML-značkach a klasach wědźeć abo sej komplikowanu syntaksu krótkeho koda spomjatkować. To je duch za zasadźakom  - tłóčatko <code>(+)</code>, kotrež wokoło editora widźiće -, kotryž wam zmóžnja, wšě wobsahowe bloki přehladować, kotrež su k dispoziciji, a je do wašeho přinoška zasadźić. Tykače a drasty móža so same registrować a wotewru wam wšě móžnosće za wobšěrne wobdźěłowanje a wozjewjenje."
+
+#: post-content.php:52
+msgid "The <em>Inserter</em> Tool"
+msgstr "Nastroj <em>Zasadźak</em>"
+
+#: post-content.php:48
+msgid "Try selecting and removing or editing the caption, now you don&#8217;t have to be careful about selecting the image or other text by mistake and ruining the presentation."
+msgstr "Spytajće popis wuběrać, wotstronjeć abo wobdźěłować, nětko njetrjebaće při mylnym wuběranju wobraza abo druheho teksta kedźbliwy być, zo so prezentaciju ruinujeće."
+
+#: post-content.php:42
+msgid "If your theme supports it, you&#8217;ll see the \"wide\" button on the image toolbar. Give it a try."
+msgstr "Jeli waša drasta to podpěruje, widźiće tłóčatko „Šěroki“ na wobrazowej symbolowej lajsće. Wupruwujće to."
+
+#: post-content.php:36
+msgid "Handling images and media with the utmost care is a primary focus of the new editor. Hopefully, you&#8217;ll find aspects of adding captions or going full-width with your pictures much easier and robust than before."
+msgstr "Wobchadźenje z wobrazami a medijemi z najwjetšej kedźbliwosću je primarne ćežišćo noweho editora. Nadźijamy so, zo maće přidawanje popisow abo pokazowanje wobrazow w połnej šěrokosći za wjele lóše a jednoriše hač do toho."
+
+#: post-content.php:32
+msgid "A Picture is Worth a Thousand Words"
+msgstr "Wobraz wjace hač tysac słowow praji"
+
+#: post-content.php:28
+msgid "Headings are separate blocks as well, which helps with the outline and organization of your content."
+msgstr "Nadpisma su tež separatne bloki, kotrež při rozrjadowanju a organizowanju wašeho wobsaha pomhaja."
+
+#: post-content.php:24
+msgid "... like this one, which is right aligned."
+msgstr "... kaž tutón, kotryž je naprawo wusměrjeny."
+
+#: post-content.php:20
+msgid "What you are reading now is a <strong>text block</strong> the most basic block of all. The text block has its own controls to be moved freely around the post..."
+msgstr "Štož runje čitaće, je <strong>tekstowy blok</strong>, najzakładniši blok ze wšěch. Tekstowy blok maj swójske wodźenske elementy, zo by so móhł wólnje wokoło přinoška pohibować&nbsp;&hellip;"
+
+#: post-content.php:16
+msgid "The goal of this new editor is to make adding rich content to WordPress simple and enjoyable. This whole post is composed of <em>pieces of content</em>—somewhat similar to LEGO bricks—that you can move around and interact with. Move your cursor around and you&#8217;ll notice the different blocks light up with outlines and arrows. Press the arrows to reposition blocks quickly, without fearing about losing things in the process of copying and pasting."
+msgstr "Cil tutoho noweho editora je, přidawanje wobšěrneho wobsaha k WordPress zjednorić  a přijomne wuhotować. Tutón cyły přinošk so z <em>dźělow wobsaha</em> zestaja - podobny na LEGO-cyhelki -, kotrež móžeće pohibować a z kotrymiž móžeće interagować. Pohibujće swój kursor a pytnjeće, zo so rozdźělne bloki z wobrysami a šipkami zaswěća. Tłóčće šipki, zo byšće bloki spěšnje nowo pozicioněrował, bjeztoho zo byšće so dyrbjał bojeć, zo při kopěrowanju wěcy zhubiće."
+
+#: post-content.php:11
+msgid "Of Mountains &amp; Printing Presses"
+msgstr "Wo horach a ćišćerskich mašinach"
+
+#: lib/demo.php:59
+msgid "Welcome to the Gutenberg Editor"
+msgstr "Witajće k editorej Gutenberg"
+
+#: lib/class-wp-rest-menu-items-controller.php:862
+msgid "The title for the object."
+msgstr "Titul za objekt."
+
+#: lib/class-wp-rest-menu-items-controller.php:68
+#: lib/class-wp-rest-menu-items-controller.php:887
+msgid "Unique identifier for the object."
+msgstr "Jónkróćny identifikator za objekt."
+
+#: lib/class-wp-theme-json-resolver.php:259 lib/block-patterns.php:50
+#: build/block-library/index.js:68 build/components/index.js:10
+msgid "Small"
+msgstr "Mały"
+
+#: gutenberg.php:76
+msgid "https://wordpress.org/support/plugin/gutenberg/"
+msgstr "https://wordpress.org/support/plugin/gutenberg/"
+
+#: gutenberg.php:73 gutenberg.php:74
+msgid "Support"
+msgstr "Podpěra"
+
+#: build/block-library/blocks/latest-comments.php:141
+msgid "No comments to show."
+msgstr "Žane komentary."
+
+#. translators: 1: author name (inside <a> or <span> tag, based on if they have
+#. a URL), 2: post title related to this comment
+#: build/block-library/blocks/latest-comments.php:99
+msgid "%1$s on %2$s"
+msgstr "%1$s pola %2$s"
+
+#: build/block-library/blocks/archives.php:57
+msgid "Select Post"
+msgstr "Přinošk wubrać"
+
+#: build/block-library/blocks/archives.php:54
+msgid "Select Week"
+msgstr "Tydźeń wubrać"
+
+#: build/block-library/blocks/archives.php:51
+msgid "Select Day"
+msgstr "Dźeń wubrać"
+
+#: build/block-library/blocks/archives.php:48
+msgid "Select Month"
+msgstr "Měsac wubrać"
+
+#: build/block-library/blocks/archives.php:45
+msgid "Select Year"
+msgstr "Lěto wubrać"
+
+#: build/block-library/blocks/archives.php:27
+msgid "Archives"
+msgstr "Archiwy"
+
+#: lib/class-wp-theme-json-resolver.php:220 build/block-editor/index.js:1
+msgid "Cyan bluish gray"
+msgstr "Cyanomódrojta šěr"
+
+#: lib/class-wp-theme-json-resolver.php:229 build/block-editor/index.js:1
+msgid "Vivid cyan blue"
+msgstr "Žiwa cyanomódrina"
+
+#: lib/class-wp-theme-json-resolver.php:228 build/block-editor/index.js:1
+msgid "Pale cyan blue"
+msgstr "Blědocyanowa módrina"
+
+#: lib/class-wp-theme-json-resolver.php:227 build/block-editor/index.js:1
+msgid "Vivid green cyan"
+msgstr "Žiwa cyanozeleń"
+
+#: lib/class-wp-theme-json-resolver.php:226 build/block-editor/index.js:1
+msgid "Light green cyan"
+msgstr "Swětła cyanozeleń"
+
+#: lib/class-wp-theme-json-resolver.php:225 build/block-editor/index.js:1
+msgid "Luminous vivid amber"
+msgstr "Jaskrawa žiwa jantaržółć"
+
+#: lib/class-wp-theme-json-resolver.php:224 build/block-editor/index.js:1
+msgid "Luminous vivid orange"
+msgstr "Jaskrawa žiwa oranža"
+
+#: lib/class-wp-theme-json-resolver.php:223 build/block-editor/index.js:1
+msgid "Vivid red"
+msgstr "Žiwa čerwjeń"
+
+#: lib/class-wp-theme-json-resolver.php:222 build/block-editor/index.js:1
+msgid "Pale pink"
+msgstr "Blědoróžowy"
+
+#: lib/class-wp-theme-json-resolver.php:262 lib/block-patterns.php:12
+#: lib/editor-settings.php:30 build/block-editor/index.js:1
+#: build/block-library/index.js:68 build/components/index.js:10
+msgid "Large"
+msgstr "Wulki"
+
+#: lib/class-wp-rest-menu-items-controller.php:487
+msgid "Invalid term ID."
+msgstr "Njepłaćiwy zapřijećowy ID."
+
+#: lib/class-wp-rest-menu-items-controller.php:919
+msgid "The ID for the parent of the object."
+msgstr "ID za nadrjadowany element objekta."
+
+#: gutenberg.php:112
+msgid "beta"
+msgstr "beta"
+
+#: lib/full-site-editing/templates-utils.php:17 build/editor/index.js:5
+msgid "Status"
+msgstr "Status"
+
+#. translators: ARIA label for the Block Settings Sidebar tab, not selected.
+#. translators: Text label for the Block Settings Sidebar tab.
+#. translators: Text label for the Template Settings Sidebar tab.
+#: lib/class-wp-widget-block.php:40 lib/navigation.php:91 lib/navigation.php:96
+#: build/edit-widgets/index.js:23 build/edit-post/index.js:37
+#: build/edit-post/index.js:38 build/edit-site/index.js:28
+#: build/edit-site/index.js:29 build/edit-site/index.js:30
+msgid "Block"
+msgstr "Blok"
+
+#: build/block-library/blocks/rss.php:31
+#: build/block-library/blocks/latest-comments.php:31
+#: build/block-library/blocks/latest-posts.php:102 build/editor/index.js:21
+#: build/editor/index.js:35 build/block-library/index.js:30
+#: build/block-library/index.js:48 build/edit-navigation/index.js:6
+#: build/edit-post/index.js:40 build/edit-site/index.js:30
+msgid "(no title)"
+msgstr "(žadyn titul)"
+
+#: gutenberg.php:90
+msgid "Experiments"
+msgstr "Eksperimenty"
+
+#: gutenberg.php:49 gutenberg.php:50 lib/experiments-page.php:56
+#: build/edit-widgets/index.js:24 build/blocks/index.js:1
+#: build/core-data/index.js:1
+msgid "Widgets"
+msgstr "Asistenty"
+
+#. Description of the plugin
+msgid "Printing since 1440. This is the development plugin for the new block editor in core."
+msgstr "Čišćenje wot lěta 1440. To je wuwiwanski tykač za nowy blokowy editor w jadrje."
+
+#: lib/class-wp-rest-widgets-controller.php:756
+msgid "Unique identifier for the widget."
+msgstr "Jónkróćny identifikator za asistent."
+
+#: gutenberg.php:186
+msgid "Gutenberg development mode requires files to be built. Run <code>npm install</code> to install dependencies, <code>npm run build</code> to build the files or <code>npm run dev</code> to build the files and watch for changes. Read the <a href=\"https://github.com/WordPress/gutenberg/blob/HEAD/docs/contributors/getting-started.md\">contributing</a> file for more information."
+msgstr "Wuwiwanski modus Gutenberg sej wutworjenje datajow wužaduje. Wuwjedźće <code>npm install</code>, zo byšće wotwisnosće instalował, <code>npm run build</code>, zo byšće dataje wutworił abo <code>npm run dev</code>, zo byšće dataje wutworił a sej změny wobhladał. Čitajće dataju <a href=\"https://github.com/WordPress/gutenberg/blob/HEAD/docs/contributors/getting-started.md\">Přinošować (jendź.)</a> za dalše informacije."
+
+#. translators: button label text should, if possible, be under 16 characters.
+#: lib/full-site-editing/templates-utils.php:15 build/editor/index.js:25
+#: build/components/index.js:5
+msgid "Slug"
+msgstr "Titulna forma"
+
+#: gutenberg.php:80 gutenberg.php:81
+msgid "Documentation"
+msgstr "Dokumentacija"
+
+#: build/block-library/blocks/categories.php:30
+msgid "Select Category"
+msgstr "Kategoriju wubrać"
+
+#: lib/class-wp-rest-menu-items-controller.php:506
+msgid "Invalid post type."
+msgstr "Njepłaćiwy přinoškowy typ."
+
+#. translators: %s: Minimum required version
+#: gutenberg.php:173
+msgid "Gutenberg requires WordPress %s or later to function properly. Please upgrade WordPress before activating Gutenberg."
+msgstr "Gutenberg sej WordPress %s abo nowši wužaduje, zo by porjadnje fungował. Prošu aktualizujće WordPress, prjedy hač Gutenberg aktiwizujeće."
+
+#. Author of the plugin
+msgid "Gutenberg Team"
+msgstr "Team Gutenberg"
+
+#. Plugin URI of the plugin
+msgid "https://github.com/WordPress/gutenberg"
+msgstr "https://github.com/WordPress/gutenberg"
+
+#. Plugin Name of the plugin
+msgid "Gutenberg"
+msgstr "Gutenberg"
+
+#: gutenberg.php:41 gutenberg.php:42
+msgid "Demo"
+msgstr "Demo"

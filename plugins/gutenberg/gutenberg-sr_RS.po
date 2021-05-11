@@ -1,0 +1,329 @@
+# Translation of Plugins - Gutenberg - Development (trunk) in Serbian
+# This file is distributed under the same license as the Plugins - Gutenberg - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-05-11 10:34:40+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: sr_RS\n"
+"Project-Id-Version: Plugins - Gutenberg - Development (trunk)\n"
+
+#: lib/editor-settings.php:31 build/block-editor/index.js:1
+msgid "Full Size"
+msgstr "Пуна величина"
+
+#: lib/editor-settings.php:28 build/block-editor/index.js:1
+msgid "Thumbnail"
+msgstr "Умањена слика"
+
+#: lib/full-site-editing/default-template-types.php:69
+#: build/block-editor/index.js:66 build/blocks/index.js:1
+#: build/core-data/index.js:1
+msgid "Media"
+msgstr "Садржај"
+
+#: lib/class-wp-theme-json-resolver.php:261 lib/block-patterns.php:30
+#: lib/editor-settings.php:29 build/block-editor/index.js:1
+#: build/block-editor/index.js:9 build/components/index.js:10
+msgid "Medium"
+msgstr "Средња"
+
+#: build/block-library/blocks/archives.php:97
+msgid "No archives to show."
+msgstr "Нема архива за приказ."
+
+#: post-content.php:41
+msgid "Beautiful landscape"
+msgstr "Предиван пејзаж"
+
+#: post-content.php:24
+msgid "... like this one, which is right aligned."
+msgstr "... као овај који је поравнат десно."
+
+#: post-content.php:32
+msgid "A Picture is Worth a Thousand Words"
+msgstr "Слика вреди хиљаду речи"
+
+#: post-content.php:70
+msgid "And <em>Lists</em> like this one of course :)"
+msgstr "И <em>спискови</em> као овај, наравно :)"
+
+#: post-content.php:159 build/block-library/index.js:8
+msgid "Code is Poetry"
+msgstr "Кôд је поезија"
+
+#: post-content.php:68
+msgid "Embeds, like YouTube, Tweets, or other WordPress posts."
+msgstr "Угнежђивања, као што је Јутјуб, Твитер или други Вордпресови чланци."
+
+#: post-content.php:67
+msgid "Galleries"
+msgstr "Галерије"
+
+#: post-content.php:36
+msgid "Handling images and media with the utmost care is a primary focus of the new editor. Hopefully, you&#8217;ll find aspects of adding captions or going full-width with your pictures much easier and robust than before."
+msgstr "Ношење са сликама и садржајем са највећом пажњом је примарни фокус новог уређивача. Надамо се да ћете додавање натписа или мењање у пуну величину слика пронаћи много лакшим и робустнијим него пре."
+
+#: post-content.php:28
+msgid "Headings are separate blocks as well, which helps with the outline and organization of your content."
+msgstr "Заглавља су такође посебни блокови, што помаже са обрисом и организацијом вашег садржаја."
+
+#: post-content.php:177
+msgid "Help build Gutenberg"
+msgstr "Помози градњу Гутенберга"
+
+#: post-content.php:42
+msgid "If your theme supports it, you&#8217;ll see the \"wide\" button on the image toolbar. Give it a try."
+msgstr "Уколико ваша тема то подржава, видећете дугме „Широко“ на траци са алаткама слике. Пробајте."
+
+#: post-content.php:66
+msgid "Images &amp; Videos"
+msgstr "Слике и видео записи"
+
+#: post-content.php:69
+msgid "Layout blocks, like Buttons, Hero Images, Separators, etc."
+msgstr "Блокови распореда, као што су Дугмад, Прекривне слике, Растављачи и сл."
+
+#: post-content.php:89
+msgid "Matt Mullenweg, 2017"
+msgstr "Мет Муленвег, 2017."
+
+#: post-content.php:116
+msgid "Media Rich"
+msgstr "Богат садржајем"
+
+#: post-content.php:11
+msgid "Of Mountains &amp; Printing Presses"
+msgstr "Од планина и штампарских преса"
+
+#: post-content.php:65
+msgid "Text &amp; Headings"
+msgstr "Текстови и заглавља"
+
+#: post-content.php:185
+msgid "Thanks for testing Gutenberg!"
+msgstr "Хвала вам за испробавање Гутенберга!"
+
+#: post-content.php:159
+msgid "The WordPress community"
+msgstr "Вордпресова заједница"
+
+#: post-content.php:16
+msgid "The goal of this new editor is to make adding rich content to WordPress simple and enjoyable. This whole post is composed of <em>pieces of content</em>—somewhat similar to LEGO bricks—that you can move around and interact with. Move your cursor around and you&#8217;ll notice the different blocks light up with outlines and arrows. Press the arrows to reposition blocks quickly, without fearing about losing things in the process of copying and pasting."
+msgstr "Циљ новог уређивача је једноставно и пријатно додавање богатог садржаја у Вордпресу. Цео овај чланак је састављен од <em>делова садржаја</em>—донекле сличним Лего коцкицама—које можете да померите около и да узајамно делујете са њима. Померите свој курсор около и примећићете да се различити блокови осветљавају са обрисима и стрелицама. Притисните стрелице да брзо промените место блокова, без страха од губљења ствари током поступка умножавања и лепљења."
+
+#: post-content.php:48
+msgid "Try selecting and removing or editing the caption, now you don&#8217;t have to be careful about selecting the image or other text by mistake and ruining the presentation."
+msgstr "Пробајте одабир и уклањање или уређивање натписа, сада не морате да будете пажљиви са одабиром слике или друго текста због грешке или упропашћавања презентације."
+
+#: post-content.php:79
+msgid "Visual Editing"
+msgstr "Видљиво уређивање"
+
+#: post-content.php:20
+msgid "What you are reading now is a <strong>text block</strong> the most basic block of all. The text block has its own controls to be moved freely around the post..."
+msgstr "Оно што тренутно читате је <strong>текстуални блок</strong>, најједноставнији блок од свих. Текстуални блок има сопствене контроле за померање унутар чланка…"
+
+#: post-content.php:83
+msgid "A huge benefit of blocks is that you can edit them in place and manipulate your content directly. Instead of having fields for editing things like the source of a quote, or the text of a button, you can directly change the content. Try editing the following quote:"
+msgstr "Велика предност блокова је да их можете уредити у месту и директно руковати својим садржајем. Уместо поља за уређивање ствари као што је извор цитата или текст дугмета, можете директно променити садржај. Пробајте уређивање цитата:"
+
+#: post-content.php:145
+msgid "Any block can opt into these alignments. The embed block has them also, and is responsive out of the box:"
+msgstr "Сваки блок може да користи ова поравнања. Блок угнежђивања их такође има, и одмах је одговарајући:"
+
+#: post-content.php:60
+msgid "Go give it a try, you may discover things WordPress can already add into your posts that you didn&#8217;t know about. Here&#8217;s a short list of what you can currently find there:"
+msgstr "Дајте му прилику, можда ћете открити ствари које Вордпрес већ може да дода у ваше чланке за које нисте знали. Ево кратког списка шта ту тренутно можете пронаћи:"
+
+#. translators: %s: Gutenberg GitHub repository URL
+#: post-content.php:168
+msgid "If you want to learn more about how to build additional blocks, or if you are interested in helping with the project, head over to the <a href=\"%s\">GitHub repository</a>."
+msgstr "Уколико желите да сазнате више о прављењу додатних блокова или сте заинтересовани у помагању пројекту, идите на <a href=\"%s\">GitHub складиште</a>."
+
+#: post-content.php:56
+msgid "Imagine everything that WordPress can do is available to you quickly and in the same place on the interface. No need to figure out HTML tags, classes, or remember complicated shortcode syntax. That&#8217;s the spirit behind the inserter—the <code>(+)</code> button you&#8217;ll see around the editor—which allows you to browse all available content blocks and add them into your post. Plugins and themes are able to register their own, opening up all sort of possibilities for rich editing and publishing."
+msgstr "Замислите да све што Вордпрес може да уради за вас је доступно брзо и на истом месту у сучељу. Нема потребе да схватите HTML ознаке, класе или запамтите компликовану синтаксу кратких кôдова. То је дух иза уметача—дугмета <code>(+)</code> које ћете видети у уређивачу—које вам дозвољава да прегледате све доступне блокове садржаја и да их додајете у свој чланак. Додаци и теме могу да региструју сопствене, отварајући много могућности за богато уређивање и објављивање."
+
+#: post-content.php:52
+msgid "The <em>Inserter</em> Tool"
+msgstr "Алатка <em>Уметач</em>"
+
+#: post-content.php:155
+msgid "You can build any block you like, static or dynamic, decorative or plain. Here&#8217;s a pullquote block:"
+msgstr "Можете направити било какве блокове које желите, непокретне или динамичне, украсне или просте:"
+
+#: post-content.php:112
+msgid "You can change the amount of columns in your galleries by dragging a slider in the block inspector in the sidebar."
+msgstr "Можете променити број ступаца у својим галеријама превлачећи клизач у инспектору блока у бочној траци."
+
+#: post-content.php:124
+msgid "Accessibility is important &mdash; don&#8217;t forget image alt attribute"
+msgstr "Приступачност је важна &mdash; немојте заборавити alt атрибут"
+
+#: lib/demo.php:59
+msgid "Welcome to the Gutenberg Editor"
+msgstr "Добро дошли у уређивач Гутенберг"
+
+#: lib/class-wp-rest-menu-items-controller.php:862
+msgid "The title for the object."
+msgstr "Наслов предмета."
+
+#: lib/class-wp-rest-menu-items-controller.php:68
+#: lib/class-wp-rest-menu-items-controller.php:887
+msgid "Unique identifier for the object."
+msgstr "Јединствени идентификатор предмета."
+
+#: build/block-library/blocks/archives.php:27
+msgid "Archives"
+msgstr "Архиве"
+
+#: gutenberg.php:73 gutenberg.php:74
+msgid "Support"
+msgstr "Подршка"
+
+#: build/block-library/blocks/archives.php:51
+msgid "Select Day"
+msgstr "Изабери дан"
+
+#: build/block-library/blocks/archives.php:48
+msgid "Select Month"
+msgstr "Изабери месец"
+
+#: build/block-library/blocks/archives.php:57
+msgid "Select Post"
+msgstr "Изабери чланак"
+
+#: build/block-library/blocks/archives.php:54
+msgid "Select Week"
+msgstr "Изабери седмицу"
+
+#: build/block-library/blocks/archives.php:45
+msgid "Select Year"
+msgstr "Изабери годину"
+
+#: build/block-library/blocks/latest-comments.php:141
+msgid "No comments to show."
+msgstr "Нема коментара за приказ."
+
+#. translators: 1: author name (inside <a> or <span> tag, based on if they have
+#. a URL), 2: post title related to this comment
+#: build/block-library/blocks/latest-comments.php:99
+msgid "%1$s on %2$s"
+msgstr "%1$s на %2$s"
+
+#: lib/class-wp-theme-json-resolver.php:220 build/block-editor/index.js:1
+msgid "Cyan bluish gray"
+msgstr "Плавичасто сиви цијан"
+
+#: lib/class-wp-theme-json-resolver.php:226 build/block-editor/index.js:1
+msgid "Light green cyan"
+msgstr "Светло зелени цијан"
+
+#: lib/class-wp-theme-json-resolver.php:225 build/block-editor/index.js:1
+msgid "Luminous vivid amber"
+msgstr "Блиставо јарки ћилибар"
+
+#: lib/class-wp-theme-json-resolver.php:224 build/block-editor/index.js:1
+msgid "Luminous vivid orange"
+msgstr "Блиставо јарко наранџаста"
+
+#: lib/class-wp-theme-json-resolver.php:228 build/block-editor/index.js:1
+msgid "Pale cyan blue"
+msgstr "Бледо плави цијан"
+
+#: lib/class-wp-theme-json-resolver.php:222 build/block-editor/index.js:1
+msgid "Pale pink"
+msgstr "Бледо роза"
+
+#: lib/class-wp-theme-json-resolver.php:229 build/block-editor/index.js:1
+msgid "Vivid cyan blue"
+msgstr "Јарко плави цијан"
+
+#: lib/class-wp-theme-json-resolver.php:227 build/block-editor/index.js:1
+msgid "Vivid green cyan"
+msgstr "Јарко зелени цијан"
+
+#: lib/class-wp-theme-json-resolver.php:223 build/block-editor/index.js:1
+msgid "Vivid red"
+msgstr "Јарко црвена"
+
+#: lib/class-wp-theme-json-resolver.php:262 lib/block-patterns.php:12
+#: lib/editor-settings.php:30 build/block-editor/index.js:1
+#: build/block-library/index.js:68 build/components/index.js:10
+msgid "Large"
+msgstr "Велика"
+
+#: lib/class-wp-rest-menu-items-controller.php:919
+msgid "The ID for the parent of the object."
+msgstr "ID родитеља предмета."
+
+#: gutenberg.php:112
+msgid "beta"
+msgstr "бета"
+
+#: build/block-library/blocks/rss.php:31
+#: build/block-library/blocks/latest-comments.php:31
+#: build/block-library/blocks/latest-posts.php:102 build/editor/index.js:21
+#: build/editor/index.js:35 build/block-library/index.js:30
+#: build/block-library/index.js:48 build/edit-navigation/index.js:6
+#: build/edit-post/index.js:40 build/edit-site/index.js:30
+msgid "(no title)"
+msgstr "(нема наслова)"
+
+#: lib/full-site-editing/templates-utils.php:17 build/editor/index.js:5
+msgid "Status"
+msgstr "Стање"
+
+#: gutenberg.php:49 gutenberg.php:50 lib/experiments-page.php:56
+#: build/edit-widgets/index.js:24 build/blocks/index.js:1
+#: build/core-data/index.js:1
+msgid "Widgets"
+msgstr "Виџети"
+
+#. translators: ARIA label for the Block Settings Sidebar tab, not selected.
+#. translators: Text label for the Block Settings Sidebar tab.
+#. translators: Text label for the Template Settings Sidebar tab.
+#: lib/class-wp-widget-block.php:40 lib/navigation.php:91 lib/navigation.php:96
+#: build/edit-widgets/index.js:23 build/edit-post/index.js:37
+#: build/edit-post/index.js:38 build/edit-site/index.js:28
+#: build/edit-site/index.js:29 build/edit-site/index.js:30
+msgid "Block"
+msgstr "Блок"
+
+#. Description of the plugin
+msgid "Printing since 1440. This is the development plugin for the new block editor in core."
+msgstr "Штампање од 1440. Ово је додатак у изградњи за нови уређивач блокова у основи."
+
+#. translators: button label text should, if possible, be under 16 characters.
+#: lib/full-site-editing/templates-utils.php:15 build/editor/index.js:25
+#: build/components/index.js:5
+msgid "Slug"
+msgstr "Подложак"
+
+#: gutenberg.php:80 gutenberg.php:81
+msgid "Documentation"
+msgstr "Документација"
+
+#: build/block-library/blocks/categories.php:30
+msgid "Select Category"
+msgstr "Изабери категорију"
+
+#. Author of the plugin
+msgid "Gutenberg Team"
+msgstr "Тим Гутенберг"
+
+#. Plugin URI of the plugin
+msgid "https://github.com/WordPress/gutenberg"
+msgstr "https://github.com/WordPress/gutenberg"
+
+#. Plugin Name of the plugin
+msgid "Gutenberg"
+msgstr "Гутенберг"
+
+#: gutenberg.php:41 gutenberg.php:42
+msgid "Demo"
+msgstr "Показивање"

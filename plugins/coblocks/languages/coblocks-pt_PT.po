@@ -1,0 +1,212 @@
+# Translation of Plugins - Page Builder Gutenberg Blocks – CoBlocks - Stable (latest release) in Portuguese (Portugal)
+# This file is distributed under the same license as the Plugins - Page Builder Gutenberg Blocks – CoBlocks - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-04-26 15:11:03+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: pt\n"
+"Project-Id-Version: Plugins - Page Builder Gutenberg Blocks – CoBlocks - Stable (latest release)\n"
+
+#: includes/class-coblocks-settings.php:136
+msgid "Setting use to disable or enable all color controls across the site."
+msgstr "Opção utilizada para desactivar ou activar todos os controlos de cores em todo o site."
+
+#: includes/class-coblocks-settings.php:124
+msgid "Setting use to disable or enable custom color controls across the site."
+msgstr "Opção utilizada para desactivar ou activar os controlos de cores personalizadas em todo o site."
+
+#: includes/class-coblocks-settings.php:148
+msgid "Setting use to disable or enable gradient controls and presets across the site."
+msgstr "Opção utilizada para desactivar ou activar as predefinições e os controlos de gradiente em todo o site."
+
+#: includes/class-coblocks-settings.php:112
+msgid "Setting use to disable or enable typography controls across the site."
+msgstr "Opção utilizada para desactivar ou activar os controlos de tipografia em todo o site."
+
+#: src/blocks/events/index.php:122
+msgid "An error has occurred, check for calendar privileges to make sure it is public or try again later."
+msgstr "Ocorreu um erro. Confirme os privilégios do calendário para se certificar de que o mesmo é público ou tente novamente mais tarde."
+
+#: src/extensions/layout-selector/index.php:25 dist/coblocks.js:58
+msgid "Contact"
+msgstr "Contacto"
+
+#. translators: placeholder for email shortcode.
+#: includes/class-coblocks-form.php:51
+msgid "Form submission from [%1$s]"
+msgstr "Envio de formulário de [%1$s]"
+
+#: includes/class-coblocks-form.php:1036 dist/coblocks.js:58
+msgid "name"
+msgstr "nome"
+
+#: includes/class-coblocks-form.php:382 dist/coblocks.js:58
+msgid "Text"
+msgstr "Texto"
+
+#: includes/class-coblocks-form.php:722 dist/coblocks.js:58
+msgid "Hidden"
+msgstr "Oculto"
+
+#: includes/class-coblocks-form.php:557 includes/class-coblocks-form.php:606
+#: dist/coblocks.js:58
+msgid "Select"
+msgstr "Seleccionar"
+
+#: class-coblocks.php:81 class-coblocks.php:93
+msgid "Something went wrong."
+msgstr "Ocorreu um erro."
+
+#: includes/class-coblocks-form.php:688 dist/coblocks.js:58
+msgid "Website"
+msgstr "Site"
+
+#: src/blocks/posts/index.php:51 src/blocks/post-carousel/index.php:51
+msgid "An error has occurred, which probably means the feed is down. Try again later."
+msgstr "Ocorreu um erro, o que provavelmente significa que o «feed» está indisponível. Tente novamente mais tarde."
+
+#: includes/class-coblocks-form.php:493 dist/coblocks.js:58
+msgid "Choose one"
+msgstr "Escolher uma opção"
+
+#: includes/class-coblocks-form.php:423 dist/coblocks.js:58
+msgid "Date"
+msgstr "Data"
+
+#: includes/class-coblocks-form.php:454 dist/coblocks.js:58
+msgid "Phone"
+msgstr "Telefone"
+
+#: src/blocks/posts/index.php:171 src/blocks/post-carousel/index.php:184
+msgctxt "placeholder when a post has no title"
+msgid "(no title)"
+msgstr "(sem título)"
+
+#: src/blocks/social-profiles/index.php:76 dist/coblocks.js:58
+msgid "Instagram"
+msgstr "Instagram"
+
+#: src/blocks/social-profiles/index.php:89 dist/coblocks.js:58
+msgid "YouTube"
+msgstr "YouTube"
+
+#: src/blocks/social-profiles/index.php:93 dist/coblocks.js:58
+msgid "Yelp"
+msgstr "Yelp"
+
+#: src/blocks/social-profiles/index.php:97 dist/coblocks.js:58
+msgid "Houzz"
+msgstr "Houzz"
+
+#: src/blocks/social-profiles/index.php:84
+msgid "Linkedin"
+msgstr "LinkedIn"
+
+#: includes/class-coblocks-form.php:229 includes/class-coblocks-form.php:321
+#: dist/coblocks.js:58
+msgid "Email"
+msgstr "Email"
+
+#: src/blocks/share/index.php:136 dist/coblocks.js:58
+msgid "Share on Twitter"
+msgstr "Partilhar no Twitter"
+
+#: src/blocks/share/index.php:132 dist/coblocks.js:58
+msgid "Share on Facebook"
+msgstr "Partilhar no Facebook"
+
+#: src/blocks/share/index.php:140 dist/coblocks.js:58
+msgid "Share on Pinterest"
+msgstr "Partilhar no Pinterest"
+
+#: src/blocks/share/index.php:152 dist/coblocks.js:58
+msgid "Share on Tumblr"
+msgstr "Partilhar no Tumblr"
+
+#: src/blocks/share/index.php:144
+msgid "Share on Linkedin"
+msgstr "Partilhar no LinkedIn"
+
+#: includes/class-coblocks-form.php:351 dist/coblocks.js:58
+msgid "Message"
+msgstr "Mensagem"
+
+#: includes/class-coblocks-form.php:258 dist/coblocks.js:58
+msgid "Name"
+msgstr "Nome"
+
+#. Author of the plugin
+msgid "GoDaddy"
+msgstr "GoDaddy"
+
+#. Author URI of the plugin
+msgid "https://www.godaddy.com"
+msgstr "https://www.godaddy.com"
+
+#: includes/class-coblocks-form.php:803 dist/coblocks.js:58
+msgid "Submit"
+msgstr "Enviar"
+
+#: includes/class-coblocks-form.php:63 dist/coblocks.js:58
+msgid "Your message was sent:"
+msgstr "A sua mensagem foi enviada:"
+
+#: includes/class-coblocks-google-map-block.php:120
+msgid "Google Map API key for map rendering"
+msgstr "Chave da API dos mapas da Google para a renderização de mapas"
+
+#. Description of the plugin
+msgid "CoBlocks is a suite of professional <strong>page building content blocks</strong> for the WordPress Gutenberg block editor. Our blocks are hyper-focused on empowering makers to build beautifully rich pages in WordPress."
+msgstr "O CoBlocks é um conjunto de <strong>blocos de conteúdo para a criação de páginas</strong> profissionais para o editor de blocos Gutenberg do WordPress. Os nossos blocos estão extremamente focados em capacitar os criadores no sentido de criarem páginas complexas e apelativas no WordPress."
+
+#: src/blocks/social-profiles/index.php:72 dist/coblocks.js:58
+msgid "Twitter"
+msgstr "Twitter"
+
+#: src/blocks/social-profiles/index.php:68 dist/coblocks.js:58
+msgid "Facebook"
+msgstr "Facebook"
+
+#: src/blocks/social-profiles/index.php:80 dist/coblocks.js:58
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: src/blocks/share/index.php:156 dist/coblocks.js:58
+msgid "Share on Google"
+msgstr "Partilhar no Google"
+
+#: src/blocks/share/index.php:160 dist/coblocks.js:58
+msgid "Share on Reddit"
+msgstr "Partilhar no Reddit"
+
+#: includes/class-coblocks-form.php:262 dist/coblocks.js:58
+msgid "First"
+msgstr "Nome próprio"
+
+#: includes/class-coblocks-form.php:101
+msgid "Google reCaptcha secret key for form spam protection"
+msgstr "Chave secreta do reCAPTCHA da Google para a protecção contra spam nos formulários"
+
+#: includes/class-coblocks-form.php:89
+msgid "Google reCaptcha site key for form spam protection"
+msgstr "Chave do site do reCAPTCHA da Google para a protecção contra spam nos formulários"
+
+#: includes/class-coblocks-form.php:263 dist/coblocks.js:58
+msgid "Last"
+msgstr "Apelido"
+
+#: includes/admin/class-coblocks-action-links.php:41
+msgid "Leave a Review"
+msgstr "Efectuar uma avaliação"
+
+#: includes/admin/class-coblocks-action-links.php:41
+msgid "Review CoBlocks on WordPress.org"
+msgstr "Avaliar o CoBlocks em WordPress.org"
+
+#: src/blocks/share/index.php:148 dist/coblocks.js:58
+msgid "Share via Email"
+msgstr "Partilhar através de email"
